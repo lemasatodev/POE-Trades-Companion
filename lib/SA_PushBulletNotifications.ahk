@@ -46,6 +46,7 @@ PushBulletNotification(cmdLineParams) {
 #Include EasyFuncs.ahk
 #Include Logs.ahk
 #Include PushBullet.ahk
+#Include WindowsSettings.ahk
 
 #Include %A_ScriptDir%/third-party
 #Include cURL.ahk

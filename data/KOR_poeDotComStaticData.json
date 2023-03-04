@@ -167,6 +167,11 @@
 				"text": "페란두스 코인"
 			},
 			{
+				"id": "rogues-marker",
+				"image": "/image/Art/2DItems/Currency/Heist/HeistCoinCurrency.png?v=91f470e219855da2a828fd553feb30f6",
+				"text": "도둑의 증표"
+			},
+			{
 				"id": "silver",
 				"image": "/image/Art/2DItems/Currency/SilverObol.png?v=93c1b204ec2736a2fe5aabbb99510bcf",
 				"text": "실버 코인"
@@ -197,10 +202,101 @@
 				"text": "각성자의 오브"
 			},
 			{
+				"id": "mavens-orb",
+				"image": "/image/Art/2DItems/Currency/MavenOrb.png?v=c2947400505e6885ac9b4e10d5b6a346",
+				"text": "메이븐의 오브"
+			},
+			{
 				"id": "facetors",
 				"image": "/image/Art/2DItems/Currency/CurrencyGemExperience.png?v=3d005916b44ac5cc03714d71e4d20146",
 				"text": "무아지경의 렌즈"
 			},
+			{
+				"id": "prime-regrading-lens",
+				"image": "/image/Art/2DItems/Currency/AlternateSkillGemCurrency.png?v=634a6af3d5429427461933d11843fa45",
+				"text": "1차 재보정 렌즈"
+			},
+			{
+				"id": "secondary-regrading-lens",
+				"image": "/image/Art/2DItems/Currency/AlternateSupportGemCurrency.png?v=f542ce9b30b707538c3673b82d6f57af",
+				"text": "2차 재보정 렌즈"
+			},
+			{
+				"id": "tempering-orb",
+				"image": "/image/Art/2DItems/Currency/DivineEnchantBodyArmourCurrency.png?v=d072c438605f9e018a771d631a09d126",
+				"text": "단조 오브"
+			},
+			{
+				"id": "tailoring-orb",
+				"image": "/image/Art/2DItems/Currency/DivineEnchantWeaponCurrency.png?v=a04c73695d57792be93cbf91864a2467",
+				"text": "재단 오브"
+			},
+			{
+				"id": "stacked-deck",
+				"image": "/image/Art/2DItems/Divination/Deck.png?v=0e5e6da39f79fc57f3d38d463126617a",
+				"text": "카드 묶음"
+			},
+			{
+				"id": "ritual-vessel",
+				"image": "/image/Art/2DItems/Currency/Ritual/Effigy.png?v=851918ae4cd7761b8dc745a06c191138",
+				"text": "의식의 그릇"
+			},
+			{
+				"id": "apprentice-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier1.png?v=7c21fc06120d910018893083227406df",
+				"text": "단순한 육분의"
+			},
+			{
+				"id": "journeyman-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier2.png?v=043e5f4d8c52af6b302e30afaffa5eba",
+				"text": "최종형 육분의"
+			},
+			{
+				"id": "master-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier3.png?v=d69377f526ff51c408461b0cee4d4ade",
+				"text": "각성한 육분의"
+			},
+			{
+				"id": "elevated-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier4.png?v=fef0aade0b4ac2bea98fb58f60e3075c",
+				"text": "고양된 육분의"
+			},
+			{
+				"id": "orb-of-unmaking",
+				"image": "/image/Art/2DItems/Currency/RegretOrb.png?v=2a2321a13ab36e01da75a717e103f943",
+				"text": "멸망의 오브"
+			},
+			{
+				"id": "blessing-xoph",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderFire.png?v=6c7efd3a8fc9150d4b293d5a5917fd04",
+				"text": "조프의 축복"
+			},
+			{
+				"id": "blessing-tul",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderCold.png?v=c25b6df9be1fd051d99616e4bb78066e",
+				"text": "툴의 축복"
+			},
+			{
+				"id": "blessing-esh",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderLightning.png?v=ed7bb0e73f5ca907ef62592e48d442dc",
+				"text": "에쉬의 축복"
+			},
+			{
+				"id": "blessing-uul-netol",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderPhysical.png?v=cf3d245db6b6bb796112a952d74543e0",
+				"text": "울네톨의 축복"
+			},
+			{
+				"id": "blessing-chayula",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderChaos.png?v=841360bbd5f81619761a0d16f8c36793",
+				"text": "차율라의 축복"
+			}
+		],
+		"id": "Currency",
+		"label": "화폐"
+	},
+	{
+		"entries": [
 			{
 				"id": "annulment-shard",
 				"image": "/image/Art/2DItems/Currency/AnnullShard.png?v=502496c41d3da750bcecbb194d0aa3f4",
@@ -250,46 +346,6 @@
 				"id": "regal-shard",
 				"image": "/image/Art/2DItems/Currency/RegalShard.png?v=e10a1590d421e4305d8a19ff8c4d9948",
 				"text": "제왕의 파편"
-			},
-			{
-				"id": "apprentice-sextant",
-				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier1.png?v=7c21fc06120d910018893083227406df",
-				"text": "단순한 육분의"
-			},
-			{
-				"id": "journeyman-sextant",
-				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier2.png?v=043e5f4d8c52af6b302e30afaffa5eba",
-				"text": "최종형 육분의"
-			},
-			{
-				"id": "master-sextant",
-				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier3.png?v=d69377f526ff51c408461b0cee4d4ade",
-				"text": "각성한 육분의"
-			},
-			{
-				"id": "blessing-xoph",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderFire.png?v=6c7efd3a8fc9150d4b293d5a5917fd04",
-				"text": "조프의 축복"
-			},
-			{
-				"id": "blessing-tul",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderCold.png?v=c25b6df9be1fd051d99616e4bb78066e",
-				"text": "툴의 축복"
-			},
-			{
-				"id": "blessing-esh",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderLightning.png?v=ed7bb0e73f5ca907ef62592e48d442dc",
-				"text": "에쉬의 축복"
-			},
-			{
-				"id": "blessing-uul-netol",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderPhysical.png?v=cf3d245db6b6bb796112a952d74543e0",
-				"text": "울네톨의 축복"
-			},
-			{
-				"id": "blessing-chayula",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderChaos.png?v=841360bbd5f81619761a0d16f8c36793",
-				"text": "차율라의 축복"
 			},
 			{
 				"id": "splinter-xoph",
@@ -347,13 +403,18 @@
 				"text": "복제된 영토 파편"
 			},
 			{
-				"id": "stacked-deck",
-				"image": "/image/Art/2DItems/Divination/Deck.png?v=0e5e6da39f79fc57f3d38d463126617a",
-				"text": "카드 묶음"
+				"id": "crescent-splinter",
+				"image": "/image/Art/2DItems/Currency/Atlas/MavenKeyFragment.png?v=9e37fd3f3349186380cbf778727693ba",
+				"text": "초승달 파편"
+			},
+			{
+				"id": "ritual-splinter",
+				"image": "/image/Art/2DItems/Currency/Ritual/RitualSplinter.png?v=8a9f842e7dfa8d5b3124d6f60696476e",
+				"text": "의식의 파편"
 			}
 		],
-		"id": "Currency",
-		"label": "화폐"
+		"id": "Splinters",
+		"label": "조각 및 파편"
 	},
 	{
 		"entries": [
@@ -440,17 +501,17 @@
 			{
 				"id": "fragment-of-enslavement",
 				"image": "/image/Art/2DItems/Maps/AtlasMapGuardianFire.png?v=e5e1e33936ce8035aed76e3ca12b9b4f",
-				"text": "예속의 조각"
+				"text": "조종의 조각"
 			},
 			{
 				"id": "fragment-of-eradication",
 				"image": "/image/Art/2DItems/Maps/AtlasMapGuardianLightning.png?v=90d792a619252cc02b8f974893811531",
-				"text": "절멸의 조각"
+				"text": "박멸의 조각"
 			},
 			{
 				"id": "fragment-of-constriction",
 				"image": "/image/Art/2DItems/Maps/AtlasMapGuardianHoly.png?v=ebb9b06c3456603cc78e88b797049dda",
-				"text": "속박의 조각"
+				"text": "위압의 조각"
 			},
 			{
 				"id": "fragment-of-purification",
@@ -656,6 +717,76 @@
 				"id": "offer-dedication",
 				"image": "/image/Art/2DItems/Maps/LabyrinthHarvestInfused2.png?v=06c2d9e0a639206b91b168227b531160",
 				"text": "여신에게 바치는 헌신"
+			},
+			{
+				"id": "haewark-hamlet",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundHaewarkHamlet5.png?v=4e4005d82fe0bdfc6748967655f00262",
+				"text": "메이븐의 초대: 헤이워크 촌락"
+			},
+			{
+				"id": "tirns-end",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundTirnsEnd5.png?v=40d75f9ec9333aced4a1e37c2c4f6954",
+				"text": "메이븐의 초대: 티른의 끝자락"
+			},
+			{
+				"id": "lex-proxima",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundLexProxima5.png?v=f3f3baac34f51c6cc03ff0558cef794b",
+				"text": "메이븐의 초대: 렉스 프록시마"
+			},
+			{
+				"id": "lex-ejoris",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundLexEjoras5.png?v=0a7ff9f10adee6c0ab4b90156871331b",
+				"text": "메이븐의 초대: 렉스 에요리스"
+			},
+			{
+				"id": "new-vastir",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundNewVastir5.png?v=a6775031afde9cddddf23f753b8497fa",
+				"text": "메이븐의 초대: 뉴 바스티르"
+			},
+			{
+				"id": "glennach-cairns",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundGlennachCairns5.png?v=a0608dd031382c2a09396eff6dca7b52",
+				"text": "메이븐의 초대: 글렌나크 돌무덤"
+			},
+			{
+				"id": "valdos-rest",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundValdosRest5.png?v=65e55778a369b3f6ffe3cc6c3202e904",
+				"text": "메이븐의 초대: 발도의 휴식처"
+			},
+			{
+				"id": "lira-arthain",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundLiraArthain5.png?v=7c5cdd6e70f2a0f34dd943ee7800bfdf",
+				"text": "메이븐의 초대: 리라 아르타인"
+			},
+			{
+				"id": "the-formed",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid1.png?v=c123d6e46f6f927bbfc3e28a6099a778",
+				"text": "메이븐의 초대: 형성된 영역"
+			},
+			{
+				"id": "the-twisted",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid2.png?v=0c1181efcccb198b3a8680def013cb9a",
+				"text": "메이븐의 초대: 뒤틀린 영역"
+			},
+			{
+				"id": "the-forgotten",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid3.png?v=1a606c895da74fab9f649855563b6e7b",
+				"text": "메이븐의 초대: 잊혀진 영역"
+			},
+			{
+				"id": "the-hidden",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid4.png?v=9440fddcfb2fee54d58c113a01baa25c",
+				"text": "메이븐의 초대: 숨겨진 영역"
+			},
+			{
+				"id": "the-feared",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid5.png?v=6b53e402ab8265d565e24baefefc37c2",
+				"text": "메이븐의 초대: 끔찍한 영역"
+			},
+			{
+				"id": "the-mavens-writ",
+				"image": "/image/Art/2DItems/Currency/Atlas/MavenKey.png?v=f6f832213f2c77778dc7c24d5ffd781f",
+				"text": "메이븐의 문서"
 			},
 			{
 				"id": "ancient-reliquary-key",
@@ -2071,12 +2202,24 @@
 				"text": "약간의 잉크"
 			},
 			{
+				"id": "a-familiar-call",
+				"text": "귀에 익은 외침"
+			},
+			{
 				"id": "a-mothers-parting-gift",
 				"text": "어머니의 이별 선물"
 			},
 			{
+				"id": "a-note-in-the-wind",
+				"text": "바람 속의 기록"
+			},
+			{
 				"id": "abandoned-wealth",
 				"text": "버려진 재산"
+			},
+			{
+				"id": "acclimatisation",
+				"text": "순응"
 			},
 			{
 				"id": "akils-prophecy",
@@ -2151,6 +2294,14 @@
 				"text": "활장이의 꿈"
 			},
 			{
+				"id": "brotherhood-in-exile",
+				"text": "유배의 형제"
+			},
+			{
+				"id": "brothers-stash",
+				"text": "형제의 보관함"
+			},
+			{
 				"id": "buried-treasure",
 				"text": "파묻힌 보물"
 			},
@@ -2183,6 +2334,10 @@
 				"text": "갈망하던 소유"
 			},
 			{
+				"id": "cursed-words",
+				"text": "저주의 말"
+			},
+			{
 				"id": "dark-dreams",
 				"text": "암흑의 꿈"
 			},
@@ -2203,6 +2358,10 @@
 				"text": "반신의 내기"
 			},
 			{
+				"id": "desecrated-virtue",
+				"text": "훼손된 미덕"
+			},
+			{
 				"id": "destined-to-crumble",
 				"text": "무너질 운명"
 			},
@@ -2219,8 +2378,16 @@
 				"text": "도이드리의 광기"
 			},
 			{
+				"id": "draped-in-dreams",
+				"text": "드리운 꿈"
+			},
+			{
 				"id": "dying-anguish",
 				"text": "죽음의 비통함"
+			},
+			{
+				"id": "dying-light",
+				"text": "죽어가는 빛"
 			},
 			{
 				"id": "earth-drinker",
@@ -2243,6 +2410,10 @@
 				"text": "아로새겨진 피"
 			},
 			{
+				"id": "fateful-meeting",
+				"text": "운명적인 만남"
+			},
+			{
 				"id": "forbidden-power",
 				"text": "금지된 힘"
 			},
@@ -2253,6 +2424,10 @@
 			{
 				"id": "gemcutters-promise",
 				"text": "세공사의 약속"
+			},
+			{
+				"id": "gift-of-asenath",
+				"text": "아세나스의 선물"
 			},
 			{
 				"id": "gift-of-the-gemling-queen",
@@ -2269,6 +2444,10 @@
 			{
 				"id": "harmony-of-souls",
 				"text": "영혼의 조화"
+			},
+			{
+				"id": "haunting-shadows",
+				"text": "출몰하는 그림자"
 			},
 			{
 				"id": "her-mask",
@@ -2315,6 +2494,10 @@
 				"text": "깜짝 상자"
 			},
 			{
+				"id": "keepers-corruption",
+				"text": "보관자의 타락"
+			},
+			{
 				"id": "lantadors-lost-love",
 				"text": "란타도어의 죽은 연인"
 			},
@@ -2339,8 +2522,16 @@
 				"text": "잃어버린 세계"
 			},
 			{
+				"id": "love-through-ice",
+				"text": "얼음을 가르는 사랑"
+			},
+			{
 				"id": "loyalty",
 				"text": "충성심"
+			},
+			{
+				"id": "luck-of-the-vaal",
+				"text": "바알의 행운"
 			},
 			{
 				"id": "lucky-connections",
@@ -2387,6 +2578,10 @@
 				"text": "누크의 왕관"
 			},
 			{
+				"id": "peaceful-moments",
+				"text": "평화로운 순간들"
+			},
+			{
 				"id": "perfection",
 				"text": "완벽"
 			},
@@ -2397,6 +2592,10 @@
 			{
 				"id": "pride-of-the-first-ones",
 				"text": "최초의 존재들의 자부심"
+			},
+			{
+				"id": "prometheus-armoury",
+				"text": "프로메테우스의 무기고"
 			},
 			{
 				"id": "prosperity",
@@ -2419,6 +2618,10 @@
 				"text": "부활"
 			},
 			{
+				"id": "reckless-ambition",
+				"text": "무모한 야망"
+			},
+			{
 				"id": "remembrance",
 				"text": "추모"
 			},
@@ -2439,6 +2642,10 @@
 				"text": "운명의 파편"
 			},
 			{
+				"id": "societys-remorse",
+				"text": "사회의 회한"
+			},
+			{
 				"id": "squandered-prosperity",
 				"text": "허비된 번영"
 			},
@@ -2449,6 +2656,10 @@
 			{
 				"id": "succor-of-the-sinless",
 				"text": "결백한 자의 원조"
+			},
+			{
+				"id": "the-academic",
+				"text": "학구열"
 			},
 			{
 				"id": "the-admirer",
@@ -2475,8 +2686,16 @@
 				"text": "예술가"
 			},
 			{
+				"id": "the-astromancer",
+				"text": "점성술사"
+			},
+			{
 				"id": "the-avenger",
 				"text": "복수자"
+			},
+			{
+				"id": "the-awakened",
+				"text": "깨어난 자"
 			},
 			{
 				"id": "the-bargain",
@@ -2487,12 +2706,20 @@
 				"text": "타고난 전투원"
 			},
 			{
+				"id": "the-bear-woman",
+				"text": "곰 여인"
+			},
+			{
 				"id": "the-beast",
 				"text": "짐승"
 			},
 			{
 				"id": "the-betrayal",
 				"text": "배신"
+			},
+			{
+				"id": "the-bitter-blossom",
+				"text": "쓰라린 만개"
 			},
 			{
 				"id": "the-blazing-fire",
@@ -2513,6 +2740,10 @@
 			{
 				"id": "the-brittle-emperor",
 				"text": "말라붙은 황제"
+			},
+			{
+				"id": "the-cache",
+				"text": "은닉처"
 			},
 			{
 				"id": "the-cacophony",
@@ -2751,6 +2982,14 @@
 				"text": "황금시대"
 			},
 			{
+				"id": "the-greatest-intentions",
+				"text": "위대한 뜻"
+			},
+			{
+				"id": "the-gulf",
+				"text": "만"
+			},
+			{
 				"id": "the-hale-heart",
 				"text": "건강한 심장"
 			},
@@ -2765,6 +3004,10 @@
 			{
 				"id": "the-heroic-shot",
 				"text": "영웅적인 시도"
+			},
+			{
+				"id": "the-hive-of-knowledge",
+				"text": "지식의 산실"
 			},
 			{
 				"id": "the-hoarder",
@@ -2811,6 +3054,10 @@
 				"text": "보석 상인의 은혜"
 			},
 			{
+				"id": "the-journalist",
+				"text": "집필가"
+			},
+			{
 				"id": "the-journey",
 				"text": "여행"
 			},
@@ -2841,6 +3088,14 @@
 			{
 				"id": "the-lion",
 				"text": "사자"
+			},
+			{
+				"id": "the-long-con",
+				"text": "기나긴 속임수"
+			},
+			{
+				"id": "the-long-watch",
+				"text": "오랜 감시"
 			},
 			{
 				"id": "the-lord-in-black",
@@ -2925,6 +3180,10 @@
 			{
 				"id": "the-pact",
 				"text": "계약"
+			},
+			{
+				"id": "the-patient",
+				"text": "환자"
 			},
 			{
 				"id": "the-penitent",
@@ -3087,6 +3346,10 @@
 				"text": "생존주의자"
 			},
 			{
+				"id": "the-sustenance",
+				"text": "자양분"
+			},
+			{
 				"id": "the-sword-kings-salute",
 				"text": "검의 제왕의 경례"
 			},
@@ -3115,6 +3378,10 @@
 				"text": "시험"
 			},
 			{
+				"id": "the-tumbleweed",
+				"text": "회전초"
+			},
+			{
 				"id": "the-twilight-moon",
 				"text": "황혼의 달"
 			},
@@ -3133,6 +3400,10 @@
 			{
 				"id": "the-undisputed",
 				"text": "모두가 인정하는 자"
+			},
+			{
+				"id": "the-unexpected-prize",
+				"text": "뜻밖의 포상"
 			},
 			{
 				"id": "the-union",
@@ -3173,6 +3444,14 @@
 			{
 				"id": "the-web",
 				"text": "거미줄"
+			},
+			{
+				"id": "the-white-knight",
+				"text": "백기사"
+			},
+			{
+				"id": "the-whiteout",
+				"text": "백시"
 			},
 			{
 				"id": "the-wilted-rose",
@@ -3247,12 +3526,24 @@
 				"text": "보물 사냥꾼"
 			},
 			{
+				"id": "triskaidekaphobia",
+				"text": "13 공포증"
+			},
+			{
 				"id": "turn-the-other-cheek",
 				"text": "다른 뺨을 내밀라"
 			},
 			{
+				"id": "unchained",
+				"text": "해방"
+			},
+			{
 				"id": "underground-forest",
 				"text": "지하 숲"
+			},
+			{
+				"id": "unrequited-love",
+				"text": "짝사랑"
 			},
 			{
 				"id": "vanity",
@@ -3285,20 +3576,20 @@
 	{
 		"entries": [
 			{
-				"id": "desert-map-tier-1",
-				"text": "사막 지도(Desert Map)"
+				"id": "arcade-map-tier-1",
+				"text": "상점가 지도(Arcade Map)"
 			},
 			{
-				"id": "glacier-map-tier-1",
-				"text": "빙하 지도(Glacier Map)"
+				"id": "coves-map-tier-1",
+				"text": "만 지도(Coves Map)"
 			},
 			{
-				"id": "lookout-map-tier-1",
-				"text": "전망대 지도(Lookout Map)"
+				"id": "jungle-valley-map-tier-1",
+				"text": "밀림 계곡 지도(Jungle Valley Map)"
 			},
 			{
-				"id": "tropical-island-map-tier-1",
-				"text": "열대 섬 지도(Tropical Island Map)"
+				"id": "pen-map-tier-1",
+				"text": "우리 지도(Pen Map)"
 			}
 		],
 		"id": "MapsTier1",
@@ -3307,84 +3598,84 @@
 	{
 		"entries": [
 			{
-				"id": "ashen-wood-map-tier-2",
-				"text": "잿빛 숲 지도(Ashen Wood Map)"
+				"id": "arena-map-tier-2",
+				"text": "투기장 지도(Arena Map)"
 			},
 			{
-				"id": "beach-map-tier-2",
-				"text": "해변 지도(Beach Map)"
+				"id": "crater-map-tier-2",
+				"text": "분화구 지도(Crater Map)"
 			},
 			{
-				"id": "colonnade-map-tier-2",
-				"text": "가로수 지도(Colonnade Map)"
-			},
-			{
-				"id": "conservatory-map-tier-2",
-				"text": "온실 지도(Conservatory Map)"
-			},
-			{
-				"id": "coral-ruins-map-tier-2",
-				"text": "산호 유적 지도(Coral Ruins Map)"
-			},
-			{
-				"id": "coves-map-tier-2",
-				"text": "만 지도(Coves Map)"
-			},
-			{
-				"id": "cursed-crypt-map-tier-2",
-				"text": "저주받은 지하실 지도(Cursed Crypt Map)"
+				"id": "defiled-cathedral-map-tier-2",
+				"text": "더럽혀진 대성당 지도(Defiled Cathedral Map)"
 			},
 			{
 				"id": "fields-map-tier-2",
 				"text": "들판 지도(Fields Map)"
 			},
 			{
-				"id": "haunted-mansion-map-tier-2",
-				"text": "으스스한 대저택 지도(Haunted Mansion Map)"
+				"id": "frozen-cabins-map-tier-2",
+				"text": "얼어붙은 오막 지도(Frozen Cabins Map)"
 			},
 			{
-				"id": "ivory-temple-map-tier-2",
-				"text": "상아 사원 지도(Ivory Temple Map)"
+				"id": "gardens-map-tier-2",
+				"text": "정원 지도(Gardens Map)"
 			},
 			{
-				"id": "jungle-valley-map-tier-2",
-				"text": "밀림 계곡 지도(Jungle Valley Map)"
+				"id": "grotto-map-tier-2",
+				"text": "석굴 지도(Grotto Map)"
 			},
 			{
-				"id": "mausoleum-map-tier-2",
-				"text": "능묘 지도(Mausoleum Map)"
+				"id": "infested-valley-map-tier-2",
+				"text": "감염된 계곡 지도(Infested Valley Map)"
 			},
 			{
-				"id": "pier-map-tier-2",
-				"text": "선창 지도(Pier Map)"
+				"id": "lair-map-tier-2",
+				"text": "소굴 지도(Lair Map)"
 			},
 			{
-				"id": "strand-map-tier-2",
-				"text": "해안 지도(Strand Map)"
+				"id": "moon-temple-map-tier-2",
+				"text": "달의 사원 지도(Moon Temple Map)"
 			},
 			{
-				"id": "sulphur-vents-map-tier-2",
-				"text": "유황 분출구 지도(Sulphur Vents Map)"
+				"id": "peninsula-map-tier-2",
+				"text": "반도 지도(Peninsula Map)"
 			},
 			{
-				"id": "summit-map-tier-2",
-				"text": "꼭대기 지도(Summit Map)"
+				"id": "promenade-map-tier-2",
+				"text": "산책로 지도(Promenade Map)"
+			},
+			{
+				"id": "spider-forest-map-tier-2",
+				"text": "거미 숲 지도(Spider Forest Map)"
+			},
+			{
+				"id": "sunken-city-map-tier-2",
+				"text": "물에 잠긴 도시 지도(Sunken City Map)"
+			},
+			{
+				"id": "tower-map-tier-2",
+				"text": "탑 지도(Tower Map)"
+			},
+			{
+				"id": "tropical-island-map-tier-2",
+				"text": "열대 섬 지도(Tropical Island Map)"
+			},
+			{
+				"id": "underground-river-map-tier-2",
+				"text": "지하 강 지도(Underground River Map)"
 			},
 			{
 				"id": "underground-sea-map-tier-2",
 				"text": "지하 해양 지도(Underground Sea Map)"
 			},
 			{
-				"id": "villa-map-tier-2",
-				"text": "빌라 지도(Villa Map)"
+				"id": "volcano-map-tier-2",
+				"text": "화산 지도(Volcano Map)"
 			},
 			{
-				"id": "wasteland-map-tier-2",
-				"text": "황무지 지도(Wasteland Map)"
-			},
-			{
-				"id": "waterways-map-tier-2",
-				"text": "수로 지도(Waterways Map)"
+				"id": "wharf-map-tier-2",
+				"text": "부두 지도(Wharf Map)"
 			}
 		],
 		"id": "MapsTier2",
@@ -3397,96 +3688,104 @@
 				"text": "고대 도시 지도(Ancient City Map)"
 			},
 			{
-				"id": "arsenal-map-tier-3",
-				"text": "병기창 지도(Arsenal Map)"
+				"id": "arid-lake-map-tier-3",
+				"text": "메마른 호수 지도(Arid Lake Map)"
 			},
 			{
-				"id": "bazaar-map-tier-3",
-				"text": "장터 지도(Bazaar Map)"
+				"id": "ashen-wood-map-tier-3",
+				"text": "잿빛 숲 지도(Ashen Wood Map)"
 			},
 			{
-				"id": "bog-map-tier-3",
-				"text": "습지대 지도(Bog Map)"
+				"id": "basilica-map-tier-3",
+				"text": "교회당 지도(Basilica Map)"
+			},
+			{
+				"id": "belfry-map-tier-3",
+				"text": "종탑 지도(Belfry Map)"
+			},
+			{
+				"id": "canyon-map-tier-3",
+				"text": "협곡 지도(Canyon Map)"
 			},
 			{
 				"id": "cemetery-map-tier-3",
 				"text": "공동묘지 지도(Cemetery Map)"
 			},
 			{
-				"id": "crystal-ore-map-tier-3",
-				"text": "수정 광석 지도(Crystal Ore Map)"
+				"id": "courtyard-map-tier-3",
+				"text": "안뜰 지도(Courtyard Map)"
 			},
 			{
-				"id": "dunes-map-tier-3",
-				"text": "사구 지도(Dunes Map)"
+				"id": "factory-map-tier-3",
+				"text": "공장 지도(Factory Map)"
 			},
 			{
-				"id": "gardens-map-tier-3",
-				"text": "정원 지도(Gardens Map)"
+				"id": "forking-river-map-tier-3",
+				"text": "갈라지는 강 지도(Forking River Map)"
 			},
 			{
-				"id": "ghetto-map-tier-3",
-				"text": "빈민촌 지도(Ghetto Map)"
+				"id": "geode-map-tier-3",
+				"text": "정동석 지도(Geode Map)"
+			},
+			{
+				"id": "glacier-map-tier-3",
+				"text": "빙하 지도(Glacier Map)"
 			},
 			{
 				"id": "graveyard-map-tier-3",
 				"text": "묘지 지도(Graveyard Map)"
 			},
 			{
-				"id": "infested-valley-map-tier-3",
-				"text": "감염된 계곡 지도(Infested Valley Map)"
+				"id": "laboratory-map-tier-3",
+				"text": "실험실 지도(Laboratory Map)"
 			},
 			{
-				"id": "mesa-map-tier-3",
-				"text": "메사 지도(Mesa Map)"
-			},
-			{
-				"id": "moon-temple-map-tier-3",
-				"text": "달의 사원 지도(Moon Temple Map)"
+				"id": "lava-chamber-map-tier-3",
+				"text": "용암의 방 지도(Lava Chamber Map)"
 			},
 			{
 				"id": "mud-geyser-map-tier-3",
 				"text": "진흙 간헐천 지도(Mud Geyser Map)"
 			},
 			{
-				"id": "museum-map-tier-3",
-				"text": "박물관 지도(Museum Map)"
-			},
-			{
 				"id": "orchard-map-tier-3",
 				"text": "과수원 지도(Orchard Map)"
 			},
 			{
-				"id": "pen-map-tier-3",
-				"text": "우리 지도(Pen Map)"
+				"id": "overgrown-ruin-map-tier-3",
+				"text": "무성한 유적 지도(Overgrown Ruin Map)"
 			},
 			{
-				"id": "plateau-map-tier-3",
-				"text": "고원 지도(Plateau Map)"
+				"id": "pier-map-tier-3",
+				"text": "선창 지도(Pier Map)"
 			},
 			{
-				"id": "primordial-pool-map-tier-3",
-				"text": "태고의 웅덩이 지도(Primordial Pool Map)"
+				"id": "plaza-map-tier-3",
+				"text": "광장 지도(Plaza Map)"
 			},
 			{
-				"id": "racecourse-map-tier-3",
-				"text": "경주장 지도(Racecourse Map)"
+				"id": "primordial-blocks-map-tier-3",
+				"text": "태고의 구역 지도(Primordial Blocks Map)"
 			},
 			{
-				"id": "ramparts-map-tier-3",
-				"text": "성벽 지도(Ramparts Map)"
+				"id": "reef-map-tier-3",
+				"text": "암초 지도(Reef Map)"
 			},
 			{
-				"id": "sunken-city-map-tier-3",
-				"text": "물에 잠긴 도시 지도(Sunken City Map)"
+				"id": "shore-map-tier-3",
+				"text": "바닷가 지도(Shore Map)"
+			},
+			{
+				"id": "strand-map-tier-3",
+				"text": "해안 지도(Strand Map)"
+			},
+			{
+				"id": "sulphur-vents-map-tier-3",
+				"text": "유황 분출구 지도(Sulphur Vents Map)"
 			},
 			{
 				"id": "temple-map-tier-3",
 				"text": "사원 지도(Temple Map)"
-			},
-			{
-				"id": "terrace-map-tier-3",
-				"text": "테라스 지도(Terrace Map)"
 			},
 			{
 				"id": "toxic-sewer-map-tier-3",
@@ -3495,14 +3794,6 @@
 			{
 				"id": "vaal-pyramid-map-tier-3",
 				"text": "바알 피라미드 지도(Vaal Pyramid Map)"
-			},
-			{
-				"id": "vault-map-tier-3",
-				"text": "금고실 지도(Vault Map)"
-			},
-			{
-				"id": "waste-pool-map-tier-3",
-				"text": "황폐한 웅덩이 지도(Waste Pool Map)"
 			}
 		],
 		"id": "MapsTier3",
@@ -3515,20 +3806,20 @@
 				"text": "학술원 지도(Academy Map)"
 			},
 			{
-				"id": "arachnid-tomb-map-tier-4",
-				"text": "거미류 무덤 지도(Arachnid Tomb Map)"
+				"id": "arcade-map-tier-4",
+				"text": "상점가 지도(Arcade Map)"
 			},
 			{
-				"id": "arena-map-tier-4",
-				"text": "투기장 지도(Arena Map)"
+				"id": "arsenal-map-tier-4",
+				"text": "병기창 지도(Arsenal Map)"
 			},
 			{
 				"id": "bone-crypt-map-tier-4",
 				"text": "뼈 지하실 지도(Bone Crypt Map)"
 			},
 			{
-				"id": "caldera-map-tier-4",
-				"text": "칼데라 지도(Caldera Map)"
+				"id": "cage-map-tier-4",
+				"text": "창살 지도(Cage Map)"
 			},
 			{
 				"id": "channel-map-tier-4",
@@ -3539,68 +3830,68 @@
 				"text": "법원 지도(Courthouse Map)"
 			},
 			{
-				"id": "courtyard-map-tier-4",
-				"text": "안뜰 지도(Courtyard Map)"
+				"id": "coves-map-tier-4",
+				"text": "만 지도(Coves Map)"
 			},
 			{
-				"id": "dark-forest-map-tier-4",
-				"text": "어둠의 숲 지도(Dark Forest Map)"
+				"id": "crimson-temple-map-tier-4",
+				"text": "진홍색 사원 지도(Crimson Temple Map)"
 			},
 			{
-				"id": "defiled-cathedral-map-tier-4",
-				"text": "더럽혀진 대성당 지도(Defiled Cathedral Map)"
+				"id": "crystal-ore-map-tier-4",
+				"text": "수정 광석 지도(Crystal Ore Map)"
 			},
 			{
 				"id": "desert-map-tier-4",
 				"text": "사막 지도(Desert Map)"
 			},
 			{
-				"id": "desert-spring-map-tier-4",
-				"text": "사막의 샘 지도(Desert Spring Map)"
+				"id": "dunes-map-tier-4",
+				"text": "사구 지도(Dunes Map)"
 			},
 			{
-				"id": "excavation-map-tier-4",
-				"text": "발굴터 지도(Excavation Map)"
+				"id": "iceberg-map-tier-4",
+				"text": "빙산 지도(Iceberg Map)"
 			},
 			{
-				"id": "glacier-map-tier-4",
-				"text": "빙하 지도(Glacier Map)"
+				"id": "jungle-valley-map-tier-4",
+				"text": "밀림 계곡 지도(Jungle Valley Map)"
 			},
 			{
-				"id": "grotto-map-tier-4",
-				"text": "석굴 지도(Grotto Map)"
-			},
-			{
-				"id": "lair-map-tier-4",
-				"text": "소굴 지도(Lair Map)"
-			},
-			{
-				"id": "lava-chamber-map-tier-4",
-				"text": "용암의 방 지도(Lava Chamber Map)"
+				"id": "leyline-map-tier-4",
+				"text": "지맥 지도(Leyline Map)"
 			},
 			{
 				"id": "lookout-map-tier-4",
 				"text": "전망대 지도(Lookout Map)"
 			},
 			{
-				"id": "park-map-tier-4",
-				"text": "공원 지도(Park Map)"
+				"id": "marshes-map-tier-4",
+				"text": "습지 지도(Marshes Map)"
 			},
 			{
-				"id": "peninsula-map-tier-4",
-				"text": "반도 지도(Peninsula Map)"
+				"id": "museum-map-tier-4",
+				"text": "박물관 지도(Museum Map)"
 			},
 			{
-				"id": "shore-map-tier-4",
-				"text": "바닷가 지도(Shore Map)"
+				"id": "pen-map-tier-4",
+				"text": "우리 지도(Pen Map)"
 			},
 			{
-				"id": "tropical-island-map-tier-4",
-				"text": "열대 섬 지도(Tropical Island Map)"
+				"id": "precinct-map-tier-4",
+				"text": "구획 지도(Precinct Map)"
 			},
 			{
-				"id": "volcano-map-tier-4",
-				"text": "화산 지도(Volcano Map)"
+				"id": "primordial-pool-map-tier-4",
+				"text": "태고의 웅덩이 지도(Primordial Pool Map)"
+			},
+			{
+				"id": "ramparts-map-tier-4",
+				"text": "성벽 지도(Ramparts Map)"
+			},
+			{
+				"id": "wasteland-map-tier-4",
+				"text": "황무지 지도(Wasteland Map)"
 			}
 		],
 		"id": "MapsTier4",
@@ -3609,92 +3900,84 @@
 	{
 		"entries": [
 			{
-				"id": "arid-lake-map-tier-5",
-				"text": "메마른 호수 지도(Arid Lake Map)"
+				"id": "armoury-map-tier-5",
+				"text": "갑주 창고 지도(Armoury Map)"
 			},
 			{
 				"id": "atoll-map-tier-5",
 				"text": "산호섬 지도(Atoll Map)"
 			},
 			{
-				"id": "basilica-map-tier-5",
-				"text": "교회당 지도(Basilica Map)"
+				"id": "carcass-map-tier-5",
+				"text": "시체 지도(Carcass Map)"
 			},
 			{
-				"id": "belfry-map-tier-5",
-				"text": "종탑 지도(Belfry Map)"
-			},
-			{
-				"id": "castle-ruins-map-tier-5",
-				"text": "성곽 유적 지도(Castle Ruins Map)"
+				"id": "cells-map-tier-5",
+				"text": "감방 지도(Cells Map)"
 			},
 			{
 				"id": "chateau-map-tier-5",
 				"text": "대저택 지도(Chateau Map)"
 			},
 			{
-				"id": "colonnade-map-tier-5",
-				"text": "가로수 지도(Colonnade Map)"
+				"id": "crater-map-tier-5",
+				"text": "분화구 지도(Crater Map)"
 			},
 			{
-				"id": "conservatory-map-tier-5",
-				"text": "온실 지도(Conservatory Map)"
-			},
-			{
-				"id": "dig-map-tier-5",
-				"text": "발굴지 지도(Dig Map)"
+				"id": "desert-spring-map-tier-5",
+				"text": "사막의 샘 지도(Desert Spring Map)"
 			},
 			{
 				"id": "fields-map-tier-5",
 				"text": "들판 지도(Fields Map)"
 			},
 			{
+				"id": "grotto-map-tier-5",
+				"text": "석굴 지도(Grotto Map)"
+			},
+			{
 				"id": "haunted-mansion-map-tier-5",
 				"text": "으스스한 대저택 지도(Haunted Mansion Map)"
 			},
 			{
-				"id": "ivory-temple-map-tier-5",
-				"text": "상아 사원 지도(Ivory Temple Map)"
+				"id": "infested-valley-map-tier-5",
+				"text": "감염된 계곡 지도(Infested Valley Map)"
 			},
 			{
-				"id": "leyline-map-tier-5",
-				"text": "지맥 지도(Leyline Map)"
+				"id": "lair-map-tier-5",
+				"text": "소굴 지도(Lair Map)"
 			},
 			{
-				"id": "marshes-map-tier-5",
-				"text": "습지 지도(Marshes Map)"
+				"id": "lighthouse-map-tier-5",
+				"text": "등대 지도(Lighthouse Map)"
 			},
 			{
-				"id": "mausoleum-map-tier-5",
-				"text": "능묘 지도(Mausoleum Map)"
+				"id": "moon-temple-map-tier-5",
+				"text": "달의 사원 지도(Moon Temple Map)"
 			},
 			{
-				"id": "port-map-tier-5",
-				"text": "항만 지도(Port Map)"
+				"id": "palace-map-tier-5",
+				"text": "궁전 지도(Palace Map)"
 			},
 			{
-				"id": "scriptorium-map-tier-5",
-				"text": "필사실 지도(Scriptorium Map)"
+				"id": "peninsula-map-tier-5",
+				"text": "반도 지도(Peninsula Map)"
 			},
 			{
-				"id": "strand-map-tier-5",
-				"text": "해안 지도(Strand Map)"
+				"id": "promenade-map-tier-5",
+				"text": "산책로 지도(Promenade Map)"
 			},
 			{
-				"id": "sulphur-vents-map-tier-5",
-				"text": "유황 분출구 지도(Sulphur Vents Map)"
+				"id": "shrine-map-tier-5",
+				"text": "성소 지도(Shrine Map)"
 			},
 			{
-				"id": "villa-map-tier-5",
-				"text": "빌라 지도(Villa Map)"
+				"id": "tower-map-tier-5",
+				"text": "탑 지도(Tower Map)"
 			},
 			{
-				"id": "waterways-map-tier-5",
-				"text": "수로 지도(Waterways Map)"
-			},
-			{
-				"id": "wharf-map-tier-5",
-				"text": "부두 지도(Wharf Map)"
+				"id": "waste-pool-map-tier-5",
+				"text": "황폐한 웅덩이 지도(Waste Pool Map)"
 			}
 		],
 		"id": "MapsTier5",
@@ -3707,84 +3990,84 @@
 				"text": "고대 도시 지도(Ancient City Map)"
 			},
 			{
-				"id": "ashen-wood-map-tier-6",
-				"text": "잿빛 숲 지도(Ashen Wood Map)"
+				"id": "arena-map-tier-6",
+				"text": "투기장 지도(Arena Map)"
 			},
 			{
-				"id": "bazaar-map-tier-6",
-				"text": "장터 지도(Bazaar Map)"
+				"id": "arid-lake-map-tier-6",
+				"text": "메마른 호수 지도(Arid Lake Map)"
 			},
 			{
-				"id": "beach-map-tier-6",
-				"text": "해변 지도(Beach Map)"
+				"id": "basilica-map-tier-6",
+				"text": "교회당 지도(Basilica Map)"
 			},
 			{
-				"id": "bog-map-tier-6",
-				"text": "습지대 지도(Bog Map)"
+				"id": "belfry-map-tier-6",
+				"text": "종탑 지도(Belfry Map)"
 			},
 			{
-				"id": "coral-ruins-map-tier-6",
-				"text": "산호 유적 지도(Coral Ruins Map)"
+				"id": "defiled-cathedral-map-tier-6",
+				"text": "더럽혀진 대성당 지도(Defiled Cathedral Map)"
 			},
 			{
-				"id": "coves-map-tier-6",
-				"text": "만 지도(Coves Map)"
+				"id": "forking-river-map-tier-6",
+				"text": "갈라지는 강 지도(Forking River Map)"
 			},
 			{
-				"id": "crystal-ore-map-tier-6",
-				"text": "수정 광석 지도(Crystal Ore Map)"
+				"id": "frozen-cabins-map-tier-6",
+				"text": "얼어붙은 오막 지도(Frozen Cabins Map)"
 			},
 			{
-				"id": "cursed-crypt-map-tier-6",
-				"text": "저주받은 지하실 지도(Cursed Crypt Map)"
+				"id": "gardens-map-tier-6",
+				"text": "정원 지도(Gardens Map)"
 			},
 			{
-				"id": "graveyard-map-tier-6",
-				"text": "묘지 지도(Graveyard Map)"
+				"id": "glacier-map-tier-6",
+				"text": "빙하 지도(Glacier Map)"
 			},
 			{
-				"id": "infested-valley-map-tier-6",
-				"text": "감염된 계곡 지도(Infested Valley Map)"
+				"id": "lava-chamber-map-tier-6",
+				"text": "용암의 방 지도(Lava Chamber Map)"
 			},
 			{
-				"id": "jungle-valley-map-tier-6",
-				"text": "밀림 계곡 지도(Jungle Valley Map)"
+				"id": "malformation-map-tier-6",
+				"text": "기형 지도(Malformation Map)"
 			},
 			{
 				"id": "mud-geyser-map-tier-6",
 				"text": "진흙 간헐천 지도(Mud Geyser Map)"
 			},
 			{
-				"id": "museum-map-tier-6",
-				"text": "박물관 지도(Museum Map)"
-			},
-			{
-				"id": "pen-map-tier-6",
-				"text": "우리 지도(Pen Map)"
-			},
-			{
-				"id": "pier-map-tier-6",
-				"text": "선창 지도(Pier Map)"
+				"id": "orchard-map-tier-6",
+				"text": "과수원 지도(Orchard Map)"
 			},
 			{
 				"id": "plaza-map-tier-6",
 				"text": "광장 지도(Plaza Map)"
 			},
 			{
-				"id": "racecourse-map-tier-6",
-				"text": "경주장 지도(Racecourse Map)"
+				"id": "primordial-blocks-map-tier-6",
+				"text": "태고의 구역 지도(Primordial Blocks Map)"
 			},
 			{
-				"id": "ramparts-map-tier-6",
-				"text": "성벽 지도(Ramparts Map)"
+				"id": "reef-map-tier-6",
+				"text": "암초 지도(Reef Map)"
 			},
 			{
-				"id": "sepulchre-map-tier-6",
-				"text": "매장소 지도(Sepulchre Map)"
+				"id": "shore-map-tier-6",
+				"text": "바닷가 지도(Shore Map)"
 			},
 			{
-				"id": "summit-map-tier-6",
-				"text": "꼭대기 지도(Summit Map)"
+				"id": "silo-map-tier-6",
+				"text": "곡물 창고 지도"
+			},
+			{
+				"id": "spider-forest-map-tier-6",
+				"text": "거미 숲 지도(Spider Forest Map)"
+			},
+			{
+				"id": "sulphur-vents-map-tier-6",
+				"text": "유황 분출구 지도(Sulphur Vents Map)"
 			},
 			{
 				"id": "sunken-city-map-tier-6",
@@ -3795,20 +4078,24 @@
 				"text": "사원 지도(Temple Map)"
 			},
 			{
-				"id": "terrace-map-tier-6",
-				"text": "테라스 지도(Terrace Map)"
+				"id": "tropical-island-map-tier-6",
+				"text": "열대 섬 지도(Tropical Island Map)"
+			},
+			{
+				"id": "underground-river-map-tier-6",
+				"text": "지하 강 지도(Underground River Map)"
 			},
 			{
 				"id": "underground-sea-map-tier-6",
 				"text": "지하 해양 지도(Underground Sea Map)"
 			},
 			{
-				"id": "vault-map-tier-6",
-				"text": "금고실 지도(Vault Map)"
+				"id": "volcano-map-tier-6",
+				"text": "화산 지도(Volcano Map)"
 			},
 			{
-				"id": "wasteland-map-tier-6",
-				"text": "황무지 지도(Wasteland Map)"
+				"id": "wharf-map-tier-6",
+				"text": "부두 지도(Wharf Map)"
 			}
 		],
 		"id": "MapsTier6",
@@ -3825,8 +4112,16 @@
 				"text": "병기창 지도(Arsenal Map)"
 			},
 			{
+				"id": "ashen-wood-map-tier-7",
+				"text": "잿빛 숲 지도(Ashen Wood Map)"
+			},
+			{
 				"id": "bone-crypt-map-tier-7",
 				"text": "뼈 지하실 지도(Bone Crypt Map)"
+			},
+			{
+				"id": "cage-map-tier-7",
+				"text": "창살 지도(Cage Map)"
 			},
 			{
 				"id": "canyon-map-tier-7",
@@ -3837,76 +4132,72 @@
 				"text": "공동묘지 지도(Cemetery Map)"
 			},
 			{
-				"id": "courthouse-map-tier-7",
-				"text": "법원 지도(Courthouse Map)"
+				"id": "channel-map-tier-7",
+				"text": "물길 지도(Channel Map)"
+			},
+			{
+				"id": "courtyard-map-tier-7",
+				"text": "안뜰 지도(Courtyard Map)"
+			},
+			{
+				"id": "crystal-ore-map-tier-7",
+				"text": "수정 광석 지도(Crystal Ore Map)"
 			},
 			{
 				"id": "dark-forest-map-tier-7",
 				"text": "어둠의 숲 지도(Dark Forest Map)"
 			},
 			{
-				"id": "defiled-cathedral-map-tier-7",
-				"text": "더럽혀진 대성당 지도(Defiled Cathedral Map)"
+				"id": "factory-map-tier-7",
+				"text": "공장 지도(Factory Map)"
 			},
 			{
-				"id": "dunes-map-tier-7",
-				"text": "사구 지도(Dunes Map)"
+				"id": "geode-map-tier-7",
+				"text": "정동석 지도(Geode Map)"
 			},
 			{
-				"id": "excavation-map-tier-7",
-				"text": "발굴터 지도(Excavation Map)"
+				"id": "graveyard-map-tier-7",
+				"text": "묘지 지도(Graveyard Map)"
 			},
 			{
-				"id": "gardens-map-tier-7",
-				"text": "정원 지도(Gardens Map)"
+				"id": "laboratory-map-tier-7",
+				"text": "실험실 지도(Laboratory Map)"
 			},
 			{
-				"id": "ghetto-map-tier-7",
-				"text": "빈민촌 지도(Ghetto Map)"
+				"id": "leyline-map-tier-7",
+				"text": "지맥 지도(Leyline Map)"
 			},
 			{
-				"id": "grotto-map-tier-7",
-				"text": "석굴 지도(Grotto Map)"
+				"id": "lookout-map-tier-7",
+				"text": "전망대 지도(Lookout Map)"
 			},
 			{
-				"id": "lair-map-tier-7",
-				"text": "소굴 지도(Lair Map)"
+				"id": "marshes-map-tier-7",
+				"text": "습지 지도(Marshes Map)"
 			},
 			{
-				"id": "lava-chamber-map-tier-7",
-				"text": "용암의 방 지도(Lava Chamber Map)"
+				"id": "museum-map-tier-7",
+				"text": "박물관 지도(Museum Map)"
 			},
 			{
-				"id": "lighthouse-map-tier-7",
-				"text": "등대 지도(Lighthouse Map)"
+				"id": "overgrown-ruin-map-tier-7",
+				"text": "무성한 유적 지도(Overgrown Ruin Map)"
 			},
 			{
-				"id": "mesa-map-tier-7",
-				"text": "메사 지도(Mesa Map)"
-			},
-			{
-				"id": "moon-temple-map-tier-7",
-				"text": "달의 사원 지도(Moon Temple Map)"
-			},
-			{
-				"id": "orchard-map-tier-7",
-				"text": "과수원 지도(Orchard Map)"
-			},
-			{
-				"id": "peninsula-map-tier-7",
-				"text": "반도 지도(Peninsula Map)"
-			},
-			{
-				"id": "plateau-map-tier-7",
-				"text": "고원 지도(Plateau Map)"
+				"id": "pier-map-tier-7",
+				"text": "선창 지도(Pier Map)"
 			},
 			{
 				"id": "primordial-pool-map-tier-7",
 				"text": "태고의 웅덩이 지도(Primordial Pool Map)"
 			},
 			{
-				"id": "shore-map-tier-7",
-				"text": "바닷가 지도(Shore Map)"
+				"id": "ramparts-map-tier-7",
+				"text": "성벽 지도(Ramparts Map)"
+			},
+			{
+				"id": "strand-map-tier-7",
+				"text": "해안 지도(Strand Map)"
 			},
 			{
 				"id": "toxic-sewer-map-tier-7",
@@ -3917,12 +4208,8 @@
 				"text": "바알 피라미드 지도(Vaal Pyramid Map)"
 			},
 			{
-				"id": "volcano-map-tier-7",
-				"text": "화산 지도(Volcano Map)"
-			},
-			{
-				"id": "waste-pool-map-tier-7",
-				"text": "황폐한 웅덩이 지도(Waste Pool Map)"
+				"id": "waterways-map-tier-7",
+				"text": "수로 지도(Waterways Map)"
 			}
 		],
 		"id": "MapsTier7",
@@ -3931,72 +4218,76 @@
 	{
 		"entries": [
 			{
-				"id": "arachnid-tomb-map-tier-8",
-				"text": "거미류 무덤 지도(Arachnid Tomb Map)"
+				"id": "alleyways-map-tier-8",
+				"text": "골목길 지도(Alleyways Map)"
 			},
 			{
-				"id": "arena-map-tier-8",
-				"text": "투기장 지도(Arena Map)"
+				"id": "arcade-map-tier-8",
+				"text": "상점가 지도(Arcade Map)"
 			},
 			{
-				"id": "caldera-map-tier-8",
-				"text": "칼데라 지도(Caldera Map)"
+				"id": "armoury-map-tier-8",
+				"text": "갑주 창고 지도(Armoury Map)"
 			},
 			{
-				"id": "castle-ruins-map-tier-8",
-				"text": "성곽 유적 지도(Castle Ruins Map)"
+				"id": "cells-map-tier-8",
+				"text": "감방 지도(Cells Map)"
 			},
 			{
-				"id": "channel-map-tier-8",
-				"text": "물길 지도(Channel Map)"
+				"id": "courthouse-map-tier-8",
+				"text": "법원 지도(Courthouse Map)"
 			},
 			{
-				"id": "courtyard-map-tier-8",
-				"text": "안뜰 지도(Courtyard Map)"
+				"id": "coves-map-tier-8",
+				"text": "만 지도(Coves Map)"
+			},
+			{
+				"id": "crimson-temple-map-tier-8",
+				"text": "진홍색 사원 지도(Crimson Temple Map)"
 			},
 			{
 				"id": "desert-map-tier-8",
 				"text": "사막 지도(Desert Map)"
 			},
 			{
-				"id": "desert-spring-map-tier-8",
-				"text": "사막의 샘 지도(Desert Spring Map)"
+				"id": "dry-sea-map-tier-8",
+				"text": "메마른 바다 지도(Dry Sea Map)"
 			},
 			{
-				"id": "dig-map-tier-8",
-				"text": "발굴지 지도(Dig Map)"
+				"id": "dunes-map-tier-8",
+				"text": "사구 지도(Dunes Map)"
 			},
 			{
-				"id": "glacier-map-tier-8",
-				"text": "빙하 지도(Glacier Map)"
+				"id": "iceberg-map-tier-8",
+				"text": "빙산 지도(Iceberg Map)"
 			},
 			{
-				"id": "leyline-map-tier-8",
-				"text": "지맥 지도(Leyline Map)"
+				"id": "jungle-valley-map-tier-8",
+				"text": "밀림 계곡 지도(Jungle Valley Map)"
 			},
 			{
-				"id": "lookout-map-tier-8",
-				"text": "전망대 지도(Lookout Map)"
+				"id": "palace-map-tier-8",
+				"text": "궁전 지도(Palace Map)"
 			},
 			{
-				"id": "malformation-map-tier-8",
-				"text": "기형 지도(Malformation Map)"
+				"id": "pen-map-tier-8",
+				"text": "우리 지도(Pen Map)"
 			},
 			{
-				"id": "park-map-tier-8",
-				"text": "공원 지도(Park Map)"
+				"id": "precinct-map-tier-8",
+				"text": "구획 지도(Precinct Map)"
 			},
 			{
-				"id": "port-map-tier-8",
-				"text": "항만 지도(Port Map)"
+				"id": "racecourse-map-tier-8",
+				"text": "경주장 지도(Racecourse Map)"
 			},
 			{
-				"id": "primordial-blocks-map-tier-8",
-				"text": "태고의 구역 지도(Primordial Blocks Map)"
+				"id": "waste-pool-map-tier-8",
+				"text": "황폐한 웅덩이 지도(Waste Pool Map)"
 			},
 			{
-				"id": "tropical-island-map-tier-8",
-				"text": "열대 섬 지도(Tropical Island Map)"
+				"id": "wasteland-map-tier-8",
+				"text": "황무지 지도(Wasteland Map)"
 			}
 		],
 		"id": "MapsTier8",
@@ -4005,16 +4296,8 @@
 	{
 		"entries": [
 			{
-				"id": "arcade-map-tier-9",
-				"text": "상점가 지도(Arcade Map)"
-			},
-			{
-				"id": "arid-lake-map-tier-9",
-				"text": "메마른 호수 지도(Arid Lake Map)"
-			},
-			{
-				"id": "ashen-wood-map-tier-9",
-				"text": "잿빛 숲 지도(Ashen Wood Map)"
+				"id": "arena-map-tier-9",
+				"text": "투기장 지도(Arena Map)"
 			},
 			{
 				"id": "atoll-map-tier-9",
@@ -4025,48 +4308,48 @@
 				"text": "교회당 지도(Basilica Map)"
 			},
 			{
-				"id": "beach-map-tier-9",
-				"text": "해변 지도(Beach Map)"
-			},
-			{
 				"id": "belfry-map-tier-9",
 				"text": "종탑 지도(Belfry Map)"
+			},
+			{
+				"id": "carcass-map-tier-9",
+				"text": "시체 지도(Carcass Map)"
 			},
 			{
 				"id": "chateau-map-tier-9",
 				"text": "대저택 지도(Chateau Map)"
 			},
 			{
-				"id": "colonnade-map-tier-9",
-				"text": "가로수 지도(Colonnade Map)"
+				"id": "crater-map-tier-9",
+				"text": "분화구 지도(Crater Map)"
 			},
 			{
-				"id": "conservatory-map-tier-9",
-				"text": "온실 지도(Conservatory Map)"
+				"id": "dark-forest-map-tier-9",
+				"text": "어둠의 숲 지도(Dark Forest Map)"
 			},
 			{
-				"id": "coral-ruins-map-tier-9",
-				"text": "산호 유적 지도(Coral Ruins Map)"
+				"id": "defiled-cathedral-map-tier-9",
+				"text": "더럽혀진 대성당 지도(Defiled Cathedral Map)"
 			},
 			{
-				"id": "coves-map-tier-9",
-				"text": "만 지도(Coves Map)"
+				"id": "desert-spring-map-tier-9",
+				"text": "사막의 샘 지도(Desert Spring Map)"
 			},
 			{
-				"id": "cursed-crypt-map-tier-9",
-				"text": "저주받은 지하실 지도(Cursed Crypt Map)"
-			},
-			{
-				"id": "factory-map-tier-9",
-				"text": "공장 지도(Factory Map)"
+				"id": "dungeon-map-tier-9",
+				"text": "던전 지도(Dungeon Map)"
 			},
 			{
 				"id": "fields-map-tier-9",
 				"text": "들판 지도(Fields Map)"
 			},
 			{
-				"id": "graveyard-map-tier-9",
-				"text": "묘지 지도(Graveyard Map)"
+				"id": "gardens-map-tier-9",
+				"text": "정원 지도(Gardens Map)"
+			},
+			{
+				"id": "grotto-map-tier-9",
+				"text": "석굴 지도(Grotto Map)"
 			},
 			{
 				"id": "haunted-mansion-map-tier-9",
@@ -4077,84 +4360,88 @@
 				"text": "감염된 계곡 지도(Infested Valley Map)"
 			},
 			{
-				"id": "ivory-temple-map-tier-9",
-				"text": "상아 사원 지도(Ivory Temple Map)"
-			},
-			{
-				"id": "jungle-valley-map-tier-9",
-				"text": "밀림 계곡 지도(Jungle Valley Map)"
+				"id": "lair-map-tier-9",
+				"text": "소굴 지도(Lair Map)"
 			},
 			{
 				"id": "lighthouse-map-tier-9",
 				"text": "등대 지도(Lighthouse Map)"
 			},
 			{
-				"id": "marshes-map-tier-9",
-				"text": "습지 지도(Marshes Map)"
-			},
-			{
 				"id": "mausoleum-map-tier-9",
 				"text": "능묘 지도(Mausoleum Map)"
 			},
 			{
-				"id": "maze-map-tier-9",
-				"text": "미로 지도(Maze Map)"
+				"id": "mineral-pools-map-tier-9",
+				"text": "광물층 지도(Mineral Pools Map)"
 			},
 			{
-				"id": "pier-map-tier-9",
-				"text": "선창 지도(Pier Map)"
+				"id": "moon-temple-map-tier-9",
+				"text": "달의 사원 지도(Moon Temple Map)"
 			},
 			{
-				"id": "pit-map-tier-9",
-				"text": "구덩이 지도(Pit Map)"
+				"id": "orchard-map-tier-9",
+				"text": "과수원 지도(Orchard Map)"
+			},
+			{
+				"id": "overgrown-shrine-map-tier-9",
+				"text": "무성한 성소 지도(Overgrown Shrine Map)"
+			},
+			{
+				"id": "peninsula-map-tier-9",
+				"text": "반도 지도(Peninsula Map)"
+			},
+			{
+				"id": "promenade-map-tier-9",
+				"text": "산책로 지도(Promenade Map)"
 			},
 			{
 				"id": "relic-chambers-map-tier-9",
 				"text": "유물의 방 지도(Relic Chambers Map)"
 			},
 			{
-				"id": "scriptorium-map-tier-9",
-				"text": "필사실 지도(Scriptorium Map)"
-			},
-			{
-				"id": "shipyard-map-tier-9",
-				"text": "조선소 지도(Shipyard Map)"
-			},
-			{
 				"id": "shrine-map-tier-9",
 				"text": "성소 지도(Shrine Map)"
 			},
 			{
-				"id": "strand-map-tier-9",
-				"text": "해안 지도(Strand Map)"
+				"id": "silo-map-tier-9",
+				"text": "곡물 창고 지도"
 			},
 			{
-				"id": "sulphur-vents-map-tier-9",
-				"text": "유황 분출구 지도(Sulphur Vents Map)"
+				"id": "spider-forest-map-tier-9",
+				"text": "거미 숲 지도(Spider Forest Map)"
 			},
 			{
-				"id": "summit-map-tier-9",
-				"text": "꼭대기 지도(Summit Map)"
+				"id": "spider-lair-map-tier-9",
+				"text": "거미 소굴 지도(Spider Lair Map)"
+			},
+			{
+				"id": "stagnation-map-tier-9",
+				"text": "침체지 지도"
 			},
 			{
 				"id": "sunken-city-map-tier-9",
 				"text": "물에 잠긴 도시 지도(Sunken City Map)"
 			},
 			{
+				"id": "tower-map-tier-9",
+				"text": "탑 지도(Tower Map)"
+			},
+			{
+				"id": "tropical-island-map-tier-9",
+				"text": "열대 섬 지도(Tropical Island Map)"
+			},
+			{
+				"id": "underground-river-map-tier-9",
+				"text": "지하 강 지도(Underground River Map)"
+			},
+			{
 				"id": "underground-sea-map-tier-9",
 				"text": "지하 해양 지도(Underground Sea Map)"
 			},
 			{
-				"id": "villa-map-tier-9",
-				"text": "빌라 지도(Villa Map)"
-			},
-			{
-				"id": "wasteland-map-tier-9",
-				"text": "황무지 지도(Wasteland Map)"
-			},
-			{
-				"id": "waterways-map-tier-9",
-				"text": "수로 지도(Waterways Map)"
+				"id": "volcano-map-tier-9",
+				"text": "화산 지도(Volcano Map)"
 			},
 			{
 				"id": "wharf-map-tier-9",
@@ -4171,52 +4458,60 @@
 				"text": "고대 도시 지도(Ancient City Map)"
 			},
 			{
-				"id": "arsenal-map-tier-10",
-				"text": "병기창 지도(Arsenal Map)"
+				"id": "arcade-map-tier-10",
+				"text": "상점가 지도(Arcade Map)"
 			},
 			{
-				"id": "bazaar-map-tier-10",
-				"text": "장터 지도(Bazaar Map)"
+				"id": "arid-lake-map-tier-10",
+				"text": "메마른 호수 지도(Arid Lake Map)"
 			},
 			{
-				"id": "bog-map-tier-10",
-				"text": "습지대 지도(Bog Map)"
+				"id": "ashen-wood-map-tier-10",
+				"text": "잿빛 숲 지도(Ashen Wood Map)"
 			},
 			{
-				"id": "cells-map-tier-10",
-				"text": "감방 지도(Cells Map)"
+				"id": "canyon-map-tier-10",
+				"text": "협곡 지도(Canyon Map)"
 			},
 			{
 				"id": "cemetery-map-tier-10",
 				"text": "공동묘지 지도(Cemetery Map)"
 			},
 			{
-				"id": "courthouse-map-tier-10",
-				"text": "법원 지도(Courthouse Map)"
+				"id": "courtyard-map-tier-10",
+				"text": "안뜰 지도(Courtyard Map)"
+			},
+			{
+				"id": "coves-map-tier-10",
+				"text": "만 지도(Coves Map)"
 			},
 			{
 				"id": "crystal-ore-map-tier-10",
 				"text": "수정 광석 지도(Crystal Ore Map)"
 			},
 			{
-				"id": "defiled-cathedral-map-tier-10",
-				"text": "더럽혀진 대성당 지도(Defiled Cathedral Map)"
+				"id": "dry-sea-map-tier-10",
+				"text": "메마른 바다 지도(Dry Sea Map)"
 			},
 			{
-				"id": "desert-map-tier-10",
-				"text": "사막 지도(Desert Map)"
+				"id": "factory-map-tier-10",
+				"text": "공장 지도(Factory Map)"
 			},
 			{
-				"id": "dunes-map-tier-10",
-				"text": "사구 지도(Dunes Map)"
+				"id": "forbidden-woods-map-tier-10",
+				"text": "금단의 숲 지도(Forbidden Woods Map)"
 			},
 			{
-				"id": "excavation-map-tier-10",
-				"text": "발굴터 지도(Excavation Map)"
+				"id": "forking-river-map-tier-10",
+				"text": "갈라지는 강 지도(Forking River Map)"
 			},
 			{
-				"id": "gardens-map-tier-10",
-				"text": "정원 지도(Gardens Map)"
+				"id": "frozen-cabins-map-tier-10",
+				"text": "얼어붙은 오막 지도(Frozen Cabins Map)"
+			},
+			{
+				"id": "geode-map-tier-10",
+				"text": "정동석 지도(Geode Map)"
 			},
 			{
 				"id": "ghetto-map-tier-10",
@@ -4227,100 +4522,100 @@
 				"text": "빙하 지도(Glacier Map)"
 			},
 			{
-				"id": "lair-map-tier-10",
-				"text": "소굴 지도(Lair Map)"
+				"id": "graveyard-map-tier-10",
+				"text": "묘지 지도(Graveyard Map)"
+			},
+			{
+				"id": "jungle-valley-map-tier-10",
+				"text": "밀림 계곡 지도(Jungle Valley Map)"
+			},
+			{
+				"id": "laboratory-map-tier-10",
+				"text": "실험실 지도(Laboratory Map)"
+			},
+			{
+				"id": "lava-chamber-map-tier-10",
+				"text": "용암의 방 지도(Lava Chamber Map)"
+			},
+			{
+				"id": "leyline-map-tier-10",
+				"text": "지맥 지도(Leyline Map)"
 			},
 			{
 				"id": "lookout-map-tier-10",
 				"text": "전망대 지도(Lookout Map)"
 			},
 			{
-				"id": "mesa-map-tier-10",
-				"text": "메사 지도(Mesa Map)"
+				"id": "malformation-map-tier-10",
+				"text": "기형 지도(Malformation Map)"
 			},
 			{
-				"id": "mineral-pools-map-tier-10",
-				"text": "광물층 지도(Mineral Pools Map)"
-			},
-			{
-				"id": "moon-temple-map-tier-10",
-				"text": "달의 사원 지도(Moon Temple Map)"
+				"id": "marshes-map-tier-10",
+				"text": "습지 지도(Marshes Map)"
 			},
 			{
 				"id": "mud-geyser-map-tier-10",
 				"text": "진흙 간헐천 지도(Mud Geyser Map)"
 			},
 			{
-				"id": "museum-map-tier-10",
-				"text": "박물관 지도(Museum Map)"
-			},
-			{
-				"id": "orchard-map-tier-10",
-				"text": "과수원 지도(Orchard Map)"
+				"id": "overgrown-ruin-map-tier-10",
+				"text": "무성한 유적 지도(Overgrown Ruin Map)"
 			},
 			{
 				"id": "pen-map-tier-10",
 				"text": "우리 지도(Pen Map)"
 			},
 			{
-				"id": "peninsula-map-tier-10",
-				"text": "반도 지도(Peninsula Map)"
+				"id": "phantasmagoria-map-tier-10",
+				"text": "환영 지도(Phantasmagoria Map)"
 			},
 			{
-				"id": "plateau-map-tier-10",
-				"text": "고원 지도(Plateau Map)"
+				"id": "pier-map-tier-10",
+				"text": "선창 지도(Pier Map)"
 			},
 			{
 				"id": "plaza-map-tier-10",
 				"text": "광장 지도(Plaza Map)"
 			},
 			{
-				"id": "precinct-map-tier-10",
-				"text": "구획 지도(Precinct Map)"
+				"id": "primordial-blocks-map-tier-10",
+				"text": "태고의 구역 지도(Primordial Blocks Map)"
 			},
 			{
 				"id": "primordial-pool-map-tier-10",
 				"text": "태고의 웅덩이 지도(Primordial Pool Map)"
 			},
 			{
-				"id": "racecourse-map-tier-10",
-				"text": "경주장 지도(Racecourse Map)"
+				"id": "reef-map-tier-10",
+				"text": "암초 지도(Reef Map)"
 			},
 			{
-				"id": "ramparts-map-tier-10",
-				"text": "성벽 지도(Ramparts Map)"
+				"id": "scriptorium-map-tier-10",
+				"text": "필사실 지도(Scriptorium Map)"
 			},
 			{
-				"id": "sepulchre-map-tier-10",
-				"text": "매장소 지도(Sepulchre Map)"
+				"id": "shore-map-tier-10",
+				"text": "바닷가 지도(Shore Map)"
+			},
+			{
+				"id": "strand-map-tier-10",
+				"text": "해안 지도(Strand Map)"
+			},
+			{
+				"id": "sulphur-vents-map-tier-10",
+				"text": "유황 분출구 지도(Sulphur Vents Map)"
 			},
 			{
 				"id": "temple-map-tier-10",
 				"text": "사원 지도(Temple Map)"
 			},
 			{
-				"id": "terrace-map-tier-10",
-				"text": "테라스 지도(Terrace Map)"
-			},
-			{
 				"id": "toxic-sewer-map-tier-10",
 				"text": "맹독성 하수도 지도(Toxic Sewer Map)"
 			},
 			{
-				"id": "tropical-island-map-tier-10",
-				"text": "열대 섬 지도(Tropical Island Map)"
-			},
-			{
 				"id": "vaal-pyramid-map-tier-10",
 				"text": "바알 피라미드 지도(Vaal Pyramid Map)"
-			},
-			{
-				"id": "vault-map-tier-10",
-				"text": "금고실 지도(Vault Map)"
-			},
-			{
-				"id": "waste-pool-map-tier-10",
-				"text": "황폐한 웅덩이 지도(Waste Pool Map)"
 			}
 		],
 		"id": "MapsTier10",
@@ -4333,8 +4628,8 @@
 				"text": "학술원 지도(Academy Map)"
 			},
 			{
-				"id": "arachnid-tomb-map-tier-11",
-				"text": "거미류 무덤 지도(Arachnid Tomb Map)"
+				"id": "ancient-city-map-tier-11",
+				"text": "고대 도시 지도(Ancient City Map)"
 			},
 			{
 				"id": "arena-map-tier-11",
@@ -4345,6 +4640,10 @@
 				"text": "메마른 호수 지도(Arid Lake Map)"
 			},
 			{
+				"id": "armoury-map-tier-11",
+				"text": "갑주 창고 지도(Armoury Map)"
+			},
+			{
 				"id": "arsenal-map-tier-11",
 				"text": "병기창 지도(Arsenal Map)"
 			},
@@ -4353,60 +4652,48 @@
 				"text": "잿빛 숲 지도(Ashen Wood Map)"
 			},
 			{
-				"id": "atoll-map-tier-11",
-				"text": "산호섬 지도(Atoll Map)"
-			},
-			{
-				"id": "barrows-map-tier-11",
-				"text": "고분 지도(Barrows Map)"
-			},
-			{
-				"id": "beach-map-tier-11",
-				"text": "해변 지도(Beach Map)"
+				"id": "belfry-map-tier-11",
+				"text": "종탑 지도(Belfry Map)"
 			},
 			{
 				"id": "bone-crypt-map-tier-11",
 				"text": "뼈 지하실 지도(Bone Crypt Map)"
 			},
 			{
-				"id": "caldera-map-tier-11",
-				"text": "칼데라 지도(Caldera Map)"
+				"id": "cage-map-tier-11",
+				"text": "창살 지도(Cage Map)"
 			},
 			{
-				"id": "cemetery-map-tier-11",
-				"text": "공동묘지 지도(Cemetery Map)"
+				"id": "carcass-map-tier-11",
+				"text": "시체 지도(Carcass Map)"
+			},
+			{
+				"id": "cells-map-tier-11",
+				"text": "감방 지도(Cells Map)"
 			},
 			{
 				"id": "channel-map-tier-11",
 				"text": "물길 지도(Channel Map)"
 			},
 			{
-				"id": "city-square-map-tier-11",
-				"text": "도시 광장 지도(City Square Map)"
+				"id": "chateau-map-tier-11",
+				"text": "대저택 지도(Chateau Map)"
 			},
 			{
-				"id": "colonnade-map-tier-11",
-				"text": "가로수 지도(Colonnade Map)"
+				"id": "cold-river-map-tier-11",
+				"text": "차가운 강 지도(Cold River Map)"
 			},
 			{
 				"id": "conservatory-map-tier-11",
 				"text": "온실 지도(Conservatory Map)"
 			},
 			{
-				"id": "coral-ruins-map-tier-11",
-				"text": "산호 유적 지도(Coral Ruins Map)"
-			},
-			{
-				"id": "core-map-tier-11",
-				"text": "중심부 지도(Core Map)"
+				"id": "courthouse-map-tier-11",
+				"text": "법원 지도(Courthouse Map)"
 			},
 			{
 				"id": "courtyard-map-tier-11",
 				"text": "안뜰 지도(Courtyard Map)"
-			},
-			{
-				"id": "coves-map-tier-11",
-				"text": "만 지도(Coves Map)"
 			},
 			{
 				"id": "crater-map-tier-11",
@@ -4417,12 +4704,16 @@
 				"text": "진홍색 사원 지도(Crimson Temple Map)"
 			},
 			{
-				"id": "cursed-crypt-map-tier-11",
-				"text": "저주받은 지하실 지도(Cursed Crypt Map)"
-			},
-			{
 				"id": "dark-forest-map-tier-11",
 				"text": "어둠의 숲 지도(Dark Forest Map)"
+			},
+			{
+				"id": "defiled-cathedral-map-tier-11",
+				"text": "더럽혀진 대성당 지도(Defiled Cathedral Map)"
+			},
+			{
+				"id": "desert-map-tier-11",
+				"text": "사막 지도(Desert Map)"
 			},
 			{
 				"id": "desert-spring-map-tier-11",
@@ -4433,10 +4724,6 @@
 				"text": "사구 지도(Dunes Map)"
 			},
 			{
-				"id": "factory-map-tier-11",
-				"text": "공장 지도(Factory Map)"
-			},
-			{
 				"id": "fields-map-tier-11",
 				"text": "들판 지도(Fields Map)"
 			},
@@ -4445,8 +4732,24 @@
 				"text": "물에 잠긴 광산 지도(Flooded Mine Map)"
 			},
 			{
-				"id": "graveyard-map-tier-11",
-				"text": "묘지 지도(Graveyard Map)"
+				"id": "forbidden-woods-map-tier-11",
+				"text": "금단의 숲 지도(Forbidden Woods Map)"
+			},
+			{
+				"id": "fungal-hollow-map-tier-11",
+				"text": "곰팡이 동혈 지도(Fungal Hollow Map)"
+			},
+			{
+				"id": "gardens-map-tier-11",
+				"text": "정원 지도(Gardens Map)"
+			},
+			{
+				"id": "glacier-map-tier-11",
+				"text": "빙하 지도(Glacier Map)"
+			},
+			{
+				"id": "grave-trough-map-tier-11",
+				"text": "무덤 고랑 지도(Grave Trough Map)"
 			},
 			{
 				"id": "grotto-map-tier-11",
@@ -4457,120 +4760,116 @@
 				"text": "으스스한 대저택 지도(Haunted Mansion Map)"
 			},
 			{
+				"id": "iceberg-map-tier-11",
+				"text": "빙산 지도(Iceberg Map)"
+			},
+			{
+				"id": "infested-valley-map-tier-11",
+				"text": "감염된 계곡 지도(Infested Valley Map)"
+			},
+			{
 				"id": "ivory-temple-map-tier-11",
 				"text": "상아 사원 지도(Ivory Temple Map)"
 			},
 			{
-				"id": "jungle-valley-map-tier-11",
-				"text": "밀림 계곡 지도(Jungle Valley Map)"
+				"id": "lair-map-tier-11",
+				"text": "소굴 지도(Lair Map)"
 			},
 			{
 				"id": "lava-chamber-map-tier-11",
 				"text": "용암의 방 지도(Lava Chamber Map)"
 			},
 			{
-				"id": "leyline-map-tier-11",
-				"text": "지맥 지도(Leyline Map)"
+				"id": "mineral-pools-map-tier-11",
+				"text": "광물층 지도(Mineral Pools Map)"
 			},
 			{
-				"id": "lighthouse-map-tier-11",
-				"text": "등대 지도(Lighthouse Map)"
+				"id": "moon-temple-map-tier-11",
+				"text": "달의 사원 지도(Moon Temple Map)"
 			},
 			{
-				"id": "marshes-map-tier-11",
-				"text": "습지 지도(Marshes Map)"
+				"id": "museum-map-tier-11",
+				"text": "박물관 지도(Museum Map)"
 			},
 			{
-				"id": "mausoleum-map-tier-11",
-				"text": "능묘 지도(Mausoleum Map)"
+				"id": "orchard-map-tier-11",
+				"text": "과수원 지도(Orchard Map)"
 			},
 			{
-				"id": "maze-map-tier-11",
-				"text": "미로 지도(Maze Map)"
+				"id": "overgrown-ruin-map-tier-11",
+				"text": "무성한 유적 지도(Overgrown Ruin Map)"
 			},
 			{
-				"id": "mesa-map-tier-11",
-				"text": "메사 지도(Mesa Map)"
+				"id": "overgrown-shrine-map-tier-11",
+				"text": "무성한 성소 지도(Overgrown Shrine Map)"
 			},
 			{
-				"id": "mud-geyser-map-tier-11",
-				"text": "진흙 간헐천 지도(Mud Geyser Map)"
-			},
-			{
-				"id": "pier-map-tier-11",
-				"text": "선창 지도(Pier Map)"
+				"id": "peninsula-map-tier-11",
+				"text": "반도 지도(Peninsula Map)"
 			},
 			{
 				"id": "port-map-tier-11",
 				"text": "항만 지도(Port Map)"
 			},
 			{
-				"id": "primordial-blocks-map-tier-11",
-				"text": "태고의 구역 지도(Primordial Blocks Map)"
+				"id": "precinct-map-tier-11",
+				"text": "구획 지도(Precinct Map)"
 			},
 			{
-				"id": "primordial-pool-map-tier-11",
-				"text": "태고의 웅덩이 지도(Primordial Pool Map)"
+				"id": "promenade-map-tier-11",
+				"text": "산책로 지도(Promenade Map)"
 			},
 			{
 				"id": "racecourse-map-tier-11",
 				"text": "경주장 지도(Racecourse Map)"
 			},
 			{
-				"id": "relic-chambers-map-tier-11",
-				"text": "유물의 방 지도(Relic Chambers Map)"
+				"id": "ramparts-map-tier-11",
+				"text": "성벽 지도(Ramparts Map)"
 			},
 			{
-				"id": "scriptorium-map-tier-11",
-				"text": "필사실 지도(Scriptorium Map)"
+				"id": "silo-map-tier-11",
+				"text": "곡물 창고 지도"
 			},
 			{
-				"id": "shore-map-tier-11",
-				"text": "바닷가 지도(Shore Map)"
+				"id": "spider-forest-map-tier-11",
+				"text": "거미 숲 지도(Spider Forest Map)"
 			},
 			{
-				"id": "strand-map-tier-11",
-				"text": "해안 지도(Strand Map)"
-			},
-			{
-				"id": "sulphur-vents-map-tier-11",
-				"text": "유황 분출구 지도(Sulphur Vents Map)"
-			},
-			{
-				"id": "summit-map-tier-11",
-				"text": "꼭대기 지도(Summit Map)"
+				"id": "stagnation-map-tier-11",
+				"text": "침체지 지도"
 			},
 			{
 				"id": "sunken-city-map-tier-11",
 				"text": "물에 잠긴 도시 지도(Sunken City Map)"
 			},
 			{
-				"id": "terrace-map-tier-11",
-				"text": "테라스 지도(Terrace Map)"
+				"id": "tower-map-tier-11",
+				"text": "탑 지도(Tower Map)"
+			},
+			{
+				"id": "toxic-sewer-map-tier-11",
+				"text": "맹독성 하수도 지도(Toxic Sewer Map)"
+			},
+			{
+				"id": "tropical-island-map-tier-11",
+				"text": "열대 섬 지도(Tropical Island Map)"
+			},
+			{
+				"id": "underground-river-map-tier-11",
+				"text": "지하 강 지도(Underground River Map)"
 			},
 			{
 				"id": "underground-sea-map-tier-11",
 				"text": "지하 해양 지도(Underground Sea Map)"
 			},
 			{
-				"id": "vault-map-tier-11",
-				"text": "금고실 지도(Vault Map)"
-			},
-			{
-				"id": "villa-map-tier-11",
-				"text": "빌라 지도(Villa Map)"
+				"id": "vaal-pyramid-map-tier-11",
+				"text": "바알 피라미드 지도(Vaal Pyramid Map)"
 			},
 			{
 				"id": "volcano-map-tier-11",
 				"text": "화산 지도(Volcano Map)"
-			},
-			{
-				"id": "wasteland-map-tier-11",
-				"text": "황무지 지도(Wasteland Map)"
-			},
-			{
-				"id": "waterways-map-tier-11",
-				"text": "수로 지도(Waterways Map)"
 			},
 			{
 				"id": "wharf-map-tier-11",
@@ -4583,72 +4882,52 @@
 	{
 		"entries": [
 			{
-				"id": "academy-map-tier-12",
-				"text": "학술원 지도(Academy Map)"
+				"id": "alleyways-map-tier-12",
+				"text": "골목길 지도(Alleyways Map)"
 			},
 			{
-				"id": "ancient-city-map-tier-12",
-				"text": "고대 도시 지도(Ancient City Map)"
+				"id": "arsenal-map-tier-12",
+				"text": "병기창 지도(Arsenal Map)"
 			},
 			{
-				"id": "arachnid-nest-map-tier-12",
-				"text": "거미류 둥지 지도(Arachnid Nest Map)"
-			},
-			{
-				"id": "arcade-map-tier-12",
-				"text": "상점가 지도(Arcade Map)"
-			},
-			{
-				"id": "armoury-map-tier-12",
-				"text": "갑주 창고 지도(Armoury Map)"
+				"id": "atoll-map-tier-12",
+				"text": "산호섬 지도(Atoll Map)"
 			},
 			{
 				"id": "basilica-map-tier-12",
 				"text": "교회당 지도(Basilica Map)"
 			},
 			{
-				"id": "bazaar-map-tier-12",
-				"text": "장터 지도(Bazaar Map)"
-			},
-			{
-				"id": "belfry-map-tier-12",
-				"text": "종탑 지도(Belfry Map)"
-			},
-			{
-				"id": "bog-map-tier-12",
-				"text": "습지대 지도(Bog Map)"
-			},
-			{
 				"id": "bone-crypt-map-tier-12",
 				"text": "뼈 지하실 지도(Bone Crypt Map)"
-			},
-			{
-				"id": "caldera-map-tier-12",
-				"text": "칼데라 지도(Caldera Map)"
 			},
 			{
 				"id": "canyon-map-tier-12",
 				"text": "협곡 지도(Canyon Map)"
 			},
 			{
-				"id": "castle-ruins-map-tier-12",
-				"text": "성곽 유적 지도(Castle Ruins Map)"
+				"id": "cells-map-tier-12",
+				"text": "감방 지도(Cells Map)"
 			},
 			{
-				"id": "chateau-map-tier-12",
-				"text": "대저택 지도(Chateau Map)"
+				"id": "cemetery-map-tier-12",
+				"text": "공동묘지 지도(Cemetery Map)"
 			},
 			{
-				"id": "courthouse-map-tier-12",
-				"text": "법원 지도(Courthouse Map)"
+				"id": "coral-ruins-map-tier-12",
+				"text": "산호 유적 지도(Coral Ruins Map)"
+			},
+			{
+				"id": "crimson-township-map-tier-12",
+				"text": "진홍색 마을 지도(Crimson Township Map)"
 			},
 			{
 				"id": "crystal-ore-map-tier-12",
 				"text": "수정 광석 지도(Crystal Ore Map)"
 			},
 			{
-				"id": "defiled-cathedral-map-tier-12",
-				"text": "더럽혀진 대성당 지도(Defiled Cathedral Map)"
+				"id": "desert-map-tier-12",
+				"text": "사막 지도(Desert Map)"
 			},
 			{
 				"id": "dig-map-tier-12",
@@ -4659,112 +4938,136 @@
 				"text": "던전 지도(Dungeon Map)"
 			},
 			{
-				"id": "excavation-map-tier-12",
-				"text": "발굴터 지도(Excavation Map)"
+				"id": "forking-river-map-tier-12",
+				"text": "갈라지는 강 지도(Forking River Map)"
 			},
 			{
-				"id": "gardens-map-tier-12",
-				"text": "정원 지도(Gardens Map)"
+				"id": "frozen-cabins-map-tier-12",
+				"text": "얼어붙은 오막 지도(Frozen Cabins Map)"
+			},
+			{
+				"id": "geode-map-tier-12",
+				"text": "정동석 지도(Geode Map)"
 			},
 			{
 				"id": "ghetto-map-tier-12",
 				"text": "빈민촌 지도(Ghetto Map)"
 			},
 			{
-				"id": "grotto-map-tier-12",
-				"text": "석굴 지도(Grotto Map)"
+				"id": "graveyard-map-tier-12",
+				"text": "묘지 지도(Graveyard Map)"
 			},
 			{
-				"id": "infested-valley-map-tier-12",
-				"text": "감염된 계곡 지도(Infested Valley Map)"
-			},
-			{
-				"id": "lair-map-tier-12",
-				"text": "소굴 지도(Lair Map)"
+				"id": "laboratory-map-tier-12",
+				"text": "실험실 지도(Laboratory Map)"
 			},
 			{
 				"id": "leyline-map-tier-12",
 				"text": "지맥 지도(Leyline Map)"
 			},
 			{
+				"id": "lighthouse-map-tier-12",
+				"text": "등대 지도(Lighthouse Map)"
+			},
+			{
+				"id": "lookout-map-tier-12",
+				"text": "전망대 지도(Lookout Map)"
+			},
+			{
 				"id": "malformation-map-tier-12",
 				"text": "기형 지도(Malformation Map)"
 			},
 			{
-				"id": "mineral-pools-map-tier-12",
-				"text": "광물층 지도(Mineral Pools Map)"
+				"id": "marshes-map-tier-12",
+				"text": "습지 지도(Marshes Map)"
 			},
 			{
-				"id": "moon-temple-map-tier-12",
-				"text": "달의 사원 지도(Moon Temple Map)"
+				"id": "mausoleum-map-tier-12",
+				"text": "능묘 지도(Mausoleum Map)"
 			},
 			{
-				"id": "museum-map-tier-12",
-				"text": "박물관 지도(Museum Map)"
+				"id": "mud-geyser-map-tier-12",
+				"text": "진흙 간헐천 지도(Mud Geyser Map)"
 			},
 			{
-				"id": "orchard-map-tier-12",
-				"text": "과수원 지도(Orchard Map)"
+				"id": "palace-map-tier-12",
+				"text": "궁전 지도(Palace Map)"
 			},
 			{
-				"id": "park-map-tier-12",
-				"text": "공원 지도(Park Map)"
+				"id": "phantasmagoria-map-tier-12",
+				"text": "환영 지도(Phantasmagoria Map)"
 			},
 			{
-				"id": "pen-map-tier-12",
-				"text": "우리 지도(Pen Map)"
-			},
-			{
-				"id": "peninsula-map-tier-12",
-				"text": "반도 지도(Peninsula Map)"
-			},
-			{
-				"id": "pit-map-tier-12",
-				"text": "구덩이 지도(Pit Map)"
-			},
-			{
-				"id": "plateau-map-tier-12",
-				"text": "고원 지도(Plateau Map)"
+				"id": "pier-map-tier-12",
+				"text": "선창 지도(Pier Map)"
 			},
 			{
 				"id": "plaza-map-tier-12",
 				"text": "광장 지도(Plaza Map)"
 			},
 			{
-				"id": "precinct-map-tier-12",
-				"text": "구획 지도(Precinct Map)"
+				"id": "primordial-blocks-map-tier-12",
+				"text": "태고의 구역 지도(Primordial Blocks Map)"
+			},
+			{
+				"id": "primordial-pool-map-tier-12",
+				"text": "태고의 웅덩이 지도(Primordial Pool Map)"
 			},
 			{
 				"id": "ramparts-map-tier-12",
 				"text": "성벽 지도(Ramparts Map)"
 			},
 			{
-				"id": "sepulchre-map-tier-12",
-				"text": "매장소 지도(Sepulchre Map)"
+				"id": "reef-map-tier-12",
+				"text": "암초 지도(Reef Map)"
+			},
+			{
+				"id": "relic-chambers-map-tier-12",
+				"text": "유물의 방 지도(Relic Chambers Map)"
 			},
 			{
 				"id": "shipyard-map-tier-12",
 				"text": "조선소 지도(Shipyard Map)"
 			},
 			{
+				"id": "shore-map-tier-12",
+				"text": "바닷가 지도(Shore Map)"
+			},
+			{
 				"id": "shrine-map-tier-12",
 				"text": "성소 지도(Shrine Map)"
 			},
 			{
-				"id": "spider-forest-map-tier-12",
-				"text": "거미 숲 지도(Spider Forest Map)"
+				"id": "siege-map-tier-12",
+				"text": "공성 지도(Siege Map)"
+			},
+			{
+				"id": "spider-lair-map-tier-12",
+				"text": "거미 소굴 지도(Spider Lair Map)"
+			},
+			{
+				"id": "strand-map-tier-12",
+				"text": "해안 지도(Strand Map)"
+			},
+			{
+				"id": "sulphur-vents-map-tier-12",
+				"text": "유황 분출구 지도(Sulphur Vents Map)"
 			},
 			{
 				"id": "temple-map-tier-12",
 				"text": "사원 지도(Temple Map)"
 			},
 			{
-				"id": "vaal-pyramid-map-tier-12",
-				"text": "바알 피라미드 지도(Vaal Pyramid Map)"
-			},
-			{
 				"id": "waste-pool-map-tier-12",
 				"text": "황폐한 웅덩이 지도(Waste Pool Map)"
+			},
+			{
+				"id": "wasteland-map-tier-12",
+				"text": "황무지 지도(Wasteland Map)"
+			},
+			{
+				"id": "waterways-map-tier-12",
+				"text": "수로 지도(Waterways Map)"
 			}
 		],
 		"id": "MapsTier12",
@@ -4773,96 +5076,100 @@
 	{
 		"entries": [
 			{
-				"id": "arachnid-tomb-map-tier-13",
-				"text": "거미류 무덤 지도(Arachnid Tomb Map)"
+				"id": "academy-map-tier-13",
+				"text": "학술원 지도(Academy Map)"
 			},
 			{
-				"id": "arcade-map-tier-13",
-				"text": "상점가 지도(Arcade Map)"
+				"id": "alleyways-map-tier-13",
+				"text": "골목길 지도(Alleyways Map)"
 			},
 			{
-				"id": "arena-map-tier-13",
-				"text": "투기장 지도(Arena Map)"
-			},
-			{
-				"id": "barrows-map-tier-13",
-				"text": "고분 지도(Barrows Map)"
-			},
-			{
-				"id": "castle-ruins-map-tier-13",
-				"text": "성곽 유적 지도(Castle Ruins Map)"
-			},
-			{
-				"id": "cells-map-tier-13",
-				"text": "감방 지도(Cells Map)"
+				"id": "armoury-map-tier-13",
+				"text": "갑주 창고 지도(Armoury Map)"
 			},
 			{
 				"id": "channel-map-tier-13",
 				"text": "물길 지도(Channel Map)"
 			},
 			{
-				"id": "core-map-tier-13",
-				"text": "중심부 지도(Core Map)"
+				"id": "conservatory-map-tier-13",
+				"text": "온실 지도(Conservatory Map)"
 			},
 			{
-				"id": "courtyard-map-tier-13",
-				"text": "안뜰 지도(Courtyard Map)"
+				"id": "courthouse-map-tier-13",
+				"text": "법원 지도(Courthouse Map)"
 			},
 			{
 				"id": "crimson-temple-map-tier-13",
 				"text": "진홍색 사원 지도(Crimson Temple Map)"
 			},
 			{
-				"id": "dark-forest-map-tier-13",
-				"text": "어둠의 숲 지도(Dark Forest Map)"
+				"id": "cursed-crypt-map-tier-13",
+				"text": "저주받은 지하실 지도(Cursed Crypt Map)"
 			},
 			{
-				"id": "desert-spring-map-tier-13",
-				"text": "사막의 샘 지도(Desert Spring Map)"
+				"id": "dunes-map-tier-13",
+				"text": "사구 지도(Dunes Map)"
 			},
 			{
-				"id": "geode-map-tier-13",
-				"text": "정동석 지도(Geode Map)"
+				"id": "factory-map-tier-13",
+				"text": "공장 지도(Factory Map)"
 			},
 			{
-				"id": "malformation-map-tier-13",
-				"text": "기형 지도(Malformation Map)"
+				"id": "flooded-mine-map-tier-13",
+				"text": "물에 잠긴 광산 지도(Flooded Mine Map)"
 			},
 			{
-				"id": "overgrown-shrine-map-tier-13",
-				"text": "무성한 성소 지도(Overgrown Shrine Map)"
+				"id": "fungal-hollow-map-tier-13",
+				"text": "곰팡이 동혈 지도(Fungal Hollow Map)"
 			},
 			{
-				"id": "port-map-tier-13",
-				"text": "항만 지도(Port Map)"
+				"id": "grave-trough-map-tier-13",
+				"text": "무덤 고랑 지도(Grave Trough Map)"
 			},
 			{
-				"id": "primordial-blocks-map-tier-13",
-				"text": "태고의 구역 지도(Primordial Blocks Map)"
+				"id": "iceberg-map-tier-13",
+				"text": "빙산 지도(Iceberg Map)"
 			},
 			{
-				"id": "shore-map-tier-13",
-				"text": "바닷가 지도(Shore Map)"
+				"id": "mausoleum-map-tier-13",
+				"text": "능묘 지도(Mausoleum Map)"
 			},
 			{
-				"id": "shrine-map-tier-13",
-				"text": "성소 지도(Shrine Map)"
+				"id": "maze-map-tier-13",
+				"text": "미로 지도(Maze Map)"
 			},
 			{
-				"id": "siege-map-tier-13",
-				"text": "공성 지도(Siege Map)"
+				"id": "museum-map-tier-13",
+				"text": "박물관 지도(Museum Map)"
 			},
 			{
-				"id": "toxic-sewer-map-tier-13",
-				"text": "맹독성 하수도 지도(Toxic Sewer Map)"
+				"id": "palace-map-tier-13",
+				"text": "궁전 지도(Palace Map)"
 			},
 			{
-				"id": "underground-river-map-tier-13",
-				"text": "지하 강 지도(Underground River Map)"
+				"id": "park-map-tier-13",
+				"text": "공원 지도(Park Map)"
 			},
 			{
-				"id": "volcano-map-tier-13",
-				"text": "화산 지도(Volcano Map)"
+				"id": "plateau-map-tier-13",
+				"text": "고원 지도(Plateau Map)"
+			},
+			{
+				"id": "precinct-map-tier-13",
+				"text": "구획 지도(Precinct Map)"
+			},
+			{
+				"id": "racecourse-map-tier-13",
+				"text": "경주장 지도(Racecourse Map)"
+			},
+			{
+				"id": "relic-chambers-map-tier-13",
+				"text": "유물의 방 지도(Relic Chambers Map)"
+			},
+			{
+				"id": "scriptorium-map-tier-13",
+				"text": "필사실 지도(Scriptorium Map)"
 			}
 		],
 		"id": "MapsTier13",
@@ -4871,32 +5178,24 @@
 	{
 		"entries": [
 			{
-				"id": "academy-map-tier-14",
-				"text": "학술원 지도(Academy Map)"
-			},
-			{
-				"id": "alleyways-map-tier-14",
-				"text": "골목길 지도(Alleyways Map)"
+				"id": "acid-caverns-map-tier-14",
+				"text": "산성 암굴 지도(Acid Caverns Map)"
 			},
 			{
 				"id": "ancient-city-map-tier-14",
 				"text": "고대 도시 지도(Ancient City Map)"
 			},
 			{
-				"id": "arachnid-nest-map-tier-14",
-				"text": "거미류 둥지 지도(Arachnid Nest Map)"
+				"id": "arcade-map-tier-14",
+				"text": "상점가 지도(Arcade Map)"
+			},
+			{
+				"id": "arena-map-tier-14",
+				"text": "투기장 지도(Arena Map)"
 			},
 			{
 				"id": "arid-lake-map-tier-14",
 				"text": "메마른 호수 지도(Arid Lake Map)"
-			},
-			{
-				"id": "armoury-map-tier-14",
-				"text": "갑주 창고 지도(Armoury Map)"
-			},
-			{
-				"id": "arsenal-map-tier-14",
-				"text": "병기창 지도(Arsenal Map)"
 			},
 			{
 				"id": "ashen-wood-map-tier-14",
@@ -4905,6 +5204,10 @@
 			{
 				"id": "atoll-map-tier-14",
 				"text": "산호섬 지도(Atoll Map)"
+			},
+			{
+				"id": "barrows-map-tier-14",
+				"text": "고분 지도(Barrows Map)"
 			},
 			{
 				"id": "basilica-map-tier-14",
@@ -4919,12 +5222,16 @@
 				"text": "종탑 지도(Belfry Map)"
 			},
 			{
-				"id": "bog-map-tier-14",
-				"text": "습지대 지도(Bog Map)"
+				"id": "bramble-valley-map-tier-14",
+				"text": "가시나무 계곡 지도"
 			},
 			{
-				"id": "canyon-map-tier-14",
-				"text": "협곡 지도(Canyon Map)"
+				"id": "cage-map-tier-14",
+				"text": "창살 지도(Cage Map)"
+			},
+			{
+				"id": "caldera-map-tier-14",
+				"text": "칼데라 지도(Caldera Map)"
 			},
 			{
 				"id": "carcass-map-tier-14",
@@ -4943,20 +5250,24 @@
 				"text": "도시 광장 지도(City Square Map)"
 			},
 			{
-				"id": "colonnade-map-tier-14",
-				"text": "가로수 지도(Colonnade Map)"
+				"id": "cold-river-map-tier-14",
+				"text": "차가운 강 지도(Cold River Map)"
 			},
 			{
 				"id": "colosseum-map-tier-14",
 				"text": "원형 경기장 지도(Colosseum Map)"
 			},
 			{
-				"id": "conservatory-map-tier-14",
-				"text": "온실 지도(Conservatory Map)"
-			},
-			{
 				"id": "coral-ruins-map-tier-14",
 				"text": "산호 유적 지도(Coral Ruins Map)"
+			},
+			{
+				"id": "core-map-tier-14",
+				"text": "중심부 지도(Core Map)"
+			},
+			{
+				"id": "courtyard-map-tier-14",
+				"text": "안뜰 지도(Courtyard Map)"
 			},
 			{
 				"id": "coves-map-tier-14",
@@ -4971,64 +5282,60 @@
 				"text": "수정 광석 지도(Crystal Ore Map)"
 			},
 			{
-				"id": "cursed-crypt-map-tier-14",
-				"text": "저주받은 지하실 지도(Cursed Crypt Map)"
+				"id": "dark-forest-map-tier-14",
+				"text": "어둠의 숲 지도(Dark Forest Map)"
 			},
 			{
 				"id": "defiled-cathedral-map-tier-14",
 				"text": "더럽혀진 대성당 지도(Defiled Cathedral Map)"
 			},
 			{
-				"id": "desert-map-tier-14",
-				"text": "사막 지도(Desert Map)"
+				"id": "desert-spring-map-tier-14",
+				"text": "사막의 샘 지도(Desert Spring Map)"
 			},
 			{
 				"id": "dig-map-tier-14",
 				"text": "발굴지 지도(Dig Map)"
 			},
 			{
-				"id": "dunes-map-tier-14",
-				"text": "사구 지도(Dunes Map)"
+				"id": "dry-sea-map-tier-14",
+				"text": "메마른 바다 지도(Dry Sea Map)"
 			},
 			{
 				"id": "dungeon-map-tier-14",
 				"text": "던전 지도(Dungeon Map)"
 			},
 			{
-				"id": "estuary-map-tier-14",
-				"text": "강어귀 지도(Estuary Map)"
-			},
-			{
 				"id": "excavation-map-tier-14",
 				"text": "발굴터 지도(Excavation Map)"
-			},
-			{
-				"id": "factory-map-tier-14",
-				"text": "공장 지도(Factory Map)"
 			},
 			{
 				"id": "fields-map-tier-14",
 				"text": "들판 지도(Fields Map)"
 			},
 			{
-				"id": "flooded-mine-map-tier-14",
-				"text": "물에 잠긴 광산 지도(Flooded Mine Map)"
+				"id": "forbidden-woods-map-tier-14",
+				"text": "금단의 숲 지도(Forbidden Woods Map)"
 			},
 			{
-				"id": "fungal-hollow-map-tier-14",
-				"text": "곰팡이 동혈 지도(Fungal Hollow Map)"
+				"id": "forking-river-map-tier-14",
+				"text": "갈라지는 강 지도(Forking River Map)"
 			},
 			{
-				"id": "ghetto-map-tier-14",
-				"text": "빈민촌 지도(Ghetto Map)"
+				"id": "gardens-map-tier-14",
+				"text": "정원 지도(Gardens Map)"
+			},
+			{
+				"id": "geode-map-tier-14",
+				"text": "정동석 지도(Geode Map)"
 			},
 			{
 				"id": "glacier-map-tier-14",
 				"text": "빙하 지도(Glacier Map)"
 			},
 			{
-				"id": "graveyard-map-tier-14",
-				"text": "묘지 지도(Graveyard Map)"
+				"id": "grotto-map-tier-14",
+				"text": "석굴 지도(Grotto Map)"
 			},
 			{
 				"id": "haunted-mansion-map-tier-14",
@@ -5059,6 +5366,10 @@
 				"text": "용암의 방 지도(Lava Chamber Map)"
 			},
 			{
+				"id": "leyline-map-tier-14",
+				"text": "지맥 지도(Leyline Map)"
+			},
+			{
 				"id": "lighthouse-map-tier-14",
 				"text": "등대 지도(Lighthouse Map)"
 			},
@@ -5067,16 +5378,8 @@
 				"text": "전망대 지도(Lookout Map)"
 			},
 			{
-				"id": "marshes-map-tier-14",
-				"text": "습지 지도(Marshes Map)"
-			},
-			{
-				"id": "mausoleum-map-tier-14",
-				"text": "능묘 지도(Mausoleum Map)"
-			},
-			{
-				"id": "maze-map-tier-14",
-				"text": "미로 지도(Maze Map)"
+				"id": "malformation-map-tier-14",
+				"text": "기형 지도(Malformation Map)"
 			},
 			{
 				"id": "mesa-map-tier-14",
@@ -5091,16 +5394,16 @@
 				"text": "달의 사원 지도(Moon Temple Map)"
 			},
 			{
-				"id": "mud-geyser-map-tier-14",
-				"text": "진흙 간헐천 지도(Mud Geyser Map)"
+				"id": "orchard-map-tier-14",
+				"text": "과수원 지도(Orchard Map)"
 			},
 			{
-				"id": "museum-map-tier-14",
-				"text": "박물관 지도(Museum Map)"
+				"id": "overgrown-ruin-map-tier-14",
+				"text": "무성한 유적 지도(Overgrown Ruin Map)"
 			},
 			{
-				"id": "park-map-tier-14",
-				"text": "공원 지도(Park Map)"
+				"id": "overgrown-shrine-map-tier-14",
+				"text": "무성한 성소 지도(Overgrown Shrine Map)"
 			},
 			{
 				"id": "pen-map-tier-14",
@@ -5115,44 +5418,56 @@
 				"text": "환영 지도(Phantasmagoria Map)"
 			},
 			{
-				"id": "pier-map-tier-14",
-				"text": "선창 지도(Pier Map)"
-			},
-			{
-				"id": "pit-map-tier-14",
-				"text": "구덩이 지도(Pit Map)"
-			},
-			{
-				"id": "plateau-map-tier-14",
-				"text": "고원 지도(Plateau Map)"
-			},
-			{
 				"id": "plaza-map-tier-14",
 				"text": "광장 지도(Plaza Map)"
+			},
+			{
+				"id": "port-map-tier-14",
+				"text": "항만 지도(Port Map)"
+			},
+			{
+				"id": "primordial-blocks-map-tier-14",
+				"text": "태고의 구역 지도(Primordial Blocks Map)"
 			},
 			{
 				"id": "primordial-pool-map-tier-14",
 				"text": "태고의 웅덩이 지도(Primordial Pool Map)"
 			},
 			{
-				"id": "racecourse-map-tier-14",
-				"text": "경주장 지도(Racecourse Map)"
+				"id": "promenade-map-tier-14",
+				"text": "산책로 지도(Promenade Map)"
 			},
 			{
-				"id": "relic-chambers-map-tier-14",
-				"text": "유물의 방 지도(Relic Chambers Map)"
+				"id": "ramparts-map-tier-14",
+				"text": "성벽 지도(Ramparts Map)"
 			},
 			{
 				"id": "residence-map-tier-14",
 				"text": "주택 지도(Residence Map)"
 			},
 			{
-				"id": "scriptorium-map-tier-14",
-				"text": "필사실 지도(Scriptorium Map)"
+				"id": "sepulchre-map-tier-14",
+				"text": "매장소 지도(Sepulchre Map)"
 			},
 			{
 				"id": "shipyard-map-tier-14",
 				"text": "조선소 지도(Shipyard Map)"
+			},
+			{
+				"id": "shore-map-tier-14",
+				"text": "바닷가 지도(Shore Map)"
+			},
+			{
+				"id": "shrine-map-tier-14",
+				"text": "성소 지도(Shrine Map)"
+			},
+			{
+				"id": "siege-map-tier-14",
+				"text": "공성 지도(Siege Map)"
+			},
+			{
+				"id": "silo-map-tier-14",
+				"text": "곡물 창고 지도"
 			},
 			{
 				"id": "spider-forest-map-tier-14",
@@ -5163,16 +5478,16 @@
 				"text": "거미 소굴 지도(Spider Lair Map)"
 			},
 			{
+				"id": "stagnation-map-tier-14",
+				"text": "침체지 지도"
+			},
+			{
 				"id": "strand-map-tier-14",
 				"text": "해안 지도(Strand Map)"
 			},
 			{
 				"id": "sulphur-vents-map-tier-14",
 				"text": "유황 분출구 지도(Sulphur Vents Map)"
-			},
-			{
-				"id": "summit-map-tier-14",
-				"text": "꼭대기 지도(Summit Map)"
 			},
 			{
 				"id": "sunken-city-map-tier-14",
@@ -5183,16 +5498,24 @@
 				"text": "사원 지도(Temple Map)"
 			},
 			{
-				"id": "terrace-map-tier-14",
-				"text": "테라스 지도(Terrace Map)"
-			},
-			{
 				"id": "thicket-map-tier-14",
 				"text": "잡목림 지도(Thicket Map)"
 			},
 			{
+				"id": "tower-map-tier-14",
+				"text": "탑 지도(Tower Map)"
+			},
+			{
+				"id": "toxic-sewer-map-tier-14",
+				"text": "맹독성 하수도 지도(Toxic Sewer Map)"
+			},
+			{
 				"id": "tropical-island-map-tier-14",
 				"text": "열대 섬 지도(Tropical Island Map)"
+			},
+			{
+				"id": "underground-river-map-tier-14",
+				"text": "지하 강 지도(Underground River Map)"
 			},
 			{
 				"id": "underground-sea-map-tier-14",
@@ -5203,12 +5526,12 @@
 				"text": "바알 피라미드 지도(Vaal Pyramid Map)"
 			},
 			{
-				"id": "vault-map-tier-14",
-				"text": "금고실 지도(Vault Map)"
+				"id": "volcano-map-tier-14",
+				"text": "화산 지도(Volcano Map)"
 			},
 			{
-				"id": "villa-map-tier-14",
-				"text": "빌라 지도(Villa Map)"
+				"id": "waste-pool-map-tier-14",
+				"text": "황폐한 웅덩이 지도(Waste Pool Map)"
 			},
 			{
 				"id": "wasteland-map-tier-14",
@@ -5229,32 +5552,32 @@
 	{
 		"entries": [
 			{
-				"id": "acid-caverns-map-tier-15",
-				"text": "산성 암굴 지도(Acid Caverns Map)"
+				"id": "alleyways-map-tier-15",
+				"text": "골목길 지도(Alleyways Map)"
 			},
 			{
 				"id": "arachnid-tomb-map-tier-15",
 				"text": "거미류 무덤 지도(Arachnid Tomb Map)"
 			},
 			{
-				"id": "barrows-map-tier-15",
-				"text": "고분 지도(Barrows Map)"
+				"id": "armoury-map-tier-15",
+				"text": "갑주 창고 지도(Armoury Map)"
+			},
+			{
+				"id": "arsenal-map-tier-15",
+				"text": "병기창 지도(Arsenal Map)"
 			},
 			{
 				"id": "bazaar-map-tier-15",
 				"text": "장터 지도(Bazaar Map)"
 			},
 			{
+				"id": "bog-map-tier-15",
+				"text": "습지대 지도(Bog Map)"
+			},
+			{
 				"id": "bone-crypt-map-tier-15",
 				"text": "뼈 지하실 지도(Bone Crypt Map)"
-			},
-			{
-				"id": "burial-chambers-map-tier-15",
-				"text": "묘실 지도(Burial Chambers Map)"
-			},
-			{
-				"id": "caldera-map-tier-15",
-				"text": "칼데라 지도(Caldera Map)"
 			},
 			{
 				"id": "canyon-map-tier-15",
@@ -5273,108 +5596,128 @@
 				"text": "물길 지도(Channel Map)"
 			},
 			{
-				"id": "core-map-tier-15",
-				"text": "중심부 지도(Core Map)"
+				"id": "colonnade-map-tier-15",
+				"text": "가로수 지도(Colonnade Map)"
+			},
+			{
+				"id": "conservatory-map-tier-15",
+				"text": "온실 지도(Conservatory Map)"
 			},
 			{
 				"id": "courthouse-map-tier-15",
 				"text": "법원 지도(Courthouse Map)"
 			},
 			{
-				"id": "courtyard-map-tier-15",
-				"text": "안뜰 지도(Courtyard Map)"
-			},
-			{
 				"id": "crimson-temple-map-tier-15",
 				"text": "진홍색 사원 지도(Crimson Temple Map)"
 			},
 			{
-				"id": "dark-forest-map-tier-15",
-				"text": "어둠의 숲 지도(Dark Forest Map)"
+				"id": "crimson-township-map-tier-15",
+				"text": "진홍색 마을 지도(Crimson Township Map)"
 			},
 			{
-				"id": "desert-spring-map-tier-15",
-				"text": "사막의 샘 지도(Desert Spring Map)"
+				"id": "desert-map-tier-15",
+				"text": "사막 지도(Desert Map)"
 			},
 			{
-				"id": "gardens-map-tier-15",
-				"text": "정원 지도(Gardens Map)"
+				"id": "dunes-map-tier-15",
+				"text": "사구 지도(Dunes Map)"
 			},
 			{
-				"id": "geode-map-tier-15",
-				"text": "정동석 지도(Geode Map)"
+				"id": "estuary-map-tier-15",
+				"text": "강어귀 지도(Estuary Map)"
 			},
 			{
-				"id": "grotto-map-tier-15",
-				"text": "석굴 지도(Grotto Map)"
+				"id": "flooded-mine-map-tier-15",
+				"text": "물에 잠긴 광산 지도(Flooded Mine Map)"
 			},
 			{
-				"id": "iceberg-map-tier-15",
-				"text": "빙산 지도(Iceberg Map)"
+				"id": "foundry-map-tier-15",
+				"text": "주조소 지도"
+			},
+			{
+				"id": "frozen-cabins-map-tier-15",
+				"text": "얼어붙은 오막 지도(Frozen Cabins Map)"
+			},
+			{
+				"id": "fungal-hollow-map-tier-15",
+				"text": "곰팡이 동혈 지도(Fungal Hollow Map)"
+			},
+			{
+				"id": "ghetto-map-tier-15",
+				"text": "빈민촌 지도(Ghetto Map)"
+			},
+			{
+				"id": "grave-trough-map-tier-15",
+				"text": "무덤 고랑 지도(Grave Trough Map)"
+			},
+			{
+				"id": "graveyard-map-tier-15",
+				"text": "묘지 지도(Graveyard Map)"
 			},
 			{
 				"id": "lava-lake-map-tier-15",
 				"text": "용암 호수 지도(Lava Lake Map)"
 			},
 			{
-				"id": "leyline-map-tier-15",
-				"text": "지맥 지도(Leyline Map)"
+				"id": "marshes-map-tier-15",
+				"text": "습지 지도(Marshes Map)"
 			},
 			{
-				"id": "malformation-map-tier-15",
-				"text": "기형 지도(Malformation Map)"
-			},
-			{
-				"id": "necropolis-map-tier-15",
-				"text": "매장지 지도(Necropolis Map)"
-			},
-			{
-				"id": "orchard-map-tier-15",
-				"text": "과수원 지도(Orchard Map)"
-			},
-			{
-				"id": "overgrown-ruin-map-tier-15",
-				"text": "무성한 유적 지도(Overgrown Ruin Map)"
+				"id": "museum-map-tier-15",
+				"text": "박물관 지도(Museum Map)"
 			},
 			{
 				"id": "palace-map-tier-15",
 				"text": "궁전 지도(Palace Map)"
 			},
 			{
-				"id": "port-map-tier-15",
-				"text": "항만 지도(Port Map)"
+				"id": "pier-map-tier-15",
+				"text": "선창 지도(Pier Map)"
+			},
+			{
+				"id": "plateau-map-tier-15",
+				"text": "고원 지도(Plateau Map)"
 			},
 			{
 				"id": "precinct-map-tier-15",
 				"text": "구획 지도(Precinct Map)"
 			},
 			{
-				"id": "primordial-blocks-map-tier-15",
-				"text": "태고의 구역 지도(Primordial Blocks Map)"
+				"id": "racecourse-map-tier-15",
+				"text": "경주장 지도(Racecourse Map)"
 			},
 			{
-				"id": "ramparts-map-tier-15",
-				"text": "성벽 지도(Ramparts Map)"
+				"id": "reef-map-tier-15",
+				"text": "암초 지도(Reef Map)"
 			},
 			{
-				"id": "sepulchre-map-tier-15",
-				"text": "매장소 지도(Sepulchre Map)"
+				"id": "relic-chambers-map-tier-15",
+				"text": "유물의 방 지도(Relic Chambers Map)"
 			},
 			{
-				"id": "shore-map-tier-15",
-				"text": "바닷가 지도(Shore Map)"
+				"id": "scriptorium-map-tier-15",
+				"text": "필사실 지도(Scriptorium Map)"
 			},
 			{
-				"id": "shrine-map-tier-15",
-				"text": "성소 지도(Shrine Map)"
+				"id": "summit-map-tier-15",
+				"text": "꼭대기 지도(Summit Map)"
 			},
 			{
-				"id": "tower-map-tier-15",
-				"text": "탑 지도(Tower Map)"
+				"id": "terrace-map-tier-15",
+				"text": "테라스 지도(Terrace Map)"
 			},
 			{
-				"id": "waste-pool-map-tier-15",
-				"text": "황폐한 웅덩이 지도(Waste Pool Map)"
+				"id": "vault-map-tier-15",
+				"text": "금고실 지도(Vault Map)"
+			},
+			{
+				"id": "villa-map-tier-15",
+				"text": "빌라 지도(Villa Map)"
+			},
+			{
+				"id": "waterways-map-tier-15",
+				"text": "수로 지도(Waterways Map)"
 			}
 		],
 		"id": "MapsTier15",
@@ -5383,104 +5726,112 @@
 	{
 		"entries": [
 			{
-				"id": "alleyways-map-tier-16",
-				"text": "골목길 지도(Alleyways Map)"
+				"id": "academy-map-tier-16",
+				"text": "학술원 지도(Academy Map)"
 			},
 			{
-				"id": "arcade-map-tier-16",
-				"text": "상점가 지도(Arcade Map)"
+				"id": "arachnid-nest-map-tier-16",
+				"text": "거미류 둥지 지도(Arachnid Nest Map)"
 			},
 			{
-				"id": "arena-map-tier-16",
-				"text": "투기장 지도(Arena Map)"
+				"id": "atoll-map-tier-16",
+				"text": "산호섬 지도(Atoll Map)"
 			},
 			{
-				"id": "armoury-map-tier-16",
-				"text": "갑주 창고 지도(Armoury Map)"
+				"id": "barrows-map-tier-16",
+				"text": "고분 지도(Barrows Map)"
 			},
 			{
-				"id": "basilica-map-tier-16",
-				"text": "교회당 지도(Basilica Map)"
+				"id": "beach-map-tier-16",
+				"text": "해변 지도(Beach Map)"
 			},
 			{
-				"id": "belfry-map-tier-16",
-				"text": "종탑 지도(Belfry Map)"
+				"id": "burial-chambers-map-tier-16",
+				"text": "묘실 지도(Burial Chambers Map)"
 			},
 			{
 				"id": "cage-map-tier-16",
 				"text": "창살 지도(Cage Map)"
 			},
 			{
-				"id": "chateau-map-tier-16",
-				"text": "대저택 지도(Chateau Map)"
+				"id": "caldera-map-tier-16",
+				"text": "칼데라 지도(Caldera Map)"
 			},
 			{
 				"id": "colosseum-map-tier-16",
 				"text": "원형 경기장 지도(Colosseum Map)"
 			},
 			{
-				"id": "dig-map-tier-16",
-				"text": "발굴지 지도(Dig Map)"
+				"id": "cursed-crypt-map-tier-16",
+				"text": "저주받은 지하실 지도(Cursed Crypt Map)"
 			},
 			{
 				"id": "dungeon-map-tier-16",
 				"text": "던전 지도(Dungeon Map)"
 			},
 			{
-				"id": "estuary-map-tier-16",
-				"text": "강어귀 지도(Estuary Map)"
+				"id": "excavation-map-tier-16",
+				"text": "발굴터 지도(Excavation Map)"
 			},
 			{
-				"id": "lava-chamber-map-tier-16",
-				"text": "용암의 방 지도(Lava Chamber Map)"
+				"id": "factory-map-tier-16",
+				"text": "공장 지도(Factory Map)"
 			},
 			{
-				"id": "overgrown-shrine-map-tier-16",
-				"text": "무성한 성소 지도(Overgrown Shrine Map)"
+				"id": "iceberg-map-tier-16",
+				"text": "빙산 지도(Iceberg Map)"
+			},
+			{
+				"id": "lighthouse-map-tier-16",
+				"text": "등대 지도(Lighthouse Map)"
+			},
+			{
+				"id": "mausoleum-map-tier-16",
+				"text": "능묘 지도(Mausoleum Map)"
+			},
+			{
+				"id": "maze-map-tier-16",
+				"text": "미로 지도(Maze Map)"
+			},
+			{
+				"id": "mud-geyser-map-tier-16",
+				"text": "진흙 간헐천 지도(Mud Geyser Map)"
+			},
+			{
+				"id": "necropolis-map-tier-16",
+				"text": "매장지 지도(Necropolis Map)"
 			},
 			{
 				"id": "park-map-tier-16",
 				"text": "공원 지도(Park Map)"
 			},
 			{
-				"id": "phantasmagoria-map-tier-16",
-				"text": "환영 지도(Phantasmagoria Map)"
-			},
-			{
-				"id": "promenade-map-tier-16",
-				"text": "산책로 지도(Promenade Map)"
-			},
-			{
-				"id": "reef-map-tier-16",
-				"text": "암초 지도(Reef Map)"
+				"id": "pit-map-tier-16",
+				"text": "구덩이 지도(Pit Map)"
 			},
 			{
 				"id": "shipyard-map-tier-16",
 				"text": "조선소 지도(Shipyard Map)"
 			},
 			{
+				"id": "shrine-map-tier-16",
+				"text": "성소 지도(Shrine Map)"
+			},
+			{
 				"id": "siege-map-tier-16",
 				"text": "공성 지도(Siege Map)"
-			},
-			{
-				"id": "thicket-map-tier-16",
-				"text": "잡목림 지도(Thicket Map)"
-			},
-			{
-				"id": "toxic-sewer-map-tier-16",
-				"text": "맹독성 하수도 지도(Toxic Sewer Map)"
-			},
-			{
-				"id": "underground-river-map-tier-16",
-				"text": "지하 강 지도(Underground River Map)"
 			},
 			{
 				"id": "vaal-temple-map-tier-16",
 				"text": "바알 사원 지도(Vaal Temple Map)"
 			},
 			{
-				"id": "volcano-map-tier-16",
-				"text": "화산 지도(Volcano Map)"
+				"id": "waste-pool-map-tier-16",
+				"text": "황폐한 웅덩이 지도(Waste Pool Map)"
+			},
+			{
+				"id": "wasteland-map-tier-16",
+				"text": "황무지 지도(Wasteland Map)"
 			}
 		],
 		"id": "MapsTier16",
@@ -5489,32 +5840,144 @@
 	{
 		"entries": [
 			{
-				"id": "blighted-desert-map",
-				"text": "역병 걸린 사막 지도(Desert Map)"
+				"id": "blighted-academy-map",
+				"text": "역병 걸린 학술원 지도(Academy Map)"
 			},
 			{
-				"id": "blighted-glacier-map",
-				"text": "역병 걸린 빙하 지도(Glacier Map)"
+				"id": "blighted-acid-caverns-map",
+				"text": "역병 걸린 산성 암굴 지도(Acid Caverns Map)"
 			},
 			{
-				"id": "blighted-lookout-map",
-				"text": "역병 걸린 전망대 지도(Lookout Map)"
+				"id": "blighted-alleyways-map",
+				"text": "역병 걸린 골목길 지도(Alleyways Map)"
 			},
 			{
-				"id": "blighted-tropical-island-map",
-				"text": "역병 걸린 열대 섬 지도(Tropical Island Map)"
+				"id": "blighted-ancient-city-map",
+				"text": "역병 걸린 고대 도시 지도(Ancient City Map)"
+			},
+			{
+				"id": "blighted-arachnid-nest-map",
+				"text": "역병 걸린 거미류 둥지 지도(Arachnid Nest Map)"
+			},
+			{
+				"id": "blighted-arachnid-tomb-map",
+				"text": "역병 걸린 거미류 무덤 지도(Arachnid Tomb Map)"
+			},
+			{
+				"id": "blighted-arcade-map",
+				"text": "역병 걸린 상점가 지도(Arcade Map)"
+			},
+			{
+				"id": "blighted-arena-map",
+				"text": "역병 걸린 투기장 지도(Arena Map)"
+			},
+			{
+				"id": "blighted-arid-lake-map",
+				"text": "역병 걸린 메마른 호수 지도(Arid Lake Map)"
+			},
+			{
+				"id": "blighted-armoury-map",
+				"text": "역병 걸린 갑주 창고 지도(Armoury Map)"
+			},
+			{
+				"id": "blighted-arsenal-map",
+				"text": "역병 걸린 병기창 지도(Arsenal Map)"
 			},
 			{
 				"id": "blighted-ashen-wood-map",
 				"text": "역병 걸린 잿빛 숲 지도(Ashen Wood Map)"
 			},
 			{
+				"id": "blighted-atoll-map",
+				"text": "역병 걸린 산호섬 지도(Atoll Map)"
+			},
+			{
+				"id": "blighted-barrows-map",
+				"text": "역병 걸린 고분 지도(Barrows Map)"
+			},
+			{
+				"id": "blighted-basilica-map",
+				"text": "역병 걸린 교회당 지도(Basilica Map)"
+			},
+			{
+				"id": "blighted-bazaar-map",
+				"text": "역병 걸린 장터 지도(Bazaar Map)"
+			},
+			{
 				"id": "blighted-beach-map",
 				"text": "역병 걸린 해변 지도(Beach Map)"
 			},
 			{
+				"id": "blighted-belfry-map",
+				"text": "역병 걸린 종탑 지도(Belfry Map)"
+			},
+			{
+				"id": "blighted-bog-map",
+				"text": "역병 걸린 습지대 지도(Bog Map)"
+			},
+			{
+				"id": "blighted-bone-crypt-map",
+				"text": "역병 걸린 뼈 지하실 지도(Bone Crypt Map)"
+			},
+			{
+				"id": "blighted-bramble-valley-map",
+				"text": "역병 걸린 가시나무 계곡 지도"
+			},
+			{
+				"id": "blighted-burial-chambers-map",
+				"text": "역병 걸린 묘실 지도(Burial Chambers Map)"
+			},
+			{
+				"id": "blighted-cage-map",
+				"text": "역병 걸린 창살 지도(Cage Map)"
+			},
+			{
+				"id": "blighted-caldera-map",
+				"text": "역병 걸린 칼데라 지도(Caldera Map)"
+			},
+			{
+				"id": "blighted-canyon-map",
+				"text": "역병 걸린 협곡 지도(Canyon Map)"
+			},
+			{
+				"id": "blighted-carcass-map",
+				"text": "역병 걸린 시체 지도(Carcass Map)"
+			},
+			{
+				"id": "blighted-castle-ruins-map",
+				"text": "역병 걸린 성곽 유적 지도(Castle Ruins Map)"
+			},
+			{
+				"id": "blighted-cells-map",
+				"text": "역병 걸린 감방 지도(Cells Map)"
+			},
+			{
+				"id": "blighted-cemetery-map",
+				"text": "역병 걸린 공동묘지 지도(Cemetery Map)"
+			},
+			{
+				"id": "blighted-channel-map",
+				"text": "역병 걸린 물길 지도(Channel Map)"
+			},
+			{
+				"id": "blighted-chateau-map",
+				"text": "역병 걸린 대저택 지도(Chateau Map)"
+			},
+			{
+				"id": "blighted-city-square-map",
+				"text": "역병 걸린 도시 광장 지도(City Square Map)"
+			},
+			{
+				"id": "blighted-cold-river-map",
+				"text": "역병 걸린 차가운 강 지도(Cold River Map)"
+			},
+			{
 				"id": "blighted-colonnade-map",
 				"text": "역병 걸린 가로수 지도(Colonnade Map)"
+			},
+			{
+				"id": "blighted-colosseum-map",
+				"text": "역병 걸린 원형 경기장 지도(Colosseum Map)"
 			},
 			{
 				"id": "blighted-conservatory-map",
@@ -5525,20 +5988,152 @@
 				"text": "역병 걸린 산호 유적 지도(Coral Ruins Map)"
 			},
 			{
+				"id": "blighted-core-map",
+				"text": "역병 걸린 중심부 지도(Core Map)"
+			},
+			{
+				"id": "blighted-courthouse-map",
+				"text": "역병 걸린 법원 지도(Courthouse Map)"
+			},
+			{
+				"id": "blighted-courtyard-map",
+				"text": "역병 걸린 안뜰 지도(Courtyard Map)"
+			},
+			{
 				"id": "blighted-coves-map",
 				"text": "역병 걸린 만 지도(Coves Map)"
+			},
+			{
+				"id": "blighted-crater-map",
+				"text": "역병 걸린 분화구 지도(Crater Map)"
+			},
+			{
+				"id": "blighted-crimson-temple-map",
+				"text": "역병 걸린 진홍색 사원 지도(Crimson Temple Map)"
+			},
+			{
+				"id": "blighted-crimson-township-map",
+				"text": "역병 걸린 진홍색 마을 지도(Crimson Township Map)"
+			},
+			{
+				"id": "blighted-crystal-ore-map",
+				"text": "역병 걸린 수정 광석 지도(Crystal Ore Map)"
 			},
 			{
 				"id": "blighted-cursed-crypt-map",
 				"text": "역병 걸린 저주받은 지하실 지도(Cursed Crypt Map)"
 			},
 			{
+				"id": "blighted-dark-forest-map",
+				"text": "역병 걸린 어둠의 숲 지도(Dark Forest Map)"
+			},
+			{
+				"id": "blighted-defiled-cathedral-map",
+				"text": "역병 걸린 더럽혀진 대성당 지도(Defiled Cathedral Map)"
+			},
+			{
+				"id": "blighted-desert-map",
+				"text": "역병 걸린 사막 지도(Desert Map)"
+			},
+			{
+				"id": "blighted-desert-spring-map",
+				"text": "역병 걸린 사막의 샘 지도(Desert Spring Map)"
+			},
+			{
+				"id": "blighted-dig-map",
+				"text": "역병 걸린 발굴지 지도(Dig Map)"
+			},
+			{
+				"id": "blighted-dry-sea-map",
+				"text": "역병 걸린 메마른 바다 지도(Dry Sea Map)"
+			},
+			{
+				"id": "blighted-dunes-map",
+				"text": "역병 걸린 사구 지도(Dunes Map)"
+			},
+			{
+				"id": "blighted-dungeon-map",
+				"text": "역병 걸린 던전 지도(Dungeon Map)"
+			},
+			{
+				"id": "blighted-estuary-map",
+				"text": "역병 걸린 강어귀 지도(Estuary Map)"
+			},
+			{
+				"id": "blighted-excavation-map",
+				"text": "역병 걸린 발굴터 지도(Excavation Map)"
+			},
+			{
+				"id": "blighted-factory-map",
+				"text": "역병 걸린 공장 지도(Factory Map)"
+			},
+			{
 				"id": "blighted-fields-map",
 				"text": "역병 걸린 들판 지도(Fields Map)"
 			},
 			{
+				"id": "blighted-flooded-mine-map",
+				"text": "역병 걸린 물에 잠긴 광산 지도(Flooded Mine Map)"
+			},
+			{
+				"id": "blighted-forbidden-woods-map",
+				"text": "역병 걸린 금단의 숲 지도(Forbidden Woods Map)"
+			},
+			{
+				"id": "blighted-forking-river-map",
+				"text": "역병 걸린 갈라지는 강 지도(Forking River Map)"
+			},
+			{
+				"id": "blighted-foundry-map",
+				"text": "역병 걸린 주조소 지도"
+			},
+			{
+				"id": "blighted-frozen-cabins-map",
+				"text": "역병 걸린 얼어붙은 오막 지도(Frozen Cabins Map)"
+			},
+			{
+				"id": "blighted-fungal-hollow-map",
+				"text": "역병 걸린 곰팡이 동혈 지도(Fungal Hollow Map)"
+			},
+			{
+				"id": "blighted-gardens-map",
+				"text": "역병 걸린 정원 지도(Gardens Map)"
+			},
+			{
+				"id": "blighted-geode-map",
+				"text": "역병 걸린 정동석 지도(Geode Map)"
+			},
+			{
+				"id": "blighted-ghetto-map",
+				"text": "역병 걸린 빈민촌 지도(Ghetto Map)"
+			},
+			{
+				"id": "blighted-glacier-map",
+				"text": "역병 걸린 빙하 지도(Glacier Map)"
+			},
+			{
+				"id": "blighted-grave-trough-map",
+				"text": "역병 걸린 무덤 고랑 지도(Grave Trough Map)"
+			},
+			{
+				"id": "blighted-graveyard-map",
+				"text": "역병 걸린 묘지 지도(Graveyard Map)"
+			},
+			{
+				"id": "blighted-grotto-map",
+				"text": "역병 걸린 석굴 지도(Grotto Map)"
+			},
+			{
 				"id": "blighted-haunted-mansion-map",
 				"text": "역병 걸린 으스스한 대저택 지도(Haunted Mansion Map)"
+			},
+			{
+				"id": "blighted-iceberg-map",
+				"text": "역병 걸린 빙산 지도(Iceberg Map)"
+			},
+			{
+				"id": "blighted-infested-valley-map",
+				"text": "역병 걸린 감염된 계곡 지도(Infested Valley Map)"
 			},
 			{
 				"id": "blighted-ivory-temple-map",
@@ -5549,88 +6144,56 @@
 				"text": "역병 걸린 밀림 계곡 지도(Jungle Valley Map)"
 			},
 			{
+				"id": "blighted-laboratory-map",
+				"text": "역병 걸린 실험실 지도(Laboratory Map)"
+			},
+			{
+				"id": "blighted-lair-map",
+				"text": "역병 걸린 소굴 지도(Lair Map)"
+			},
+			{
+				"id": "blighted-lava-chamber-map",
+				"text": "역병 걸린 용암의 방 지도(Lava Chamber Map)"
+			},
+			{
+				"id": "blighted-lava-lake-map",
+				"text": "역병 걸린 용암 호수 지도(Lava Lake Map)"
+			},
+			{
+				"id": "blighted-leyline-map",
+				"text": "역병 걸린 지맥 지도(Leyline Map)"
+			},
+			{
+				"id": "blighted-lighthouse-map",
+				"text": "역병 걸린 등대 지도(Lighthouse Map)"
+			},
+			{
+				"id": "blighted-lookout-map",
+				"text": "역병 걸린 전망대 지도(Lookout Map)"
+			},
+			{
+				"id": "blighted-malformation-map",
+				"text": "역병 걸린 기형 지도(Malformation Map)"
+			},
+			{
+				"id": "blighted-marshes-map",
+				"text": "역병 걸린 습지 지도(Marshes Map)"
+			},
+			{
 				"id": "blighted-mausoleum-map",
 				"text": "역병 걸린 능묘 지도(Mausoleum Map)"
 			},
 			{
-				"id": "blighted-pier-map",
-				"text": "역병 걸린 선창 지도(Pier Map)"
-			},
-			{
-				"id": "blighted-strand-map",
-				"text": "역병 걸린 해안 지도(Strand Map)"
-			},
-			{
-				"id": "blighted-sulphur-vents-map",
-				"text": "역병 걸린 유황 분출구 지도(Sulphur Vents Map)"
-			},
-			{
-				"id": "blighted-summit-map",
-				"text": "역병 걸린 꼭대기 지도(Summit Map)"
-			},
-			{
-				"id": "blighted-underground-sea-map",
-				"text": "역병 걸린 지하 해양 지도(Underground Sea Map)"
-			},
-			{
-				"id": "blighted-villa-map",
-				"text": "역병 걸린 빌라 지도(Villa Map)"
-			},
-			{
-				"id": "blighted-wasteland-map",
-				"text": "역병 걸린 황무지 지도(Wasteland Map)"
-			},
-			{
-				"id": "blighted-waterways-map",
-				"text": "역병 걸린 수로 지도(Waterways Map)"
-			},
-			{
-				"id": "blighted-ancient-city-map",
-				"text": "역병 걸린 고대 도시 지도(Ancient City Map)"
-			},
-			{
-				"id": "blighted-arsenal-map",
-				"text": "역병 걸린 병기창 지도(Arsenal Map)"
-			},
-			{
-				"id": "blighted-bazaar-map",
-				"text": "역병 걸린 장터 지도(Bazaar Map)"
-			},
-			{
-				"id": "blighted-bog-map",
-				"text": "역병 걸린 습지대 지도(Bog Map)"
-			},
-			{
-				"id": "blighted-cemetery-map",
-				"text": "역병 걸린 공동묘지 지도(Cemetery Map)"
-			},
-			{
-				"id": "blighted-crystal-ore-map",
-				"text": "역병 걸린 수정 광석 지도(Crystal Ore Map)"
-			},
-			{
-				"id": "blighted-dunes-map",
-				"text": "역병 걸린 사구 지도(Dunes Map)"
-			},
-			{
-				"id": "blighted-gardens-map",
-				"text": "역병 걸린 정원 지도(Gardens Map)"
-			},
-			{
-				"id": "blighted-ghetto-map",
-				"text": "역병 걸린 빈민촌 지도(Ghetto Map)"
-			},
-			{
-				"id": "blighted-graveyard-map",
-				"text": "역병 걸린 묘지 지도(Graveyard Map)"
-			},
-			{
-				"id": "blighted-infested-valley-map",
-				"text": "역병 걸린 감염된 계곡 지도(Infested Valley Map)"
+				"id": "blighted-maze-map",
+				"text": "역병 걸린 미로 지도(Maze Map)"
 			},
 			{
 				"id": "blighted-mesa-map",
 				"text": "역병 걸린 메사 지도(Mesa Map)"
+			},
+			{
+				"id": "blighted-mineral-pools-map",
+				"text": "역병 걸린 광물층 지도(Mineral Pools Map)"
 			},
 			{
 				"id": "blighted-moon-temple-map",
@@ -5645,20 +6208,76 @@
 				"text": "역병 걸린 박물관 지도(Museum Map)"
 			},
 			{
+				"id": "blighted-necropolis-map",
+				"text": "역병 걸린 매장지 지도(Necropolis Map)"
+			},
+			{
 				"id": "blighted-orchard-map",
 				"text": "역병 걸린 과수원 지도(Orchard Map)"
+			},
+			{
+				"id": "blighted-overgrown-ruin-map",
+				"text": "역병 걸린 무성한 유적 지도(Overgrown Ruin Map)"
+			},
+			{
+				"id": "blighted-overgrown-shrine-map",
+				"text": "역병 걸린 무성한 성소 지도(Overgrown Shrine Map)"
+			},
+			{
+				"id": "blighted-palace-map",
+				"text": "역병 걸린 궁전 지도(Palace Map)"
+			},
+			{
+				"id": "blighted-park-map",
+				"text": "역병 걸린 공원 지도(Park Map)"
 			},
 			{
 				"id": "blighted-pen-map",
 				"text": "역병 걸린 우리 지도(Pen Map)"
 			},
 			{
+				"id": "blighted-peninsula-map",
+				"text": "역병 걸린 반도 지도(Peninsula Map)"
+			},
+			{
+				"id": "blighted-phantasmagoria-map",
+				"text": "역병 걸린 환영 지도(Phantasmagoria Map)"
+			},
+			{
+				"id": "blighted-pier-map",
+				"text": "역병 걸린 선창 지도(Pier Map)"
+			},
+			{
+				"id": "blighted-pit-map",
+				"text": "역병 걸린 구덩이 지도(Pit Map)"
+			},
+			{
 				"id": "blighted-plateau-map",
 				"text": "역병 걸린 고원 지도(Plateau Map)"
 			},
 			{
+				"id": "blighted-plaza-map",
+				"text": "역병 걸린 광장 지도(Plaza Map)"
+			},
+			{
+				"id": "blighted-port-map",
+				"text": "역병 걸린 항만 지도(Port Map)"
+			},
+			{
+				"id": "blighted-precinct-map",
+				"text": "역병 걸린 구획 지도(Precinct Map)"
+			},
+			{
+				"id": "blighted-primordial-blocks-map",
+				"text": "역병 걸린 태고의 구역 지도(Primordial Blocks Map)"
+			},
+			{
 				"id": "blighted-primordial-pool-map",
 				"text": "역병 걸린 태고의 웅덩이 지도(Primordial Pool Map)"
+			},
+			{
+				"id": "blighted-promenade-map",
+				"text": "역병 걸린 산책로 지도(Promenade Map)"
 			},
 			{
 				"id": "blighted-racecourse-map",
@@ -5667,6 +6286,70 @@
 			{
 				"id": "blighted-ramparts-map",
 				"text": "역병 걸린 성벽 지도(Ramparts Map)"
+			},
+			{
+				"id": "blighted-reef-map",
+				"text": "역병 걸린 암초 지도(Reef Map)"
+			},
+			{
+				"id": "blighted-relic-chambers-map",
+				"text": "역병 걸린 유물의 방 지도(Relic Chambers Map)"
+			},
+			{
+				"id": "blighted-residence-map",
+				"text": "역병 걸린 주택 지도(Residence Map)"
+			},
+			{
+				"id": "blighted-scriptorium-map",
+				"text": "역병 걸린 필사실 지도(Scriptorium Map)"
+			},
+			{
+				"id": "blighted-sepulchre-map",
+				"text": "역병 걸린 매장소 지도(Sepulchre Map)"
+			},
+			{
+				"id": "blighted-shipyard-map",
+				"text": "역병 걸린 조선소 지도(Shipyard Map)"
+			},
+			{
+				"id": "blighted-shore-map",
+				"text": "역병 걸린 바닷가 지도(Shore Map)"
+			},
+			{
+				"id": "blighted-shrine-map",
+				"text": "역병 걸린 성소 지도(Shrine Map)"
+			},
+			{
+				"id": "blighted-siege-map",
+				"text": "역병 걸린 공성 지도(Siege Map)"
+			},
+			{
+				"id": "blighted-silo-map",
+				"text": "역병 걸린 곡물 창고 지도"
+			},
+			{
+				"id": "blighted-spider-forest-map",
+				"text": "역병 걸린 거미 숲 지도(Spider Forest Map)"
+			},
+			{
+				"id": "blighted-spider-lair-map",
+				"text": "역병 걸린 거미 소굴 지도(Spider Lair Map)"
+			},
+			{
+				"id": "blighted-stagnation-map",
+				"text": "역병 걸린 침체지 지도"
+			},
+			{
+				"id": "blighted-strand-map",
+				"text": "역병 걸린 해안 지도(Strand Map)"
+			},
+			{
+				"id": "blighted-sulphur-vents-map",
+				"text": "역병 걸린 유황 분출구 지도(Sulphur Vents Map)"
+			},
+			{
+				"id": "blighted-summit-map",
+				"text": "역병 걸린 꼭대기 지도(Summit Map)"
 			},
 			{
 				"id": "blighted-sunken-city-map",
@@ -5681,348 +6364,64 @@
 				"text": "역병 걸린 테라스 지도(Terrace Map)"
 			},
 			{
-				"id": "blighted-toxic-sewer-map",
-				"text": "역병 걸린 맹독성 하수도 지도(Toxic Sewer Map)"
-			},
-			{
-				"id": "blighted-vaal-pyramid-map",
-				"text": "역병 걸린 바알 피라미드 지도(Vaal Pyramid Map)"
-			},
-			{
-				"id": "blighted-vault-map",
-				"text": "역병 걸린 금고실 지도(Vault Map)"
-			},
-			{
-				"id": "blighted-waste-pool-map",
-				"text": "역병 걸린 황폐한 웅덩이 지도(Waste Pool Map)"
-			},
-			{
-				"id": "blighted-academy-map",
-				"text": "역병 걸린 학술원 지도(Academy Map)"
-			},
-			{
-				"id": "blighted-arachnid-tomb-map",
-				"text": "역병 걸린 거미류 무덤 지도(Arachnid Tomb Map)"
-			},
-			{
-				"id": "blighted-arena-map",
-				"text": "역병 걸린 투기장 지도(Arena Map)"
-			},
-			{
-				"id": "blighted-bone-crypt-map",
-				"text": "역병 걸린 뼈 지하실 지도(Bone Crypt Map)"
-			},
-			{
-				"id": "blighted-caldera-map",
-				"text": "역병 걸린 칼데라 지도(Caldera Map)"
-			},
-			{
-				"id": "blighted-channel-map",
-				"text": "역병 걸린 물길 지도(Channel Map)"
-			},
-			{
-				"id": "blighted-courthouse-map",
-				"text": "역병 걸린 법원 지도(Courthouse Map)"
-			},
-			{
-				"id": "blighted-courtyard-map",
-				"text": "역병 걸린 안뜰 지도(Courtyard Map)"
-			},
-			{
-				"id": "blighted-dark-forest-map",
-				"text": "역병 걸린 어둠의 숲 지도(Dark Forest Map)"
-			},
-			{
-				"id": "blighted-defiled-cathedral-map",
-				"text": "역병 걸린 더럽혀진 대성당 지도(Defiled Cathedral Map)"
-			},
-			{
-				"id": "blighted-desert-spring-map",
-				"text": "역병 걸린 사막의 샘 지도(Desert Spring Map)"
-			},
-			{
-				"id": "blighted-excavation-map",
-				"text": "역병 걸린 발굴터 지도(Excavation Map)"
-			},
-			{
-				"id": "blighted-grotto-map",
-				"text": "역병 걸린 석굴 지도(Grotto Map)"
-			},
-			{
-				"id": "blighted-lair-map",
-				"text": "역병 걸린 소굴 지도(Lair Map)"
-			},
-			{
-				"id": "blighted-lava-chamber-map",
-				"text": "역병 걸린 용암의 방 지도(Lava Chamber Map)"
-			},
-			{
-				"id": "blighted-park-map",
-				"text": "역병 걸린 공원 지도(Park Map)"
-			},
-			{
-				"id": "blighted-peninsula-map",
-				"text": "역병 걸린 반도 지도(Peninsula Map)"
-			},
-			{
-				"id": "blighted-shore-map",
-				"text": "역병 걸린 바닷가 지도(Shore Map)"
-			},
-			{
-				"id": "blighted-volcano-map",
-				"text": "역병 걸린 화산 지도(Volcano Map)"
-			},
-			{
-				"id": "blighted-arid-lake-map",
-				"text": "역병 걸린 메마른 호수 지도(Arid Lake Map)"
-			},
-			{
-				"id": "blighted-atoll-map",
-				"text": "역병 걸린 산호섬 지도(Atoll Map)"
-			},
-			{
-				"id": "blighted-basilica-map",
-				"text": "역병 걸린 교회당 지도(Basilica Map)"
-			},
-			{
-				"id": "blighted-belfry-map",
-				"text": "역병 걸린 종탑 지도(Belfry Map)"
-			},
-			{
-				"id": "blighted-castle-ruins-map",
-				"text": "역병 걸린 성곽 유적 지도(Castle Ruins Map)"
-			},
-			{
-				"id": "blighted-chateau-map",
-				"text": "역병 걸린 대저택 지도(Chateau Map)"
-			},
-			{
-				"id": "blighted-dig-map",
-				"text": "역병 걸린 발굴지 지도(Dig Map)"
-			},
-			{
-				"id": "blighted-leyline-map",
-				"text": "역병 걸린 지맥 지도(Leyline Map)"
-			},
-			{
-				"id": "blighted-marshes-map",
-				"text": "역병 걸린 습지 지도(Marshes Map)"
-			},
-			{
-				"id": "blighted-port-map",
-				"text": "역병 걸린 항만 지도(Port Map)"
-			},
-			{
-				"id": "blighted-scriptorium-map",
-				"text": "역병 걸린 필사실 지도(Scriptorium Map)"
-			},
-			{
-				"id": "blighted-wharf-map",
-				"text": "역병 걸린 부두 지도(Wharf Map)"
-			},
-			{
-				"id": "blighted-plaza-map",
-				"text": "역병 걸린 광장 지도(Plaza Map)"
-			},
-			{
-				"id": "blighted-sepulchre-map",
-				"text": "역병 걸린 매장소 지도(Sepulchre Map)"
-			},
-			{
-				"id": "blighted-canyon-map",
-				"text": "역병 걸린 협곡 지도(Canyon Map)"
-			},
-			{
-				"id": "blighted-lighthouse-map",
-				"text": "역병 걸린 등대 지도(Lighthouse Map)"
-			},
-			{
-				"id": "blighted-malformation-map",
-				"text": "역병 걸린 기형 지도(Malformation Map)"
-			},
-			{
-				"id": "blighted-primordial-blocks-map",
-				"text": "역병 걸린 태고의 구역 지도(Primordial Blocks Map)"
-			},
-			{
-				"id": "blighted-arcade-map",
-				"text": "역병 걸린 상점가 지도(Arcade Map)"
-			},
-			{
-				"id": "blighted-factory-map",
-				"text": "역병 걸린 공장 지도(Factory Map)"
-			},
-			{
-				"id": "blighted-maze-map",
-				"text": "역병 걸린 미로 지도(Maze Map)"
-			},
-			{
-				"id": "blighted-pit-map",
-				"text": "역병 걸린 구덩이 지도(Pit Map)"
-			},
-			{
-				"id": "blighted-relic-chambers-map",
-				"text": "역병 걸린 유물의 방 지도(Relic Chambers Map)"
-			},
-			{
-				"id": "blighted-shipyard-map",
-				"text": "역병 걸린 조선소 지도(Shipyard Map)"
-			},
-			{
-				"id": "blighted-shrine-map",
-				"text": "역병 걸린 성소 지도(Shrine Map)"
-			},
-			{
-				"id": "blighted-cells-map",
-				"text": "역병 걸린 감방 지도(Cells Map)"
-			},
-			{
-				"id": "blighted-mineral-pools-map",
-				"text": "역병 걸린 광물층 지도(Mineral Pools Map)"
-			},
-			{
-				"id": "blighted-precinct-map",
-				"text": "역병 걸린 구획 지도(Precinct Map)"
-			},
-			{
-				"id": "blighted-barrows-map",
-				"text": "역병 걸린 고분 지도(Barrows Map)"
-			},
-			{
-				"id": "blighted-city-square-map",
-				"text": "역병 걸린 도시 광장 지도(City Square Map)"
-			},
-			{
-				"id": "blighted-core-map",
-				"text": "역병 걸린 중심부 지도(Core Map)"
-			},
-			{
-				"id": "blighted-crimson-temple-map",
-				"text": "역병 걸린 진홍색 사원 지도(Crimson Temple Map)"
-			},
-			{
-				"id": "blighted-flooded-mine-map",
-				"text": "역병 걸린 물에 잠긴 광산 지도(Flooded Mine Map)"
-			},
-			{
-				"id": "blighted-crater-map",
-				"text": "역병 걸린 분화구 지도(Crater Map)"
-			},
-			{
-				"id": "blighted-arachnid-nest-map",
-				"text": "역병 걸린 거미류 둥지 지도(Arachnid Nest Map)"
-			},
-			{
-				"id": "blighted-armoury-map",
-				"text": "역병 걸린 갑주 창고 지도(Armoury Map)"
-			},
-			{
-				"id": "blighted-dungeon-map",
-				"text": "역병 걸린 던전 지도(Dungeon Map)"
-			},
-			{
-				"id": "blighted-spider-forest-map",
-				"text": "역병 걸린 거미 숲 지도(Spider Forest Map)"
-			},
-			{
-				"id": "blighted-geode-map",
-				"text": "역병 걸린 정동석 지도(Geode Map)"
-			},
-			{
-				"id": "blighted-overgrown-shrine-map",
-				"text": "역병 걸린 무성한 성소 지도(Overgrown Shrine Map)"
-			},
-			{
-				"id": "blighted-siege-map",
-				"text": "역병 걸린 공성 지도(Siege Map)"
-			},
-			{
-				"id": "blighted-underground-river-map",
-				"text": "역병 걸린 지하 강 지도(Underground River Map)"
-			},
-			{
-				"id": "blighted-alleyways-map",
-				"text": "역병 걸린 골목길 지도(Alleyways Map)"
-			},
-			{
-				"id": "blighted-carcass-map",
-				"text": "역병 걸린 시체 지도(Carcass Map)"
-			},
-			{
-				"id": "blighted-colosseum-map",
-				"text": "역병 걸린 원형 경기장 지도(Colosseum Map)"
-			},
-			{
-				"id": "blighted-estuary-map",
-				"text": "역병 걸린 강어귀 지도(Estuary Map)"
-			},
-			{
-				"id": "blighted-laboratory-map",
-				"text": "역병 걸린 실험실 지도(Laboratory Map)"
-			},
-			{
-				"id": "blighted-phantasmagoria-map",
-				"text": "역병 걸린 환영 지도(Phantasmagoria Map)"
-			},
-			{
-				"id": "blighted-residence-map",
-				"text": "역병 걸린 주택 지도(Residence Map)"
-			},
-			{
-				"id": "blighted-spider-lair-map",
-				"text": "역병 걸린 거미 소굴 지도(Spider Lair Map)"
-			},
-			{
-				"id": "blighted-fungal-hollow-map",
-				"text": "역병 걸린 곰팡이 동혈 지도(Fungal Hollow Map)"
-			},
-			{
 				"id": "blighted-thicket-map",
 				"text": "역병 걸린 잡목림 지도(Thicket Map)"
-			},
-			{
-				"id": "blighted-acid-caverns-map",
-				"text": "역병 걸린 산성 암굴 지도(Acid Caverns Map)"
-			},
-			{
-				"id": "blighted-burial-chambers-map",
-				"text": "역병 걸린 묘실 지도(Burial Chambers Map)"
-			},
-			{
-				"id": "blighted-iceberg-map",
-				"text": "역병 걸린 빙산 지도(Iceberg Map)"
-			},
-			{
-				"id": "blighted-lava-lake-map",
-				"text": "역병 걸린 용암 호수 지도(Lava Lake Map)"
-			},
-			{
-				"id": "blighted-necropolis-map",
-				"text": "역병 걸린 매장지 지도(Necropolis Map)"
-			},
-			{
-				"id": "blighted-overgrown-ruin-map",
-				"text": "역병 걸린 무성한 유적 지도(Overgrown Ruin Map)"
-			},
-			{
-				"id": "blighted-palace-map",
-				"text": "역병 걸린 궁전 지도(Palace Map)"
 			},
 			{
 				"id": "blighted-tower-map",
 				"text": "역병 걸린 탑 지도(Tower Map)"
 			},
 			{
-				"id": "blighted-cage-map",
-				"text": "역병 걸린 창살 지도(Cage Map)"
+				"id": "blighted-toxic-sewer-map",
+				"text": "역병 걸린 맹독성 하수도 지도(Toxic Sewer Map)"
 			},
 			{
-				"id": "blighted-promenade-map",
-				"text": "역병 걸린 산책로 지도(Promenade Map)"
+				"id": "blighted-tropical-island-map",
+				"text": "역병 걸린 열대 섬 지도(Tropical Island Map)"
 			},
 			{
-				"id": "blighted-reef-map",
-				"text": "역병 걸린 암초 지도(Reef Map)"
+				"id": "blighted-underground-river-map",
+				"text": "역병 걸린 지하 강 지도(Underground River Map)"
+			},
+			{
+				"id": "blighted-underground-sea-map",
+				"text": "역병 걸린 지하 해양 지도(Underground Sea Map)"
+			},
+			{
+				"id": "blighted-vaal-pyramid-map",
+				"text": "역병 걸린 바알 피라미드 지도(Vaal Pyramid Map)"
+			},
+			{
+				"id": "blighted-vaal-temple-map",
+				"text": "역병 걸린 바알 사원 지도(Vaal Temple Map)"
+			},
+			{
+				"id": "blighted-vault-map",
+				"text": "역병 걸린 금고실 지도(Vault Map)"
+			},
+			{
+				"id": "blighted-villa-map",
+				"text": "역병 걸린 빌라 지도(Villa Map)"
+			},
+			{
+				"id": "blighted-volcano-map",
+				"text": "역병 걸린 화산 지도(Volcano Map)"
+			},
+			{
+				"id": "blighted-waste-pool-map",
+				"text": "역병 걸린 황폐한 웅덩이 지도(Waste Pool Map)"
+			},
+			{
+				"id": "blighted-wasteland-map",
+				"text": "역병 걸린 황무지 지도(Wasteland Map)"
+			},
+			{
+				"id": "blighted-waterways-map",
+				"text": "역병 걸린 수로 지도(Waterways Map)"
+			},
+			{
+				"id": "blighted-wharf-map",
+				"text": "역병 걸린 부두 지도(Wharf Map)"
 			}
 		],
 		"id": "MapsBlighted",

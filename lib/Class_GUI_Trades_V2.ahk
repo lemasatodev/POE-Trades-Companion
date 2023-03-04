@@ -1,5 +1,141 @@
 ﻿Class GUI_Trades_V2 {
 
+	CreateButtonImage(assets, sizes, options="", debug=False) {
+		global SKIN
+		width := sizes.Width, height := sizes.Height
+		centerRatio := options.CenterRatio?options.CenterRatio:1
+
+		; Declaring sizing + positionning
+		assets_infos := {}
+		for asset, imagePath in assets {
+			if !imagePath
+				Continue
+
+			assets_infos[asset] := {}
+			assets_infos[asset].ImagePath := imagePath
+			assets_infos[asset].ImageSizes := GetImageSize(imagePath)
+
+			; Sizing
+			scaleMultiplerFormula := assets_infos[asset].ImageSizes.W > assets_infos[asset].ImageSizes.H ? width / assets_infos[asset].ImageSizes.W : height / assets_infos[asset].ImageSizes.H
+			assets_infos[asset].Scale_Multiplier := asset="Center" ? (width > height ? height / assets_infos[asset].ImageSizes.H : width / assets_infos[asset].ImageSizes.W)
+				: scaleMultiplerFormula
+			if (options[asset].Fill) {
+				if (options[asset].FillVertically)
+					assets_infos[asset].Width := width, assets_infos[asset].Height := assets_infos[asset].ImageSizes.H, assets_infos[asset].FillRepeat := height / assets_infos[asset].Height
+				else 
+					assets_infos[asset].Width := assets_infos[asset].ImageSizes.W, assets_infos[asset].Height := height, assets_infos[asset].FillRepeat := width / assets_infos[asset].Width
+			}
+			else {
+				if (asset="Center")
+					assets_infos[asset].Width := Ceil(assets_infos[asset].ImageSizes.W * assets_infos[asset].Scale_Multiplier * centerRatio), assets_infos[asset].Height := Ceil(assets_infos[asset].ImageSizes.H * assets_infos[asset].Scale_Multiplier * centerRatio)
+				else {
+					assets_infos[asset].Width := Ceil(assets_infos[asset].ImageSizes.W * assets_infos[asset].Scale_Multiplier), assets_infos[asset].Height := Ceil(assets_infos[asset].ImageSizes.H * assets_infos[asset].Scale_Multiplier)
+				}
+			}
+
+			; Reset sizing based on options
+			if (options[asset].NoWidthScale)
+				assets_infos[asset].Width := assets_infos[asset].ImageSizes.W
+			if (options[asset].NoHeightScale)
+				assets_infos[asset].Height := assets_infos[asset].ImageSizes.H
+
+			; Positionning
+			if IsIn(asset, "Left,Background,Top")
+				assets_infos[asset].X_POS := 0, assets_infos[asset].Y_POS := 0
+			if (asset = "Right")
+				assets_infos[asset].X_POS := width-assets_infos[asset].Width, assets_infos[asset].Y_POS := 0
+			if (asset = "Center")
+				assets_infos[asset].X_POS := (width/2)-(assets_infos[asset].Width/2), assets_infos[asset].Y_POS := (height/2)-(assets_infos[asset].Height/2)
+			if (asset = "Bottom")
+				assets_infos[asset].X_POS := 0, assets_infos[asset].Y_POS := height-assets_infos[asset].Height
+		}
+		; Changing background size
+		if (assets.Background && options.Background.Fill && options.Background.FillCentered) {
+			if (assets.Left) {
+				assets_infos.Background.X_POS := assets_infos.Left.X_POS + assets_infos.Left.Width
+				if (options.Background.FillVertically)
+					assets_infos.Background.Width := assets_infos.Background.Width - assets_infos.Left.Width
+			}
+			if (assets.Right) {
+				if (options.Background.FillVertically)
+					assets_infos.Background.Width := assets_infos.Background.Width - assets_infos.Right.Width				
+			}
+			if (assets.Top)
+				assets_infos.Background.Y_POS := assets_infos.Top.Y_POS + assets_infos.Top.Height
+			if (assets.Bottom && !options.Background.FillVertically)
+				assets_infos.Background.Height := assets_infos.Background.Height - assets_infos.Bottom.Height
+			; Changing FillRepeat value
+			if (options.Background.FillVertically)
+				assets_infos.Background.FillRepeat := height / assets_infos.Background.Height
+			else
+				assets_infos.Background.FillRepeat := width / assets_infos.Background.Width
+		}
+
+		; Creating new final bitmap + graphics
+		pBitmapFinal := Gdip_CreateBitmap(width, height)
+		G := Gdip_GraphicsFromImage(pBitmapFinal)
+		Gdip_SetSmoothingMode(G, 4)
+		Gdip_SetInterpolationMode(G, 7)
+		pBrush := Gdip_BrushCreateSolid(0xff00ff00)
+		Gdip_FillRectangle(G, pBrush, 0, 0, width, height)
+		; Creating bitmap for every element
+		bitMaps := {}
+		for asset, imagePath in assets {
+			if (!imagePath)
+				Continue
+
+			bitMaps[asset] := Gdip_CreateBitmapFromFile(imagePath)
+			bitMaps[asset] := Gdip_ResizeBitmap(bitMaps[asset], "w" assets_infos[asset].Width " h" assets_infos[asset].Height, smooth:=False)
+		}
+		; Drawing bitmap on final bitmap
+		Loop 2 {
+			loopIndex := A_Index
+			for bitMapName, bitMapValue in bitMaps {
+				if (loopIndex=1 && bitMapName != "Background") ; Making sure to fill background first
+					Continue
+				if (loopIndex=2 && bitMapName = "Background") ; And then the rest
+					Continue
+
+				if (options[bitMapName].Fill) {
+					Loop % assets_infos[bitMapName].FillRepeat {
+						if (options[bitMapName].FillVertically) {
+							imgY := A_Index=1?assets_infos[bitMapName].Y_POS: assets_infos[bitMapName].Y_POS+(assets_infos[bitMapName].Height*(A_Index-1))
+							Gdip_DrawImage(G, bitMaps[bitMapName], assets_infos[bitMapName].X_POS, imgY, assets_infos[bitMapName].Width, assets_infos[bitMapName].Height, 0, 0, assets_infos[bitMapName].Width, assets_infos[bitMapName].Height)
+						}
+						else {
+							imgX := A_Index=1?assets_infos[bitMapName].X_POS: assets_infos[bitMapName].X_POS+(assets_infos[bitMapName].Width*(A_Index-1))
+							Gdip_DrawImage(G, bitMaps[bitMapName], imgX, assets_infos[bitMapName].Y_POS, assets_infos[bitMapName].Width, assets_infos[bitMapName].Height, 0, 0, assets_infos[bitMapName].Width, assets_infos[bitMapName].Height)
+						}
+					}
+				}
+				else {
+					Gdip_DrawImage(G, bitMaps[bitMapName], assets_infos[bitMapName].X_POS, assets_infos[bitMapName].Y_POS, assets_infos[bitMapName].Width, assets_infos[bitMapName].Height, 0, 0, assets_infos[bitMapName].Width, assets_infos[bitMapName].Height)
+				}
+			}
+		}
+
+		; Getting hBitmap
+		hBitmapFinal := Gdip_CreateHBITMAPFromBitmap(pBitmapFinal)
+
+		; Cleanup
+		for bitMapName, bitMapValue in bitMaps
+			Gdip_DisposeImage(bitMaps[bitMapName])
+		Gdip_DisposeImage(pBitmapFinal)
+		Gdip_DeleteGraphics(G)
+
+		; Debug
+		if (Debug=True) {
+			Gui, NoName:New, hwndhGui
+			Gui, NoName:Add, Picture,0xE hwndhMyPic
+			SetImage(hMyPic, hBitmapFinal)
+			Gui, NoName:Show, AutoSize
+			WinWait, ahk_id %hGui%
+			WinWaitClose ahk_id %hGui%
+		}
+
+		return hBitmapFinal
+	}
+
 	Preview_AddCustomButtonsToRow(_buyOrSell, rowNum) {
 		whichTab := IsContaining(_buyOrSell, "Buy") ? "Buying" : "Selling"
 		GUI_Settings.Customization_SellingBuying_AddOneButtonToRow(whichTab, rowNum) 
@@ -57,7 +193,7 @@
         global GuiTradesSell, GuiTradesSell_Controls
 		static AllStyles, AllStylesData
         scaleMult := PROGRAM.SETTINGS.SETTINGS_CUSTOMIZATION_SKINS.ScalingPercentage / 100, scaleMult := _isPreview ? 1 : scaleMult
-        windowsDPI := Get_WindowsResolutionDPI()
+        windowsDPI := Get_DpiFactor()
         _tabsToRender := IsNum(_tabsToRender)?_tabsToRender:50
 		
         if !IsIn(_buyOrSell, "Buy,Sell") || !IsIn(_guiMode, "Tabs,Stack,Disabled") {
@@ -741,7 +877,7 @@
     */
 
     DoCustomButtonAction(_buyOrSell, rowNum, btnNum, tabNum) {
-		global PROGRAM
+		global PROGRAM, ACTIONS_FORCED_CONTENT
 		global GuiTrades, GuiTrades_Controls
 		static uniqueNum
 		tabGamePID := GUI_Trades_V2.GetTabContent(_buyOrSell, tabNum).GamePID
@@ -1118,7 +1254,7 @@
 		Verify an item's price based on the information we have
 		User acc name, item name, item level & qual for gems, stash tab & stash position
 	*/
-		global PROGRAM
+		global PROGRAM, GuiIntercom, GuiIntercom_Controls
 
 		tabNum := GUI_Trades_V2.GetTabNumberFromUniqueID("Sell", tabInfos.UniqueID)
 		if (A_IsCompiled) {
@@ -1137,7 +1273,7 @@
 		intercomSlotNum := GUI_Intercom.GetNextAvailableSlot()
 		intercomSlotHandle := GUI_Intercom.GetSlotHandle(intercomSlotNum)
 		GUI_Intercom.ReserveSlot(intercomSlot)
-		cmdLineParamsObj.Intercom := {"GuiHandle": GUI_Intercom.sGUI.Handle, "SlotHandle": intercomSlotHandle}
+		cmdLineParamsObj.Intercom := {"GuiHandle": GuiIntercom.Handle, "SlotHandle": intercomSlotHandle}
 		cmdLineParamsObj.PROGRAM := {"CURL_EXECUTABLE": PROGRAM.CURL_EXECUTABLE, "LOGS_FILE": PROGRAM.LOGS_FILE, "DATA_FOLDER": PROGRAM.DATA_FOLDER}
 
 		; Adding params to temp json file
@@ -1458,11 +1594,12 @@
 		}
 		else if (btnType="LeagueHelp") {
 			try Menu, HelpMenu, DeleteAll
-			Menu, HelpMenu, Add, Betrayal, GUI_Trades_V2_LeagueHelpMenu
-			Menu, HelpMenu, Add, Delve, GUI_Trades_V2_LeagueHelpMenu
-			Menu, HelpMenu, Add, Essence, GUI_Trades_V2_LeagueHelpMenu
-			Menu, HelpMenu, Add, Harvest, GUI_Trades_V2_LeagueHelpMenu
-			Menu, HelpMenu, Add, Incursion, GUI_Trades_V2_LeagueHelpMenu
+			Loop, Files,% PROGRAM.CHEATSHEETS_FOLDER "\*.png"
+			{
+				SplitPath,% A_LoopFileName, , , , fileNameNoExt
+				__f := ObjBindMethod(GUI_CheatSheet, "Show", A_LoopFileFullPath)
+				Menu, HelpMenu, Add,% fileNameNoExt,% __f
+			}
 			Menu, HelpMenu, Show
 		}
 		else if (btnType="QuickLinks") {
@@ -1498,10 +1635,6 @@
 				return
 
 			Run,% link
-		return
-
-		GUI_Trades_V2_LeagueHelpMenu:
-			GUI_CheatSheet.Show(A_ThisMenuItem)
 		return
 	}
 
@@ -2619,10 +2752,10 @@
 		}
 		sizesObj := {Width: styleInfos.Width, Height: styleInfos.Height}, optionsObj := options
 
-		normalImg 	:= Gdip_AssembleBitmap(normalObj, sizesObj, optionsObj, debug:=debug)
-		hoverImg 	:= Gdip_AssembleBitmap(hoverObj, sizesObj, optionsObj, debug:=debug)
-		pressImg 	:= Gdip_AssembleBitmap(pressObj, sizesObj, optionsObj, debug:=debug)
-		defaultimg 	:= Gdip_AssembleBitmap(defaultObj, sizesObj, optionsObj, debug:=debug)
+		normalImg 	:= GUI_Trades_V2.CreateButtonImage(normalObj, sizesObj, optionsObj, debug:=debug)
+		hoverImg 	:= GUI_Trades_V2.CreateButtonImage(hoverObj, sizesObj, optionsObj, debug:=debug)
+		pressImg 	:= GUI_Trades_V2.CreateButtonImage(pressObj, sizesObj, optionsObj, debug:=debug)
+		defaultimg 	:= GUI_Trades_V2.CreateButtonImage(defaultObj, sizesObj, optionsObj, debug:=debug)
 		
 		return styles[styleName] := [ [0, normalImg, "", styleInfos.Color, "", styleInfos.ColorTransparency]
 			, [0, hoverImg, "", styleInfos.ColorHover, "", styleInfos.ColorTransparency]

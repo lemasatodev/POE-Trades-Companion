@@ -65,6 +65,9 @@ Do_Action(actionType, actionContent="", _buyOrSell="", tabNum="", uniqueNum="") 
 	if (SubStr(actionContent, 1, 1) = """") && (SubStr(actionContent, 0) = """") ; Removing quotes
 		actionContent := StrTrimLeft(actionContent, 1), actionContent := StrTrimRight(actionContent, 1)
 
+	if (ACTIONS_FORCED_CONTENT[actionType]) && !(actionContent)
+		actionContent := ACTIONS_FORCED_CONTENT[actionType]
+
 	actionContentWithVariables := Replace_TradeVariables(_buyOrSell, tabNum, actionContent)
 	if !VerifyActionContentValidity(actionContent, actionContentWithVariables)
 		return

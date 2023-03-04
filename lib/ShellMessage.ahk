@@ -22,7 +22,7 @@ ShellMessage(wParam,lParam) {
 */
 	global PROGRAM, GAME
 	global GuiTrades, GuiTrades_Controls
-	global GuiSettings
+	global GuiSettings, GuiSettings_Controls
 	global GuiTabbedTradesCounter
 	global POEGameList
 
@@ -42,7 +42,7 @@ ShellMessage(wParam,lParam) {
 
 	if IsIn(activeWinExe, POEGameList) {
 		GAME.LastActivePID := activeWinPID
-		if (GUI_TabbedTradesCounter.sGUI.Handle)
+		if (GuiTabbedTradesCounter.Handle)
 			GUI_TabbedTradesCounter.Destroy()
 	}
 

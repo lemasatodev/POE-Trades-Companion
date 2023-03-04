@@ -167,6 +167,11 @@
 				"text": "Монета Перандусов"
 			},
 			{
+				"id": "rogues-marker",
+				"image": "/image/Art/2DItems/Currency/Heist/HeistCoinCurrency.png?v=91f470e219855da2a828fd553feb30f6",
+				"text": "Разбойничий жетон"
+			},
+			{
 				"id": "silver",
 				"image": "/image/Art/2DItems/Currency/SilverObol.png?v=93c1b204ec2736a2fe5aabbb99510bcf",
 				"text": "Серебряная монета"
@@ -197,10 +202,101 @@
 				"text": "Сфера Пробудителя"
 			},
 			{
+				"id": "mavens-orb",
+				"image": "/image/Art/2DItems/Currency/MavenOrb.png?v=c2947400505e6885ac9b4e10d5b6a346",
+				"text": "Сфера Мейвен"
+			},
+			{
 				"id": "facetors",
 				"image": "/image/Art/2DItems/Currency/CurrencyGemExperience.png?v=3d005916b44ac5cc03714d71e4d20146",
 				"text": "Линза награнения"
 			},
+			{
+				"id": "prime-regrading-lens",
+				"image": "/image/Art/2DItems/Currency/AlternateSkillGemCurrency.png?v=634a6af3d5429427461933d11843fa45",
+				"text": "Первичная профилирующая линза"
+			},
+			{
+				"id": "secondary-regrading-lens",
+				"image": "/image/Art/2DItems/Currency/AlternateSupportGemCurrency.png?v=f542ce9b30b707538c3673b82d6f57af",
+				"text": "Вторичная профилирующая линза"
+			},
+			{
+				"id": "tempering-orb",
+				"image": "/image/Art/2DItems/Currency/DivineEnchantBodyArmourCurrency.png?v=d072c438605f9e018a771d631a09d126",
+				"text": "Сфера закалки"
+			},
+			{
+				"id": "tailoring-orb",
+				"image": "/image/Art/2DItems/Currency/DivineEnchantWeaponCurrency.png?v=a04c73695d57792be93cbf91864a2467",
+				"text": "Сфера подгонки"
+			},
+			{
+				"id": "stacked-deck",
+				"image": "/image/Art/2DItems/Divination/Deck.png?v=0e5e6da39f79fc57f3d38d463126617a",
+				"text": "Колода карт"
+			},
+			{
+				"id": "ritual-vessel",
+				"image": "/image/Art/2DItems/Currency/Ritual/Effigy.png?v=851918ae4cd7761b8dc745a06c191138",
+				"text": "Ритуальный сосуд"
+			},
+			{
+				"id": "apprentice-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier1.png?v=7c21fc06120d910018893083227406df",
+				"text": "Простой секстант"
+			},
+			{
+				"id": "journeyman-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier2.png?v=043e5f4d8c52af6b302e30afaffa5eba",
+				"text": "Превосходный секстант"
+			},
+			{
+				"id": "master-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier3.png?v=d69377f526ff51c408461b0cee4d4ade",
+				"text": "Пробуждённый секстант"
+			},
+			{
+				"id": "elevated-sextant",
+				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier4.png?v=fef0aade0b4ac2bea98fb58f60e3075c",
+				"text": "Возвышенный секстант"
+			},
+			{
+				"id": "orb-of-unmaking",
+				"image": "/image/Art/2DItems/Currency/RegretOrb.png?v=2a2321a13ab36e01da75a717e103f943",
+				"text": "Сфера небытия"
+			},
+			{
+				"id": "blessing-xoph",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderFire.png?v=6c7efd3a8fc9150d4b293d5a5917fd04",
+				"text": "Благословение Ксофа"
+			},
+			{
+				"id": "blessing-tul",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderCold.png?v=c25b6df9be1fd051d99616e4bb78066e",
+				"text": "Благословение Тул"
+			},
+			{
+				"id": "blessing-esh",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderLightning.png?v=ed7bb0e73f5ca907ef62592e48d442dc",
+				"text": "Благословение Иш"
+			},
+			{
+				"id": "blessing-uul-netol",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderPhysical.png?v=cf3d245db6b6bb796112a952d74543e0",
+				"text": "Благословение Уул-Нетол"
+			},
+			{
+				"id": "blessing-chayula",
+				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderChaos.png?v=841360bbd5f81619761a0d16f8c36793",
+				"text": "Благословение Чаюлы"
+			}
+		],
+		"id": "Currency",
+		"label": "Валюта"
+	},
+	{
+		"entries": [
 			{
 				"id": "annulment-shard",
 				"image": "/image/Art/2DItems/Currency/AnnullShard.png?v=502496c41d3da750bcecbb194d0aa3f4",
@@ -250,46 +346,6 @@
 				"id": "regal-shard",
 				"image": "/image/Art/2DItems/Currency/RegalShard.png?v=e10a1590d421e4305d8a19ff8c4d9948",
 				"text": "Осколок царей"
-			},
-			{
-				"id": "apprentice-sextant",
-				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier1.png?v=7c21fc06120d910018893083227406df",
-				"text": "Простой секстант"
-			},
-			{
-				"id": "journeyman-sextant",
-				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier2.png?v=043e5f4d8c52af6b302e30afaffa5eba",
-				"text": "Превосходный секстант"
-			},
-			{
-				"id": "master-sextant",
-				"image": "/image/Art/2DItems/Currency/AtlasRadiusTier3.png?v=d69377f526ff51c408461b0cee4d4ade",
-				"text": "Пробуждённый секстант"
-			},
-			{
-				"id": "blessing-xoph",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderFire.png?v=6c7efd3a8fc9150d4b293d5a5917fd04",
-				"text": "Благословение Ксофа"
-			},
-			{
-				"id": "blessing-tul",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderCold.png?v=c25b6df9be1fd051d99616e4bb78066e",
-				"text": "Благословение Тул"
-			},
-			{
-				"id": "blessing-esh",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderLightning.png?v=ed7bb0e73f5ca907ef62592e48d442dc",
-				"text": "Благословение Иш"
-			},
-			{
-				"id": "blessing-uul-netol",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderPhysical.png?v=cf3d245db6b6bb796112a952d74543e0",
-				"text": "Благословение Уул-Нетол"
-			},
-			{
-				"id": "blessing-chayula",
-				"image": "/image/Art/2DItems/Currency/Breach/BreachUpgraderChaos.png?v=841360bbd5f81619761a0d16f8c36793",
-				"text": "Благословение Чаюлы"
 			},
 			{
 				"id": "splinter-xoph",
@@ -347,13 +403,18 @@
 				"text": "Осколок Симулякра"
 			},
 			{
-				"id": "stacked-deck",
-				"image": "/image/Art/2DItems/Divination/Deck.png?v=0e5e6da39f79fc57f3d38d463126617a",
-				"text": "Колода карт"
+				"id": "crescent-splinter",
+				"image": "/image/Art/2DItems/Currency/Atlas/MavenKeyFragment.png?v=9e37fd3f3349186380cbf778727693ba",
+				"text": "Серповидный осколок"
+			},
+			{
+				"id": "ritual-splinter",
+				"image": "/image/Art/2DItems/Currency/Ritual/RitualSplinter.png?v=8a9f842e7dfa8d5b3124d6f60696476e",
+				"text": "Ритуальный осколок"
 			}
 		],
-		"id": "Currency",
-		"label": "Валюта"
+		"id": "Splinters",
+		"label": "Обломки и осколки"
 	},
 	{
 		"entries": [
@@ -656,6 +717,76 @@
 				"id": "offer-dedication",
 				"image": "/image/Art/2DItems/Maps/LabyrinthHarvestInfused2.png?v=06c2d9e0a639206b91b168227b531160",
 				"text": "Посвящение богине"
+			},
+			{
+				"id": "haewark-hamlet",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundHaewarkHamlet5.png?v=4e4005d82fe0bdfc6748967655f00262",
+				"text": "Приглашение Мейвен: Деревня Хейварк"
+			},
+			{
+				"id": "tirns-end",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundTirnsEnd5.png?v=40d75f9ec9333aced4a1e37c2c4f6954",
+				"text": "Приглашение Мейвен: Предел Тирна"
+			},
+			{
+				"id": "lex-proxima",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundLexProxima5.png?v=f3f3baac34f51c6cc03ff0558cef794b",
+				"text": "Приглашение Мейвен: Лекс Проксима"
+			},
+			{
+				"id": "lex-ejoris",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundLexEjoras5.png?v=0a7ff9f10adee6c0ab4b90156871331b",
+				"text": "Приглашение Мейвен: Лекс Эйорис"
+			},
+			{
+				"id": "new-vastir",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundNewVastir5.png?v=a6775031afde9cddddf23f753b8497fa",
+				"text": "Приглашение Мейвен: Новый Вастир"
+			},
+			{
+				"id": "glennach-cairns",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundGlennachCairns5.png?v=a0608dd031382c2a09396eff6dca7b52",
+				"text": "Приглашение Мейвен: Пирамиды Гленнаха"
+			},
+			{
+				"id": "valdos-rest",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundValdosRest5.png?v=65e55778a369b3f6ffe3cc6c3202e904",
+				"text": "Приглашение Мейвен: Покой Валдо"
+			},
+			{
+				"id": "lira-arthain",
+				"image": "/image/Art/2DItems/Currency/Atlas/ProvingGroundLiraArthain5.png?v=7c5cdd6e70f2a0f34dd943ee7800bfdf",
+				"text": "Приглашение Мейвен: Лира Артейн"
+			},
+			{
+				"id": "the-formed",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid1.png?v=c123d6e46f6f927bbfc3e28a6099a778",
+				"text": "Приглашение Мейвен: Обращённые"
+			},
+			{
+				"id": "the-twisted",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid2.png?v=0c1181efcccb198b3a8680def013cb9a",
+				"text": "Приглашение Мейвен: Искаженные"
+			},
+			{
+				"id": "the-forgotten",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid3.png?v=1a606c895da74fab9f649855563b6e7b",
+				"text": "Приглашение Мейвен: Позабытые"
+			},
+			{
+				"id": "the-hidden",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid4.png?v=9440fddcfb2fee54d58c113a01baa25c",
+				"text": "Приглашение Мейвен: Сокрытые"
+			},
+			{
+				"id": "the-feared",
+				"image": "/image/Art/2DItems/Currency/Atlas/NullVoid5.png?v=6b53e402ab8265d565e24baefefc37c2",
+				"text": "Приглашение Мейвен: Внушающие страх"
+			},
+			{
+				"id": "the-mavens-writ",
+				"image": "/image/Art/2DItems/Currency/Atlas/MavenKey.png?v=f6f832213f2c77778dc7c24d5ffd781f",
+				"text": "Веление Мейвен"
 			},
 			{
 				"id": "ancient-reliquary-key",
@@ -2071,12 +2202,24 @@
 				"text": "Капля чернил"
 			},
 			{
+				"id": "a-familiar-call",
+				"text": "Знакомый зов"
+			},
+			{
 				"id": "a-mothers-parting-gift",
 				"text": "Прощальный дар матери"
 			},
 			{
+				"id": "a-note-in-the-wind",
+				"text": "Музыка на ветру"
+			},
+			{
 				"id": "abandoned-wealth",
 				"text": "Забытое богатство"
+			},
+			{
+				"id": "acclimatisation",
+				"text": "Акклиматизация"
 			},
 			{
 				"id": "akils-prophecy",
@@ -2151,6 +2294,14 @@
 				"text": "Мечта лучника"
 			},
 			{
+				"id": "brotherhood-in-exile",
+				"text": "Собратья по изгнанию"
+			},
+			{
+				"id": "brothers-stash",
+				"text": "Братские сбережения"
+			},
+			{
 				"id": "buried-treasure",
 				"text": "Спрятанное сокровище"
 			},
@@ -2183,6 +2334,10 @@
 				"text": "Упоение"
 			},
 			{
+				"id": "cursed-words",
+				"text": "Проклятые слова"
+			},
+			{
 				"id": "dark-dreams",
 				"text": "Тёмные мечты"
 			},
@@ -2203,6 +2358,10 @@
 				"text": "Пари полубога"
 			},
 			{
+				"id": "desecrated-virtue",
+				"text": "Осквернённая добродетель"
+			},
+			{
 				"id": "destined-to-crumble",
 				"text": "Неизбежный крах"
 			},
@@ -2219,8 +2378,16 @@
 				"text": "Безумие Доэдре"
 			},
 			{
+				"id": "draped-in-dreams",
+				"text": "Облачённый в мечты"
+			},
+			{
 				"id": "dying-anguish",
 				"text": "Смертельная тоска"
+			},
+			{
+				"id": "dying-light",
+				"text": "Угасающий свет"
 			},
 			{
 				"id": "earth-drinker",
@@ -2243,6 +2410,10 @@
 				"text": "Выгравированные в крови"
 			},
 			{
+				"id": "fateful-meeting",
+				"text": "Судьбоносная встреча"
+			},
+			{
 				"id": "forbidden-power",
 				"text": "Запретная сила"
 			},
@@ -2253,6 +2424,10 @@
 			{
 				"id": "gemcutters-promise",
 				"text": "Клятва камнерезчика"
+			},
+			{
+				"id": "gift-of-asenath",
+				"text": "Подарок Азенат"
 			},
 			{
 				"id": "gift-of-the-gemling-queen",
@@ -2269,6 +2444,10 @@
 			{
 				"id": "harmony-of-souls",
 				"text": "Гармония душ"
+			},
+			{
+				"id": "haunting-shadows",
+				"text": "Преследующие тени"
 			},
 			{
 				"id": "her-mask",
@@ -2315,6 +2494,10 @@
 				"text": "Сюрприз"
 			},
 			{
+				"id": "keepers-corruption",
+				"text": "Порочность хранителя"
+			},
+			{
 				"id": "lantadors-lost-love",
 				"text": "Утраченная любовь Лантадора"
 			},
@@ -2339,8 +2522,16 @@
 				"text": "Затерянные миры"
 			},
 			{
+				"id": "love-through-ice",
+				"text": "Любовь сквозь лёд"
+			},
+			{
 				"id": "loyalty",
 				"text": "Верность"
+			},
+			{
+				"id": "luck-of-the-vaal",
+				"text": "Удача ваал"
 			},
 			{
 				"id": "lucky-connections",
@@ -2387,6 +2578,10 @@
 				"text": "Корона Нука"
 			},
 			{
+				"id": "peaceful-moments",
+				"text": "Безмятежные минуты"
+			},
+			{
 				"id": "perfection",
 				"text": "Идеал"
 			},
@@ -2397,6 +2592,10 @@
 			{
 				"id": "pride-of-the-first-ones",
 				"text": "Гордость Первых"
+			},
+			{
+				"id": "prometheus-armoury",
+				"text": "Кузня Прометея"
 			},
 			{
 				"id": "prosperity",
@@ -2419,6 +2618,10 @@
 				"text": "Перерождение"
 			},
 			{
+				"id": "reckless-ambition",
+				"text": "Дерзкие амбиции"
+			},
+			{
 				"id": "remembrance",
 				"text": "Поминовение"
 			},
@@ -2439,6 +2642,10 @@
 				"text": "Осколок рока"
 			},
 			{
+				"id": "societys-remorse",
+				"text": "Укоризна общества"
+			},
+			{
 				"id": "squandered-prosperity",
 				"text": "Растраченное богатство"
 			},
@@ -2449,6 +2656,10 @@
 			{
 				"id": "succor-of-the-sinless",
 				"text": "Помощь безгрешных"
+			},
+			{
+				"id": "the-academic",
+				"text": "Академик"
 			},
 			{
 				"id": "the-admirer",
@@ -2475,8 +2686,16 @@
 				"text": "Художник"
 			},
 			{
+				"id": "the-astromancer",
+				"text": "Астромант"
+			},
+			{
 				"id": "the-avenger",
 				"text": "Мститель"
+			},
+			{
+				"id": "the-awakened",
+				"text": "Пробуждённые"
 			},
 			{
 				"id": "the-bargain",
@@ -2487,12 +2706,20 @@
 				"text": "Воитель"
 			},
 			{
+				"id": "the-bear-woman",
+				"text": "Женщина-медведь"
+			},
+			{
 				"id": "the-beast",
 				"text": "Зверь"
 			},
 			{
 				"id": "the-betrayal",
 				"text": "Предательство"
+			},
+			{
+				"id": "the-bitter-blossom",
+				"text": "Колючее соцветие"
 			},
 			{
 				"id": "the-blazing-fire",
@@ -2513,6 +2740,10 @@
 			{
 				"id": "the-brittle-emperor",
 				"text": "Хрупкий император"
+			},
+			{
+				"id": "the-cache",
+				"text": "Тайник"
 			},
 			{
 				"id": "the-cacophony",
@@ -2751,6 +2982,14 @@
 				"text": "Золотой век"
 			},
 			{
+				"id": "the-greatest-intentions",
+				"text": "Величайшие намерения"
+			},
+			{
+				"id": "the-gulf",
+				"text": "Пропасть"
+			},
+			{
 				"id": "the-hale-heart",
 				"text": "Крепкое сердце"
 			},
@@ -2765,6 +3004,10 @@
 			{
 				"id": "the-heroic-shot",
 				"text": "Героическая попытка"
+			},
+			{
+				"id": "the-hive-of-knowledge",
+				"text": "Скопище знаний"
 			},
 			{
 				"id": "the-hoarder",
@@ -2811,6 +3054,10 @@
 				"text": "Благо ювелира"
 			},
 			{
+				"id": "the-journalist",
+				"text": "Журналист"
+			},
+			{
 				"id": "the-journey",
 				"text": "Путешествие"
 			},
@@ -2841,6 +3088,14 @@
 			{
 				"id": "the-lion",
 				"text": "Лев"
+			},
+			{
+				"id": "the-long-con",
+				"text": "Долгое собрание"
+			},
+			{
+				"id": "the-long-watch",
+				"text": "Долгий дозор"
 			},
 			{
 				"id": "the-lord-in-black",
@@ -2925,6 +3180,10 @@
 			{
 				"id": "the-pact",
 				"text": "Пакт"
+			},
+			{
+				"id": "the-patient",
+				"text": "Пациент"
 			},
 			{
 				"id": "the-penitent",
@@ -3087,6 +3346,10 @@
 				"text": "Выживший"
 			},
 			{
+				"id": "the-sustenance",
+				"text": "Пропитание"
+			},
+			{
 				"id": "the-sword-kings-salute",
 				"text": "Дань Венценосца мечей"
 			},
@@ -3115,6 +3378,10 @@
 				"text": "Испытание"
 			},
 			{
+				"id": "the-tumbleweed",
+				"text": "Перекати-поле"
+			},
+			{
 				"id": "the-twilight-moon",
 				"text": "Луна в сумерках"
 			},
@@ -3133,6 +3400,10 @@
 			{
 				"id": "the-undisputed",
 				"text": "Неоспоримый"
+			},
+			{
+				"id": "the-unexpected-prize",
+				"text": "Неожиданная награда"
 			},
 			{
 				"id": "the-union",
@@ -3173,6 +3444,14 @@
 			{
 				"id": "the-web",
 				"text": "Паутина"
+			},
+			{
+				"id": "the-white-knight",
+				"text": "Белый рыцарь"
+			},
+			{
+				"id": "the-whiteout",
+				"text": "Белая пелена"
 			},
 			{
 				"id": "the-wilted-rose",
@@ -3247,12 +3526,24 @@
 				"text": "Охотник за сокровищами"
 			},
 			{
+				"id": "triskaidekaphobia",
+				"text": "Трискайдекафобия"
+			},
+			{
 				"id": "turn-the-other-cheek",
 				"text": "Подставь другую щёку"
 			},
 			{
+				"id": "unchained",
+				"text": "Освобождённый"
+			},
+			{
 				"id": "underground-forest",
 				"text": "Подземный лес"
+			},
+			{
+				"id": "unrequited-love",
+				"text": "Безответная любовь"
 			},
 			{
 				"id": "vanity",
@@ -3285,20 +3576,20 @@
 	{
 		"entries": [
 			{
-				"id": "desert-map-tier-1",
-				"text": "Карта пустыни"
+				"id": "arcade-map-tier-1",
+				"text": "Карта агоры"
 			},
 			{
-				"id": "glacier-map-tier-1",
-				"text": "Карта ледника"
+				"id": "coves-map-tier-1",
+				"text": "Карта бухты"
 			},
 			{
-				"id": "lookout-map-tier-1",
-				"text": "Карта обзорной площадки"
+				"id": "jungle-valley-map-tier-1",
+				"text": "Карта долины джунглей"
 			},
 			{
-				"id": "tropical-island-map-tier-1",
-				"text": "Карта тропического острова"
+				"id": "pen-map-tier-1",
+				"text": "Карта загона"
 			}
 		],
 		"id": "MapsTier1",
@@ -3307,84 +3598,84 @@
 	{
 		"entries": [
 			{
-				"id": "ashen-wood-map-tier-2",
-				"text": "Карта пепельного леса"
+				"id": "arena-map-tier-2",
+				"text": "Карта арены"
 			},
 			{
-				"id": "beach-map-tier-2",
-				"text": "Карта пляжа"
+				"id": "crater-map-tier-2",
+				"text": "Карта кратера"
 			},
 			{
-				"id": "colonnade-map-tier-2",
-				"text": "Карта колоннады"
-			},
-			{
-				"id": "conservatory-map-tier-2",
-				"text": "Карта зимнего сада"
-			},
-			{
-				"id": "coral-ruins-map-tier-2",
-				"text": "Карта коралловых руин"
-			},
-			{
-				"id": "coves-map-tier-2",
-				"text": "Карта бухты"
-			},
-			{
-				"id": "cursed-crypt-map-tier-2",
-				"text": "Карта проклятого склепа"
+				"id": "defiled-cathedral-map-tier-2",
+				"text": "Карта осквернённого собора"
 			},
 			{
 				"id": "fields-map-tier-2",
 				"text": "Карта полей"
 			},
 			{
-				"id": "haunted-mansion-map-tier-2",
-				"text": "Карта дома с привидениями"
+				"id": "frozen-cabins-map-tier-2",
+				"text": "Карта замёрзших хижин"
 			},
 			{
-				"id": "ivory-temple-map-tier-2",
-				"text": "Карта храма из слоновой кости"
+				"id": "gardens-map-tier-2",
+				"text": "Карта садов"
 			},
 			{
-				"id": "jungle-valley-map-tier-2",
-				"text": "Карта долины джунглей"
+				"id": "grotto-map-tier-2",
+				"text": "Карта грота"
 			},
 			{
-				"id": "mausoleum-map-tier-2",
-				"text": "Карта мавзолея"
+				"id": "infested-valley-map-tier-2",
+				"text": "Карта заражённой долины"
 			},
 			{
-				"id": "pier-map-tier-2",
-				"text": "Карта причала"
+				"id": "lair-map-tier-2",
+				"text": "Карта логова"
 			},
 			{
-				"id": "strand-map-tier-2",
-				"text": "Карта взморья"
+				"id": "moon-temple-map-tier-2",
+				"text": "Карта храма Луны"
 			},
 			{
-				"id": "sulphur-vents-map-tier-2",
-				"text": "Карта серного озера"
+				"id": "peninsula-map-tier-2",
+				"text": "Карта мыса"
 			},
 			{
-				"id": "summit-map-tier-2",
-				"text": "Карта вершины"
+				"id": "promenade-map-tier-2",
+				"text": "Карта прогулочного парка"
+			},
+			{
+				"id": "spider-forest-map-tier-2",
+				"text": "Карта паучьего леса"
+			},
+			{
+				"id": "sunken-city-map-tier-2",
+				"text": "Карта затонувшего города"
+			},
+			{
+				"id": "tower-map-tier-2",
+				"text": "Карта башни"
+			},
+			{
+				"id": "tropical-island-map-tier-2",
+				"text": "Карта тропического острова"
+			},
+			{
+				"id": "underground-river-map-tier-2",
+				"text": "Карта подземной реки"
 			},
 			{
 				"id": "underground-sea-map-tier-2",
 				"text": "Карта подземного моря"
 			},
 			{
-				"id": "villa-map-tier-2",
-				"text": "Карта поместья"
+				"id": "volcano-map-tier-2",
+				"text": "Карта вулкана"
 			},
 			{
-				"id": "wasteland-map-tier-2",
-				"text": "Карта пустоши"
-			},
-			{
-				"id": "waterways-map-tier-2",
-				"text": "Карта водотоков"
+				"id": "wharf-map-tier-2",
+				"text": "Карта пристани"
 			}
 		],
 		"id": "MapsTier2",
@@ -3397,96 +3688,104 @@
 				"text": "Карта древнего города"
 			},
 			{
-				"id": "arsenal-map-tier-3",
-				"text": "Карта арсенала"
+				"id": "arid-lake-map-tier-3",
+				"text": "Карта высохшего озера"
 			},
 			{
-				"id": "bazaar-map-tier-3",
-				"text": "Карта базара"
+				"id": "ashen-wood-map-tier-3",
+				"text": "Карта пепельного леса"
 			},
 			{
-				"id": "bog-map-tier-3",
-				"text": "Карта трясины"
+				"id": "basilica-map-tier-3",
+				"text": "Карта базилики"
+			},
+			{
+				"id": "belfry-map-tier-3",
+				"text": "Карта колокольни"
+			},
+			{
+				"id": "canyon-map-tier-3",
+				"text": "Карта ущелья"
 			},
 			{
 				"id": "cemetery-map-tier-3",
 				"text": "Карта погоста"
 			},
 			{
-				"id": "crystal-ore-map-tier-3",
-				"text": "Карта кристальной шахты"
+				"id": "courtyard-map-tier-3",
+				"text": "Карта подворья"
 			},
 			{
-				"id": "dunes-map-tier-3",
-				"text": "Карта дюн"
+				"id": "factory-map-tier-3",
+				"text": "Карта фактории"
 			},
 			{
-				"id": "gardens-map-tier-3",
-				"text": "Карта садов"
+				"id": "forking-river-map-tier-3",
+				"text": "Карта речной развилки"
 			},
 			{
-				"id": "ghetto-map-tier-3",
-				"text": "Карта хибар"
+				"id": "geode-map-tier-3",
+				"text": "Карта жеоды"
+			},
+			{
+				"id": "glacier-map-tier-3",
+				"text": "Карта ледника"
 			},
 			{
 				"id": "graveyard-map-tier-3",
 				"text": "Карта кладбища"
 			},
 			{
-				"id": "infested-valley-map-tier-3",
-				"text": "Карта заражённой долины"
+				"id": "laboratory-map-tier-3",
+				"text": "Карта лаборатории"
 			},
 			{
-				"id": "mesa-map-tier-3",
-				"text": "Карта плоского холма"
-			},
-			{
-				"id": "moon-temple-map-tier-3",
-				"text": "Карта храма Луны"
+				"id": "lava-chamber-map-tier-3",
+				"text": "Карта лавовой тюрьмы"
 			},
 			{
 				"id": "mud-geyser-map-tier-3",
 				"text": "Карта грязевого гейзера"
 			},
 			{
-				"id": "museum-map-tier-3",
-				"text": "Карта музея"
-			},
-			{
 				"id": "orchard-map-tier-3",
-				"text": "Карта фруктового сада"
+				"text": "Карта фруктовых садов"
 			},
 			{
-				"id": "pen-map-tier-3",
-				"text": "Карта загона"
+				"id": "overgrown-ruin-map-tier-3",
+				"text": "Карта заросших руин"
 			},
 			{
-				"id": "plateau-map-tier-3",
-				"text": "Карта плоскогорья"
+				"id": "pier-map-tier-3",
+				"text": "Карта причала"
 			},
 			{
-				"id": "primordial-pool-map-tier-3",
-				"text": "Карта древнего озера"
+				"id": "plaza-map-tier-3",
+				"text": "Карта площади"
 			},
 			{
-				"id": "racecourse-map-tier-3",
-				"text": "Карта ипподрома"
+				"id": "primordial-blocks-map-tier-3",
+				"text": "Карта первобытного поселения"
 			},
 			{
-				"id": "ramparts-map-tier-3",
-				"text": "Карта бастиона"
+				"id": "reef-map-tier-3",
+				"text": "Карта рифа"
 			},
 			{
-				"id": "sunken-city-map-tier-3",
-				"text": "Карта затонувшего города"
+				"id": "shore-map-tier-3",
+				"text": "Карта берега"
+			},
+			{
+				"id": "strand-map-tier-3",
+				"text": "Карта взморья"
+			},
+			{
+				"id": "sulphur-vents-map-tier-3",
+				"text": "Карта серного озера"
 			},
 			{
 				"id": "temple-map-tier-3",
 				"text": "Карта храма"
-			},
-			{
-				"id": "terrace-map-tier-3",
-				"text": "Карта террасы"
 			},
 			{
 				"id": "toxic-sewer-map-tier-3",
@@ -3495,14 +3794,6 @@
 			{
 				"id": "vaal-pyramid-map-tier-3",
 				"text": "Карта пирамиды ваал"
-			},
-			{
-				"id": "vault-map-tier-3",
-				"text": "Карта хранилища"
-			},
-			{
-				"id": "waste-pool-map-tier-3",
-				"text": "Карта помойного пруда"
 			}
 		],
 		"id": "MapsTier3",
@@ -3515,20 +3806,20 @@
 				"text": "Карта академии"
 			},
 			{
-				"id": "arachnid-tomb-map-tier-4",
-				"text": "Карта паучьей гробницы"
+				"id": "arcade-map-tier-4",
+				"text": "Карта агоры"
 			},
 			{
-				"id": "arena-map-tier-4",
-				"text": "Карта арены"
+				"id": "arsenal-map-tier-4",
+				"text": "Карта арсенала"
 			},
 			{
 				"id": "bone-crypt-map-tier-4",
 				"text": "Карта гробницы"
 			},
 			{
-				"id": "caldera-map-tier-4",
-				"text": "Карта кальдеры"
+				"id": "cage-map-tier-4",
+				"text": "Карта клетки"
 			},
 			{
 				"id": "channel-map-tier-4",
@@ -3539,68 +3830,68 @@
 				"text": "Карта здания суда"
 			},
 			{
-				"id": "courtyard-map-tier-4",
-				"text": "Карта подворья"
+				"id": "coves-map-tier-4",
+				"text": "Карта бухты"
 			},
 			{
-				"id": "dark-forest-map-tier-4",
-				"text": "Карта мрачного леса"
+				"id": "crimson-temple-map-tier-4",
+				"text": "Карта кровавого храма"
 			},
 			{
-				"id": "defiled-cathedral-map-tier-4",
-				"text": "Карта осквернённого собора"
+				"id": "crystal-ore-map-tier-4",
+				"text": "Карта кристальной шахты"
 			},
 			{
 				"id": "desert-map-tier-4",
 				"text": "Карта пустыни"
 			},
 			{
-				"id": "desert-spring-map-tier-4",
-				"text": "Карта пустынного источника"
+				"id": "dunes-map-tier-4",
+				"text": "Карта дюн"
 			},
 			{
-				"id": "excavation-map-tier-4",
-				"text": "Карта раскопок"
+				"id": "iceberg-map-tier-4",
+				"text": "Карта айсберга"
 			},
 			{
-				"id": "glacier-map-tier-4",
-				"text": "Карта ледника"
+				"id": "jungle-valley-map-tier-4",
+				"text": "Карта долины джунглей"
 			},
 			{
-				"id": "grotto-map-tier-4",
-				"text": "Карта грота"
-			},
-			{
-				"id": "lair-map-tier-4",
-				"text": "Карта логова"
-			},
-			{
-				"id": "lava-chamber-map-tier-4",
-				"text": "Карта лавовой тюрьмы"
+				"id": "leyline-map-tier-4",
+				"text": "Карта тропы"
 			},
 			{
 				"id": "lookout-map-tier-4",
 				"text": "Карта обзорной площадки"
 			},
 			{
-				"id": "park-map-tier-4",
-				"text": "Карта парка"
+				"id": "marshes-map-tier-4",
+				"text": "Карта болот"
 			},
 			{
-				"id": "peninsula-map-tier-4",
-				"text": "Карта мыса"
+				"id": "museum-map-tier-4",
+				"text": "Карта музея"
 			},
 			{
-				"id": "shore-map-tier-4",
-				"text": "Карта берега"
+				"id": "pen-map-tier-4",
+				"text": "Карта загона"
 			},
 			{
-				"id": "tropical-island-map-tier-4",
-				"text": "Карта тропического острова"
+				"id": "precinct-map-tier-4",
+				"text": "Карта окрестностей"
 			},
 			{
-				"id": "volcano-map-tier-4",
-				"text": "Карта вулкана"
+				"id": "primordial-pool-map-tier-4",
+				"text": "Карта древнего озера"
+			},
+			{
+				"id": "ramparts-map-tier-4",
+				"text": "Карта бастиона"
+			},
+			{
+				"id": "wasteland-map-tier-4",
+				"text": "Карта пустоши"
 			}
 		],
 		"id": "MapsTier4",
@@ -3609,92 +3900,84 @@
 	{
 		"entries": [
 			{
-				"id": "arid-lake-map-tier-5",
-				"text": "Карта высохшего озера"
+				"id": "armoury-map-tier-5",
+				"text": "Карта оружейной"
 			},
 			{
 				"id": "atoll-map-tier-5",
 				"text": "Карта атолла"
 			},
 			{
-				"id": "basilica-map-tier-5",
-				"text": "Карта базилики"
+				"id": "carcass-map-tier-5",
+				"text": "Карта остова"
 			},
 			{
-				"id": "belfry-map-tier-5",
-				"text": "Карта колокольни"
-			},
-			{
-				"id": "castle-ruins-map-tier-5",
-				"text": "Карта развалин замка"
+				"id": "cells-map-tier-5",
+				"text": "Карта камер"
 			},
 			{
 				"id": "chateau-map-tier-5",
 				"text": "Карта усадьбы"
 			},
 			{
-				"id": "colonnade-map-tier-5",
-				"text": "Карта колоннады"
+				"id": "crater-map-tier-5",
+				"text": "Карта кратера"
 			},
 			{
-				"id": "conservatory-map-tier-5",
-				"text": "Карта зимнего сада"
-			},
-			{
-				"id": "dig-map-tier-5",
-				"text": "Карта развалин"
+				"id": "desert-spring-map-tier-5",
+				"text": "Карта пустынного источника"
 			},
 			{
 				"id": "fields-map-tier-5",
 				"text": "Карта полей"
 			},
 			{
+				"id": "grotto-map-tier-5",
+				"text": "Карта грота"
+			},
+			{
 				"id": "haunted-mansion-map-tier-5",
 				"text": "Карта дома с привидениями"
 			},
 			{
-				"id": "ivory-temple-map-tier-5",
-				"text": "Карта храма из слоновой кости"
+				"id": "infested-valley-map-tier-5",
+				"text": "Карта заражённой долины"
 			},
 			{
-				"id": "leyline-map-tier-5",
-				"text": "Карта тропы"
+				"id": "lair-map-tier-5",
+				"text": "Карта логова"
 			},
 			{
-				"id": "marshes-map-tier-5",
-				"text": "Карта болот"
+				"id": "lighthouse-map-tier-5",
+				"text": "Карта навигационной башни"
 			},
 			{
-				"id": "mausoleum-map-tier-5",
-				"text": "Карта мавзолея"
+				"id": "moon-temple-map-tier-5",
+				"text": "Карта храма Луны"
 			},
 			{
-				"id": "port-map-tier-5",
-				"text": "Карта порта"
+				"id": "palace-map-tier-5",
+				"text": "Карта дворца"
 			},
 			{
-				"id": "scriptorium-map-tier-5",
-				"text": "Карта скриптория"
+				"id": "peninsula-map-tier-5",
+				"text": "Карта мыса"
 			},
 			{
-				"id": "strand-map-tier-5",
-				"text": "Карта взморья"
+				"id": "promenade-map-tier-5",
+				"text": "Карта прогулочного парка"
 			},
 			{
-				"id": "sulphur-vents-map-tier-5",
-				"text": "Карта серного озера"
+				"id": "shrine-map-tier-5",
+				"text": "Карта святыни"
 			},
 			{
-				"id": "villa-map-tier-5",
-				"text": "Карта поместья"
+				"id": "tower-map-tier-5",
+				"text": "Карта башни"
 			},
 			{
-				"id": "waterways-map-tier-5",
-				"text": "Карта водотоков"
-			},
-			{
-				"id": "wharf-map-tier-5",
-				"text": "Карта пристани"
+				"id": "waste-pool-map-tier-5",
+				"text": "Карта помойного пруда"
 			}
 		],
 		"id": "MapsTier5",
@@ -3707,84 +3990,84 @@
 				"text": "Карта древнего города"
 			},
 			{
-				"id": "ashen-wood-map-tier-6",
-				"text": "Карта пепельного леса"
+				"id": "arena-map-tier-6",
+				"text": "Карта арены"
 			},
 			{
-				"id": "bazaar-map-tier-6",
-				"text": "Карта базара"
+				"id": "arid-lake-map-tier-6",
+				"text": "Карта высохшего озера"
 			},
 			{
-				"id": "beach-map-tier-6",
-				"text": "Карта пляжа"
+				"id": "basilica-map-tier-6",
+				"text": "Карта базилики"
 			},
 			{
-				"id": "bog-map-tier-6",
-				"text": "Карта трясины"
+				"id": "belfry-map-tier-6",
+				"text": "Карта колокольни"
 			},
 			{
-				"id": "coral-ruins-map-tier-6",
-				"text": "Карта коралловых руин"
+				"id": "defiled-cathedral-map-tier-6",
+				"text": "Карта осквернённого собора"
 			},
 			{
-				"id": "coves-map-tier-6",
-				"text": "Карта бухты"
+				"id": "forking-river-map-tier-6",
+				"text": "Карта речной развилки"
 			},
 			{
-				"id": "crystal-ore-map-tier-6",
-				"text": "Карта кристальной шахты"
+				"id": "frozen-cabins-map-tier-6",
+				"text": "Карта замёрзших хижин"
 			},
 			{
-				"id": "cursed-crypt-map-tier-6",
-				"text": "Карта проклятого склепа"
+				"id": "gardens-map-tier-6",
+				"text": "Карта садов"
 			},
 			{
-				"id": "graveyard-map-tier-6",
-				"text": "Карта кладбища"
+				"id": "glacier-map-tier-6",
+				"text": "Карта ледника"
 			},
 			{
-				"id": "infested-valley-map-tier-6",
-				"text": "Карта заражённой долины"
+				"id": "lava-chamber-map-tier-6",
+				"text": "Карта лавовой тюрьмы"
 			},
 			{
-				"id": "jungle-valley-map-tier-6",
-				"text": "Карта долины джунглей"
+				"id": "malformation-map-tier-6",
+				"text": "Карта недр"
 			},
 			{
 				"id": "mud-geyser-map-tier-6",
 				"text": "Карта грязевого гейзера"
 			},
 			{
-				"id": "museum-map-tier-6",
-				"text": "Карта музея"
-			},
-			{
-				"id": "pen-map-tier-6",
-				"text": "Карта загона"
-			},
-			{
-				"id": "pier-map-tier-6",
-				"text": "Карта причала"
+				"id": "orchard-map-tier-6",
+				"text": "Карта фруктовых садов"
 			},
 			{
 				"id": "plaza-map-tier-6",
 				"text": "Карта площади"
 			},
 			{
-				"id": "racecourse-map-tier-6",
-				"text": "Карта ипподрома"
+				"id": "primordial-blocks-map-tier-6",
+				"text": "Карта первобытного поселения"
 			},
 			{
-				"id": "ramparts-map-tier-6",
-				"text": "Карта бастиона"
+				"id": "reef-map-tier-6",
+				"text": "Карта рифа"
 			},
 			{
-				"id": "sepulchre-map-tier-6",
-				"text": "Карта усыпальницы"
+				"id": "shore-map-tier-6",
+				"text": "Карта берега"
 			},
 			{
-				"id": "summit-map-tier-6",
-				"text": "Карта вершины"
+				"id": "silo-map-tier-6",
+				"text": "Карта зернохранилища"
+			},
+			{
+				"id": "spider-forest-map-tier-6",
+				"text": "Карта паучьего леса"
+			},
+			{
+				"id": "sulphur-vents-map-tier-6",
+				"text": "Карта серного озера"
 			},
 			{
 				"id": "sunken-city-map-tier-6",
@@ -3795,20 +4078,24 @@
 				"text": "Карта храма"
 			},
 			{
-				"id": "terrace-map-tier-6",
-				"text": "Карта террасы"
+				"id": "tropical-island-map-tier-6",
+				"text": "Карта тропического острова"
+			},
+			{
+				"id": "underground-river-map-tier-6",
+				"text": "Карта подземной реки"
 			},
 			{
 				"id": "underground-sea-map-tier-6",
 				"text": "Карта подземного моря"
 			},
 			{
-				"id": "vault-map-tier-6",
-				"text": "Карта хранилища"
+				"id": "volcano-map-tier-6",
+				"text": "Карта вулкана"
 			},
 			{
-				"id": "wasteland-map-tier-6",
-				"text": "Карта пустоши"
+				"id": "wharf-map-tier-6",
+				"text": "Карта пристани"
 			}
 		],
 		"id": "MapsTier6",
@@ -3825,8 +4112,16 @@
 				"text": "Карта арсенала"
 			},
 			{
+				"id": "ashen-wood-map-tier-7",
+				"text": "Карта пепельного леса"
+			},
+			{
 				"id": "bone-crypt-map-tier-7",
 				"text": "Карта гробницы"
+			},
+			{
+				"id": "cage-map-tier-7",
+				"text": "Карта клетки"
 			},
 			{
 				"id": "canyon-map-tier-7",
@@ -3837,76 +4132,72 @@
 				"text": "Карта погоста"
 			},
 			{
-				"id": "courthouse-map-tier-7",
-				"text": "Карта здания суда"
+				"id": "channel-map-tier-7",
+				"text": "Карта канала"
+			},
+			{
+				"id": "courtyard-map-tier-7",
+				"text": "Карта подворья"
+			},
+			{
+				"id": "crystal-ore-map-tier-7",
+				"text": "Карта кристальной шахты"
 			},
 			{
 				"id": "dark-forest-map-tier-7",
 				"text": "Карта мрачного леса"
 			},
 			{
-				"id": "defiled-cathedral-map-tier-7",
-				"text": "Карта осквернённого собора"
+				"id": "factory-map-tier-7",
+				"text": "Карта фактории"
 			},
 			{
-				"id": "dunes-map-tier-7",
-				"text": "Карта дюн"
+				"id": "geode-map-tier-7",
+				"text": "Карта жеоды"
 			},
 			{
-				"id": "excavation-map-tier-7",
-				"text": "Карта раскопок"
+				"id": "graveyard-map-tier-7",
+				"text": "Карта кладбища"
 			},
 			{
-				"id": "gardens-map-tier-7",
-				"text": "Карта садов"
+				"id": "laboratory-map-tier-7",
+				"text": "Карта лаборатории"
 			},
 			{
-				"id": "ghetto-map-tier-7",
-				"text": "Карта хибар"
+				"id": "leyline-map-tier-7",
+				"text": "Карта тропы"
 			},
 			{
-				"id": "grotto-map-tier-7",
-				"text": "Карта грота"
+				"id": "lookout-map-tier-7",
+				"text": "Карта обзорной площадки"
 			},
 			{
-				"id": "lair-map-tier-7",
-				"text": "Карта логова"
+				"id": "marshes-map-tier-7",
+				"text": "Карта болот"
 			},
 			{
-				"id": "lava-chamber-map-tier-7",
-				"text": "Карта лавовой тюрьмы"
+				"id": "museum-map-tier-7",
+				"text": "Карта музея"
 			},
 			{
-				"id": "lighthouse-map-tier-7",
-				"text": "Карта навигационной башни"
+				"id": "overgrown-ruin-map-tier-7",
+				"text": "Карта заросших руин"
 			},
 			{
-				"id": "mesa-map-tier-7",
-				"text": "Карта плоского холма"
-			},
-			{
-				"id": "moon-temple-map-tier-7",
-				"text": "Карта храма Луны"
-			},
-			{
-				"id": "orchard-map-tier-7",
-				"text": "Карта фруктового сада"
-			},
-			{
-				"id": "peninsula-map-tier-7",
-				"text": "Карта мыса"
-			},
-			{
-				"id": "plateau-map-tier-7",
-				"text": "Карта плоскогорья"
+				"id": "pier-map-tier-7",
+				"text": "Карта причала"
 			},
 			{
 				"id": "primordial-pool-map-tier-7",
 				"text": "Карта древнего озера"
 			},
 			{
-				"id": "shore-map-tier-7",
-				"text": "Карта берега"
+				"id": "ramparts-map-tier-7",
+				"text": "Карта бастиона"
+			},
+			{
+				"id": "strand-map-tier-7",
+				"text": "Карта взморья"
 			},
 			{
 				"id": "toxic-sewer-map-tier-7",
@@ -3917,12 +4208,8 @@
 				"text": "Карта пирамиды ваал"
 			},
 			{
-				"id": "volcano-map-tier-7",
-				"text": "Карта вулкана"
-			},
-			{
-				"id": "waste-pool-map-tier-7",
-				"text": "Карта помойного пруда"
+				"id": "waterways-map-tier-7",
+				"text": "Карта водотоков"
 			}
 		],
 		"id": "MapsTier7",
@@ -3931,72 +4218,76 @@
 	{
 		"entries": [
 			{
-				"id": "arachnid-tomb-map-tier-8",
-				"text": "Карта паучьей гробницы"
+				"id": "alleyways-map-tier-8",
+				"text": "Карта переулка"
 			},
 			{
-				"id": "arena-map-tier-8",
-				"text": "Карта арены"
+				"id": "arcade-map-tier-8",
+				"text": "Карта агоры"
 			},
 			{
-				"id": "caldera-map-tier-8",
-				"text": "Карта кальдеры"
+				"id": "armoury-map-tier-8",
+				"text": "Карта оружейной"
 			},
 			{
-				"id": "castle-ruins-map-tier-8",
-				"text": "Карта развалин замка"
+				"id": "cells-map-tier-8",
+				"text": "Карта камер"
 			},
 			{
-				"id": "channel-map-tier-8",
-				"text": "Карта канала"
+				"id": "courthouse-map-tier-8",
+				"text": "Карта здания суда"
 			},
 			{
-				"id": "courtyard-map-tier-8",
-				"text": "Карта подворья"
+				"id": "coves-map-tier-8",
+				"text": "Карта бухты"
+			},
+			{
+				"id": "crimson-temple-map-tier-8",
+				"text": "Карта кровавого храма"
 			},
 			{
 				"id": "desert-map-tier-8",
 				"text": "Карта пустыни"
 			},
 			{
-				"id": "desert-spring-map-tier-8",
-				"text": "Карта пустынного источника"
+				"id": "dry-sea-map-tier-8",
+				"text": "Карта высохшего моря"
 			},
 			{
-				"id": "dig-map-tier-8",
-				"text": "Карта развалин"
+				"id": "dunes-map-tier-8",
+				"text": "Карта дюн"
 			},
 			{
-				"id": "glacier-map-tier-8",
-				"text": "Карта ледника"
+				"id": "iceberg-map-tier-8",
+				"text": "Карта айсберга"
 			},
 			{
-				"id": "leyline-map-tier-8",
-				"text": "Карта тропы"
+				"id": "jungle-valley-map-tier-8",
+				"text": "Карта долины джунглей"
 			},
 			{
-				"id": "lookout-map-tier-8",
-				"text": "Карта обзорной площадки"
+				"id": "palace-map-tier-8",
+				"text": "Карта дворца"
 			},
 			{
-				"id": "malformation-map-tier-8",
-				"text": "Карта недр"
+				"id": "pen-map-tier-8",
+				"text": "Карта загона"
 			},
 			{
-				"id": "park-map-tier-8",
-				"text": "Карта парка"
+				"id": "precinct-map-tier-8",
+				"text": "Карта окрестностей"
 			},
 			{
-				"id": "port-map-tier-8",
-				"text": "Карта порта"
+				"id": "racecourse-map-tier-8",
+				"text": "Карта ипподрома"
 			},
 			{
-				"id": "primordial-blocks-map-tier-8",
-				"text": "Карта первобытного поселения"
+				"id": "waste-pool-map-tier-8",
+				"text": "Карта помойного пруда"
 			},
 			{
-				"id": "tropical-island-map-tier-8",
-				"text": "Карта тропического острова"
+				"id": "wasteland-map-tier-8",
+				"text": "Карта пустоши"
 			}
 		],
 		"id": "MapsTier8",
@@ -4005,16 +4296,8 @@
 	{
 		"entries": [
 			{
-				"id": "arcade-map-tier-9",
-				"text": "Карта агоры"
-			},
-			{
-				"id": "arid-lake-map-tier-9",
-				"text": "Карта высохшего озера"
-			},
-			{
-				"id": "ashen-wood-map-tier-9",
-				"text": "Карта пепельного леса"
+				"id": "arena-map-tier-9",
+				"text": "Карта арены"
 			},
 			{
 				"id": "atoll-map-tier-9",
@@ -4025,48 +4308,48 @@
 				"text": "Карта базилики"
 			},
 			{
-				"id": "beach-map-tier-9",
-				"text": "Карта пляжа"
-			},
-			{
 				"id": "belfry-map-tier-9",
 				"text": "Карта колокольни"
+			},
+			{
+				"id": "carcass-map-tier-9",
+				"text": "Карта остова"
 			},
 			{
 				"id": "chateau-map-tier-9",
 				"text": "Карта усадьбы"
 			},
 			{
-				"id": "colonnade-map-tier-9",
-				"text": "Карта колоннады"
+				"id": "crater-map-tier-9",
+				"text": "Карта кратера"
 			},
 			{
-				"id": "conservatory-map-tier-9",
-				"text": "Карта зимнего сада"
+				"id": "dark-forest-map-tier-9",
+				"text": "Карта мрачного леса"
 			},
 			{
-				"id": "coral-ruins-map-tier-9",
-				"text": "Карта коралловых руин"
+				"id": "defiled-cathedral-map-tier-9",
+				"text": "Карта осквернённого собора"
 			},
 			{
-				"id": "coves-map-tier-9",
-				"text": "Карта бухты"
+				"id": "desert-spring-map-tier-9",
+				"text": "Карта пустынного источника"
 			},
 			{
-				"id": "cursed-crypt-map-tier-9",
-				"text": "Карта проклятого склепа"
-			},
-			{
-				"id": "factory-map-tier-9",
-				"text": "Карта фактории"
+				"id": "dungeon-map-tier-9",
+				"text": "Карта подземелья"
 			},
 			{
 				"id": "fields-map-tier-9",
 				"text": "Карта полей"
 			},
 			{
-				"id": "graveyard-map-tier-9",
-				"text": "Карта кладбища"
+				"id": "gardens-map-tier-9",
+				"text": "Карта садов"
+			},
+			{
+				"id": "grotto-map-tier-9",
+				"text": "Карта грота"
 			},
 			{
 				"id": "haunted-mansion-map-tier-9",
@@ -4077,84 +4360,88 @@
 				"text": "Карта заражённой долины"
 			},
 			{
-				"id": "ivory-temple-map-tier-9",
-				"text": "Карта храма из слоновой кости"
-			},
-			{
-				"id": "jungle-valley-map-tier-9",
-				"text": "Карта долины джунглей"
+				"id": "lair-map-tier-9",
+				"text": "Карта логова"
 			},
 			{
 				"id": "lighthouse-map-tier-9",
 				"text": "Карта навигационной башни"
 			},
 			{
-				"id": "marshes-map-tier-9",
-				"text": "Карта болот"
-			},
-			{
 				"id": "mausoleum-map-tier-9",
 				"text": "Карта мавзолея"
 			},
 			{
-				"id": "maze-map-tier-9",
-				"text": "Карта лабиринта"
+				"id": "mineral-pools-map-tier-9",
+				"text": "Карта минеральных озёр"
 			},
 			{
-				"id": "pier-map-tier-9",
-				"text": "Карта причала"
+				"id": "moon-temple-map-tier-9",
+				"text": "Карта храма Луны"
 			},
 			{
-				"id": "pit-map-tier-9",
-				"text": "Карта ямы"
+				"id": "orchard-map-tier-9",
+				"text": "Карта фруктовых садов"
+			},
+			{
+				"id": "overgrown-shrine-map-tier-9",
+				"text": "Карта заросшей обители"
+			},
+			{
+				"id": "peninsula-map-tier-9",
+				"text": "Карта мыса"
+			},
+			{
+				"id": "promenade-map-tier-9",
+				"text": "Карта прогулочного парка"
 			},
 			{
 				"id": "relic-chambers-map-tier-9",
 				"text": "Карта палаты древностей"
 			},
 			{
-				"id": "scriptorium-map-tier-9",
-				"text": "Карта скриптория"
-			},
-			{
-				"id": "shipyard-map-tier-9",
-				"text": "Карта верфи"
-			},
-			{
 				"id": "shrine-map-tier-9",
 				"text": "Карта святыни"
 			},
 			{
-				"id": "strand-map-tier-9",
-				"text": "Карта взморья"
+				"id": "silo-map-tier-9",
+				"text": "Карта зернохранилища"
 			},
 			{
-				"id": "sulphur-vents-map-tier-9",
-				"text": "Карта серного озера"
+				"id": "spider-forest-map-tier-9",
+				"text": "Карта паучьего леса"
 			},
 			{
-				"id": "summit-map-tier-9",
-				"text": "Карта вершины"
+				"id": "spider-lair-map-tier-9",
+				"text": "Карта паучьего логова"
+			},
+			{
+				"id": "stagnation-map-tier-9",
+				"text": "Карта застоя"
 			},
 			{
 				"id": "sunken-city-map-tier-9",
 				"text": "Карта затонувшего города"
 			},
 			{
+				"id": "tower-map-tier-9",
+				"text": "Карта башни"
+			},
+			{
+				"id": "tropical-island-map-tier-9",
+				"text": "Карта тропического острова"
+			},
+			{
+				"id": "underground-river-map-tier-9",
+				"text": "Карта подземной реки"
+			},
+			{
 				"id": "underground-sea-map-tier-9",
 				"text": "Карта подземного моря"
 			},
 			{
-				"id": "villa-map-tier-9",
-				"text": "Карта поместья"
-			},
-			{
-				"id": "wasteland-map-tier-9",
-				"text": "Карта пустоши"
-			},
-			{
-				"id": "waterways-map-tier-9",
-				"text": "Карта водотоков"
+				"id": "volcano-map-tier-9",
+				"text": "Карта вулкана"
 			},
 			{
 				"id": "wharf-map-tier-9",
@@ -4171,52 +4458,60 @@
 				"text": "Карта древнего города"
 			},
 			{
-				"id": "arsenal-map-tier-10",
-				"text": "Карта арсенала"
+				"id": "arcade-map-tier-10",
+				"text": "Карта агоры"
 			},
 			{
-				"id": "bazaar-map-tier-10",
-				"text": "Карта базара"
+				"id": "arid-lake-map-tier-10",
+				"text": "Карта высохшего озера"
 			},
 			{
-				"id": "bog-map-tier-10",
-				"text": "Карта трясины"
+				"id": "ashen-wood-map-tier-10",
+				"text": "Карта пепельного леса"
 			},
 			{
-				"id": "cells-map-tier-10",
-				"text": "Карта камер"
+				"id": "canyon-map-tier-10",
+				"text": "Карта ущелья"
 			},
 			{
 				"id": "cemetery-map-tier-10",
 				"text": "Карта погоста"
 			},
 			{
-				"id": "courthouse-map-tier-10",
-				"text": "Карта здания суда"
+				"id": "courtyard-map-tier-10",
+				"text": "Карта подворья"
+			},
+			{
+				"id": "coves-map-tier-10",
+				"text": "Карта бухты"
 			},
 			{
 				"id": "crystal-ore-map-tier-10",
 				"text": "Карта кристальной шахты"
 			},
 			{
-				"id": "defiled-cathedral-map-tier-10",
-				"text": "Карта осквернённого собора"
+				"id": "dry-sea-map-tier-10",
+				"text": "Карта высохшего моря"
 			},
 			{
-				"id": "desert-map-tier-10",
-				"text": "Карта пустыни"
+				"id": "factory-map-tier-10",
+				"text": "Карта фактории"
 			},
 			{
-				"id": "dunes-map-tier-10",
-				"text": "Карта дюн"
+				"id": "forbidden-woods-map-tier-10",
+				"text": "Карта запретных лесов"
 			},
 			{
-				"id": "excavation-map-tier-10",
-				"text": "Карта раскопок"
+				"id": "forking-river-map-tier-10",
+				"text": "Карта речной развилки"
 			},
 			{
-				"id": "gardens-map-tier-10",
-				"text": "Карта садов"
+				"id": "frozen-cabins-map-tier-10",
+				"text": "Карта замёрзших хижин"
+			},
+			{
+				"id": "geode-map-tier-10",
+				"text": "Карта жеоды"
 			},
 			{
 				"id": "ghetto-map-tier-10",
@@ -4227,100 +4522,100 @@
 				"text": "Карта ледника"
 			},
 			{
-				"id": "lair-map-tier-10",
-				"text": "Карта логова"
+				"id": "graveyard-map-tier-10",
+				"text": "Карта кладбища"
+			},
+			{
+				"id": "jungle-valley-map-tier-10",
+				"text": "Карта долины джунглей"
+			},
+			{
+				"id": "laboratory-map-tier-10",
+				"text": "Карта лаборатории"
+			},
+			{
+				"id": "lava-chamber-map-tier-10",
+				"text": "Карта лавовой тюрьмы"
+			},
+			{
+				"id": "leyline-map-tier-10",
+				"text": "Карта тропы"
 			},
 			{
 				"id": "lookout-map-tier-10",
 				"text": "Карта обзорной площадки"
 			},
 			{
-				"id": "mesa-map-tier-10",
-				"text": "Карта плоского холма"
+				"id": "malformation-map-tier-10",
+				"text": "Карта недр"
 			},
 			{
-				"id": "mineral-pools-map-tier-10",
-				"text": "Карта минеральных озёр"
-			},
-			{
-				"id": "moon-temple-map-tier-10",
-				"text": "Карта храма Луны"
+				"id": "marshes-map-tier-10",
+				"text": "Карта болот"
 			},
 			{
 				"id": "mud-geyser-map-tier-10",
 				"text": "Карта грязевого гейзера"
 			},
 			{
-				"id": "museum-map-tier-10",
-				"text": "Карта музея"
-			},
-			{
-				"id": "orchard-map-tier-10",
-				"text": "Карта фруктового сада"
+				"id": "overgrown-ruin-map-tier-10",
+				"text": "Карта заросших руин"
 			},
 			{
 				"id": "pen-map-tier-10",
 				"text": "Карта загона"
 			},
 			{
-				"id": "peninsula-map-tier-10",
-				"text": "Карта мыса"
+				"id": "phantasmagoria-map-tier-10",
+				"text": "Карта фантасмагории"
 			},
 			{
-				"id": "plateau-map-tier-10",
-				"text": "Карта плоскогорья"
+				"id": "pier-map-tier-10",
+				"text": "Карта причала"
 			},
 			{
 				"id": "plaza-map-tier-10",
 				"text": "Карта площади"
 			},
 			{
-				"id": "precinct-map-tier-10",
-				"text": "Карта окрестностей"
+				"id": "primordial-blocks-map-tier-10",
+				"text": "Карта первобытного поселения"
 			},
 			{
 				"id": "primordial-pool-map-tier-10",
 				"text": "Карта древнего озера"
 			},
 			{
-				"id": "racecourse-map-tier-10",
-				"text": "Карта ипподрома"
+				"id": "reef-map-tier-10",
+				"text": "Карта рифа"
 			},
 			{
-				"id": "ramparts-map-tier-10",
-				"text": "Карта бастиона"
+				"id": "scriptorium-map-tier-10",
+				"text": "Карта скриптория"
 			},
 			{
-				"id": "sepulchre-map-tier-10",
-				"text": "Карта усыпальницы"
+				"id": "shore-map-tier-10",
+				"text": "Карта берега"
+			},
+			{
+				"id": "strand-map-tier-10",
+				"text": "Карта взморья"
+			},
+			{
+				"id": "sulphur-vents-map-tier-10",
+				"text": "Карта серного озера"
 			},
 			{
 				"id": "temple-map-tier-10",
 				"text": "Карта храма"
 			},
 			{
-				"id": "terrace-map-tier-10",
-				"text": "Карта террасы"
-			},
-			{
 				"id": "toxic-sewer-map-tier-10",
 				"text": "Карта клоаки"
 			},
 			{
-				"id": "tropical-island-map-tier-10",
-				"text": "Карта тропического острова"
-			},
-			{
 				"id": "vaal-pyramid-map-tier-10",
 				"text": "Карта пирамиды ваал"
-			},
-			{
-				"id": "vault-map-tier-10",
-				"text": "Карта хранилища"
-			},
-			{
-				"id": "waste-pool-map-tier-10",
-				"text": "Карта помойного пруда"
 			}
 		],
 		"id": "MapsTier10",
@@ -4333,8 +4628,8 @@
 				"text": "Карта академии"
 			},
 			{
-				"id": "arachnid-tomb-map-tier-11",
-				"text": "Карта паучьей гробницы"
+				"id": "ancient-city-map-tier-11",
+				"text": "Карта древнего города"
 			},
 			{
 				"id": "arena-map-tier-11",
@@ -4345,6 +4640,10 @@
 				"text": "Карта высохшего озера"
 			},
 			{
+				"id": "armoury-map-tier-11",
+				"text": "Карта оружейной"
+			},
+			{
 				"id": "arsenal-map-tier-11",
 				"text": "Карта арсенала"
 			},
@@ -4353,60 +4652,48 @@
 				"text": "Карта пепельного леса"
 			},
 			{
-				"id": "atoll-map-tier-11",
-				"text": "Карта атолла"
-			},
-			{
-				"id": "barrows-map-tier-11",
-				"text": "Карта кургана"
-			},
-			{
-				"id": "beach-map-tier-11",
-				"text": "Карта пляжа"
+				"id": "belfry-map-tier-11",
+				"text": "Карта колокольни"
 			},
 			{
 				"id": "bone-crypt-map-tier-11",
 				"text": "Карта гробницы"
 			},
 			{
-				"id": "caldera-map-tier-11",
-				"text": "Карта кальдеры"
+				"id": "cage-map-tier-11",
+				"text": "Карта клетки"
 			},
 			{
-				"id": "cemetery-map-tier-11",
-				"text": "Карта погоста"
+				"id": "carcass-map-tier-11",
+				"text": "Карта остова"
+			},
+			{
+				"id": "cells-map-tier-11",
+				"text": "Карта камер"
 			},
 			{
 				"id": "channel-map-tier-11",
 				"text": "Карта канала"
 			},
 			{
-				"id": "city-square-map-tier-11",
-				"text": "Карта городской площади"
+				"id": "chateau-map-tier-11",
+				"text": "Карта усадьбы"
 			},
 			{
-				"id": "colonnade-map-tier-11",
-				"text": "Карта колоннады"
+				"id": "cold-river-map-tier-11",
+				"text": "Карта холодной реки"
 			},
 			{
 				"id": "conservatory-map-tier-11",
 				"text": "Карта зимнего сада"
 			},
 			{
-				"id": "coral-ruins-map-tier-11",
-				"text": "Карта коралловых руин"
-			},
-			{
-				"id": "core-map-tier-11",
-				"text": "Карта сердца"
+				"id": "courthouse-map-tier-11",
+				"text": "Карта здания суда"
 			},
 			{
 				"id": "courtyard-map-tier-11",
 				"text": "Карта подворья"
-			},
-			{
-				"id": "coves-map-tier-11",
-				"text": "Карта бухты"
 			},
 			{
 				"id": "crater-map-tier-11",
@@ -4417,12 +4704,16 @@
 				"text": "Карта кровавого храма"
 			},
 			{
-				"id": "cursed-crypt-map-tier-11",
-				"text": "Карта проклятого склепа"
-			},
-			{
 				"id": "dark-forest-map-tier-11",
 				"text": "Карта мрачного леса"
+			},
+			{
+				"id": "defiled-cathedral-map-tier-11",
+				"text": "Карта осквернённого собора"
+			},
+			{
+				"id": "desert-map-tier-11",
+				"text": "Карта пустыни"
 			},
 			{
 				"id": "desert-spring-map-tier-11",
@@ -4433,10 +4724,6 @@
 				"text": "Карта дюн"
 			},
 			{
-				"id": "factory-map-tier-11",
-				"text": "Карта фактории"
-			},
-			{
 				"id": "fields-map-tier-11",
 				"text": "Карта полей"
 			},
@@ -4445,8 +4732,24 @@
 				"text": "Карта затопленной шахты"
 			},
 			{
-				"id": "graveyard-map-tier-11",
-				"text": "Карта кладбища"
+				"id": "forbidden-woods-map-tier-11",
+				"text": "Карта запретных лесов"
+			},
+			{
+				"id": "fungal-hollow-map-tier-11",
+				"text": "Карта грибковой впадины"
+			},
+			{
+				"id": "gardens-map-tier-11",
+				"text": "Карта садов"
+			},
+			{
+				"id": "glacier-map-tier-11",
+				"text": "Карта ледника"
+			},
+			{
+				"id": "grave-trough-map-tier-11",
+				"text": "Карта могильной низины"
 			},
 			{
 				"id": "grotto-map-tier-11",
@@ -4457,120 +4760,116 @@
 				"text": "Карта дома с привидениями"
 			},
 			{
+				"id": "iceberg-map-tier-11",
+				"text": "Карта айсберга"
+			},
+			{
+				"id": "infested-valley-map-tier-11",
+				"text": "Карта заражённой долины"
+			},
+			{
 				"id": "ivory-temple-map-tier-11",
 				"text": "Карта храма из слоновой кости"
 			},
 			{
-				"id": "jungle-valley-map-tier-11",
-				"text": "Карта долины джунглей"
+				"id": "lair-map-tier-11",
+				"text": "Карта логова"
 			},
 			{
 				"id": "lava-chamber-map-tier-11",
 				"text": "Карта лавовой тюрьмы"
 			},
 			{
-				"id": "leyline-map-tier-11",
-				"text": "Карта тропы"
+				"id": "mineral-pools-map-tier-11",
+				"text": "Карта минеральных озёр"
 			},
 			{
-				"id": "lighthouse-map-tier-11",
-				"text": "Карта навигационной башни"
+				"id": "moon-temple-map-tier-11",
+				"text": "Карта храма Луны"
 			},
 			{
-				"id": "marshes-map-tier-11",
-				"text": "Карта болот"
+				"id": "museum-map-tier-11",
+				"text": "Карта музея"
 			},
 			{
-				"id": "mausoleum-map-tier-11",
-				"text": "Карта мавзолея"
+				"id": "orchard-map-tier-11",
+				"text": "Карта фруктовых садов"
 			},
 			{
-				"id": "maze-map-tier-11",
-				"text": "Карта лабиринта"
+				"id": "overgrown-ruin-map-tier-11",
+				"text": "Карта заросших руин"
 			},
 			{
-				"id": "mesa-map-tier-11",
-				"text": "Карта плоского холма"
+				"id": "overgrown-shrine-map-tier-11",
+				"text": "Карта заросшей обители"
 			},
 			{
-				"id": "mud-geyser-map-tier-11",
-				"text": "Карта грязевого гейзера"
-			},
-			{
-				"id": "pier-map-tier-11",
-				"text": "Карта причала"
+				"id": "peninsula-map-tier-11",
+				"text": "Карта мыса"
 			},
 			{
 				"id": "port-map-tier-11",
 				"text": "Карта порта"
 			},
 			{
-				"id": "primordial-blocks-map-tier-11",
-				"text": "Карта первобытного поселения"
+				"id": "precinct-map-tier-11",
+				"text": "Карта окрестностей"
 			},
 			{
-				"id": "primordial-pool-map-tier-11",
-				"text": "Карта древнего озера"
+				"id": "promenade-map-tier-11",
+				"text": "Карта прогулочного парка"
 			},
 			{
 				"id": "racecourse-map-tier-11",
 				"text": "Карта ипподрома"
 			},
 			{
-				"id": "relic-chambers-map-tier-11",
-				"text": "Карта палаты древностей"
+				"id": "ramparts-map-tier-11",
+				"text": "Карта бастиона"
 			},
 			{
-				"id": "scriptorium-map-tier-11",
-				"text": "Карта скриптория"
+				"id": "silo-map-tier-11",
+				"text": "Карта зернохранилища"
 			},
 			{
-				"id": "shore-map-tier-11",
-				"text": "Карта берега"
+				"id": "spider-forest-map-tier-11",
+				"text": "Карта паучьего леса"
 			},
 			{
-				"id": "strand-map-tier-11",
-				"text": "Карта взморья"
-			},
-			{
-				"id": "sulphur-vents-map-tier-11",
-				"text": "Карта серного озера"
-			},
-			{
-				"id": "summit-map-tier-11",
-				"text": "Карта вершины"
+				"id": "stagnation-map-tier-11",
+				"text": "Карта застоя"
 			},
 			{
 				"id": "sunken-city-map-tier-11",
 				"text": "Карта затонувшего города"
 			},
 			{
-				"id": "terrace-map-tier-11",
-				"text": "Карта террасы"
+				"id": "tower-map-tier-11",
+				"text": "Карта башни"
+			},
+			{
+				"id": "toxic-sewer-map-tier-11",
+				"text": "Карта клоаки"
+			},
+			{
+				"id": "tropical-island-map-tier-11",
+				"text": "Карта тропического острова"
+			},
+			{
+				"id": "underground-river-map-tier-11",
+				"text": "Карта подземной реки"
 			},
 			{
 				"id": "underground-sea-map-tier-11",
 				"text": "Карта подземного моря"
 			},
 			{
-				"id": "vault-map-tier-11",
-				"text": "Карта хранилища"
-			},
-			{
-				"id": "villa-map-tier-11",
-				"text": "Карта поместья"
+				"id": "vaal-pyramid-map-tier-11",
+				"text": "Карта пирамиды ваал"
 			},
 			{
 				"id": "volcano-map-tier-11",
 				"text": "Карта вулкана"
-			},
-			{
-				"id": "wasteland-map-tier-11",
-				"text": "Карта пустоши"
-			},
-			{
-				"id": "waterways-map-tier-11",
-				"text": "Карта водотоков"
 			},
 			{
 				"id": "wharf-map-tier-11",
@@ -4583,72 +4882,52 @@
 	{
 		"entries": [
 			{
-				"id": "academy-map-tier-12",
-				"text": "Карта академии"
+				"id": "alleyways-map-tier-12",
+				"text": "Карта переулка"
 			},
 			{
-				"id": "ancient-city-map-tier-12",
-				"text": "Карта древнего города"
+				"id": "arsenal-map-tier-12",
+				"text": "Карта арсенала"
 			},
 			{
-				"id": "arachnid-nest-map-tier-12",
-				"text": "Карта гнезда пауков"
-			},
-			{
-				"id": "arcade-map-tier-12",
-				"text": "Карта агоры"
-			},
-			{
-				"id": "armoury-map-tier-12",
-				"text": "Карта оружейной"
+				"id": "atoll-map-tier-12",
+				"text": "Карта атолла"
 			},
 			{
 				"id": "basilica-map-tier-12",
 				"text": "Карта базилики"
 			},
 			{
-				"id": "bazaar-map-tier-12",
-				"text": "Карта базара"
-			},
-			{
-				"id": "belfry-map-tier-12",
-				"text": "Карта колокольни"
-			},
-			{
-				"id": "bog-map-tier-12",
-				"text": "Карта трясины"
-			},
-			{
 				"id": "bone-crypt-map-tier-12",
 				"text": "Карта гробницы"
-			},
-			{
-				"id": "caldera-map-tier-12",
-				"text": "Карта кальдеры"
 			},
 			{
 				"id": "canyon-map-tier-12",
 				"text": "Карта ущелья"
 			},
 			{
-				"id": "castle-ruins-map-tier-12",
-				"text": "Карта развалин замка"
+				"id": "cells-map-tier-12",
+				"text": "Карта камер"
 			},
 			{
-				"id": "chateau-map-tier-12",
-				"text": "Карта усадьбы"
+				"id": "cemetery-map-tier-12",
+				"text": "Карта погоста"
 			},
 			{
-				"id": "courthouse-map-tier-12",
-				"text": "Карта здания суда"
+				"id": "coral-ruins-map-tier-12",
+				"text": "Карта коралловых руин"
+			},
+			{
+				"id": "crimson-township-map-tier-12",
+				"text": "Карта кровавой общины"
 			},
 			{
 				"id": "crystal-ore-map-tier-12",
 				"text": "Карта кристальной шахты"
 			},
 			{
-				"id": "defiled-cathedral-map-tier-12",
-				"text": "Карта осквернённого собора"
+				"id": "desert-map-tier-12",
+				"text": "Карта пустыни"
 			},
 			{
 				"id": "dig-map-tier-12",
@@ -4659,112 +4938,136 @@
 				"text": "Карта подземелья"
 			},
 			{
-				"id": "excavation-map-tier-12",
-				"text": "Карта раскопок"
+				"id": "forking-river-map-tier-12",
+				"text": "Карта речной развилки"
 			},
 			{
-				"id": "gardens-map-tier-12",
-				"text": "Карта садов"
+				"id": "frozen-cabins-map-tier-12",
+				"text": "Карта замёрзших хижин"
+			},
+			{
+				"id": "geode-map-tier-12",
+				"text": "Карта жеоды"
 			},
 			{
 				"id": "ghetto-map-tier-12",
 				"text": "Карта хибар"
 			},
 			{
-				"id": "grotto-map-tier-12",
-				"text": "Карта грота"
+				"id": "graveyard-map-tier-12",
+				"text": "Карта кладбища"
 			},
 			{
-				"id": "infested-valley-map-tier-12",
-				"text": "Карта заражённой долины"
-			},
-			{
-				"id": "lair-map-tier-12",
-				"text": "Карта логова"
+				"id": "laboratory-map-tier-12",
+				"text": "Карта лаборатории"
 			},
 			{
 				"id": "leyline-map-tier-12",
 				"text": "Карта тропы"
 			},
 			{
+				"id": "lighthouse-map-tier-12",
+				"text": "Карта навигационной башни"
+			},
+			{
+				"id": "lookout-map-tier-12",
+				"text": "Карта обзорной площадки"
+			},
+			{
 				"id": "malformation-map-tier-12",
 				"text": "Карта недр"
 			},
 			{
-				"id": "mineral-pools-map-tier-12",
-				"text": "Карта минеральных озёр"
+				"id": "marshes-map-tier-12",
+				"text": "Карта болот"
 			},
 			{
-				"id": "moon-temple-map-tier-12",
-				"text": "Карта храма Луны"
+				"id": "mausoleum-map-tier-12",
+				"text": "Карта мавзолея"
 			},
 			{
-				"id": "museum-map-tier-12",
-				"text": "Карта музея"
+				"id": "mud-geyser-map-tier-12",
+				"text": "Карта грязевого гейзера"
 			},
 			{
-				"id": "orchard-map-tier-12",
-				"text": "Карта фруктового сада"
+				"id": "palace-map-tier-12",
+				"text": "Карта дворца"
 			},
 			{
-				"id": "park-map-tier-12",
-				"text": "Карта парка"
+				"id": "phantasmagoria-map-tier-12",
+				"text": "Карта фантасмагории"
 			},
 			{
-				"id": "pen-map-tier-12",
-				"text": "Карта загона"
-			},
-			{
-				"id": "peninsula-map-tier-12",
-				"text": "Карта мыса"
-			},
-			{
-				"id": "pit-map-tier-12",
-				"text": "Карта ямы"
-			},
-			{
-				"id": "plateau-map-tier-12",
-				"text": "Карта плоскогорья"
+				"id": "pier-map-tier-12",
+				"text": "Карта причала"
 			},
 			{
 				"id": "plaza-map-tier-12",
 				"text": "Карта площади"
 			},
 			{
-				"id": "precinct-map-tier-12",
-				"text": "Карта окрестностей"
+				"id": "primordial-blocks-map-tier-12",
+				"text": "Карта первобытного поселения"
+			},
+			{
+				"id": "primordial-pool-map-tier-12",
+				"text": "Карта древнего озера"
 			},
 			{
 				"id": "ramparts-map-tier-12",
 				"text": "Карта бастиона"
 			},
 			{
-				"id": "sepulchre-map-tier-12",
-				"text": "Карта усыпальницы"
+				"id": "reef-map-tier-12",
+				"text": "Карта рифа"
+			},
+			{
+				"id": "relic-chambers-map-tier-12",
+				"text": "Карта палаты древностей"
 			},
 			{
 				"id": "shipyard-map-tier-12",
 				"text": "Карта верфи"
 			},
 			{
+				"id": "shore-map-tier-12",
+				"text": "Карта берега"
+			},
+			{
 				"id": "shrine-map-tier-12",
 				"text": "Карта святыни"
 			},
 			{
-				"id": "spider-forest-map-tier-12",
-				"text": "Карта паучьего леса"
+				"id": "siege-map-tier-12",
+				"text": "Карта осаждённого города"
+			},
+			{
+				"id": "spider-lair-map-tier-12",
+				"text": "Карта паучьего логова"
+			},
+			{
+				"id": "strand-map-tier-12",
+				"text": "Карта взморья"
+			},
+			{
+				"id": "sulphur-vents-map-tier-12",
+				"text": "Карта серного озера"
 			},
 			{
 				"id": "temple-map-tier-12",
 				"text": "Карта храма"
 			},
 			{
-				"id": "vaal-pyramid-map-tier-12",
-				"text": "Карта пирамиды ваал"
-			},
-			{
 				"id": "waste-pool-map-tier-12",
 				"text": "Карта помойного пруда"
+			},
+			{
+				"id": "wasteland-map-tier-12",
+				"text": "Карта пустоши"
+			},
+			{
+				"id": "waterways-map-tier-12",
+				"text": "Карта водотоков"
 			}
 		],
 		"id": "MapsTier12",
@@ -4773,96 +5076,100 @@
 	{
 		"entries": [
 			{
-				"id": "arachnid-tomb-map-tier-13",
-				"text": "Карта паучьей гробницы"
+				"id": "academy-map-tier-13",
+				"text": "Карта академии"
 			},
 			{
-				"id": "arcade-map-tier-13",
-				"text": "Карта агоры"
+				"id": "alleyways-map-tier-13",
+				"text": "Карта переулка"
 			},
 			{
-				"id": "arena-map-tier-13",
-				"text": "Карта арены"
-			},
-			{
-				"id": "barrows-map-tier-13",
-				"text": "Карта кургана"
-			},
-			{
-				"id": "castle-ruins-map-tier-13",
-				"text": "Карта развалин замка"
-			},
-			{
-				"id": "cells-map-tier-13",
-				"text": "Карта камер"
+				"id": "armoury-map-tier-13",
+				"text": "Карта оружейной"
 			},
 			{
 				"id": "channel-map-tier-13",
 				"text": "Карта канала"
 			},
 			{
-				"id": "core-map-tier-13",
-				"text": "Карта сердца"
+				"id": "conservatory-map-tier-13",
+				"text": "Карта зимнего сада"
 			},
 			{
-				"id": "courtyard-map-tier-13",
-				"text": "Карта подворья"
+				"id": "courthouse-map-tier-13",
+				"text": "Карта здания суда"
 			},
 			{
 				"id": "crimson-temple-map-tier-13",
 				"text": "Карта кровавого храма"
 			},
 			{
-				"id": "dark-forest-map-tier-13",
-				"text": "Карта мрачного леса"
+				"id": "cursed-crypt-map-tier-13",
+				"text": "Карта проклятого склепа"
 			},
 			{
-				"id": "desert-spring-map-tier-13",
-				"text": "Карта пустынного источника"
+				"id": "dunes-map-tier-13",
+				"text": "Карта дюн"
 			},
 			{
-				"id": "geode-map-tier-13",
-				"text": "Карта жеоды"
+				"id": "factory-map-tier-13",
+				"text": "Карта фактории"
 			},
 			{
-				"id": "malformation-map-tier-13",
-				"text": "Карта недр"
+				"id": "flooded-mine-map-tier-13",
+				"text": "Карта затопленной шахты"
 			},
 			{
-				"id": "overgrown-shrine-map-tier-13",
-				"text": "Карта заросшей обители"
+				"id": "fungal-hollow-map-tier-13",
+				"text": "Карта грибковой впадины"
 			},
 			{
-				"id": "port-map-tier-13",
-				"text": "Карта порта"
+				"id": "grave-trough-map-tier-13",
+				"text": "Карта могильной низины"
 			},
 			{
-				"id": "primordial-blocks-map-tier-13",
-				"text": "Карта первобытного поселения"
+				"id": "iceberg-map-tier-13",
+				"text": "Карта айсберга"
 			},
 			{
-				"id": "shore-map-tier-13",
-				"text": "Карта берега"
+				"id": "mausoleum-map-tier-13",
+				"text": "Карта мавзолея"
 			},
 			{
-				"id": "shrine-map-tier-13",
-				"text": "Карта святыни"
+				"id": "maze-map-tier-13",
+				"text": "Карта лабиринта"
 			},
 			{
-				"id": "siege-map-tier-13",
-				"text": "Карта осаждённого города"
+				"id": "museum-map-tier-13",
+				"text": "Карта музея"
 			},
 			{
-				"id": "toxic-sewer-map-tier-13",
-				"text": "Карта клоаки"
+				"id": "palace-map-tier-13",
+				"text": "Карта дворца"
 			},
 			{
-				"id": "underground-river-map-tier-13",
-				"text": "Карта подземной реки"
+				"id": "park-map-tier-13",
+				"text": "Карта парка"
 			},
 			{
-				"id": "volcano-map-tier-13",
-				"text": "Карта вулкана"
+				"id": "plateau-map-tier-13",
+				"text": "Карта плоскогорья"
+			},
+			{
+				"id": "precinct-map-tier-13",
+				"text": "Карта окрестностей"
+			},
+			{
+				"id": "racecourse-map-tier-13",
+				"text": "Карта ипподрома"
+			},
+			{
+				"id": "relic-chambers-map-tier-13",
+				"text": "Карта палаты древностей"
+			},
+			{
+				"id": "scriptorium-map-tier-13",
+				"text": "Карта скриптория"
 			}
 		],
 		"id": "MapsTier13",
@@ -4871,32 +5178,24 @@
 	{
 		"entries": [
 			{
-				"id": "academy-map-tier-14",
-				"text": "Карта академии"
-			},
-			{
-				"id": "alleyways-map-tier-14",
-				"text": "Карта переулка"
+				"id": "acid-caverns-map-tier-14",
+				"text": "Карта едких пещер"
 			},
 			{
 				"id": "ancient-city-map-tier-14",
 				"text": "Карта древнего города"
 			},
 			{
-				"id": "arachnid-nest-map-tier-14",
-				"text": "Карта гнезда пауков"
+				"id": "arcade-map-tier-14",
+				"text": "Карта агоры"
+			},
+			{
+				"id": "arena-map-tier-14",
+				"text": "Карта арены"
 			},
 			{
 				"id": "arid-lake-map-tier-14",
 				"text": "Карта высохшего озера"
-			},
-			{
-				"id": "armoury-map-tier-14",
-				"text": "Карта оружейной"
-			},
-			{
-				"id": "arsenal-map-tier-14",
-				"text": "Карта арсенала"
 			},
 			{
 				"id": "ashen-wood-map-tier-14",
@@ -4905,6 +5204,10 @@
 			{
 				"id": "atoll-map-tier-14",
 				"text": "Карта атолла"
+			},
+			{
+				"id": "barrows-map-tier-14",
+				"text": "Карта кургана"
 			},
 			{
 				"id": "basilica-map-tier-14",
@@ -4919,12 +5222,16 @@
 				"text": "Карта колокольни"
 			},
 			{
-				"id": "bog-map-tier-14",
-				"text": "Карта трясины"
+				"id": "bramble-valley-map-tier-14",
+				"text": "Карта колючей долины"
 			},
 			{
-				"id": "canyon-map-tier-14",
-				"text": "Карта ущелья"
+				"id": "cage-map-tier-14",
+				"text": "Карта клетки"
+			},
+			{
+				"id": "caldera-map-tier-14",
+				"text": "Карта кальдеры"
 			},
 			{
 				"id": "carcass-map-tier-14",
@@ -4943,20 +5250,24 @@
 				"text": "Карта городской площади"
 			},
 			{
-				"id": "colonnade-map-tier-14",
-				"text": "Карта колоннады"
+				"id": "cold-river-map-tier-14",
+				"text": "Карта холодной реки"
 			},
 			{
 				"id": "colosseum-map-tier-14",
 				"text": "Карта колизея"
 			},
 			{
-				"id": "conservatory-map-tier-14",
-				"text": "Карта зимнего сада"
-			},
-			{
 				"id": "coral-ruins-map-tier-14",
 				"text": "Карта коралловых руин"
+			},
+			{
+				"id": "core-map-tier-14",
+				"text": "Карта сердца"
+			},
+			{
+				"id": "courtyard-map-tier-14",
+				"text": "Карта подворья"
 			},
 			{
 				"id": "coves-map-tier-14",
@@ -4971,64 +5282,60 @@
 				"text": "Карта кристальной шахты"
 			},
 			{
-				"id": "cursed-crypt-map-tier-14",
-				"text": "Карта проклятого склепа"
+				"id": "dark-forest-map-tier-14",
+				"text": "Карта мрачного леса"
 			},
 			{
 				"id": "defiled-cathedral-map-tier-14",
 				"text": "Карта осквернённого собора"
 			},
 			{
-				"id": "desert-map-tier-14",
-				"text": "Карта пустыни"
+				"id": "desert-spring-map-tier-14",
+				"text": "Карта пустынного источника"
 			},
 			{
 				"id": "dig-map-tier-14",
 				"text": "Карта развалин"
 			},
 			{
-				"id": "dunes-map-tier-14",
-				"text": "Карта дюн"
+				"id": "dry-sea-map-tier-14",
+				"text": "Карта высохшего моря"
 			},
 			{
 				"id": "dungeon-map-tier-14",
 				"text": "Карта подземелья"
 			},
 			{
-				"id": "estuary-map-tier-14",
-				"text": "Карта устья реки"
-			},
-			{
 				"id": "excavation-map-tier-14",
 				"text": "Карта раскопок"
-			},
-			{
-				"id": "factory-map-tier-14",
-				"text": "Карта фактории"
 			},
 			{
 				"id": "fields-map-tier-14",
 				"text": "Карта полей"
 			},
 			{
-				"id": "flooded-mine-map-tier-14",
-				"text": "Карта затопленной шахты"
+				"id": "forbidden-woods-map-tier-14",
+				"text": "Карта запретных лесов"
 			},
 			{
-				"id": "fungal-hollow-map-tier-14",
-				"text": "Карта грибковой впадины"
+				"id": "forking-river-map-tier-14",
+				"text": "Карта речной развилки"
 			},
 			{
-				"id": "ghetto-map-tier-14",
-				"text": "Карта хибар"
+				"id": "gardens-map-tier-14",
+				"text": "Карта садов"
+			},
+			{
+				"id": "geode-map-tier-14",
+				"text": "Карта жеоды"
 			},
 			{
 				"id": "glacier-map-tier-14",
 				"text": "Карта ледника"
 			},
 			{
-				"id": "graveyard-map-tier-14",
-				"text": "Карта кладбища"
+				"id": "grotto-map-tier-14",
+				"text": "Карта грота"
 			},
 			{
 				"id": "haunted-mansion-map-tier-14",
@@ -5059,6 +5366,10 @@
 				"text": "Карта лавовой тюрьмы"
 			},
 			{
+				"id": "leyline-map-tier-14",
+				"text": "Карта тропы"
+			},
+			{
 				"id": "lighthouse-map-tier-14",
 				"text": "Карта навигационной башни"
 			},
@@ -5067,16 +5378,8 @@
 				"text": "Карта обзорной площадки"
 			},
 			{
-				"id": "marshes-map-tier-14",
-				"text": "Карта болот"
-			},
-			{
-				"id": "mausoleum-map-tier-14",
-				"text": "Карта мавзолея"
-			},
-			{
-				"id": "maze-map-tier-14",
-				"text": "Карта лабиринта"
+				"id": "malformation-map-tier-14",
+				"text": "Карта недр"
 			},
 			{
 				"id": "mesa-map-tier-14",
@@ -5091,16 +5394,16 @@
 				"text": "Карта храма Луны"
 			},
 			{
-				"id": "mud-geyser-map-tier-14",
-				"text": "Карта грязевого гейзера"
+				"id": "orchard-map-tier-14",
+				"text": "Карта фруктовых садов"
 			},
 			{
-				"id": "museum-map-tier-14",
-				"text": "Карта музея"
+				"id": "overgrown-ruin-map-tier-14",
+				"text": "Карта заросших руин"
 			},
 			{
-				"id": "park-map-tier-14",
-				"text": "Карта парка"
+				"id": "overgrown-shrine-map-tier-14",
+				"text": "Карта заросшей обители"
 			},
 			{
 				"id": "pen-map-tier-14",
@@ -5115,44 +5418,56 @@
 				"text": "Карта фантасмагории"
 			},
 			{
-				"id": "pier-map-tier-14",
-				"text": "Карта причала"
-			},
-			{
-				"id": "pit-map-tier-14",
-				"text": "Карта ямы"
-			},
-			{
-				"id": "plateau-map-tier-14",
-				"text": "Карта плоскогорья"
-			},
-			{
 				"id": "plaza-map-tier-14",
 				"text": "Карта площади"
+			},
+			{
+				"id": "port-map-tier-14",
+				"text": "Карта порта"
+			},
+			{
+				"id": "primordial-blocks-map-tier-14",
+				"text": "Карта первобытного поселения"
 			},
 			{
 				"id": "primordial-pool-map-tier-14",
 				"text": "Карта древнего озера"
 			},
 			{
-				"id": "racecourse-map-tier-14",
-				"text": "Карта ипподрома"
+				"id": "promenade-map-tier-14",
+				"text": "Карта прогулочного парка"
 			},
 			{
-				"id": "relic-chambers-map-tier-14",
-				"text": "Карта палаты древностей"
+				"id": "ramparts-map-tier-14",
+				"text": "Карта бастиона"
 			},
 			{
 				"id": "residence-map-tier-14",
 				"text": "Карта резиденции"
 			},
 			{
-				"id": "scriptorium-map-tier-14",
-				"text": "Карта скриптория"
+				"id": "sepulchre-map-tier-14",
+				"text": "Карта усыпальницы"
 			},
 			{
 				"id": "shipyard-map-tier-14",
 				"text": "Карта верфи"
+			},
+			{
+				"id": "shore-map-tier-14",
+				"text": "Карта берега"
+			},
+			{
+				"id": "shrine-map-tier-14",
+				"text": "Карта святыни"
+			},
+			{
+				"id": "siege-map-tier-14",
+				"text": "Карта осаждённого города"
+			},
+			{
+				"id": "silo-map-tier-14",
+				"text": "Карта зернохранилища"
 			},
 			{
 				"id": "spider-forest-map-tier-14",
@@ -5163,16 +5478,16 @@
 				"text": "Карта паучьего логова"
 			},
 			{
+				"id": "stagnation-map-tier-14",
+				"text": "Карта застоя"
+			},
+			{
 				"id": "strand-map-tier-14",
 				"text": "Карта взморья"
 			},
 			{
 				"id": "sulphur-vents-map-tier-14",
 				"text": "Карта серного озера"
-			},
-			{
-				"id": "summit-map-tier-14",
-				"text": "Карта вершины"
 			},
 			{
 				"id": "sunken-city-map-tier-14",
@@ -5183,16 +5498,24 @@
 				"text": "Карта храма"
 			},
 			{
-				"id": "terrace-map-tier-14",
-				"text": "Карта террасы"
-			},
-			{
 				"id": "thicket-map-tier-14",
 				"text": "Карта чащи"
 			},
 			{
+				"id": "tower-map-tier-14",
+				"text": "Карта башни"
+			},
+			{
+				"id": "toxic-sewer-map-tier-14",
+				"text": "Карта клоаки"
+			},
+			{
 				"id": "tropical-island-map-tier-14",
 				"text": "Карта тропического острова"
+			},
+			{
+				"id": "underground-river-map-tier-14",
+				"text": "Карта подземной реки"
 			},
 			{
 				"id": "underground-sea-map-tier-14",
@@ -5203,12 +5526,12 @@
 				"text": "Карта пирамиды ваал"
 			},
 			{
-				"id": "vault-map-tier-14",
-				"text": "Карта хранилища"
+				"id": "volcano-map-tier-14",
+				"text": "Карта вулкана"
 			},
 			{
-				"id": "villa-map-tier-14",
-				"text": "Карта поместья"
+				"id": "waste-pool-map-tier-14",
+				"text": "Карта помойного пруда"
 			},
 			{
 				"id": "wasteland-map-tier-14",
@@ -5229,32 +5552,32 @@
 	{
 		"entries": [
 			{
-				"id": "acid-caverns-map-tier-15",
-				"text": "Карта едких пещер"
+				"id": "alleyways-map-tier-15",
+				"text": "Карта переулка"
 			},
 			{
 				"id": "arachnid-tomb-map-tier-15",
 				"text": "Карта паучьей гробницы"
 			},
 			{
-				"id": "barrows-map-tier-15",
-				"text": "Карта кургана"
+				"id": "armoury-map-tier-15",
+				"text": "Карта оружейной"
+			},
+			{
+				"id": "arsenal-map-tier-15",
+				"text": "Карта арсенала"
 			},
 			{
 				"id": "bazaar-map-tier-15",
 				"text": "Карта базара"
 			},
 			{
+				"id": "bog-map-tier-15",
+				"text": "Карта трясины"
+			},
+			{
 				"id": "bone-crypt-map-tier-15",
 				"text": "Карта гробницы"
-			},
-			{
-				"id": "burial-chambers-map-tier-15",
-				"text": "Карта погребальных камер"
-			},
-			{
-				"id": "caldera-map-tier-15",
-				"text": "Карта кальдеры"
 			},
 			{
 				"id": "canyon-map-tier-15",
@@ -5273,108 +5596,128 @@
 				"text": "Карта канала"
 			},
 			{
-				"id": "core-map-tier-15",
-				"text": "Карта сердца"
+				"id": "colonnade-map-tier-15",
+				"text": "Карта колоннады"
+			},
+			{
+				"id": "conservatory-map-tier-15",
+				"text": "Карта зимнего сада"
 			},
 			{
 				"id": "courthouse-map-tier-15",
 				"text": "Карта здания суда"
 			},
 			{
-				"id": "courtyard-map-tier-15",
-				"text": "Карта подворья"
-			},
-			{
 				"id": "crimson-temple-map-tier-15",
 				"text": "Карта кровавого храма"
 			},
 			{
-				"id": "dark-forest-map-tier-15",
-				"text": "Карта мрачного леса"
+				"id": "crimson-township-map-tier-15",
+				"text": "Карта кровавой общины"
 			},
 			{
-				"id": "desert-spring-map-tier-15",
-				"text": "Карта пустынного источника"
+				"id": "desert-map-tier-15",
+				"text": "Карта пустыни"
 			},
 			{
-				"id": "gardens-map-tier-15",
-				"text": "Карта садов"
+				"id": "dunes-map-tier-15",
+				"text": "Карта дюн"
 			},
 			{
-				"id": "geode-map-tier-15",
-				"text": "Карта жеоды"
+				"id": "estuary-map-tier-15",
+				"text": "Карта устья реки"
 			},
 			{
-				"id": "grotto-map-tier-15",
-				"text": "Карта грота"
+				"id": "flooded-mine-map-tier-15",
+				"text": "Карта затопленной шахты"
 			},
 			{
-				"id": "iceberg-map-tier-15",
-				"text": "Карта айсберга"
+				"id": "foundry-map-tier-15",
+				"text": "Карта литейной"
+			},
+			{
+				"id": "frozen-cabins-map-tier-15",
+				"text": "Карта замёрзших хижин"
+			},
+			{
+				"id": "fungal-hollow-map-tier-15",
+				"text": "Карта грибковой впадины"
+			},
+			{
+				"id": "ghetto-map-tier-15",
+				"text": "Карта хибар"
+			},
+			{
+				"id": "grave-trough-map-tier-15",
+				"text": "Карта могильной низины"
+			},
+			{
+				"id": "graveyard-map-tier-15",
+				"text": "Карта кладбища"
 			},
 			{
 				"id": "lava-lake-map-tier-15",
 				"text": "Карта лавового озера"
 			},
 			{
-				"id": "leyline-map-tier-15",
-				"text": "Карта тропы"
+				"id": "marshes-map-tier-15",
+				"text": "Карта болот"
 			},
 			{
-				"id": "malformation-map-tier-15",
-				"text": "Карта недр"
-			},
-			{
-				"id": "necropolis-map-tier-15",
-				"text": "Карта некрополя"
-			},
-			{
-				"id": "orchard-map-tier-15",
-				"text": "Карта фруктового сада"
-			},
-			{
-				"id": "overgrown-ruin-map-tier-15",
-				"text": "Карта заросших руин"
+				"id": "museum-map-tier-15",
+				"text": "Карта музея"
 			},
 			{
 				"id": "palace-map-tier-15",
 				"text": "Карта дворца"
 			},
 			{
-				"id": "port-map-tier-15",
-				"text": "Карта порта"
+				"id": "pier-map-tier-15",
+				"text": "Карта причала"
+			},
+			{
+				"id": "plateau-map-tier-15",
+				"text": "Карта плоскогорья"
 			},
 			{
 				"id": "precinct-map-tier-15",
 				"text": "Карта окрестностей"
 			},
 			{
-				"id": "primordial-blocks-map-tier-15",
-				"text": "Карта первобытного поселения"
+				"id": "racecourse-map-tier-15",
+				"text": "Карта ипподрома"
 			},
 			{
-				"id": "ramparts-map-tier-15",
-				"text": "Карта бастиона"
+				"id": "reef-map-tier-15",
+				"text": "Карта рифа"
 			},
 			{
-				"id": "sepulchre-map-tier-15",
-				"text": "Карта усыпальницы"
+				"id": "relic-chambers-map-tier-15",
+				"text": "Карта палаты древностей"
 			},
 			{
-				"id": "shore-map-tier-15",
-				"text": "Карта берега"
+				"id": "scriptorium-map-tier-15",
+				"text": "Карта скриптория"
 			},
 			{
-				"id": "shrine-map-tier-15",
-				"text": "Карта святыни"
+				"id": "summit-map-tier-15",
+				"text": "Карта вершины"
 			},
 			{
-				"id": "tower-map-tier-15",
-				"text": "Карта башни"
+				"id": "terrace-map-tier-15",
+				"text": "Карта террасы"
 			},
 			{
-				"id": "waste-pool-map-tier-15",
-				"text": "Карта помойного пруда"
+				"id": "vault-map-tier-15",
+				"text": "Карта хранилища"
+			},
+			{
+				"id": "villa-map-tier-15",
+				"text": "Карта поместья"
+			},
+			{
+				"id": "waterways-map-tier-15",
+				"text": "Карта водотоков"
 			}
 		],
 		"id": "MapsTier15",
@@ -5383,104 +5726,112 @@
 	{
 		"entries": [
 			{
-				"id": "alleyways-map-tier-16",
-				"text": "Карта переулка"
+				"id": "academy-map-tier-16",
+				"text": "Карта академии"
 			},
 			{
-				"id": "arcade-map-tier-16",
-				"text": "Карта агоры"
+				"id": "arachnid-nest-map-tier-16",
+				"text": "Карта гнезда пауков"
 			},
 			{
-				"id": "arena-map-tier-16",
-				"text": "Карта арены"
+				"id": "atoll-map-tier-16",
+				"text": "Карта атолла"
 			},
 			{
-				"id": "armoury-map-tier-16",
-				"text": "Карта оружейной"
+				"id": "barrows-map-tier-16",
+				"text": "Карта кургана"
 			},
 			{
-				"id": "basilica-map-tier-16",
-				"text": "Карта базилики"
+				"id": "beach-map-tier-16",
+				"text": "Карта пляжа"
 			},
 			{
-				"id": "belfry-map-tier-16",
-				"text": "Карта колокольни"
+				"id": "burial-chambers-map-tier-16",
+				"text": "Карта погребальных камер"
 			},
 			{
 				"id": "cage-map-tier-16",
 				"text": "Карта клетки"
 			},
 			{
-				"id": "chateau-map-tier-16",
-				"text": "Карта усадьбы"
+				"id": "caldera-map-tier-16",
+				"text": "Карта кальдеры"
 			},
 			{
 				"id": "colosseum-map-tier-16",
 				"text": "Карта колизея"
 			},
 			{
-				"id": "dig-map-tier-16",
-				"text": "Карта развалин"
+				"id": "cursed-crypt-map-tier-16",
+				"text": "Карта проклятого склепа"
 			},
 			{
 				"id": "dungeon-map-tier-16",
 				"text": "Карта подземелья"
 			},
 			{
-				"id": "estuary-map-tier-16",
-				"text": "Карта устья реки"
+				"id": "excavation-map-tier-16",
+				"text": "Карта раскопок"
 			},
 			{
-				"id": "lava-chamber-map-tier-16",
-				"text": "Карта лавовой тюрьмы"
+				"id": "factory-map-tier-16",
+				"text": "Карта фактории"
 			},
 			{
-				"id": "overgrown-shrine-map-tier-16",
-				"text": "Карта заросшей обители"
+				"id": "iceberg-map-tier-16",
+				"text": "Карта айсберга"
+			},
+			{
+				"id": "lighthouse-map-tier-16",
+				"text": "Карта навигационной башни"
+			},
+			{
+				"id": "mausoleum-map-tier-16",
+				"text": "Карта мавзолея"
+			},
+			{
+				"id": "maze-map-tier-16",
+				"text": "Карта лабиринта"
+			},
+			{
+				"id": "mud-geyser-map-tier-16",
+				"text": "Карта грязевого гейзера"
+			},
+			{
+				"id": "necropolis-map-tier-16",
+				"text": "Карта некрополя"
 			},
 			{
 				"id": "park-map-tier-16",
 				"text": "Карта парка"
 			},
 			{
-				"id": "phantasmagoria-map-tier-16",
-				"text": "Карта фантасмагории"
-			},
-			{
-				"id": "promenade-map-tier-16",
-				"text": "Карта прогулочного парка"
-			},
-			{
-				"id": "reef-map-tier-16",
-				"text": "Карта рифа"
+				"id": "pit-map-tier-16",
+				"text": "Карта ямы"
 			},
 			{
 				"id": "shipyard-map-tier-16",
 				"text": "Карта верфи"
 			},
 			{
+				"id": "shrine-map-tier-16",
+				"text": "Карта святыни"
+			},
+			{
 				"id": "siege-map-tier-16",
 				"text": "Карта осаждённого города"
-			},
-			{
-				"id": "thicket-map-tier-16",
-				"text": "Карта чащи"
-			},
-			{
-				"id": "toxic-sewer-map-tier-16",
-				"text": "Карта клоаки"
-			},
-			{
-				"id": "underground-river-map-tier-16",
-				"text": "Карта подземной реки"
 			},
 			{
 				"id": "vaal-temple-map-tier-16",
 				"text": "Карта храма ваал"
 			},
 			{
-				"id": "volcano-map-tier-16",
-				"text": "Карта вулкана"
+				"id": "waste-pool-map-tier-16",
+				"text": "Карта помойного пруда"
+			},
+			{
+				"id": "wasteland-map-tier-16",
+				"text": "Карта пустоши"
 			}
 		],
 		"id": "MapsTier16",
@@ -5489,32 +5840,144 @@
 	{
 		"entries": [
 			{
-				"id": "blighted-desert-map",
-				"text": "Заражённая Карта пустыни"
+				"id": "blighted-academy-map",
+				"text": "Заражённая Карта академии"
 			},
 			{
-				"id": "blighted-glacier-map",
-				"text": "Заражённая Карта ледника"
+				"id": "blighted-acid-caverns-map",
+				"text": "Заражённая Карта едких пещер"
 			},
 			{
-				"id": "blighted-lookout-map",
-				"text": "Заражённая Карта обзорной площадки"
+				"id": "blighted-alleyways-map",
+				"text": "Заражённая Карта переулка"
 			},
 			{
-				"id": "blighted-tropical-island-map",
-				"text": "Заражённая Карта тропического острова"
+				"id": "blighted-ancient-city-map",
+				"text": "Заражённая Карта древнего города"
+			},
+			{
+				"id": "blighted-arachnid-nest-map",
+				"text": "Заражённая Карта гнезда пауков"
+			},
+			{
+				"id": "blighted-arachnid-tomb-map",
+				"text": "Заражённая Карта паучьей гробницы"
+			},
+			{
+				"id": "blighted-arcade-map",
+				"text": "Заражённая Карта агоры"
+			},
+			{
+				"id": "blighted-arena-map",
+				"text": "Заражённая Карта арены"
+			},
+			{
+				"id": "blighted-arid-lake-map",
+				"text": "Заражённая Карта высохшего озера"
+			},
+			{
+				"id": "blighted-armoury-map",
+				"text": "Заражённая Карта оружейной"
+			},
+			{
+				"id": "blighted-arsenal-map",
+				"text": "Заражённая Карта арсенала"
 			},
 			{
 				"id": "blighted-ashen-wood-map",
 				"text": "Заражённая Карта пепельного леса"
 			},
 			{
+				"id": "blighted-atoll-map",
+				"text": "Заражённая Карта атолла"
+			},
+			{
+				"id": "blighted-barrows-map",
+				"text": "Заражённая Карта кургана"
+			},
+			{
+				"id": "blighted-basilica-map",
+				"text": "Заражённая Карта базилики"
+			},
+			{
+				"id": "blighted-bazaar-map",
+				"text": "Заражённая Карта базара"
+			},
+			{
 				"id": "blighted-beach-map",
 				"text": "Заражённая Карта пляжа"
 			},
 			{
+				"id": "blighted-belfry-map",
+				"text": "Заражённая Карта колокольни"
+			},
+			{
+				"id": "blighted-bog-map",
+				"text": "Заражённая Карта трясины"
+			},
+			{
+				"id": "blighted-bone-crypt-map",
+				"text": "Заражённая Карта гробницы"
+			},
+			{
+				"id": "blighted-bramble-valley-map",
+				"text": "Заражённая Карта колючей долины"
+			},
+			{
+				"id": "blighted-burial-chambers-map",
+				"text": "Заражённая Карта погребальных камер"
+			},
+			{
+				"id": "blighted-cage-map",
+				"text": "Заражённая Карта клетки"
+			},
+			{
+				"id": "blighted-caldera-map",
+				"text": "Заражённая Карта кальдеры"
+			},
+			{
+				"id": "blighted-canyon-map",
+				"text": "Заражённая Карта ущелья"
+			},
+			{
+				"id": "blighted-carcass-map",
+				"text": "Заражённая Карта остова"
+			},
+			{
+				"id": "blighted-castle-ruins-map",
+				"text": "Заражённая Карта развалин замка"
+			},
+			{
+				"id": "blighted-cells-map",
+				"text": "Заражённая Карта камер"
+			},
+			{
+				"id": "blighted-cemetery-map",
+				"text": "Заражённая Карта погоста"
+			},
+			{
+				"id": "blighted-channel-map",
+				"text": "Заражённая Карта канала"
+			},
+			{
+				"id": "blighted-chateau-map",
+				"text": "Заражённая Карта усадьбы"
+			},
+			{
+				"id": "blighted-city-square-map",
+				"text": "Заражённая Карта городской площади"
+			},
+			{
+				"id": "blighted-cold-river-map",
+				"text": "Заражённая Карта холодной реки"
+			},
+			{
 				"id": "blighted-colonnade-map",
 				"text": "Заражённая Карта колоннады"
+			},
+			{
+				"id": "blighted-colosseum-map",
+				"text": "Заражённая Карта колизея"
 			},
 			{
 				"id": "blighted-conservatory-map",
@@ -5525,20 +5988,152 @@
 				"text": "Заражённая Карта коралловых руин"
 			},
 			{
+				"id": "blighted-core-map",
+				"text": "Заражённая Карта сердца"
+			},
+			{
+				"id": "blighted-courthouse-map",
+				"text": "Заражённая Карта здания суда"
+			},
+			{
+				"id": "blighted-courtyard-map",
+				"text": "Заражённая Карта подворья"
+			},
+			{
 				"id": "blighted-coves-map",
 				"text": "Заражённая Карта бухты"
+			},
+			{
+				"id": "blighted-crater-map",
+				"text": "Заражённая Карта кратера"
+			},
+			{
+				"id": "blighted-crimson-temple-map",
+				"text": "Заражённая Карта кровавого храма"
+			},
+			{
+				"id": "blighted-crimson-township-map",
+				"text": "Заражённая Карта кровавой общины"
+			},
+			{
+				"id": "blighted-crystal-ore-map",
+				"text": "Заражённая Карта кристальной шахты"
 			},
 			{
 				"id": "blighted-cursed-crypt-map",
 				"text": "Заражённая Карта проклятого склепа"
 			},
 			{
+				"id": "blighted-dark-forest-map",
+				"text": "Заражённая Карта мрачного леса"
+			},
+			{
+				"id": "blighted-defiled-cathedral-map",
+				"text": "Заражённая Карта осквернённого собора"
+			},
+			{
+				"id": "blighted-desert-map",
+				"text": "Заражённая Карта пустыни"
+			},
+			{
+				"id": "blighted-desert-spring-map",
+				"text": "Заражённая Карта пустынного источника"
+			},
+			{
+				"id": "blighted-dig-map",
+				"text": "Заражённая Карта развалин"
+			},
+			{
+				"id": "blighted-dry-sea-map",
+				"text": "Заражённая Карта высохшего моря"
+			},
+			{
+				"id": "blighted-dunes-map",
+				"text": "Заражённая Карта дюн"
+			},
+			{
+				"id": "blighted-dungeon-map",
+				"text": "Заражённая Карта подземелья"
+			},
+			{
+				"id": "blighted-estuary-map",
+				"text": "Заражённая Карта устья реки"
+			},
+			{
+				"id": "blighted-excavation-map",
+				"text": "Заражённая Карта раскопок"
+			},
+			{
+				"id": "blighted-factory-map",
+				"text": "Заражённая Карта фактории"
+			},
+			{
 				"id": "blighted-fields-map",
 				"text": "Заражённая Карта полей"
 			},
 			{
+				"id": "blighted-flooded-mine-map",
+				"text": "Заражённая Карта затопленной шахты"
+			},
+			{
+				"id": "blighted-forbidden-woods-map",
+				"text": "Заражённая Карта запретных лесов"
+			},
+			{
+				"id": "blighted-forking-river-map",
+				"text": "Заражённая Карта речной развилки"
+			},
+			{
+				"id": "blighted-foundry-map",
+				"text": "Заражённая Карта литейной"
+			},
+			{
+				"id": "blighted-frozen-cabins-map",
+				"text": "Заражённая Карта замёрзших хижин"
+			},
+			{
+				"id": "blighted-fungal-hollow-map",
+				"text": "Заражённая Карта грибковой впадины"
+			},
+			{
+				"id": "blighted-gardens-map",
+				"text": "Заражённая Карта садов"
+			},
+			{
+				"id": "blighted-geode-map",
+				"text": "Заражённая Карта жеоды"
+			},
+			{
+				"id": "blighted-ghetto-map",
+				"text": "Заражённая Карта хибар"
+			},
+			{
+				"id": "blighted-glacier-map",
+				"text": "Заражённая Карта ледника"
+			},
+			{
+				"id": "blighted-grave-trough-map",
+				"text": "Заражённая Карта могильной низины"
+			},
+			{
+				"id": "blighted-graveyard-map",
+				"text": "Заражённая Карта кладбища"
+			},
+			{
+				"id": "blighted-grotto-map",
+				"text": "Заражённая Карта грота"
+			},
+			{
 				"id": "blighted-haunted-mansion-map",
 				"text": "Заражённая Карта дома с привидениями"
+			},
+			{
+				"id": "blighted-iceberg-map",
+				"text": "Заражённая Карта айсберга"
+			},
+			{
+				"id": "blighted-infested-valley-map",
+				"text": "Заражённая Карта заражённой долины"
 			},
 			{
 				"id": "blighted-ivory-temple-map",
@@ -5549,88 +6144,56 @@
 				"text": "Заражённая Карта долины джунглей"
 			},
 			{
+				"id": "blighted-laboratory-map",
+				"text": "Заражённая Карта лаборатории"
+			},
+			{
+				"id": "blighted-lair-map",
+				"text": "Заражённая Карта логова"
+			},
+			{
+				"id": "blighted-lava-chamber-map",
+				"text": "Заражённая Карта лавовой тюрьмы"
+			},
+			{
+				"id": "blighted-lava-lake-map",
+				"text": "Заражённая Карта лавового озера"
+			},
+			{
+				"id": "blighted-leyline-map",
+				"text": "Заражённая Карта тропы"
+			},
+			{
+				"id": "blighted-lighthouse-map",
+				"text": "Заражённая Карта навигационной башни"
+			},
+			{
+				"id": "blighted-lookout-map",
+				"text": "Заражённая Карта обзорной площадки"
+			},
+			{
+				"id": "blighted-malformation-map",
+				"text": "Заражённая Карта недр"
+			},
+			{
+				"id": "blighted-marshes-map",
+				"text": "Заражённая Карта болот"
+			},
+			{
 				"id": "blighted-mausoleum-map",
 				"text": "Заражённая Карта мавзолея"
 			},
 			{
-				"id": "blighted-pier-map",
-				"text": "Заражённая Карта причала"
-			},
-			{
-				"id": "blighted-strand-map",
-				"text": "Заражённая Карта взморья"
-			},
-			{
-				"id": "blighted-sulphur-vents-map",
-				"text": "Заражённая Карта серного озера"
-			},
-			{
-				"id": "blighted-summit-map",
-				"text": "Заражённая Карта вершины"
-			},
-			{
-				"id": "blighted-underground-sea-map",
-				"text": "Заражённая Карта подземного моря"
-			},
-			{
-				"id": "blighted-villa-map",
-				"text": "Заражённая Карта поместья"
-			},
-			{
-				"id": "blighted-wasteland-map",
-				"text": "Заражённая Карта пустоши"
-			},
-			{
-				"id": "blighted-waterways-map",
-				"text": "Заражённая Карта водотоков"
-			},
-			{
-				"id": "blighted-ancient-city-map",
-				"text": "Заражённая Карта древнего города"
-			},
-			{
-				"id": "blighted-arsenal-map",
-				"text": "Заражённая Карта арсенала"
-			},
-			{
-				"id": "blighted-bazaar-map",
-				"text": "Заражённая Карта базара"
-			},
-			{
-				"id": "blighted-bog-map",
-				"text": "Заражённая Карта трясины"
-			},
-			{
-				"id": "blighted-cemetery-map",
-				"text": "Заражённая Карта погоста"
-			},
-			{
-				"id": "blighted-crystal-ore-map",
-				"text": "Заражённая Карта кристальной шахты"
-			},
-			{
-				"id": "blighted-dunes-map",
-				"text": "Заражённая Карта дюн"
-			},
-			{
-				"id": "blighted-gardens-map",
-				"text": "Заражённая Карта садов"
-			},
-			{
-				"id": "blighted-ghetto-map",
-				"text": "Заражённая Карта хибар"
-			},
-			{
-				"id": "blighted-graveyard-map",
-				"text": "Заражённая Карта кладбища"
-			},
-			{
-				"id": "blighted-infested-valley-map",
-				"text": "Заражённая Карта заражённой долины"
+				"id": "blighted-maze-map",
+				"text": "Заражённая Карта лабиринта"
 			},
 			{
 				"id": "blighted-mesa-map",
 				"text": "Заражённая Карта плоского холма"
+			},
+			{
+				"id": "blighted-mineral-pools-map",
+				"text": "Заражённая Карта минеральных озёр"
 			},
 			{
 				"id": "blighted-moon-temple-map",
@@ -5645,20 +6208,76 @@
 				"text": "Заражённая Карта музея"
 			},
 			{
+				"id": "blighted-necropolis-map",
+				"text": "Заражённая Карта некрополя"
+			},
+			{
 				"id": "blighted-orchard-map",
-				"text": "Заражённая Карта фруктового сада"
+				"text": "Заражённая Карта фруктовых садов"
+			},
+			{
+				"id": "blighted-overgrown-ruin-map",
+				"text": "Заражённая Карта заросших руин"
+			},
+			{
+				"id": "blighted-overgrown-shrine-map",
+				"text": "Заражённая Карта заросшей обители"
+			},
+			{
+				"id": "blighted-palace-map",
+				"text": "Заражённая Карта дворца"
+			},
+			{
+				"id": "blighted-park-map",
+				"text": "Заражённая Карта парка"
 			},
 			{
 				"id": "blighted-pen-map",
 				"text": "Заражённая Карта загона"
 			},
 			{
+				"id": "blighted-peninsula-map",
+				"text": "Заражённая Карта мыса"
+			},
+			{
+				"id": "blighted-phantasmagoria-map",
+				"text": "Заражённая Карта фантасмагории"
+			},
+			{
+				"id": "blighted-pier-map",
+				"text": "Заражённая Карта причала"
+			},
+			{
+				"id": "blighted-pit-map",
+				"text": "Заражённая Карта ямы"
+			},
+			{
 				"id": "blighted-plateau-map",
 				"text": "Заражённая Карта плоскогорья"
 			},
 			{
+				"id": "blighted-plaza-map",
+				"text": "Заражённая Карта площади"
+			},
+			{
+				"id": "blighted-port-map",
+				"text": "Заражённая Карта порта"
+			},
+			{
+				"id": "blighted-precinct-map",
+				"text": "Заражённая Карта окрестностей"
+			},
+			{
+				"id": "blighted-primordial-blocks-map",
+				"text": "Заражённая Карта первобытного поселения"
+			},
+			{
 				"id": "blighted-primordial-pool-map",
 				"text": "Заражённая Карта древнего озера"
+			},
+			{
+				"id": "blighted-promenade-map",
+				"text": "Заражённая Карта прогулочного парка"
 			},
 			{
 				"id": "blighted-racecourse-map",
@@ -5667,6 +6286,70 @@
 			{
 				"id": "blighted-ramparts-map",
 				"text": "Заражённая Карта бастиона"
+			},
+			{
+				"id": "blighted-reef-map",
+				"text": "Заражённая Карта рифа"
+			},
+			{
+				"id": "blighted-relic-chambers-map",
+				"text": "Заражённая Карта палаты древностей"
+			},
+			{
+				"id": "blighted-residence-map",
+				"text": "Заражённая Карта резиденции"
+			},
+			{
+				"id": "blighted-scriptorium-map",
+				"text": "Заражённая Карта скриптория"
+			},
+			{
+				"id": "blighted-sepulchre-map",
+				"text": "Заражённая Карта усыпальницы"
+			},
+			{
+				"id": "blighted-shipyard-map",
+				"text": "Заражённая Карта верфи"
+			},
+			{
+				"id": "blighted-shore-map",
+				"text": "Заражённая Карта берега"
+			},
+			{
+				"id": "blighted-shrine-map",
+				"text": "Заражённая Карта святыни"
+			},
+			{
+				"id": "blighted-siege-map",
+				"text": "Заражённая Карта осаждённого города"
+			},
+			{
+				"id": "blighted-silo-map",
+				"text": "Заражённая Карта зернохранилища"
+			},
+			{
+				"id": "blighted-spider-forest-map",
+				"text": "Заражённая Карта паучьего леса"
+			},
+			{
+				"id": "blighted-spider-lair-map",
+				"text": "Заражённая Карта паучьего логова"
+			},
+			{
+				"id": "blighted-stagnation-map",
+				"text": "Заражённая Карта застоя"
+			},
+			{
+				"id": "blighted-strand-map",
+				"text": "Заражённая Карта взморья"
+			},
+			{
+				"id": "blighted-sulphur-vents-map",
+				"text": "Заражённая Карта серного озера"
+			},
+			{
+				"id": "blighted-summit-map",
+				"text": "Заражённая Карта вершины"
 			},
 			{
 				"id": "blighted-sunken-city-map",
@@ -5681,348 +6364,64 @@
 				"text": "Заражённая Карта террасы"
 			},
 			{
-				"id": "blighted-toxic-sewer-map",
-				"text": "Заражённая Карта клоаки"
-			},
-			{
-				"id": "blighted-vaal-pyramid-map",
-				"text": "Заражённая Карта пирамиды ваал"
-			},
-			{
-				"id": "blighted-vault-map",
-				"text": "Заражённая Карта хранилища"
-			},
-			{
-				"id": "blighted-waste-pool-map",
-				"text": "Заражённая Карта помойного пруда"
-			},
-			{
-				"id": "blighted-academy-map",
-				"text": "Заражённая Карта академии"
-			},
-			{
-				"id": "blighted-arachnid-tomb-map",
-				"text": "Заражённая Карта паучьей гробницы"
-			},
-			{
-				"id": "blighted-arena-map",
-				"text": "Заражённая Карта арены"
-			},
-			{
-				"id": "blighted-bone-crypt-map",
-				"text": "Заражённая Карта гробницы"
-			},
-			{
-				"id": "blighted-caldera-map",
-				"text": "Заражённая Карта кальдеры"
-			},
-			{
-				"id": "blighted-channel-map",
-				"text": "Заражённая Карта канала"
-			},
-			{
-				"id": "blighted-courthouse-map",
-				"text": "Заражённая Карта здания суда"
-			},
-			{
-				"id": "blighted-courtyard-map",
-				"text": "Заражённая Карта подворья"
-			},
-			{
-				"id": "blighted-dark-forest-map",
-				"text": "Заражённая Карта мрачного леса"
-			},
-			{
-				"id": "blighted-defiled-cathedral-map",
-				"text": "Заражённая Карта осквернённого собора"
-			},
-			{
-				"id": "blighted-desert-spring-map",
-				"text": "Заражённая Карта пустынного источника"
-			},
-			{
-				"id": "blighted-excavation-map",
-				"text": "Заражённая Карта раскопок"
-			},
-			{
-				"id": "blighted-grotto-map",
-				"text": "Заражённая Карта грота"
-			},
-			{
-				"id": "blighted-lair-map",
-				"text": "Заражённая Карта логова"
-			},
-			{
-				"id": "blighted-lava-chamber-map",
-				"text": "Заражённая Карта лавовой тюрьмы"
-			},
-			{
-				"id": "blighted-park-map",
-				"text": "Заражённая Карта парка"
-			},
-			{
-				"id": "blighted-peninsula-map",
-				"text": "Заражённая Карта мыса"
-			},
-			{
-				"id": "blighted-shore-map",
-				"text": "Заражённая Карта берега"
-			},
-			{
-				"id": "blighted-volcano-map",
-				"text": "Заражённая Карта вулкана"
-			},
-			{
-				"id": "blighted-arid-lake-map",
-				"text": "Заражённая Карта высохшего озера"
-			},
-			{
-				"id": "blighted-atoll-map",
-				"text": "Заражённая Карта атолла"
-			},
-			{
-				"id": "blighted-basilica-map",
-				"text": "Заражённая Карта базилики"
-			},
-			{
-				"id": "blighted-belfry-map",
-				"text": "Заражённая Карта колокольни"
-			},
-			{
-				"id": "blighted-castle-ruins-map",
-				"text": "Заражённая Карта развалин замка"
-			},
-			{
-				"id": "blighted-chateau-map",
-				"text": "Заражённая Карта усадьбы"
-			},
-			{
-				"id": "blighted-dig-map",
-				"text": "Заражённая Карта развалин"
-			},
-			{
-				"id": "blighted-leyline-map",
-				"text": "Заражённая Карта тропы"
-			},
-			{
-				"id": "blighted-marshes-map",
-				"text": "Заражённая Карта болот"
-			},
-			{
-				"id": "blighted-port-map",
-				"text": "Заражённая Карта порта"
-			},
-			{
-				"id": "blighted-scriptorium-map",
-				"text": "Заражённая Карта скриптория"
-			},
-			{
-				"id": "blighted-wharf-map",
-				"text": "Заражённая Карта пристани"
-			},
-			{
-				"id": "blighted-plaza-map",
-				"text": "Заражённая Карта площади"
-			},
-			{
-				"id": "blighted-sepulchre-map",
-				"text": "Заражённая Карта усыпальницы"
-			},
-			{
-				"id": "blighted-canyon-map",
-				"text": "Заражённая Карта ущелья"
-			},
-			{
-				"id": "blighted-lighthouse-map",
-				"text": "Заражённая Карта навигационной башни"
-			},
-			{
-				"id": "blighted-malformation-map",
-				"text": "Заражённая Карта недр"
-			},
-			{
-				"id": "blighted-primordial-blocks-map",
-				"text": "Заражённая Карта первобытного поселения"
-			},
-			{
-				"id": "blighted-arcade-map",
-				"text": "Заражённая Карта агоры"
-			},
-			{
-				"id": "blighted-factory-map",
-				"text": "Заражённая Карта фактории"
-			},
-			{
-				"id": "blighted-maze-map",
-				"text": "Заражённая Карта лабиринта"
-			},
-			{
-				"id": "blighted-pit-map",
-				"text": "Заражённая Карта ямы"
-			},
-			{
-				"id": "blighted-relic-chambers-map",
-				"text": "Заражённая Карта палаты древностей"
-			},
-			{
-				"id": "blighted-shipyard-map",
-				"text": "Заражённая Карта верфи"
-			},
-			{
-				"id": "blighted-shrine-map",
-				"text": "Заражённая Карта святыни"
-			},
-			{
-				"id": "blighted-cells-map",
-				"text": "Заражённая Карта камер"
-			},
-			{
-				"id": "blighted-mineral-pools-map",
-				"text": "Заражённая Карта минеральных озёр"
-			},
-			{
-				"id": "blighted-precinct-map",
-				"text": "Заражённая Карта окрестностей"
-			},
-			{
-				"id": "blighted-barrows-map",
-				"text": "Заражённая Карта кургана"
-			},
-			{
-				"id": "blighted-city-square-map",
-				"text": "Заражённая Карта городской площади"
-			},
-			{
-				"id": "blighted-core-map",
-				"text": "Заражённая Карта сердца"
-			},
-			{
-				"id": "blighted-crimson-temple-map",
-				"text": "Заражённая Карта кровавого храма"
-			},
-			{
-				"id": "blighted-flooded-mine-map",
-				"text": "Заражённая Карта затопленной шахты"
-			},
-			{
-				"id": "blighted-crater-map",
-				"text": "Заражённая Карта кратера"
-			},
-			{
-				"id": "blighted-arachnid-nest-map",
-				"text": "Заражённая Карта гнезда пауков"
-			},
-			{
-				"id": "blighted-armoury-map",
-				"text": "Заражённая Карта оружейной"
-			},
-			{
-				"id": "blighted-dungeon-map",
-				"text": "Заражённая Карта подземелья"
-			},
-			{
-				"id": "blighted-spider-forest-map",
-				"text": "Заражённая Карта паучьего леса"
-			},
-			{
-				"id": "blighted-geode-map",
-				"text": "Заражённая Карта жеоды"
-			},
-			{
-				"id": "blighted-overgrown-shrine-map",
-				"text": "Заражённая Карта заросшей обители"
-			},
-			{
-				"id": "blighted-siege-map",
-				"text": "Заражённая Карта осаждённого города"
-			},
-			{
-				"id": "blighted-underground-river-map",
-				"text": "Заражённая Карта подземной реки"
-			},
-			{
-				"id": "blighted-alleyways-map",
-				"text": "Заражённая Карта переулка"
-			},
-			{
-				"id": "blighted-carcass-map",
-				"text": "Заражённая Карта остова"
-			},
-			{
-				"id": "blighted-colosseum-map",
-				"text": "Заражённая Карта колизея"
-			},
-			{
-				"id": "blighted-estuary-map",
-				"text": "Заражённая Карта устья реки"
-			},
-			{
-				"id": "blighted-laboratory-map",
-				"text": "Заражённая Карта лаборатории"
-			},
-			{
-				"id": "blighted-phantasmagoria-map",
-				"text": "Заражённая Карта фантасмагории"
-			},
-			{
-				"id": "blighted-residence-map",
-				"text": "Заражённая Карта резиденции"
-			},
-			{
-				"id": "blighted-spider-lair-map",
-				"text": "Заражённая Карта паучьего логова"
-			},
-			{
-				"id": "blighted-fungal-hollow-map",
-				"text": "Заражённая Карта грибковой впадины"
-			},
-			{
 				"id": "blighted-thicket-map",
 				"text": "Заражённая Карта чащи"
-			},
-			{
-				"id": "blighted-acid-caverns-map",
-				"text": "Заражённая Карта едких пещер"
-			},
-			{
-				"id": "blighted-burial-chambers-map",
-				"text": "Заражённая Карта погребальных камер"
-			},
-			{
-				"id": "blighted-iceberg-map",
-				"text": "Заражённая Карта айсберга"
-			},
-			{
-				"id": "blighted-lava-lake-map",
-				"text": "Заражённая Карта лавового озера"
-			},
-			{
-				"id": "blighted-necropolis-map",
-				"text": "Заражённая Карта некрополя"
-			},
-			{
-				"id": "blighted-overgrown-ruin-map",
-				"text": "Заражённая Карта заросших руин"
-			},
-			{
-				"id": "blighted-palace-map",
-				"text": "Заражённая Карта дворца"
 			},
 			{
 				"id": "blighted-tower-map",
 				"text": "Заражённая Карта башни"
 			},
 			{
-				"id": "blighted-cage-map",
-				"text": "Заражённая Карта клетки"
+				"id": "blighted-toxic-sewer-map",
+				"text": "Заражённая Карта клоаки"
 			},
 			{
-				"id": "blighted-promenade-map",
-				"text": "Заражённая Карта прогулочного парка"
+				"id": "blighted-tropical-island-map",
+				"text": "Заражённая Карта тропического острова"
 			},
 			{
-				"id": "blighted-reef-map",
-				"text": "Заражённая Карта рифа"
+				"id": "blighted-underground-river-map",
+				"text": "Заражённая Карта подземной реки"
+			},
+			{
+				"id": "blighted-underground-sea-map",
+				"text": "Заражённая Карта подземного моря"
+			},
+			{
+				"id": "blighted-vaal-pyramid-map",
+				"text": "Заражённая Карта пирамиды ваал"
+			},
+			{
+				"id": "blighted-vaal-temple-map",
+				"text": "Заражённая Карта храма ваал"
+			},
+			{
+				"id": "blighted-vault-map",
+				"text": "Заражённая Карта хранилища"
+			},
+			{
+				"id": "blighted-villa-map",
+				"text": "Заражённая Карта поместья"
+			},
+			{
+				"id": "blighted-volcano-map",
+				"text": "Заражённая Карта вулкана"
+			},
+			{
+				"id": "blighted-waste-pool-map",
+				"text": "Заражённая Карта помойного пруда"
+			},
+			{
+				"id": "blighted-wasteland-map",
+				"text": "Заражённая Карта пустоши"
+			},
+			{
+				"id": "blighted-waterways-map",
+				"text": "Заражённая Карта водотоков"
+			},
+			{
+				"id": "blighted-wharf-map",
+				"text": "Заражённая Карта пристани"
 			}
 		],
 		"id": "MapsBlighted",

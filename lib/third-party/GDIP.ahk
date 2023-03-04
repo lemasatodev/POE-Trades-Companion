@@ -135,36 +135,6 @@ Gdip_ResizeBitmap(pBitmap, PercentOrWH, useSmoothInterpol=True, Dispose=True) {
     return pBitmap2
 }
 
-Gdip_AddColoredBorderToImage(imagePath, borderSize, borderColor) {
-	if !IsBetween(StrLen(borderColor), 8, 10) || !IsHex(borderColor)
-		Throw Exception("Border color value is invalid. Must be RGB/ARGB hex.`nCurrent value: " borderColor, -1)
-	if ( StrLen(borderColor) = 8 ) {
-		borderColor := "0xFF" . StrSplit(borderColor, "0x").2
-	}
-	; Getting image size and drawing background
-	imageSize := GetImageSize(imagePath)
-	pBitmapFinal := Gdip_CreateBitmap(imageSize.W, imageSize.H)
-	G := Gdip_GraphicsFromImage(pBitmapFinal)
-	pBrush := Gdip_BrushCreateSolid(0xff00ff00)
-	Gdip_FillRectangle(G, pBrush, 0, 0, imageSize.W, imageSize.H)
-	; Drawing image
-	asset := Gdip_CreateBitmapFromFile(imagePath)
-	Gdip_DrawImage(G, asset, 0, 0, imageSize.W, imageSize.H, 0, 0, imageSize.W, imageSize.H)
-	; Drawing border
-	pBrush2 := Gdip_BrushCreateSolid(borderColor)
-	Gdip_FillRectangle(G, pBrush2, 0, 0, imageSize.W, borderSize)
-	Gdip_FillRectangle(G, pBrush2, 0, 0, borderSize, imageSize.H)
-	Gdip_FillRectangle(G, pBrush2, 0, imageSize.H-borderSize, imageSize.W, borderSize)
-	Gdip_FillRectangle(G, pBrush2, imageSize.W-borderSize, 0, borderSize, imageSize.H)
-	; Final bitmap
-	hBitmapFinal := Gdip_CreateHBITMAPFromBitmap(pBitmapFinal)
-	; Dispose
-	Gdip_DisposeImage(pBitmapFinal)
-	Gdip_DeleteBrush(pBrush), Gdip_DeleteBrush(pBrush2)
-	Gdip_DeleteGraphics(G)
-	return hBitmapFinal
-}
-
 
 ; Gdip standard library v1.45 by tic (Tariq Porter) 07/09/11
 ; Modifed by Rseding91 using fincs 64 bit compatible Gdip library 5/1/2013

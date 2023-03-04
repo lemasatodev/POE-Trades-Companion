@@ -80,14 +80,15 @@
 
 
 Class GUI_SetHotkey {
-	
-	static sGUI := {}
-
     Create() {
+		global GuiSetHotkey, GuiSetHotkey_Controls
+
 		delay := SetControlDelay(0), batch := SetBatchLines(-1)
-		this.sGUI := new GUI("SetHotkey", "-Caption -Border +HwndhGuiSetHotkey +Label" this.__class ".", "Set Hotkey")
-		this.sGUI.SetMargins(0, 0), this.sGUI.SetBackgroundColor("334a5b"), this.sGUI.SetControlsColor("374a58")
-		this.sGUI.SetFont("Segoe UI"), this.sGUI.SetFontSize("8"), this.sGUI.SetFontColor("0x80c4ff")
+        GUI_SetHotkey.Destroy()
+		Gui.New("SetHotkey", "-Caption -Border +LabelGUI_SetHotkey_ +HwndhGuiSetHotkey", "Set Hotkey")
+		Gui.Margin("SetHotkey", 0, 0)
+		Gui.Color("SetHotkey", "334a5b", "374a58")
+		Gui.Font("SetHotkey", "Segoe UI", "8", "5", "0x80c4ff")
 
 		guiFullWidth := 350, guiFullHeight := 130, borderSize := 1, borderColor := "Black"
 		guiHeight := guiFullHeight-(2*borderSize), guiWidth := guiFullWidth-(2*borderSize)
@@ -98,25 +99,33 @@ Class GUI_SetHotkey {
 			,{X:0, Y:downMost, W:guiFullWidth, H:borderSize}, {X:rightMost, Y:0, W:borderSize, H:guiFullHeight}] ; Bottom and Right
 
 		Loop 4 ; Left/Right/Top/Bot borders
-			this.sGUI.Add("Progress", "x" bordersPositions[A_Index]["X"] " y" bordersPositions[A_Index]["Y"] " w" bordersPositions[A_Index]["W"] " h" bordersPositions[A_Index]["H"] " Background" borderColor)
+			Gui.Add("SetHotkey", "Progress", "x" bordersPositions[A_Index]["X"] " y" bordersPositions[A_Index]["Y"] " w" bordersPositions[A_Index]["W"] " h" bordersPositions[A_Index]["H"] " Background" borderColor)
 
-		this.sGUI.Add("Hotkey", "x0 y0 w0 h0 hwndhHK_Hotkey") ; Invisible hotkey control, used to catch user key presses
-		this.sGUI.Add("Text", "x" leftMost+10 " y" upMost+10 " w" guiWidth-(10*2) " Center BackgroundTrans hwndhTEXT_Tip", "Press the key combination you would like to set for this hotkey"
-		. "`nOnce you are done, click on the ""Accept"" button.")
-		this.sGUI.Add("Text", "xp y+15 wp Center BackgroundTrans", "Your hotkey:")
-		this.sGUI.Add("Text", "xp y+5 wp Center hwndhTEXT_Hotkey BackgroundTrans Bold c0xE6E6E6", "[ Unassigned ]")	, this.sGUI.BindFunctionToControl("hHK_Hotkey", "OnHotkeyChange")
-		this.sGUI.Add("Button", "x" leftMost " y" downMost-25 " w" guiWidth*0.30 " h25 hwndhBTN_Remove", "Remove"), this.sGUI.BindFunctionToControl("hBTN_Accept", "AcceptHotkey")
-		this.sGUI.Add("Button", "x+0 y" downMost-25 " w" guiWidth*0.70 " h25 hwndhBTN_Accept", "Accept"), this.sGUI.BindFunctionToControl("hBTN_Remove", "UnsetHotkey")
+		Gui.Add("SetHotkey", "Hotkey", "x0 y0 w0 h0 hwndhHK_Hotkey") ; Invisible hotkey control, used to catch user key presses
+		Gui.Add("SetHotkey", "Text", "x" leftMost+10 " y" upMost+10 " w" guiWidth-(10*2) " Center BackgroundTrans hwndhTEXT_Tip", "Press the key combination you would like to set for this hotkey"
+		. "`nOnce you are done, click on the ""Accept"" button."), tipTextPos := GUI.GetControlPos("SetHotkey", "hTEXT_Tip")
+		Gui.Add("SetHotkey", "Text", "xp y+15 wp Center BackgroundTrans", "Your hotkey:")
+		Gui.Font("SetHotkey", "Segoe UI", "8", "5", "0xE6E6E6 Bold")
+		Gui.Add("SetHotkey", "Text", "xp y+5 wp Center hwndhTEXT_Hotkey BackgroundTrans", "[ Unassigned ]")	
+		Gui.Font("SetHotkey", "Segoe UI", "8", "5", "0x80c4ff")
+		Gui.Add("SetHotkey", "Button", "x" leftMost " y" downMost-25 " w" guiWidth*0.30 " h25 hwndhBTN_Remove", "Remove")
+		Gui.Add("SetHotkey", "Button", "x+0 y" downMost-25 " w" guiWidth*0.70 " h25 hwndhBTN_Accept", "Accept")
 	
-		this.sGUI.BindWindowsMessage(0x202, "WM_LBUTTONUP") ; Allows to always focus the Hotkey control when releasing click on gui 
-		this.sGUI.BindWindowsMessage(0x06, "WM_ACTIVATE") ; Allows to always focus the Hotkey control when activating gui
+		Gui.BindFunctionToControl("GUI_SetHotkey", "SetHotkey", "hHK_Hotkey", "OnHotkeyChange")
+		Gui.BindFunctionToControl("GUI_SetHotkey", "SetHotkey", "hBTN_Accept", "AcceptHotkey")
+		Gui.BindFunctionToControl("GUI_SetHotkey", "SetHotkey", "hBTN_Remove", "UnsetHotkey")
+
+		Gui.OnMessageBind("GUI_SetHotkey", "SetHotkey", 0x202, "WM_LBUTTONUP") ; Allows to always focus the Hotkey control when releasing click on gui 
+		Gui.OnMessageBind("GUI_SetHotkey", "SetHotkey", 0x06, "WM_ACTIVATE") ; Allows to always focus the Hotkey control when activating gui
 		
-		this.sGUI.FocusControl("hHK_Hotkey")
-        this.sGUI.Show("w" guiFullWidth " h" guiFullHeight)
+		GuiControl, SetHotkey:Focus,% GuiSetHotkey_Controls.hHK_Hotkey		
+        Gui.Show("SetHotkey", "w" guiFullWidth " h" guiFullHeight)
 		SetControlDelay(delay), SetBatchLines(batch)
     }
 
 	SetHotkey(thisHotkey) {
+		global GuiSetHotkey, GuiSetHotkey_Controls
+
 		; Separating hotkey from modifiers
 		if (modifiers) && ( SubStr(thisHotkey, 1, StrLen(modifiers)) = modifiers)
 			hotkeyNoMods := StrTrimLeft(thisHotkey, StrLen(modifiers))
@@ -127,19 +136,23 @@ Class GUI_SetHotkey {
 			return
 		
 	 	; Sending hotkey to control	
-		this.sGUI.SetControlContent("hTEXT_Hotkey", Transform_AHKHotkeyString_Into_ReadableHotkeyString(modifiers . hotkeyNoMods))
-		this.sGUI.Hotkey := modifiers . hotkeyNoMods
+		GuiControl, SetHotkey:,% GuiSetHotkey_Controls.hTEXT_Hotkey,% Transform_AHKHotkeyString_Into_ReadableHotkeyString(modifiers . hotkeyNoMods)
+		GuiSetHotkey.Hotkey := modifiers . hotkeyNoMods
 	}
 
 	UnsetHotkey() {
 		; Set the hotkey as unassigned
-		this.sGUI.SetControlContent("hTEXT_Hotkey", "[ Unassigned ]")
-		this.sGUI.Hotkey := ""
-		this.sGUI.FocusControl("hHK_Hotkey")
+		global GuiSetHotkey, GuiSetHotkey_Controls
+
+		GuiControl, SetHotkey:,% GuiSetHotkey_Controls.hTEXT_Hotkey,% "[ Unassigned ]"  ;  show the hotkey.
+		GuiSetHotkey.Hotkey := ""
+		GuiControl, SetHotkey:Focus,% GuiSetHotkey_Controls.hHK_Hotkey
 	}
 
 	OnHotkeyChange() {
-		hkStr := this.sGUI.GetControlContent("hHK_Hotkey") ; Getting hotkey value
+		global GuiSetHotkey, GuiSetHotkey_Controls
+
+		hkStr := GUI_SetHotkey.Submit("hHK_Hotkey") ; Getting hotkey value
 		modifiers .= GetKeyState("RWin") ? "#" : "", modifiers .= GetKeyState("LWin") ? "#" : "" ; Those modifiers aren't supported by the Hotkey control
 																										 ; This allows them to work with basic keys
 		hkStr := modifiers . hkStr
@@ -151,59 +164,88 @@ Class GUI_SetHotkey {
 			return
 
 		; Set the readable hotkey on the gui, and set the global hotkey string variable
-		this.sGUI.Hotkey := ""
-		this.sGUI.SetControlContent("hTEXT_Hotkey", Transform_AHKHotkeyString_Into_ReadableHotkeyString(hkStr))
+		GuiSetHotkey.Hotkey := hkStr
+		GuiControl, SetHotkey:,% GuiSetHotkey_Controls.hTEXT_Hotkey,% Transform_AHKHotkeyString_Into_ReadableHotkeyString(hkStr)
 	}
 
 	WaitForHotkey() {
+		global GuiSetHotkey, GuiSetHotkey_HOTKEY
+
 		; Create the gui if it doesn't exist already
-		if !WinExist("ahk_id " this.sGUI.Handle)
+		if !WinExist("ahk_id " GuiSetHotkey.Handle)
 			GUI_SetHotkey.Create()
 		
 		; Wait for the gui, and then wait until either the return var has been set or the gui has been closed
-		WinWait,% "ahk_id " this.sGUI.Handle
-		while !(this.sGUI.Hotkey) || WinExist("ahk_id " this.sGUI.Handle) {
-			if !WinExist("ahk_id " this.sGUI.Handle)
+		WinWait,% "ahk_id " GuiSetHotkey.Handle
+		while !(GuiSetHotkey_HOTKEY) || WinExist("ahk_id " GuiSetHotkey.Handle) {
+			if !WinExist("ahk_id " GuiSetHotkey.Handle)
 				Break
 			Sleep 500
 		}
 		; Returning the value
-		hkStr := this.sGUI.Hotkey
+		hkStr := GuiSetHotkey_HOTKEY
+		GuiSetHotkey_HOTKEY := ""
 		return hkStr
 	}
 
 	AcceptHotkey() {
 		; Set the global return var, allowing the end the funcs
-		this.sGUI.Hotkey := AutomaticallyTransformKeyStr_ToVirtualKeyOrScanCodeStr(this.sGUI.Hotkey)
-		this.sGUI.Destroy()
+		global GuiSetHotkey, GuiSetHotkey_HOTKEY
+		GuiSetHotkey_HOTKEY := AutomaticallyTransformKeyStr_ToVirtualKeyOrScanCodeStr(GuiSetHotkey.Hotkey)
+		GUI_SetHotkey.Destroy()
+	}
+
+
+	Submit(CtrlName="") {
+		; Generic function
+		global GuiSetHotkey_Submit
+		Gui.Submit("SetHotkey")
+
+		if (CtrlName) {
+			Return GuiSetHotkey_Submit[ctrlName]
+		}
 	}
 
     Destroy() {
 		; Generic function
-		this.sGUI.Destroy()
+		GUI_SetHotkey.DestroyBtnImgList()
+		Gui.Destroy("SetHotkey")
+	}
+
+	DestroyBtnImgList() {
+		global GuiSetHotkey_Controls
+
+		for key, value in GuiSetHotkey_Controls
+			if IsContaining(key, "hBTN_")
+				try ImageButton.DestroyBtnImgList(value)
 	}
 
 	IsWinActive() {
 		; Generic function
-		if WinActive("ahk_id " this.sGUI.Handle)
+		global GuiSetHotkey
+		if WinActive("ahk_id " GuiSetHotkey.Handle)
 			return True
 	}
 
 	WM_ACTIVATE(wParam) {
 		; Focus the Hotkey control upon window activation
+		global GuiSetHotkey_Controls
+
 		if !(wParam=True && GUI_SetHotkey.IsWinActive()) ; Make sure this GUI is the one activated
 			return
 
-		this.sGUI.FocusControl("hHK_Hotkey")
+		GuiControl, SetHotkey:Focus,% GuiSetHotkey_Controls.hHK_Hotkey
 	}
 
 	WM_LBUTTONUP() {
 		; Focus the Hotkey control upon releasing left click anywhere else than the accept/remove button
+		global GuiSetHotkey_Controls
+
 		if !GUI_SetHotkey.IsWinActive() ; Make sure this GUI is the one activated
 			return
 
 		mouseCtrlHwnd := Get_UnderMouse_CtrlHwnd()
-		if !IsIn(mouseCtrlHwnd, this.sGUI.Controls.hBTN_Accept "," this.sGUI.Controls.hBTN_Remove)
-			this.sGUI.FocusControl("hHK_Hotkey")
+		if !IsIn(mouseCtrlHwnd, GuiSetHotkey_Controls.hBTN_Accept "," GuiSetHotkey_Controls.hBTN_Remove)
+			GuiControl, SetHotkey:Focus,% GuiSetHotkey_Controls.hHK_Hotkey
 	}
 }

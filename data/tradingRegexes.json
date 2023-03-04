@@ -84,7 +84,7 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Hi, I'd like to buy your (.*) for my (.*) in (.*)"
+			"String": "(.*)Hi,.I'd like to buy your (.*) for my (.*) in (.*)"
 		},
 		"GemQuality": {
 			"Item": 3,
@@ -97,13 +97,13 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Hi, I would like to buy your (.*) listed for (.*) in (.*)"
+			"String": "(.*)Hi,.I would like to buy your (.*) listed for (.*) in (.*)"
 		},
 		"RegularUnpriced": {
 			"Item": 2,
 			"League": 3,
 			"Other": 1,
-			"String": "(.*)Hi, I would like to buy your (.*) in (.*)"
+			"String": "(.*)Hi,.I would like to buy your (.*) in (.*)"
 		},
 		"StashLocation": {
 			"Left": 2,
@@ -119,7 +119,7 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Bonjour, je voudrais t'acheter (.*) contre (.*) dans la ligue (.*)"
+			"String": "(.*)Bonjour,.je voudrais t'acheter (.*) contre (.*) dans la ligue (.*)"
 		},
 		"GemQuality": {
 			"Item": 1,
@@ -132,13 +132,13 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Bonjour, je souhaiterais t'acheter (.*) pour (.*) dans la ligue (.*)"
+			"String": "(.*)Bonjour,.je souhaiterais t'acheter (.*) pour (.*) dans la ligue (.*)"
 		},
 		"RegularUnpriced": {
 			"Item": 2,
 			"League": 3,
 			"Other": 1,
-			"String": "(.*)Bonjour, je souhaiterais t'acheter (.*) dans la ligue (.*)"
+			"String": "(.*)Bonjour,.je souhaiterais t'acheter (.*) dans la ligue (.*)"
 		},
 		"StashLocation": {
 			"Left": 2,
@@ -155,7 +155,7 @@
 			"Other": 1,
 			"Other2": 5,
 			"Price": 3,
-			"String": "(.*)Hi, ich möchte '(.*)' zum angebotenen Preis von '(.*)' in der '(.*)'-Liga kaufen(.*)"
+			"String": "(.*)Hi,.ich möchte '(.*)' zum angebotenen Preis von '(.*)' in der '(.*)'-Liga kaufen(.*)"
 		},
 		"GemQuality": {
 			"Item": 3,
@@ -169,14 +169,14 @@
 			"Other": 1,
 			"Other2": 5,
 			"Price": 3,
-			"String": "(.*)Hi, ich möchte '(.*)' zum angebotenen Preis von (.*) in der '(.*)'-Liga kaufen(.*)"
+			"String": "(.*)Hi,.ich möchte '(.*)' zum angebotenen Preis von (.*) in der '(.*)'-Liga kaufen(.*)"
 		},
 		"RegularUnpriced": {
 			"Item": 2,
 			"League": 3,
 			"Other": 1,
 			"Other2": 4,
-			"String": "(.*)Hi, ich möchte '(.*)' in der '(.*)'-Liga kaufen(.*)"
+			"String": "(.*)Hi,.ich möchte '(.*)' in der '(.*)'-Liga kaufen(.*)"
 		},
 		"StashLocation": {
 			"Left": 2,
@@ -193,7 +193,7 @@
 			"Other": 1,
 			"Other2": 5,
 			"Price": 4,
-			"String": "(.*)안녕하세요, (.*)에 올려놓은(.*)\\(을\\)를 제 (.*)\\(으\\)로 구매하고 싶습니다(.*)"
+			"String": "(.*)안녕하세요,.(.*)에 올려놓은(.*)\\(을\\)를 제 (.*)\\(으\\)로 구매하고 싶습니다(.*)"
 		},
 		"GemQuality": {
 			"Item": 3,
@@ -207,14 +207,14 @@
 			"Other": 1,
 			"Other2": 5,
 			"Price": 3,
-			"String": "(.*)안녕하세요, (.*)에 (.*)\\(으\\)로 올려놓은 (.*)\\(을\\)를 구매하고 싶습니다(.*)"
+			"String": "(.*)안녕하세요,.(.*)에 (.*)\\(으\\)로 올려놓은 (.*)\\(을\\)를 구매하고 싶습니다(.*)"
 		},
 		"RegularUnpriced": {
 			"Item": 3,
 			"League": 2,
 			"Other": 1,
 			"Other2": 4,
-			"String": "(.*)안녕하세요, (.*)에 올려놓은 (.*)\\(을\\)를 구매하고 싶습니다(.*)"
+			"String": "(.*)안녕하세요,.(.*)에 올려놓은 (.*)\\(을\\)를 구매하고 싶습니다(.*)"
 		},
 		"StashLocation": {
 			"Left": 2,
@@ -229,7 +229,7 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Olá, eu gostaria de comprar seu\\(s\\) (.*) pelo\\(s\\) meu\\(s\\) (.*) na (.*)"
+			"String": "(.*)Olá,.eu gostaria de comprar seu\\(s\\) (.*) pelo\\(s\\) meu\\(s\\) (.*) na (.*)"
 		},
 		"GemQuality": {
 			"Item": 3,
@@ -242,13 +242,13 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Olá, eu gostaria de comprar o seu item (.*) listado por (.*) na (.*)"
+			"String": "(.*)Olá,.eu gostaria de comprar o seu item (.*) listado por (.*) na (.*)"
 		},
 		"RegularUnpriced": {
 			"Item": 2,
 			"League": 3,
 			"Other": 1,
-			"String": "(.*)Olá, eu gostaria de comprar o seu item (.*) na (.*)"
+			"String": "(.*)Olá,.eu gostaria de comprar o seu item (.*) na (.*)"
 		},
 		"StashLocation": {
 			"Left": 2,
@@ -264,7 +264,7 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Здравствуйте, хочу купить у вас (.*) за (.*) в лиге (.*)"
+			"String": "(.*)Здравствуйте,.хочу купить у вас (.*) за (.*) в лиге (.*)"
 		},
 		"GemQuality": {
 			"Item": 3,
@@ -277,13 +277,13 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Здравствуйте, хочу купить у вас (.*) за (.*) в лиге (.*)"
+			"String": "(.*)Здравствуйте,.хочу купить у вас (.*) за (.*) в лиге (.*)"
 		},
 		"RegularUnpriced": {
 			"Item": 2,
 			"League": 3,
 			"Other": 1,
-			"String": "(.*)Здравствуйте, хочу купить у вас (.*) в лиге (.*)"
+			"String": "(.*)Здравствуйте,.хочу купить у вас (.*) в лиге (.*)"
 		},
 		"StashLocation": {
 			"Left": 2,
@@ -299,7 +299,7 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Hola, me gustaría comprar tu\\(s\\) (.*) por mi (.*) en (.*)"
+			"String": "(.*)Hola,.me gustaría comprar tu\\(s\\) (.*) por mi (.*) en (.*)"
 		},
 		"GemQuality": {
 			"Item": 1,
@@ -312,13 +312,13 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)Hola, quisiera comprar tu (.*) listado por (.*) en (.*)"
+			"String": "(.*)Hola,.quisiera comprar tu (.*) listado por (.*) en (.*)"
 		},
 		"RegularUnpriced": {
 			"Item": 2,
 			"League": 3,
 			"Other": 1,
-			"String": "(.*)Hola, quisiera comprar tu (.*) en (.*)"
+			"String": "(.*)Hola,.quisiera comprar tu (.*) en (.*)"
 		},
 		"StashLocation": {
 			"Left": 2,
@@ -347,13 +347,13 @@
 			"League": 4,
 			"Other": 1,
 			"Price": 3,
-			"String": "(.*)สวัสดี, เราต้องการจะชื้อของคุณ (.*) ใน ราคา (.*) ใน (.*)"
+			"String": "(.*)สวัสดี,.เราต้องการจะชื้อของคุณ (.*) ใน ราคา (.*) ใน (.*)"
 		},
 		"RegularUnpriced": {
 			"Item": 2,
 			"League": 3,
 			"Other": 1,
-			"String": "(.*)สวัสดี, เราต้องการจะชื้อของคุณ (.*) ใน (.*)"
+			"String": "(.*)สวัสดี,.เราต้องการจะชื้อของคุณ (.*) ใน (.*)"
 		},
 		"StashLocation": {
 			"Left": 2,

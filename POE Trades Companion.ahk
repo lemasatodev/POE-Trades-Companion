@@ -56,9 +56,6 @@ Hotkey, IfWinActive,% "ahk_pid " DllCall("GetCurrentProcessId")
 ; }
 Return
 
-f5::reload
-
-
 ; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Cancel_AutoWhisper() {
@@ -92,9 +89,9 @@ Start_Script() {
 
 	; Set global - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	PROGRAM.NAME					:= "POE Trades Companion"
-	PROGRAM.VERSION 				:= "1.15.BETA_9993" ; code on par with 1.15.BETA_9993
+	PROGRAM.VERSION 				:= "1.15.BETA_9995" ; code on par with this version
 	PROGRAM.IS_BETA					:= IsContaining(PROGRAM.VERSION, "beta")?"True":"False"
-	PROGRAM.ALPHA					:= "Discord ALPHA 11"
+	PROGRAM.ALPHA					:= "Discord ALPHA 14"
 
 	PROGRAM.GITHUB_USER 			:= "lemasato"
 	PROGRAM.GITHUB_REPO 			:= "POE-Trades-Companion"
@@ -199,8 +196,8 @@ Start_Script() {
 		AssetsExtract()
 
 	; Creating settings and file
-	; LocalSettings_CreateFileIfNotExisting()
-	; LocalSettings_VerifyEncoding()
+	LocalSettings_CreateFileIfNotExisting()
+	LocalSettings_VerifyEncoding()
 
 	Delete_OldLogsFile()
 	Create_LogsFile()
@@ -360,10 +357,10 @@ Start_Script() {
 	GUI_Intercom.Create()
 	; ImageButton_TestDelay()
 
-	; GUI_Trades_V2.Create(, buyOrSell:="Sell", stackOrTabs:=PROGRAM.SETTINGS.SELL_INTERFACE.Mode)
-	; GUI_Trades_V2.Create(, buyOrSell:="Buy", stackOrTabs:=PROGRAM.SETTINGS.BUY_INTERFACE.Mode)
-	; GUI_Trades_V2.LoadBackup("Sell")
-	; GUI_Trades_V2.LoadBackup("Buy")
+	GUI_Trades_V2.Create(, buyOrSell:="Sell", stackOrTabs:=PROGRAM.SETTINGS.SELL_INTERFACE.Mode)
+	GUI_Trades_V2.Create(, buyOrSell:="Buy", stackOrTabs:=PROGRAM.SETTINGS.BUY_INTERFACE.Mode)
+	GUI_Trades_V2.LoadBackup("Sell")
+	GUI_Trades_V2.LoadBackup("Buy")
 
 	; Parse debug msgs
 	if (DEBUG.settings.use_chat_logs) {
@@ -372,10 +369,11 @@ Start_Script() {
 	}
 	Monitor_GameLogs()
 
-	if !WinExist("ahk_id " GUI_Settings.sGUI.Handle)
-		GUI_Settings.Create()
+	global GuiSettings
+	if !WinExist("ahk_id " GuiSettings.Handle)
+		Gui_Settings.Create()
 	if (DEBUG.settings.open_settings_gui)
-		GUI_Settings.Show()
+		Gui_Settings.Show()
 
 	if (DEBUG.settings.open_mystats_gui)
 		GUI_MyStats.Show()
@@ -415,8 +413,28 @@ Return
 ; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 #Include %A_ScriptDir%\lib\
-#Include AssetsExtract.ahk
+
+#Include Class_Gui_Trades_V2.ahk
+
 #Include Class_GUI.ahk
+#Include Class_GUI_BetaTasks.ahk
+#Include Class_GUI_CheatSheet.ahk
+#Include Class_GUI_ImportPre1dot13Settings.ahk
+#Include Class_GUI_SimpleWarn.ahk
+#Include Class_Gui_ChooseInstance.ahk
+#Include Class_GUI_ChooseLang.ahk
+#Include Class_Gui_ItemGrid.ahk
+#Include Class_Gui_MyStats.ahk
+#Include Class_GUI_SetHotkey.ahk
+#Include Class_Gui_Settings.ahk
+#Include Class_GUI_TabbedTradesCounter.ahk
+#Include Class_Gui_Trades.ahk
+#Include Class_Gui_TradesMinimized.ahk
+#Include Class_GUI_TradesBuyCompact.ahk
+#Include Intercom_Receiver.ahk
+#Include WM_Messages.ahk
+
+#Include AssetsExtract.ahk
 #Include Class_INI.ahk
 #Include CmdLineParameters.ahk
 #Include CompileAhk2Exe.ahk
@@ -428,19 +446,7 @@ Return
 #Include Game_File.ahk
 #Include GGG_API.ahk
 #Include GitHubAPI.ahk
-#Include GUI_CheatSheet.ahk
-#Include GUI_ImportPre1dot13Settings.ahk
-#Include GUI_SimpleWarn.ahk
-#Include GUI_ChooseInstance.ahk
-#Include GUI_ChooseLang.ahk
-#Include GUI_ItemGrid.ahk
-#Include GUI_MyStats.ahk
-#Include GUI_SetHotkey.ahk
-#Include GUI_Settings.ahk
-#Include GUI_TabbedTradesCounter.ahk
-#Include GUI_Trades.ahk
 #Include Hotkeys.ahk
-#Include Intercom_Receiver.ahk
 #Include Local_File.ahk
 #Include Logs.ahk
 #Include ManageFonts.ahk
@@ -457,9 +463,10 @@ Return
 #Include StackClick.ahk
 #Include Translations.ahk
 #Include TrayMenu.ahk
+#Include TrayNotifications.ahk
 #Include TrayRefresh.ahk
 #Include Updating.ahk
-#Include WM_Messages.ahk
+#Include WindowsSettings.ahk
 
 #Include %A_ScriptDir%\lib\third-party\
 #Include AddToolTip.ahk

@@ -639,7 +639,7 @@ Parse_GameLogs(strToParse, preview=False) {
 	return
 
 	Parse_GameLogs_PushBulletNotifications_SA:
-		global PROGRAM
+		global PROGRAM, GuiIntercom, GuiIntercom_Controls
 
 		intercomSlotNum := GUI_Intercom.GetNextAvailableSlot()
 		intercomSlotHandle := GUI_Intercom.GetSlotHandle(intercomSlotNum)
@@ -655,7 +655,7 @@ Parse_GameLogs(strToParse, preview=False) {
 		saFile := A_ScriptDir "\lib\SA_PushBulletNotifications.ahk"
 		saFile_run_cmd := % """" path_AHk """" A_Space """" saFile """"
 		.		" " cmdLineParams
-		.		" /IntercomHandle=" """" GUI_Intercom.sGUI.Handle """"
+		.		" /IntercomHandle=" """" GuiIntercom.Handle """"
 		.		" /IntercomSlotHandle=" """" intercomSlotHandle """"
 		.		" /ProgramLogsFile=" """" PROGRAM.LOGS_FILE """"
 		

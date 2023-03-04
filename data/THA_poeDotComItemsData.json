@@ -53,6 +53,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Arn's Anguish",
+				"text": "Arn's Anguish Cloth Belt",
+				"type": "Cloth Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Ascent From Flesh",
 				"text": "Ascent From Flesh Chain Belt",
 				"type": "Chain Belt"
@@ -181,6 +189,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Blackflame",
+				"text": "Blackflame Amethyst Ring",
+				"type": "Amethyst Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Blackheart",
 				"text": "Blackheart Iron Ring",
 				"type": "Iron Ring"
@@ -248,6 +264,14 @@
 				"name": "Carnage Heart",
 				"text": "Carnage Heart Onyx Amulet",
 				"type": "Onyx Amulet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Chains of Emancipation",
+				"text": "Chains of Emancipation Chain Belt",
+				"type": "Chain Belt"
 			},
 			{
 				"flags": {
@@ -461,6 +485,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Fated End",
+				"text": "Fated End Paua Ring",
+				"type": "Paua Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Feastbind",
 				"text": "Feastbind Rustic Sash",
 				"type": "Rustic Sash"
@@ -496,6 +528,14 @@
 				"name": "Gluttony",
 				"text": "Gluttony Leather Belt",
 				"type": "Leather Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Graven's Secret",
+				"text": "Graven's Secret Cloth Belt",
+				"type": "Cloth Belt"
 			},
 			{
 				"flags": {
@@ -608,6 +648,14 @@
 				"name": "Kikazaru",
 				"text": "Kikazaru Topaz Ring",
 				"type": "Topaz Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Leadership's Price",
+				"text": "Leadership's Price Onyx Amulet",
+				"type": "Onyx Amulet"
 			},
 			{
 				"flags": {
@@ -765,6 +813,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Olesya's Delight",
+				"text": "Olesya's Delight Cloth Belt",
+				"type": "Cloth Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Perandus Blazon",
 				"text": "Perandus Blazon Cloth Belt",
 				"type": "Cloth Belt"
@@ -901,6 +957,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Pyroshock Clasp",
+				"text": "Pyroshock Clasp Leather Belt",
+				"type": "Leather Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Rashkaldor's Patience",
 				"text": "Rashkaldor's Patience Jade Amulet",
 				"type": "Jade Amulet"
@@ -912,6 +976,118 @@
 				"name": "Redblade Band",
 				"text": "Redblade Band Unset Ring",
 				"type": "Unset Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Atziri's Foible",
+				"text": "Replica Atziri's Foible Paua Amulet",
+				"type": "Paua Amulet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Bated Breath",
+				"text": "Replica Bated Breath Chain Belt",
+				"type": "Chain Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Doedre's Damning",
+				"text": "Replica Doedre's Damning Paua Ring",
+				"type": "Paua Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Emberwake",
+				"text": "Replica Emberwake Ruby Ring",
+				"type": "Ruby Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Headhunter",
+				"text": "Replica Headhunter Leather Belt",
+				"type": "Leather Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Hyrri's Truth",
+				"text": "Replica Hyrri's Truth Jade Amulet",
+				"type": "Jade Amulet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Karui Ward",
+				"text": "Replica Karui Ward Jade Amulet",
+				"type": "Jade Amulet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Malachai's Artifice",
+				"text": "Replica Malachai's Artifice Unset Ring",
+				"type": "Unset Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Prismweave",
+				"text": "Replica Prismweave Rustic Sash",
+				"type": "Rustic Sash"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Siegebreaker",
+				"text": "Replica Siegebreaker Heavy Belt",
+				"type": "Heavy Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Soul Tether",
+				"text": "Replica Soul Tether Cloth Belt",
+				"type": "Cloth Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Tasalio's Sign",
+				"text": "Replica Tasalio's Sign Sapphire Ring",
+				"type": "Sapphire Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Voideye",
+				"text": "Replica Voideye Unset Ring",
+				"type": "Unset Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Winterheart",
+				"text": "Replica Winterheart Gold Amulet",
+				"type": "Gold Amulet"
 			},
 			{
 				"flags": {
@@ -944,6 +1120,14 @@
 				"name": "Romira's Banquet",
 				"text": "Romira's Banquet Diamond Ring",
 				"type": "Diamond Ring"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Rotblood Promise",
+				"text": "Rotblood Promise Unset Ring",
+				"type": "Unset Ring"
 			},
 			{
 				"flags": {
@@ -1085,6 +1269,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Survivor's Guilt",
+				"text": "Survivor's Guilt Heavy Belt",
+				"type": "Heavy Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Talisman of the Victor",
 				"text": "Talisman of the Victor Jet Amulet",
 				"type": "Jet Amulet"
@@ -1141,9 +1333,25 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "The Druggery",
+				"text": "The Druggery Cloth Belt",
+				"type": "Cloth Belt"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "The Effigon",
 				"text": "The Effigon Gold Amulet",
 				"type": "Gold Amulet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The Ephemeral Bond",
+				"text": "The Ephemeral Bond Lapis Amulet",
+				"type": "Lapis Amulet"
 			},
 			{
 				"flags": {
@@ -1168,6 +1376,14 @@
 				"name": "The Halcyon",
 				"text": "The Halcyon Jade Amulet",
 				"type": "Jade Amulet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The Highwayman",
+				"text": "The Highwayman Gold Ring",
+				"type": "Gold Ring"
 			},
 			{
 				"flags": {
@@ -1554,6 +1770,14 @@
 				"type": "Agate Amulet"
 			},
 			{
+				"text": "Astrolabe Amulet",
+				"type": "Astrolabe Amulet"
+			},
+			{
+				"text": "Simplex Amulet",
+				"type": "Simplex Amulet"
+			},
+			{
 				"text": "Black Maw Talisman",
 				"type": "Black Maw Talisman"
 			},
@@ -1706,6 +1930,14 @@
 				"type": "Golden Obi"
 			},
 			{
+				"text": "Micro-Distillery Belt",
+				"type": "Micro-Distillery Belt"
+			},
+			{
+				"text": "Mechalarm Belt",
+				"type": "Mechalarm Belt"
+			},
+			{
 				"text": "Breach Ring",
 				"type": "Breach Ring"
 			},
@@ -1780,6 +2012,18 @@
 			{
 				"text": "Golden Hoop",
 				"type": "Golden Hoop"
+			},
+			{
+				"text": "Cogwork Ring",
+				"type": "Cogwork Ring"
+			},
+			{
+				"text": "Geodesic Ring",
+				"type": "Geodesic Ring"
+			},
+			{
+				"text": "เครื่องประดับกองโจร",
+				"type": "เครื่องประดับกองโจร"
 			}
 		],
 		"label": "เครื่องประดับ"
@@ -1873,6 +2117,14 @@
 				"name": "Ambu's Charge",
 				"text": "Ambu's Charge Crusader Chainmail",
 				"type": "Crusader Chainmail"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Ancient Skull",
+				"text": "Ancient Skull Bone Helmet",
+				"type": "Bone Helmet"
 			},
 			{
 				"flags": {
@@ -2070,6 +2322,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Blunderbore",
+				"text": "Blunderbore Astral Plate",
+				"type": "Astral Plate"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Bones of Ullr",
 				"text": "Bones of Ullr Silk Slippers",
 				"type": "Silk Slippers"
@@ -2230,6 +2490,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Corpsewalker",
+				"text": "Corpsewalker Carnal Boots",
+				"type": "Carnal Boots"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Cospri's Will",
 				"text": "Cospri's Will Assassin's Garb",
 				"type": "Assassin's Garb"
@@ -2305,6 +2573,14 @@
 				"name": "Craiceann's Tracks",
 				"text": "Craiceann's Tracks Goliath Greaves",
 				"type": "Goliath Greaves"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Crest of Desire",
+				"text": "Crest of Desire Fluted Bascinet",
+				"type": "Fluted Bascinet"
 			},
 			{
 				"flags": {
@@ -2566,6 +2842,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Doppelgänger Guise",
+				"text": "Doppelgänger Guise Sadist Garb",
+				"type": "Sadist Garb"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Doryani's Delusion",
 				"text": "Doryani's Delusion Slink Boots",
 				"type": "Slink Boots"
@@ -2681,6 +2965,14 @@
 				"name": "Esh's Visage",
 				"text": "Esh's Visage Vaal Spirit Shield",
 				"type": "Vaal Spirit Shield"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Expedition's End",
+				"text": "Expedition's End Sentinel Jacket",
+				"type": "Sentinel Jacket"
 			},
 			{
 				"flags": {
@@ -2809,6 +3101,14 @@
 				"name": "Fleshcrafter",
 				"text": "Fleshcrafter Necromancer Silks",
 				"type": "Necromancer Silks"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Font of Thunder",
+				"text": "Font of Thunder Mirrored Spiked Shield",
+				"type": "Mirrored Spiked Shield"
 			},
 			{
 				"flags": {
@@ -3014,6 +3314,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Hand of the Fervent",
+				"text": "Hand of the Fervent Zealot Gloves",
+				"type": "Zealot Gloves"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Hands of the High Templar",
 				"text": "Hands of the High Templar Crusader Gloves",
 				"type": "Crusader Gloves"
@@ -3063,8 +3371,8 @@
 					"unique": 1
 				},
 				"name": "Hrimnor's Resolve",
-				"text": "Hrimnor's Resolve Samite Helmet",
-				"type": "Samite Helmet"
+				"text": "Hrimnor's Resolve Samnite Helmet",
+				"type": "Samnite Helmet"
 			},
 			{
 				"flags": {
@@ -3257,6 +3565,14 @@
 				"name": "Leer Cast",
 				"text": "Leer Cast Festival Mask",
 				"type": "Festival Mask"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Legacy of Fury",
+				"text": "Legacy of Fury Wyrmscale Boots",
+				"type": "Wyrmscale Boots"
 			},
 			{
 				"flags": {
@@ -3510,6 +3826,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Maw of Mischief",
+				"text": "Maw of Mischief Bone Helmet",
+				"type": "Bone Helmet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Meginord's Vise",
 				"text": "Meginord's Vise Steel Gauntlets",
 				"type": "Steel Gauntlets"
@@ -3521,6 +3845,14 @@
 				"name": "Memory Vault",
 				"text": "Memory Vault Praetor Crown",
 				"type": "Praetor Crown"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Mercenary's Lot",
+				"text": "Mercenary's Lot Slink Gloves",
+				"type": "Slink Gloves"
 			},
 			{
 				"flags": {
@@ -3670,6 +4002,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Qotra's Regulator",
+				"text": "Qotra's Regulator Sovereign Spiked Shield",
+				"type": "Sovereign Spiked Shield"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Queen of the Forest",
 				"text": "Queen of the Forest Destiny Leather",
 				"type": "Destiny Leather"
@@ -3742,9 +4082,265 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Remnant of Empires",
+				"text": "Remnant of Empires Goathide Buckler",
+				"type": "Goathide Buckler"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Repentance",
 				"text": "Repentance Crusader Gloves",
 				"type": "Crusader Gloves"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Abyssus",
+				"text": "Replica Abyssus Ezomyte Burgonet",
+				"type": "Ezomyte Burgonet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Alberon's Warpath",
+				"text": "Replica Alberon's Warpath Soldier Boots",
+				"type": "Soldier Boots"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Allelopathy",
+				"text": "Replica Allelopathy Sorcerer Gloves",
+				"type": "Sorcerer Gloves"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Alpha's Howl",
+				"text": "Replica Alpha's Howl Sinner Tricorne",
+				"type": "Sinner Tricorne"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Ambu's Charge",
+				"text": "Replica Ambu's Charge Crusader Chainmail",
+				"type": "Crusader Chainmail"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Atziri's Acuity",
+				"text": "Replica Atziri's Acuity Vaal Gauntlets",
+				"type": "Vaal Gauntlets"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Bones of Ullr",
+				"text": "Replica Bones of Ullr Silk Slippers",
+				"type": "Silk Slippers"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Eternity Shroud",
+				"text": "Replica Eternity Shroud Blood Raiment",
+				"type": "Blood Raiment"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Farrul's Fur",
+				"text": "Replica Farrul's Fur Triumphant Lamellar",
+				"type": "Triumphant Lamellar"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Forbidden Shako",
+				"text": "Replica Forbidden Shako Great Crown",
+				"type": "Great Crown"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Grip of the Council",
+				"text": "Replica Grip of the Council Arcanist Gloves",
+				"type": "Arcanist Gloves"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Inya's Epiphany",
+				"text": "Replica Inya's Epiphany Arcanist Slippers",
+				"type": "Arcanist Slippers"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Kalisa's Grace",
+				"text": "Replica Kalisa's Grace Samite Gloves",
+				"type": "Samite Gloves"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Kaom's Heart",
+				"text": "Replica Kaom's Heart Glorious Plate",
+				"type": "Glorious Plate"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Leer Cast",
+				"text": "Replica Leer Cast Festival Mask",
+				"type": "Festival Mask"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Lioneye's Paws",
+				"text": "Replica Lioneye's Paws Bronzescale Boots",
+				"type": "Bronzescale Boots"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Loreweave",
+				"text": "Replica Loreweave Elegant Ringmail",
+				"type": "Elegant Ringmail"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Maloney's Mechanism",
+				"text": "Replica Maloney's Mechanism Ornate Quiver",
+				"type": "Ornate Quiver"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Mistwall",
+				"text": "Replica Mistwall Lacquered Buckler",
+				"type": "Lacquered Buckler"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Perfect Form",
+				"text": "Replica Perfect Form Zodiac Leather",
+				"type": "Zodiac Leather"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Red Trail",
+				"text": "Replica Red Trail Titan Greaves",
+				"type": "Titan Greaves"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Restless Ward",
+				"text": "Replica Restless Ward Carnal Armour",
+				"type": "Carnal Armour"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Shroud of the Lightless",
+				"text": "Replica Shroud of the Lightless Carnal Armour",
+				"type": "Carnal Armour"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Soul Strike",
+				"text": "Replica Soul Strike Spike-Point Arrow Quiver",
+				"type": "Spike-Point Arrow Quiver"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Stampede",
+				"text": "Replica Stampede Assassin's Boots",
+				"type": "Assassin's Boots"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Three-step Assault",
+				"text": "Replica Three-step Assault Shagreen Boots",
+				"type": "Shagreen Boots"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Tukohama's Fortress",
+				"text": "Replica Tukohama's Fortress Ebony Tower Shield",
+				"type": "Ebony Tower Shield"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Veil of the Night",
+				"text": "Replica Veil of the Night Great Helmet",
+				"type": "Great Helmet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Victario's Charity",
+				"text": "Replica Victario's Charity Laminated Kite Shield",
+				"type": "Laminated Kite Shield"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Voidwalker",
+				"text": "Replica Voidwalker Murder Boots",
+				"type": "Murder Boots"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Volkuur's Guidance",
+				"text": "Replica Volkuur's Guidance Zealot Gloves",
+				"type": "Zealot Gloves"
 			},
 			{
 				"flags": {
@@ -3902,6 +4498,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Shattershard",
+				"text": "Shattershard Crimson Round Shield",
+				"type": "Crimson Round Shield"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Shavronne's Gambit",
 				"text": "Shavronne's Gambit Scholar Boots",
 				"type": "Scholar Boots"
@@ -3993,6 +4597,14 @@
 				"name": "Slitherpinch",
 				"text": "Slitherpinch Bronzescale Gauntlets",
 				"type": "Bronzescale Gauntlets"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Slivers of Providence",
+				"text": "Slivers of Providence Serrated Arrow Quiver",
+				"type": "Serrated Arrow Quiver"
 			},
 			{
 				"flags": {
@@ -4126,6 +4738,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "The Admiral",
+				"text": "The Admiral Varnished Coat",
+				"type": "Varnished Coat"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "The Anticipation",
 				"text": "The Anticipation Ezomyte Tower Shield",
 				"type": "Ezomyte Tower Shield"
@@ -4246,6 +4866,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "The Fledgling",
+				"text": "The Fledgling Lacquered Helmet",
+				"type": "Lacquered Helmet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "The Formless Flame",
 				"text": "The Formless Flame Siege Helmet",
 				"type": "Siege Helmet"
@@ -4265,6 +4893,14 @@
 				"name": "The Fracturing Spinner",
 				"text": "The Fracturing Spinner Blunt Arrow Quiver",
 				"type": "Blunt Arrow Quiver"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The Ghastly Theatre",
+				"text": "The Ghastly Theatre Teak Round Shield",
+				"type": "Teak Round Shield"
 			},
 			{
 				"flags": {
@@ -4622,6 +5258,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Viridi's Veil",
+				"text": "Viridi's Veil Praetor Crown",
+				"type": "Praetor Crown"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Vis Mortis",
 				"text": "Vis Mortis Necromancer Silks",
 				"type": "Necromancer Silks"
@@ -4737,6 +5381,14 @@
 				"name": "Wildwrap",
 				"text": "Wildwrap Strapped Leather",
 				"type": "Strapped Leather"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Willclash",
+				"text": "Willclash Golden Mask",
+				"type": "Golden Mask"
 			},
 			{
 				"flags": {
@@ -5331,6 +5983,18 @@
 				"type": "Murder Boots"
 			},
 			{
+				"text": "Cloudwhisper Boots",
+				"type": "Cloudwhisper Boots"
+			},
+			{
+				"text": "Windbreak Boots",
+				"type": "Windbreak Boots"
+			},
+			{
+				"text": "Stormrider Boots",
+				"type": "Stormrider Boots"
+			},
+			{
 				"text": "Wool Shoes",
 				"type": "Wool Shoes"
 			},
@@ -5365,6 +6029,18 @@
 			{
 				"text": "Sorcerer Boots",
 				"type": "Sorcerer Boots"
+			},
+			{
+				"text": "Duskwalk Slippers",
+				"type": "Duskwalk Slippers"
+			},
+			{
+				"text": "Nightwind Slippers",
+				"type": "Nightwind Slippers"
+			},
+			{
+				"text": "Dreamquest Slippers",
+				"type": "Dreamquest Slippers"
 			},
 			{
 				"text": "Iron Greaves",
@@ -5467,6 +6143,18 @@
 				"type": "Crusader Boots"
 			},
 			{
+				"text": "Basemetal Treads",
+				"type": "Basemetal Treads"
+			},
+			{
+				"text": "Darksteel Treads",
+				"type": "Darksteel Treads"
+			},
+			{
+				"text": "Brimstone Treads",
+				"type": "Brimstone Treads"
+			},
+			{
 				"text": "Gripped Gloves",
 				"type": "Gripped Gloves"
 			},
@@ -5551,6 +6239,18 @@
 				"type": "Murder Mitts"
 			},
 			{
+				"text": "Gauche Gloves",
+				"type": "Gauche Gloves"
+			},
+			{
+				"text": "Southswing Gloves",
+				"type": "Southswing Gloves"
+			},
+			{
+				"text": "Sinistral Gloves",
+				"type": "Sinistral Gloves"
+			},
+			{
 				"text": "Wool Gloves",
 				"type": "Wool Gloves"
 			},
@@ -5585,6 +6285,18 @@
 			{
 				"text": "Sorcerer Gloves",
 				"type": "Sorcerer Gloves"
+			},
+			{
+				"text": "Leyline Gloves",
+				"type": "Leyline Gloves"
+			},
+			{
+				"text": "Aetherwind Gloves",
+				"type": "Aetherwind Gloves"
+			},
+			{
+				"text": "Nexus Gloves",
+				"type": "Nexus Gloves"
 			},
 			{
 				"text": "Iron Gauntlets",
@@ -5687,6 +6399,18 @@
 				"type": "Crusader Gloves"
 			},
 			{
+				"text": "Taxing Gauntlets",
+				"type": "Taxing Gauntlets"
+			},
+			{
+				"text": "Gruelling Gauntlets",
+				"type": "Gruelling Gauntlets"
+			},
+			{
+				"text": "Debilitation Gauntlets",
+				"type": "Debilitation Gauntlets"
+			},
+			{
 				"text": "Bone Helmet",
 				"type": "Bone Helmet"
 			},
@@ -5779,6 +6503,18 @@
 				"type": "Harlequin Mask"
 			},
 			{
+				"text": "Gale Crown",
+				"type": "Gale Crown"
+			},
+			{
+				"text": "Winter Crown",
+				"type": "Winter Crown"
+			},
+			{
+				"text": "Blizzard Crown",
+				"type": "Blizzard Crown"
+			},
+			{
 				"text": "Vine Circlet",
 				"type": "Vine Circlet"
 			},
@@ -5859,8 +6595,8 @@
 				"type": "Siege Helmet"
 			},
 			{
-				"text": "Samite Helmet",
-				"type": "Samite Helmet"
+				"text": "Samnite Helmet",
+				"type": "Samnite Helmet"
 			},
 			{
 				"text": "Ezomyte Burgonet",
@@ -5907,6 +6643,18 @@
 				"type": "Pig-Faced Bascinet"
 			},
 			{
+				"text": "Sorrow Mask",
+				"type": "Sorrow Mask"
+			},
+			{
+				"text": "Atonement Mask",
+				"type": "Atonement Mask"
+			},
+			{
+				"text": "Penitent Mask",
+				"type": "Penitent Mask"
+			},
+			{
 				"text": "Rusted Coif",
 				"type": "Rusted Coif"
 			},
@@ -5945,6 +6693,18 @@
 			{
 				"text": "Prophet Crown",
 				"type": "Prophet Crown"
+			},
+			{
+				"text": "Imp Crown",
+				"type": "Imp Crown"
+			},
+			{
+				"text": "Demon Crown",
+				"type": "Demon Crown"
+			},
+			{
+				"text": "Archdemon Crown",
+				"type": "Archdemon Crown"
 			},
 			{
 				"text": "Golden Wreath",
@@ -6017,6 +6777,18 @@
 			{
 				"text": "Corrugated Buckler",
 				"type": "Corrugated Buckler"
+			},
+			{
+				"text": "Endothermic Buckler",
+				"type": "Endothermic Buckler"
+			},
+			{
+				"text": "Polar Buckler",
+				"type": "Polar Buckler"
+			},
+			{
+				"text": "Cold-attuned Buckler",
+				"type": "Cold-attuned Buckler"
 			},
 			{
 				"text": "Spiked Bundle",
@@ -6133,6 +6905,18 @@
 			{
 				"text": "Ancient Spirit Shield",
 				"type": "Ancient Spirit Shield"
+			},
+			{
+				"text": "Exhausting Spirit Shield",
+				"type": "Exhausting Spirit Shield"
+			},
+			{
+				"text": "Subsuming Spirit Shield",
+				"type": "Subsuming Spirit Shield"
+			},
+			{
+				"text": "Transfer-attuned Spirit Shield",
+				"type": "Transfer-attuned Spirit Shield"
 			},
 			{
 				"text": "Splintered Tower Shield",
@@ -6255,6 +7039,18 @@
 				"type": "Baroque Round Shield"
 			},
 			{
+				"text": "Exothermic Tower Shield",
+				"type": "Exothermic Tower Shield"
+			},
+			{
+				"text": "Magmatic Tower Shield",
+				"type": "Magmatic Tower Shield"
+			},
+			{
+				"text": "Heat-attuned Tower Shield",
+				"type": "Heat-attuned Tower Shield"
+			},
+			{
 				"text": "Plank Kite Shield",
 				"type": "Plank Kite Shield"
 			},
@@ -6372,6 +7168,10 @@
 				"type": "Abandoned Wealth"
 			},
 			{
+				"text": "Acclimatisation",
+				"type": "Acclimatisation"
+			},
+			{
 				"text": "A Dab of Ink",
 				"type": "A Dab of Ink"
 			},
@@ -6460,6 +7260,14 @@
 				"type": "Bowyer's Dream"
 			},
 			{
+				"text": "Brotherhood in Exile",
+				"type": "Brotherhood in Exile"
+			},
+			{
+				"text": "Brother's Stash",
+				"type": "Brother's Stash"
+			},
+			{
 				"text": "Buried Treasure",
 				"type": "Buried Treasure"
 			},
@@ -6492,6 +7300,10 @@
 				"type": "Coveted Possession"
 			},
 			{
+				"text": "Cursed Words",
+				"type": "Cursed Words"
+			},
+			{
 				"text": "Dark Dreams",
 				"type": "Dark Dreams"
 			},
@@ -6512,6 +7324,10 @@
 				"type": "Demigod's Wager"
 			},
 			{
+				"text": "Desecrated Virtue",
+				"type": "Desecrated Virtue"
+			},
+			{
 				"text": "Destined to Crumble",
 				"type": "Destined to Crumble"
 			},
@@ -6528,8 +7344,16 @@
 				"type": "Doedre's Madness"
 			},
 			{
+				"text": "Draped in Dreams",
+				"type": "Draped in Dreams"
+			},
+			{
 				"text": "Dying Anguish",
 				"type": "Dying Anguish"
+			},
+			{
+				"text": "Dying Light",
+				"type": "Dying Light"
 			},
 			{
 				"text": "Earth Drinker",
@@ -6550,6 +7374,10 @@
 			{
 				"text": "Etched in Blood",
 				"type": "Etched in Blood"
+			},
+			{
+				"text": "Fateful Meeting",
+				"type": "Fateful Meeting"
 			},
 			{
 				"text": "Forbidden Power",
@@ -6582,6 +7410,10 @@
 			{
 				"text": "Harmony of Souls",
 				"type": "Harmony of Souls"
+			},
+			{
+				"text": "Haunting Shadows",
+				"type": "Haunting Shadows"
 			},
 			{
 				"text": "Her Mask",
@@ -6628,6 +7460,10 @@
 				"type": "Jack in the Box"
 			},
 			{
+				"text": "Keeper's Corruption",
+				"type": "Keeper's Corruption"
+			},
+			{
 				"text": "Lantador's Lost Love",
 				"type": "Lantador's Lost Love"
 			},
@@ -6650,6 +7486,10 @@
 			{
 				"text": "Lost Worlds",
 				"type": "Lost Worlds"
+			},
+			{
+				"text": "Love Through Ice",
+				"type": "Love Through Ice"
 			},
 			{
 				"text": "Loyalty",
@@ -6740,6 +7580,10 @@
 				"type": "Rebirth"
 			},
 			{
+				"text": "Reckless Ambition",
+				"type": "Reckless Ambition"
+			},
+			{
 				"text": "Remembrance",
 				"type": "Remembrance"
 			},
@@ -6760,6 +7604,10 @@
 				"type": "Shard of Fate"
 			},
 			{
+				"text": "Society's Remorse",
+				"type": "Society's Remorse"
+			},
+			{
 				"text": "Squandered Prosperity",
 				"type": "Squandered Prosperity"
 			},
@@ -6770,6 +7618,10 @@
 			{
 				"text": "Succor of the Sinless",
 				"type": "Succor of the Sinless"
+			},
+			{
+				"text": "The Academic",
+				"type": "The Academic"
 			},
 			{
 				"text": "The Admirer",
@@ -6796,6 +7648,10 @@
 				"type": "The Artist"
 			},
 			{
+				"text": "The Astromancer",
+				"type": "The Astromancer"
+			},
+			{
 				"text": "The Avenger",
 				"type": "The Avenger"
 			},
@@ -6812,12 +7668,20 @@
 				"type": "The Battle Born"
 			},
 			{
+				"text": "The Bear Woman",
+				"type": "The Bear Woman"
+			},
+			{
 				"text": "The Beast",
 				"type": "The Beast"
 			},
 			{
 				"text": "The Betrayal",
 				"type": "The Betrayal"
+			},
+			{
+				"text": "The Bitter Blossom",
+				"type": "The Bitter Blossom"
 			},
 			{
 				"text": "The Blazing Fire",
@@ -6838,6 +7702,10 @@
 			{
 				"text": "The Brittle Emperor",
 				"type": "The Brittle Emperor"
+			},
+			{
+				"text": "The Cache",
+				"type": "The Cache"
 			},
 			{
 				"text": "The Cacophony",
@@ -7076,6 +7944,10 @@
 				"type": "The Greatest Intentions"
 			},
 			{
+				"text": "The Gulf",
+				"type": "The Gulf"
+			},
+			{
 				"text": "The Hale Heart",
 				"type": "The Hale Heart"
 			},
@@ -7140,6 +8012,10 @@
 				"type": "The Jeweller's Boon"
 			},
 			{
+				"text": "The Journalist",
+				"type": "The Journalist"
+			},
+			{
 				"text": "The Journey",
 				"type": "The Journey"
 			},
@@ -7174,6 +8050,10 @@
 			{
 				"text": "The Long Con",
 				"type": "The Long Con"
+			},
+			{
+				"text": "The Long Watch",
+				"type": "The Long Watch"
 			},
 			{
 				"text": "The Lord in Black",
@@ -7258,6 +8138,10 @@
 			{
 				"text": "The Pact",
 				"type": "The Pact"
+			},
+			{
+				"text": "The Patient",
+				"type": "The Patient"
 			},
 			{
 				"text": "The Penitent",
@@ -7476,6 +8360,10 @@
 				"type": "The Undisputed"
 			},
 			{
+				"text": "The Unexpected Prize",
+				"type": "The Unexpected Prize"
+			},
+			{
 				"text": "The Union",
 				"type": "The Union"
 			},
@@ -7518,6 +8406,10 @@
 			{
 				"text": "The White Knight",
 				"type": "The White Knight"
+			},
+			{
+				"text": "The Whiteout",
+				"type": "The Whiteout"
 			},
 			{
 				"text": "The Wilted Rose",
@@ -7592,12 +8484,24 @@
 				"type": "Treasure Hunter"
 			},
 			{
+				"text": "Triskaidekaphobia",
+				"type": "Triskaidekaphobia"
+			},
+			{
 				"text": "Turn the Other Cheek",
 				"type": "Turn the Other Cheek"
 			},
 			{
+				"text": "Unchained",
+				"type": "Unchained"
+			},
+			{
 				"text": "Underground Forest",
 				"type": "Underground Forest"
+			},
+			{
+				"text": "Unrequited Love",
+				"type": "Unrequited Love"
 			},
 			{
 				"text": "Vanity",
@@ -7845,6 +8749,10 @@
 				"type": "Awakened Sextant"
 			},
 			{
+				"text": "Elevated Sextant",
+				"type": "Elevated Sextant"
+			},
+			{
 				"text": "Prime Sextant",
 				"type": "Prime Sextant"
 			},
@@ -7959,6 +8867,10 @@
 			{
 				"text": "Armourer's Scrap",
 				"type": "Armourer's Scrap"
+			},
+			{
+				"text": "Orb of Unmaking",
+				"type": "Orb of Unmaking"
 			},
 			{
 				"text": "Splinter of Chayula",
@@ -8569,6 +9481,14 @@
 				"type": "Electroshock Scroll"
 			},
 			{
+				"text": "Tailoring Orb",
+				"type": "Tailoring Orb"
+			},
+			{
+				"text": "Tempering Orb",
+				"type": "Tempering Orb"
+			},
+			{
 				"text": "Scroll of Wisdom",
 				"type": "Scroll of Wisdom"
 			},
@@ -8837,6 +9757,10 @@
 				"type": "Chaos Shard"
 			},
 			{
+				"text": "Prime Regrading Lens",
+				"type": "Prime Regrading Lens"
+			},
+			{
 				"text": "Chromatic Orb",
 				"type": "Chromatic Orb"
 			},
@@ -8847,6 +9771,10 @@
 			{
 				"text": "Jeweller's Orb",
 				"type": "Jeweller's Orb"
+			},
+			{
+				"text": "Secondary Regrading Lens",
+				"type": "Secondary Regrading Lens"
 			},
 			{
 				"text": "Ancient Orb",
@@ -8863,6 +9791,14 @@
 			{
 				"text": "Albino Rhoa Feather",
 				"type": "Albino Rhoa Feather"
+			},
+			{
+				"text": "Ritual Splinter",
+				"type": "Ritual Splinter"
+			},
+			{
+				"text": "Ritual Vessel",
+				"type": "Ritual Vessel"
 			},
 			{
 				"text": "Master Cartographer's Seal",
@@ -8891,6 +9827,10 @@
 			{
 				"text": "Engineer's Shard",
 				"type": "Engineer's Shard"
+			},
+			{
+				"text": "Maven's Orb",
+				"type": "Maven's Orb"
 			},
 			{
 				"text": "Regal Orb",
@@ -9029,248 +9969,216 @@
 				"type": "Stacked Deck"
 			},
 			{
-				"text": "Horticrafting Bud",
-				"type": "Horticrafting Bud"
+				"text": "เหรียญกองโจร",
+				"type": "เหรียญกองโจร"
 			},
 			{
-				"text": "Horticrafting Flower",
-				"type": "Horticrafting Flower"
+				"text": "ไหแห่งฟารุด",
+				"type": "ไหแห่งฟารุด"
 			},
 			{
-				"text": "Horticrafting Blossom",
-				"type": "Horticrafting Blossom"
+				"text": "Ogham Candelabra",
+				"type": "Ogham Candelabra"
 			},
 			{
-				"text": "Lifeforce Bud",
-				"type": "Lifeforce Bud"
+				"text": "Tusked Hominid Skull",
+				"type": "Tusked Hominid Skull"
 			},
 			{
-				"text": "Lifeforce Flower",
-				"type": "Lifeforce Flower"
+				"text": "Celestial Stone",
+				"type": "Celestial Stone"
 			},
 			{
-				"text": "Lifeforce Blossom",
-				"type": "Lifeforce Blossom"
+				"text": "Urn of the Original Ashes",
+				"type": "Urn of the Original Ashes"
 			},
 			{
-				"text": "Fortune Bud",
-				"type": "Fortune Bud"
+				"text": "Heart Coil",
+				"type": "Heart Coil"
 			},
 			{
-				"text": "Fortune Flower",
-				"type": "Fortune Flower"
+				"text": "Enigmatic Assembly A4",
+				"type": "Enigmatic Assembly A4"
 			},
 			{
-				"text": "Fortune Blossom",
-				"type": "Fortune Blossom"
+				"text": "Enigmatic Assembly B2",
+				"type": "Enigmatic Assembly B2"
 			},
 			{
-				"text": "เมล็ด Cleaveling อันเก่าแก่",
-				"type": "เมล็ด Cleaveling อันเก่าแก่"
+				"text": "Enigmatic Assembly C5",
+				"type": "Enigmatic Assembly C5"
 			},
 			{
-				"text": "Thornfruit อันเกรี้ยวกราด",
-				"type": "Thornfruit อันเกรี้ยวกราด"
+				"text": "Enigmatic Assembly D1",
+				"type": "Enigmatic Assembly D1"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Bristlebeast อันเกรี้ยวกราด",
-				"type": "เมล็ดพันธุ์ Bristlebeast อันเกรี้ยวกราด"
+				"text": "Mirror of Teklatipitzi",
+				"type": "Mirror of Teklatipitzi"
 			},
 			{
-				"text": "หัวพันธุ์ Bristle Matron อันเกรี้ยวกราด",
-				"type": "หัวพันธุ์ Bristle Matron อันเกรี้ยวกราด"
+				"text": "กล่องแห่งตรีไพซิส",
+				"type": "กล่องแห่งตรีไพซิส"
 			},
 			{
-				"text": "Blisterfruit อันเก่าแก่",
-				"type": "Blisterfruit อันเก่าแก่"
+				"text": "Bust of Emperor Caspiro",
+				"type": "Bust of Emperor Caspiro"
 			},
 			{
-				"text": "หัวพันธุ์ Thornmaw อันเกรี้ยวกราด",
-				"type": "หัวพันธุ์ Thornmaw อันเกรี้ยวกราด"
+				"text": "Golden Hetzapal Idol",
+				"type": "Golden Hetzapal Idol"
 			},
 			{
-				"text": "หัวพันธุ์ Whipleg อันสดใส",
-				"type": "หัวพันธุ์ Whipleg อันสดใส"
+				"text": "Flask of Welakath",
+				"type": "Flask of Welakath"
 			},
 			{
-				"text": "หัวพันธุ์ Brambleback อันเกรี้ยวกราด",
-				"type": "หัวพันธุ์ Brambleback อันเกรี้ยวกราด"
+				"text": "Forbidden Lamp",
+				"type": "Forbidden Lamp"
 			},
 			{
-				"text": "Scalefruit อันสดใส",
-				"type": "Scalefruit อันสดใส"
+				"text": "The Goddess of Water",
+				"type": "The Goddess of Water"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Chieftain อันเกรี้ยวกราด",
-				"type": "เมล็ดพันธุ์ Chieftain อันเกรี้ยวกราด"
+				"text": "The Golden Ibis",
+				"type": "The Golden Ibis"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Viper อันเก่าแก่",
-				"type": "เมล็ดพันธุ์ Viper อันเก่าแก่"
+				"text": "Impossible Crystal",
+				"type": "Impossible Crystal"
 			},
 			{
-				"text": "หัวพันธุ์ Devourer อันสดใส",
-				"type": "หัวพันธุ์ Devourer อันสดใส"
+				"text": "Living Ice",
+				"type": "Living Ice"
 			},
 			{
-				"text": "เมล็ด Ursaling อันเกรี้ยวกราด",
-				"type": "เมล็ด Ursaling อันเกรี้ยวกราด"
+				"text": "Seal of Lunaris",
+				"type": "Seal of Lunaris"
 			},
 			{
-				"text": "เมล็ด Maw อันเก่าแก่",
-				"type": "เมล็ด Maw อันเก่าแก่"
+				"text": "Golden Matatl Idol",
+				"type": "Golden Matatl Idol"
 			},
 			{
-				"text": "หัวพันธุ์ Cystcaller อันเก่าแก่",
-				"type": "หัวพันธุ์ Cystcaller อันเก่าแก่"
+				"text": "ธูปหอมเคท",
+				"type": "ธูปหอมเคท"
 			},
 			{
-				"text": "เมล็ด Hellion อันเกรี้ยวกราด",
-				"type": "เมล็ด Hellion อันเกรี้ยวกราด"
+				"text": "The Sea Pearl Heirloom",
+				"type": "The Sea Pearl Heirloom"
 			},
 			{
-				"text": "หัวพันธุ์ Hellion Alpha อันเกรี้ยวกราด",
-				"type": "หัวพันธุ์ Hellion Alpha อันเกรี้ยวกราด"
+				"text": "Seal of Solaris",
+				"type": "Seal of Solaris"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Snap Hound อันเกรี้ยวกราด",
-				"type": "เมล็ดพันธุ์ Snap Hound อันเกรี้ยวกราด"
+				"text": "Golden Napuatzi Idol",
+				"type": "Golden Napuatzi Idol"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Sapsucker อันสดใส",
-				"type": "เมล็ดพันธุ์ Sapsucker อันสดใส"
+				"text": "Essence Burner",
+				"type": "Essence Burner"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Chimeral อันเก่าแก่",
-				"type": "เมล็ดพันธุ์ Chimeral อันเก่าแก่"
+				"text": "Ancient Seal",
+				"type": "Ancient Seal"
 			},
 			{
-				"text": "หัวพันธุ์ Infestation Queen อันเกรี้ยวกราด",
-				"type": "หัวพันธุ์ Infestation Queen อันเกรี้ยวกราด"
+				"text": "Blood of Innocence",
+				"type": "Blood of Innocence"
 			},
 			{
-				"text": "เมล็ด Hatchling อันเกรี้ยวกราด",
-				"type": "เมล็ด Hatchling อันเกรี้ยวกราด"
+				"text": "Dekhara's Resolve",
+				"type": "Dekhara's Resolve"
 			},
 			{
-				"text": "หัวพันธุ์ Blisterlord อันเก่าแก่",
-				"type": "หัวพันธุ์ Blisterlord อันเก่าแก่"
+				"text": "Orbala's Fifth Adventure",
+				"type": "Orbala's Fifth Adventure"
 			},
 			{
-				"text": "หัวพันธุ์ Reborn อันเก่าแก่",
-				"type": "หัวพันธุ์ Reborn อันเก่าแก่"
+				"text": "Staff of the first Sin Eater",
+				"type": "Staff of the first Sin Eater"
 			},
 			{
-				"text": "เมล็ด Arachnid อันสดใส",
-				"type": "เมล็ด Arachnid อันสดใส"
+				"text": "Sword of the Inverse Relic",
+				"type": "Sword of the Inverse Relic"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Homunculus อันเกรี้ยวกราด",
-				"type": "เมล็ดพันธุ์ Homunculus อันเกรี้ยวกราด"
+				"text": "ตราประจำตระกูลเอโซเมีย",
+				"type": "ตราประจำตระกูลเอโซเมีย"
 			},
 			{
-				"text": "เมล็ด Ape อันเกรี้ยวกราด",
-				"type": "เมล็ด Ape อันเกรี้ยวกราด"
+				"text": "Golden Slave Idol",
+				"type": "Golden Slave Idol"
 			},
 			{
-				"text": "หัวพันธุ์ Crushclaw อันเก่าแก่",
-				"type": "หัวพันธุ์ Crushclaw อันเก่าแก่"
+				"text": "Golden Xoplotli Idol",
+				"type": "Golden Xoplotli Idol"
 			},
 			{
-				"text": "เมล็ด Leech อันสดใส",
-				"type": "เมล็ด Leech อันสดใส"
+				"text": "Ceremonial Goblet",
+				"type": "Ceremonial Goblet"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Parasite อันสดใส",
-				"type": "เมล็ดพันธุ์ Parasite อันสดใส"
+				"text": "Crested Golden Idol",
+				"type": "Crested Golden Idol"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Nestback อันสดใส",
-				"type": "เมล็ดพันธุ์ Nestback อันสดใส"
+				"text": "Golden Ceremonial Mask",
+				"type": "Golden Ceremonial Mask"
 			},
 			{
-				"text": "หัวพันธุ์ Abberarach อันสดใส",
-				"type": "หัวพันธุ์ Abberarach อันสดใส"
+				"text": "Golden Prayer Idol",
+				"type": "Golden Prayer Idol"
 			},
 			{
-				"text": "เมล็ด Feasting Horror อันเก่าแก่",
-				"type": "เมล็ด Feasting Horror อันเก่าแก่"
+				"text": "Golden Grotesque",
+				"type": "Golden Grotesque"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Rhex อันเก่าแก่",
-				"type": "เมล็ดพันธุ์ Rhex อันเก่าแก่"
+				"text": "Golden Sacrificial Glyph",
+				"type": "Golden Sacrificial Glyph"
 			},
 			{
-				"text": "หัวพันธุ์ Rhex Matriarch อันเก่าแก่",
-				"type": "หัวพันธุ์ Rhex Matriarch อันเก่าแก่"
+				"text": "คัมภีร์แห่งเอสไมเร",
+				"type": "คัมภีร์แห่งเอสไมเร"
 			},
 			{
-				"text": "เมล็ด Rhoa อันเก่าแก่",
-				"type": "เมล็ด Rhoa อันเก่าแก่"
+				"text": "มือแห่งอริมอร์",
+				"type": "มือแห่งอริมอร์"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Razorleg อันสดใส",
-				"type": "เมล็ดพันธุ์ Razorleg อันสดใส"
+				"text": "เขาของชาวแอบเบอร์แรท",
+				"type": "เขาของชาวแอบเบอร์แรท"
 			},
 			{
-				"text": "เมล็ดพันธุ์ Scrabbler อันเก่าแก่",
-				"type": "เมล็ดพันธุ์ Scrabbler อันเก่าแก่"
+				"text": "Admiral Proclar's Pipe",
+				"type": "Admiral Proclar's Pipe"
 			},
 			{
-				"text": "เมล็ด Dustspitter อันเก่าแก่",
-				"type": "เมล็ด Dustspitter อันเก่าแก่"
+				"text": "Alchemical Chalice",
+				"type": "Alchemical Chalice"
 			},
 			{
-				"text": "เมล็ด Scorpion อันสดใส",
-				"type": "เมล็ด Scorpion อันสดใส"
-			},
-			{
-				"text": "เมล็ดพันธุ์ Striketail อันสดใส",
-				"type": "เมล็ดพันธุ์ Striketail อันสดใส"
-			},
-			{
-				"text": "เมล็ดพันธุ์ Dustcrab อันเก่าแก่",
-				"type": "เมล็ดพันธุ์ Dustcrab อันเก่าแก่"
-			},
-			{
-				"text": "เมล็ดพันธุ์ Spikeback อันเกรี้ยวกราด",
-				"type": "เมล็ดพันธุ์ Spikeback อันเกรี้ยวกราด"
-			},
-			{
-				"text": "หัวพันธุ์ Watcher อันสดใส",
-				"type": "หัวพันธุ์ Watcher อันสดใส"
-			},
-			{
-				"text": "เมล็ด Thornweaver อันสดใส",
-				"type": "เมล็ด Thornweaver อันสดใส"
-			},
-			{
-				"text": "หัวพันธุ์ Vulture อันสดใส",
-				"type": "หัวพันธุ์ Vulture อันสดใส"
-			},
-			{
-				"text": "เมล็ด Weta อันสดใส",
-				"type": "เมล็ด Weta อันสดใส"
-			},
-			{
-				"text": "เมล็ด Thornwolf อันเกรี้ยวกราด",
-				"type": "เมล็ด Thornwolf อันเกรี้ยวกราด"
+				"text": "Crescent Splinter",
+				"type": "Crescent Splinter"
 			},
 			{
 				"text": "Captured Soul of Mephod, the Earth Scorcher",
 				"type": "Captured Soul of Mephod, the Earth Scorcher"
 			},
 			{
-				"text": "Captured Soul of Thraxia",
-				"type": "Captured Soul of Thraxia"
+				"text": "Captured Soul of Excellis Aurafix",
+				"type": "Captured Soul of Excellis Aurafix"
 			},
 			{
-				"text": "Captured Soul of Glace",
-				"type": "Captured Soul of Glace"
+				"text": "Captured Soul of Puruna, the Challenger",
+				"type": "Captured Soul of Puruna, the Challenger"
 			},
 			{
-				"text": "Captured Soul of Shadow of the Vaal",
-				"type": "Captured Soul of Shadow of the Vaal"
+				"text": "Captured Soul of Corruptor Eedaiak",
+				"type": "Captured Soul of Corruptor Eedaiak"
 			},
 			{
 				"text": "Captured Soul of Stalker of the Endless Dunes",
@@ -9412,6 +10320,30 @@
 				"name": "Lion's Roar",
 				"text": "Lion's Roar Granite Flask",
 				"type": "Granite Flask"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Lavianga's Spirit",
+				"text": "Replica Lavianga's Spirit Sanctified Mana Flask",
+				"type": "Sanctified Mana Flask"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Rumi's Concoction",
+				"text": "Replica Rumi's Concoction Granite Flask",
+				"type": "Granite Flask"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Sorrow of the Divine",
+				"text": "Replica Sorrow of the Divine Sulphur Flask",
+				"type": "Sulphur Flask"
 			},
 			{
 				"flags": {
@@ -9791,6 +10723,10 @@
 				"type": "Blast Rain"
 			},
 			{
+				"text": "Blazing Salvo",
+				"type": "Blazing Salvo"
+			},
+			{
 				"text": "Blight",
 				"type": "Blight"
 			},
@@ -9877,6 +10813,10 @@
 			{
 				"text": "Bodyswap",
 				"type": "Bodyswap"
+			},
+			{
+				"text": "Crackling Lance",
+				"type": "Crackling Lance"
 			},
 			{
 				"text": "Assassin's Mark",
@@ -10035,6 +10975,10 @@
 				"type": "Holy Flame Totem"
 			},
 			{
+				"text": "Flame Wall",
+				"type": "Flame Wall"
+			},
+			{
 				"text": "Flame Surge",
 				"type": "Flame Surge"
 			},
@@ -10091,6 +11035,10 @@
 				"type": "Frost Bomb"
 			},
 			{
+				"text": "Frost Shield",
+				"type": "Frost Shield"
+			},
+			{
 				"text": "Frost Wall",
 				"type": "Frost Wall"
 			},
@@ -10145,6 +11093,14 @@
 			{
 				"text": "Herald of Thunder",
 				"type": "Herald of Thunder"
+			},
+			{
+				"text": "Hexblast",
+				"type": "Hexblast"
+			},
+			{
+				"text": "Hydrosphere",
+				"type": "Hydrosphere"
 			},
 			{
 				"text": "Ice Crash",
@@ -10235,8 +11191,8 @@
 				"type": "Lightning Warp"
 			},
 			{
-				"text": "Magma Orb",
-				"type": "Magma Orb"
+				"text": "Rolling Magma",
+				"type": "Rolling Magma"
 			},
 			{
 				"text": "Ancestral Protector",
@@ -10311,8 +11267,8 @@
 				"type": "Pride"
 			},
 			{
-				"text": "Projectile Weakness",
-				"type": "Projectile Weakness"
+				"text": "Sniper's Mark",
+				"type": "Sniper's Mark"
 			},
 			{
 				"text": "Puncture",
@@ -10419,6 +11375,10 @@
 				"type": "Siege Ballista"
 			},
 			{
+				"text": "Sigil of Power",
+				"type": "Sigil of Power"
+			},
+			{
 				"text": "Smite",
 				"type": "Smite"
 			},
@@ -10449,6 +11409,10 @@
 			{
 				"text": "Split Arrow",
 				"type": "Split Arrow"
+			},
+			{
+				"text": "Splitting Steel",
+				"type": "Splitting Steel"
 			},
 			{
 				"text": "Static Strike",
@@ -10719,6 +11683,10 @@
 				"type": "Vitality"
 			},
 			{
+				"text": "Void Sphere",
+				"type": "Void Sphere"
+			},
+			{
 				"text": "Volatile Dead",
 				"type": "Volatile Dead"
 			},
@@ -10971,12 +11939,12 @@
 				"type": "Culling Strike Support"
 			},
 			{
-				"text": "Curse On Hit Support",
-				"type": "Curse On Hit Support"
+				"text": "Hextouch Support",
+				"type": "Hextouch Support"
 			},
 			{
-				"text": "Awakened Curse On Hit Support",
-				"type": "Awakened Curse On Hit Support"
+				"text": "Awakened Hextouch Support",
+				"type": "Awakened Hextouch Support"
 			},
 			{
 				"text": "Hypothermia Support",
@@ -10991,8 +11959,8 @@
 				"type": "Awakened Deadly Ailments Support"
 			},
 			{
-				"text": "Deathmark Support",
-				"type": "Deathmark Support"
+				"text": "Predator Support",
+				"type": "Predator Support"
 			},
 			{
 				"text": "Decay Support",
@@ -11009,6 +11977,10 @@
 			{
 				"text": "Awakened Elemental Focus Support",
 				"type": "Awakened Elemental Focus Support"
+			},
+			{
+				"text": "Elemental Penetration Support",
+				"type": "Elemental Penetration Support"
 			},
 			{
 				"text": "Elemental Proliferation Support",
@@ -11113,6 +12085,10 @@
 			{
 				"text": "Impale Support",
 				"type": "Impale Support"
+			},
+			{
+				"text": "Impending Doom Support",
+				"type": "Impending Doom Support"
 			},
 			{
 				"text": "Increased Area of Effect Support",
@@ -11291,6 +12267,10 @@
 				"type": "Pierce Support"
 			},
 			{
+				"text": "Pinpoint Support",
+				"type": "Pinpoint Support"
+			},
+			{
 				"text": "Point Blank Support",
 				"type": "Point Blank Support"
 			},
@@ -11407,6 +12387,10 @@
 				"type": "Advanced Traps Support"
 			},
 			{
+				"text": "Trinity Support",
+				"type": "Trinity Support"
+			},
+			{
 				"text": "Unbound Ailments Support",
 				"type": "Unbound Ailments Support"
 			},
@@ -11466,6 +12450,14 @@
 				"name": "Ancient Waystones",
 				"text": "Ancient Waystones Crimson Jewel",
 				"type": "Crimson Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Apex Mode",
+				"text": "Apex Mode Cobalt Jewel",
+				"type": "Cobalt Jewel"
 			},
 			{
 				"flags": {
@@ -11751,6 +12743,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Endless Misery",
+				"text": "Endless Misery Cobalt Jewel",
+				"type": "Cobalt Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Energised Armour",
 				"text": "Energised Armour Crimson Jewel",
 				"type": "Crimson Jewel"
@@ -12007,6 +13007,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Lord of Steel",
+				"text": "Lord of Steel Viridian Jewel",
+				"type": "Viridian Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Malicious Intent",
 				"text": "Malicious Intent Cobalt Jewel",
 				"type": "Cobalt Jewel"
@@ -12073,6 +13081,14 @@
 				},
 				"name": "Mutated Growth",
 				"text": "Mutated Growth Cobalt Jewel",
+				"type": "Cobalt Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Nadir Mode",
+				"text": "Nadir Mode Cobalt Jewel",
 				"type": "Cobalt Jewel"
 			},
 			{
@@ -12209,6 +13225,78 @@
 				},
 				"name": "Reckless Defence",
 				"text": "Reckless Defence Cobalt Jewel",
+				"type": "Cobalt Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Blood Sacrifice",
+				"text": "Replica Blood Sacrifice Crimson Jewel",
+				"type": "Crimson Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Cheap Construction",
+				"text": "Replica Cheap Construction Viridian Jewel",
+				"type": "Viridian Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Conqueror's Efficiency",
+				"text": "Replica Conqueror's Efficiency Crimson Jewel",
+				"type": "Crimson Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Fragile Bloom",
+				"text": "Replica Fragile Bloom Crimson Jewel",
+				"type": "Crimson Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Hotheaded",
+				"text": "Replica Hotheaded Viridian Jewel",
+				"type": "Viridian Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Primordial Might",
+				"text": "Replica Primordial Might Crimson Jewel",
+				"type": "Crimson Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Pure Talent",
+				"text": "Replica Pure Talent Viridian Jewel",
+				"type": "Viridian Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Reckless Defence",
+				"text": "Replica Reckless Defence Cobalt Jewel",
+				"type": "Cobalt Jewel"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Unstable Payload",
+				"text": "Replica Unstable Payload Cobalt Jewel",
 				"type": "Cobalt Jewel"
 			},
 			{
@@ -12830,6 +13918,33 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Replica Cortex",
+				"text": "Replica Cortex Relic Chambers Map",
+				"type": "Relic Chambers Map"
+			},
+			{
+				"disc": "warfortheatlas",
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Pillars of Arun",
+				"text": "Replica Pillars of Arun Dunes Map",
+				"type": "Dunes Map"
+			},
+			{
+				"disc": "warfortheatlas",
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Poorjoy's Asylum",
+				"text": "Replica Poorjoy's Asylum Temple Map",
+				"type": "Temple Map"
+			},
+			{
+				"disc": "warfortheatlas",
+				"flags": {
+					"unique": 1
+				},
 				"name": "ความทรงจำที่ห่างไกลที่ถูกเขียนใหม่",
 				"text": "ความทรงจำที่ห่างไกลที่ถูกเขียนใหม่ Basilica Map",
 				"type": "Basilica Map"
@@ -13017,6 +14132,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Bramble Valley Map",
+				"type": "Bramble Valley Map"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Burial Chambers Map",
 				"type": "Burial Chambers Map"
 			},
@@ -13077,6 +14197,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Cold River Map",
+				"type": "Cold River Map"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Colonnade Map",
 				"type": "Colonnade Map"
 			},
@@ -13122,6 +14247,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Crimson Township Map",
+				"type": "Crimson Township Map"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Crystal Ore Map",
 				"type": "Crystal Ore Map"
 			},
@@ -13154,6 +14284,11 @@
 				"disc": "warfortheatlas",
 				"text": "Dig Map",
 				"type": "Dig Map"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Dry Sea Map",
+				"type": "Dry Sea Map"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -13192,6 +14327,26 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Forbidden Woods Map",
+				"type": "Forbidden Woods Map"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Forking River Map",
+				"type": "Forking River Map"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Foundry Map",
+				"type": "Foundry Map"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Frozen Cabins Map",
+				"type": "Frozen Cabins Map"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Gardens Map",
 				"type": "Gardens Map"
 			},
@@ -13209,6 +14364,11 @@
 				"disc": "warfortheatlas",
 				"text": "Glacier Map",
 				"type": "Glacier Map"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Grave Trough Map",
+				"type": "Grave Trough Map"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -13487,6 +14647,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "Silo Map",
+				"type": "Silo Map"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "Spider Forest Map",
 				"type": "Spider Forest Map"
 			},
@@ -13499,6 +14664,11 @@
 				"disc": "warfortheatlas",
 				"text": "Fungal Hollow Map",
 				"type": "Fungal Hollow Map"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "Stagnation Map",
+				"type": "Stagnation Map"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -15745,6 +16915,10 @@
 				"type": "Timeless Vaal Emblem"
 			},
 			{
+				"text": "The Maven's Writ",
+				"type": "The Maven's Writ"
+			},
+			{
 				"text": "Dedication to the Goddess",
 				"type": "Dedication to the Goddess"
 			},
@@ -15835,6 +17009,46 @@
 			{
 				"text": "Mortal Grief",
 				"type": "Mortal Grief"
+			},
+			{
+				"text": "Maven's Invitation: Glennach Cairns",
+				"type": "Maven's Invitation: Glennach Cairns"
+			},
+			{
+				"text": "Maven's Invitation: Valdo's Rest",
+				"type": "Maven's Invitation: Valdo's Rest"
+			},
+			{
+				"text": "Maven's Invitation: Tirn's End",
+				"type": "Maven's Invitation: Tirn's End"
+			},
+			{
+				"text": "Maven's Invitation: Lex Proxima",
+				"type": "Maven's Invitation: Lex Proxima"
+			},
+			{
+				"text": "Maven's Invitation: New Vastir",
+				"type": "Maven's Invitation: New Vastir"
+			},
+			{
+				"text": "Maven's Invitation: Lira Arthain",
+				"type": "Maven's Invitation: Lira Arthain"
+			},
+			{
+				"text": "Maven's Invitation: Haewark Hamlet",
+				"type": "Maven's Invitation: Haewark Hamlet"
+			},
+			{
+				"text": "Maven's Invitation: Lex Ejoris",
+				"type": "Maven's Invitation: Lex Ejoris"
+			},
+			{
+				"text": "Maven's Invitation: The Uncharted Realms",
+				"type": "Maven's Invitation: The Uncharted Realms"
+			},
+			{
+				"text": "Blood-filled Vessel",
+				"type": "Blood-filled Vessel"
 			},
 			{
 				"text": "Rusted Bestiary Scarab",
@@ -16093,6 +17307,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Actum",
+				"text": "Actum Butcher Axe",
+				"type": "Butcher Axe"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Advancing Fortress",
 				"text": "Advancing Fortress Gut Ripper",
 				"type": "Gut Ripper"
@@ -16205,6 +17427,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Ashes of the Sun",
+				"text": "Ashes of the Sun Driftwood Club",
+				"type": "Driftwood Club"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Atziri's Disfavour",
 				"text": "Atziri's Disfavour Vaal Axe",
 				"type": "Vaal Axe"
@@ -16264,6 +17494,14 @@
 				"name": "Bitterdream",
 				"text": "Bitterdream Shadow Sceptre",
 				"type": "Shadow Sceptre"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Blood of Summer",
+				"text": "Blood of Summer Rusted Sword",
+				"type": "Rusted Sword"
 			},
 			{
 				"flags": {
@@ -16472,6 +17710,14 @@
 				"name": "Debeon's Dirge",
 				"text": "Debeon's Dirge Despot Axe",
 				"type": "Despot Axe"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Demigod's Authority",
+				"text": "Demigod's Authority Golden Blade",
+				"type": "Golden Blade"
 			},
 			{
 				"flags": {
@@ -16693,6 +17939,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Fragment of Eternity",
+				"text": "Fragment of Eternity Glass Shank",
+				"type": "Glass Shank"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Frostbreath",
 				"text": "Frostbreath Ornate Mace",
 				"type": "Ornate Mace"
@@ -16712,6 +17966,14 @@
 				"name": "Geofri's Devotion",
 				"text": "Geofri's Devotion Brass Maul",
 				"type": "Brass Maul"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Goblinedge",
+				"text": "Goblinedge Ambusher",
+				"type": "Ambusher"
 			},
 			{
 				"flags": {
@@ -17301,6 +18563,262 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Relic of the Cycle",
+				"text": "Relic of the Cycle Crude Bow",
+				"type": "Crude Bow"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Advancing Fortress",
+				"text": "Replica Advancing Fortress Gut Ripper",
+				"type": "Gut Ripper"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Allure",
+				"text": "Replica Allure Vaal Claw",
+				"type": "Vaal Claw"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Bitterdream",
+				"text": "Replica Bitterdream Shadow Sceptre",
+				"type": "Shadow Sceptre"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Bloodplay",
+				"text": "Replica Bloodplay Stiletto",
+				"type": "Stiletto"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Blood Thorn",
+				"text": "Replica Blood Thorn Gnarled Branch",
+				"type": "Gnarled Branch"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Cold Iron Point",
+				"text": "Replica Cold Iron Point Ezomyte Dagger",
+				"type": "Ezomyte Dagger"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Dreamfeather",
+				"text": "Replica Dreamfeather Eternal Sword",
+				"type": "Eternal Sword"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Duskdawn",
+				"text": "Replica Duskdawn Maelström Staff",
+				"type": "Maelström Staff"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Earendel's Embrace",
+				"text": "Replica Earendel's Embrace Grinning Fetish",
+				"type": "Grinning Fetish"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Fencoil",
+				"text": "Replica Fencoil Gnarled Branch",
+				"type": "Gnarled Branch"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Frostbreath",
+				"text": "Replica Frostbreath Ornate Mace",
+				"type": "Ornate Mace"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Harvest",
+				"text": "Replica Harvest Jasper Chopper",
+				"type": "Jasper Chopper"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Heartbreaker",
+				"text": "Replica Heartbreaker Royal Skean",
+				"type": "Royal Skean"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Infractem",
+				"text": "Replica Infractem Decimation Bow",
+				"type": "Decimation Bow"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Innsbury Edge",
+				"text": "Replica Innsbury Edge Elder Sword",
+				"type": "Elder Sword"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Iron Commander",
+				"text": "Replica Iron Commander Death Bow",
+				"type": "Death Bow"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Kongor's Undying Rage",
+				"text": "Replica Kongor's Undying Rage Terror Maul",
+				"type": "Terror Maul"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Last Resort",
+				"text": "Replica Last Resort Nailed Fist",
+				"type": "Nailed Fist"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Midnight Bargain",
+				"text": "Replica Midnight Bargain Engraved Wand",
+				"type": "Engraved Wand"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Nebulis",
+				"text": "Replica Nebulis Void Sceptre",
+				"type": "Void Sceptre"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Oro's Sacrifice",
+				"text": "Replica Oro's Sacrifice Infernal Sword",
+				"type": "Infernal Sword"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Paradoxica",
+				"text": "Replica Paradoxica Vaal Rapier",
+				"type": "Vaal Rapier"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Quill Rain",
+				"text": "Replica Quill Rain Short Bow",
+				"type": "Short Bow"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Soul Taker",
+				"text": "Replica Soul Taker Siege Axe",
+				"type": "Siege Axe"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Tempestuous Steel",
+				"text": "Replica Tempestuous Steel War Sword",
+				"type": "War Sword"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Trypanon",
+				"text": "Replica Trypanon Great Mallet",
+				"type": "Great Mallet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Tulfall",
+				"text": "Replica Tulfall Tornado Wand",
+				"type": "Tornado Wand"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Twyzel",
+				"text": "Replica Twyzel Sage Wand",
+				"type": "Sage Wand"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Ungil's Gauche",
+				"text": "Replica Ungil's Gauche Boot Knife",
+				"type": "Boot Knife"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Windripper",
+				"text": "Replica Windripper Imperial Bow",
+				"type": "Imperial Bow"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Replica Wings of Entropy",
+				"text": "Replica Wings of Entropy Ezomyte Axe",
+				"type": "Ezomyte Axe"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Reverberation Rod",
 				"text": "Reverberation Rod Spiraled Wand",
 				"type": "Spiraled Wand"
@@ -17349,6 +18867,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Rust of Winter",
+				"text": "Rust of Winter Rusted Hatchet",
+				"type": "Rusted Hatchet"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Sanguine Gambol",
 				"text": "Sanguine Gambol Skinning Knife",
 				"type": "Skinning Knife"
@@ -17360,6 +18886,14 @@
 				"name": "Scaeva",
 				"text": "Scaeva Gladius",
 				"type": "Gladius"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Scar of Fate",
+				"text": "Scar of Fate Nailed Fist",
+				"type": "Nailed Fist"
 			},
 			{
 				"flags": {
@@ -17480,6 +19014,14 @@
 				"name": "Spine of the First Claimant",
 				"text": "Spine of the First Claimant Iron Sceptre",
 				"type": "Iron Sceptre"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Splinter of the Moon",
+				"text": "Splinter of the Moon Driftwood Wand",
+				"type": "Driftwood Wand"
 			},
 			{
 				"flags": {
@@ -17621,6 +19163,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "The Fulcrum",
+				"text": "The Fulcrum Ezomyte Staff",
+				"type": "Ezomyte Staff"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "The Goddess Bound",
 				"text": "The Goddess Bound Whalebone Rapier",
 				"type": "Whalebone Rapier"
@@ -17664,6 +19214,22 @@
 				"name": "The Harvest",
 				"text": "The Harvest Jasper Chopper",
 				"type": "Jasper Chopper"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The Hidden Blade",
+				"text": "The Hidden Blade Ambusher",
+				"type": "Ambusher"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The Iron Mass",
+				"text": "The Iron Mass Gladius",
+				"type": "Gladius"
 			},
 			{
 				"flags": {
@@ -17805,6 +19371,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Thunder of the Dawn",
+				"text": "Thunder of the Dawn Corroded Blade",
+				"type": "Corroded Blade"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Tidebreaker",
 				"text": "Tidebreaker Imperial Maul",
 				"type": "Imperial Maul"
@@ -17904,6 +19478,14 @@
 				"name": "Varunastra",
 				"text": "Varunastra Vaal Blade",
 				"type": "Vaal Blade"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Vestige of Divinity",
+				"text": "Vestige of Divinity Gnarled Branch",
+				"type": "Gnarled Branch"
 			},
 			{
 				"flags": {
@@ -18122,6 +19704,18 @@
 				"type": "Thresher Claw"
 			},
 			{
+				"text": "Shadow Fangs",
+				"type": "Shadow Fangs"
+			},
+			{
+				"text": "Malign Fangs",
+				"type": "Malign Fangs"
+			},
+			{
+				"text": "Void Fangs",
+				"type": "Void Fangs"
+			},
+			{
 				"text": "Double Claw",
 				"type": "Double Claw"
 			},
@@ -18222,6 +19816,18 @@
 				"type": "Flaying Knife"
 			},
 			{
+				"text": "Hollowpoint Dagger",
+				"type": "Hollowpoint Dagger"
+			},
+			{
+				"text": "Pressurised Dagger",
+				"type": "Pressurised Dagger"
+			},
+			{
+				"text": "Pneumatic Dagger",
+				"type": "Pneumatic Dagger"
+			},
+			{
 				"text": "Prong Dagger",
 				"type": "Prong Dagger"
 			},
@@ -18232,6 +19838,18 @@
 			{
 				"text": "Sai",
 				"type": "Sai"
+			},
+			{
+				"text": "Flickerflame Blade",
+				"type": "Flickerflame Blade"
+			},
+			{
+				"text": "Flashfire Blade",
+				"type": "Flashfire Blade"
+			},
+			{
+				"text": "Infernal Blade",
+				"type": "Infernal Blade"
 			},
 			{
 				"text": "Rusted Hatchet",
@@ -18322,6 +19940,18 @@
 				"type": "Jasper Axe"
 			},
 			{
+				"text": "Experimented Axe",
+				"type": "Experimented Axe"
+			},
+			{
+				"text": "Disapprobation Axe",
+				"type": "Disapprobation Axe"
+			},
+			{
+				"text": "Psychotic Axe",
+				"type": "Psychotic Axe"
+			},
+			{
 				"text": "Etched Hatchet",
 				"type": "Etched Hatchet"
 			},
@@ -18382,8 +20012,8 @@
 				"type": "Tribal Club"
 			},
 			{
-				"text": "Pernarch",
-				"type": "Pernarch"
+				"text": "Pernach",
+				"type": "Pernach"
 			},
 			{
 				"text": "Auric Mace",
@@ -18420,6 +20050,18 @@
 			{
 				"text": "Petrified Club",
 				"type": "Petrified Club"
+			},
+			{
+				"text": "Flare Mace",
+				"type": "Flare Mace"
+			},
+			{
+				"text": "Crack Mace",
+				"type": "Crack Mace"
+			},
+			{
+				"text": "Boom Mace",
+				"type": "Boom Mace"
 			},
 			{
 				"text": "Wyrm Mace",
@@ -18520,6 +20162,18 @@
 			{
 				"text": "Grinning Fetish",
 				"type": "Grinning Fetish"
+			},
+			{
+				"text": "Oscillating Sceptre",
+				"type": "Oscillating Sceptre"
+			},
+			{
+				"text": "Stabilising Sceptre",
+				"type": "Stabilising Sceptre"
+			},
+			{
+				"text": "Alternating Sceptre",
+				"type": "Alternating Sceptre"
 			},
 			{
 				"text": "Horned Sceptre",
@@ -18624,6 +20278,22 @@
 			{
 				"text": "Charan's Sword",
 				"type": "Charan's Sword"
+			},
+			{
+				"text": "Golden Blade",
+				"type": "Golden Blade"
+			},
+			{
+				"text": "Fickle Spiritblade",
+				"type": "Fickle Spiritblade"
+			},
+			{
+				"text": "Capricious Spiritblade",
+				"type": "Capricious Spiritblade"
+			},
+			{
+				"text": "Anarchic Spiritblade",
+				"type": "Anarchic Spiritblade"
 			},
 			{
 				"text": "Hook Sword",
@@ -18806,6 +20476,18 @@
 				"type": "Convoking Wand"
 			},
 			{
+				"text": "Assembler Wand",
+				"type": "Assembler Wand"
+			},
+			{
+				"text": "Congregator Wand",
+				"type": "Congregator Wand"
+			},
+			{
+				"text": "Accumulator Wand",
+				"type": "Accumulator Wand"
+			},
+			{
 				"text": "Pagan Wand",
 				"type": "Pagan Wand"
 			},
@@ -18910,6 +20592,18 @@
 				"type": "Grove Bow"
 			},
 			{
+				"text": "Hedron Bow",
+				"type": "Hedron Bow"
+			},
+			{
+				"text": "Foundry Bow",
+				"type": "Foundry Bow"
+			},
+			{
+				"text": "Solarine Bow",
+				"type": "Solarine Bow"
+			},
+			{
 				"text": "Reflex Bow",
 				"type": "Reflex Bow"
 			},
@@ -18998,6 +20692,18 @@
 				"type": "Quarterstaff"
 			},
 			{
+				"text": "Transformer Staff",
+				"type": "Transformer Staff"
+			},
+			{
+				"text": "Reciprocation Staff",
+				"type": "Reciprocation Staff"
+			},
+			{
+				"text": "Battery Staff",
+				"type": "Battery Staff"
+			},
+			{
 				"text": "Crescent Staff",
 				"type": "Crescent Staff"
 			},
@@ -19008,6 +20714,18 @@
 			{
 				"text": "Eclipse Staff",
 				"type": "Eclipse Staff"
+			},
+			{
+				"text": "Capacity Rod",
+				"type": "Capacity Rod"
+			},
+			{
+				"text": "Potentiality Rod",
+				"type": "Potentiality Rod"
+			},
+			{
+				"text": "Eventuality Rod",
+				"type": "Eventuality Rod"
 			},
 			{
 				"text": "Stone Axe",
@@ -19084,6 +20802,18 @@
 			{
 				"text": "Timber Axe",
 				"type": "Timber Axe"
+			},
+			{
+				"text": "Prime Cleaver",
+				"type": "Prime Cleaver"
+			},
+			{
+				"text": "Honed Cleaver",
+				"type": "Honed Cleaver"
+			},
+			{
+				"text": "Apex Cleaver",
+				"type": "Apex Cleaver"
 			},
 			{
 				"text": "Dagger Axe",
@@ -19174,6 +20904,18 @@
 				"type": "Great Mallet"
 			},
 			{
+				"text": "Blunt Force Condenser",
+				"type": "Blunt Force Condenser"
+			},
+			{
+				"text": "Crushing Force Magnifier",
+				"type": "Crushing Force Magnifier"
+			},
+			{
+				"text": "Impact Force Propagator ",
+				"type": "Impact Force Propagator "
+			},
+			{
 				"text": "Morning Star",
 				"type": "Morning Star"
 			},
@@ -19260,6 +21002,18 @@
 			{
 				"text": "Footman Sword",
 				"type": "Footman Sword"
+			},
+			{
+				"text": "Rebuking Blade",
+				"type": "Rebuking Blade"
+			},
+			{
+				"text": "Blasting Blade",
+				"type": "Blasting Blade"
+			},
+			{
+				"text": "Banishing Blade",
+				"type": "Banishing Blade"
 			},
 			{
 				"text": "Curved Blade",
@@ -23534,6 +25288,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "Atop the Atlas",
+				"text": "Atop the Atlas Platinum Lex Ejoris Watchstone",
+				"type": "Platinum Lex Ejoris Watchstone"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "Booming Populace",
 				"text": "Booming Populace อัญมณีผู้พิทักษ์งาช้าง",
 				"type": "อัญมณีผู้พิทักษ์งาช้าง"
@@ -23553,6 +25315,14 @@
 				"name": "Misinformation",
 				"text": "Misinformation อัญมณีผู้พิทักษ์งาช้าง",
 				"type": "อัญมณีผู้พิทักษ์งาช้าง"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Restless Cycles",
+				"text": "Restless Cycles Platinum Valdo's Rest Watchstone",
+				"type": "Platinum Valdo's Rest Watchstone"
 			},
 			{
 				"flags": {
@@ -23582,6 +25352,54 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "The Builder",
+				"text": "The Builder Platinum Glennach Cairns Watchstone",
+				"type": "Platinum Glennach Cairns Watchstone"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The Claim",
+				"text": "The Claim Platinum Tirn's End Watchstone",
+				"type": "Platinum Tirn's End Watchstone"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The Closest Peak",
+				"text": "The Closest Peak Platinum Lex Proxima Watchstone",
+				"type": "Platinum Lex Proxima Watchstone"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The False Hope",
+				"text": "The False Hope Platinum Lira Arthain Watchstone",
+				"type": "Platinum Lira Arthain Watchstone"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The Vast Horizon",
+				"text": "The Vast Horizon Platinum New Vastir Watchstone",
+				"type": "Platinum New Vastir Watchstone"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "The Walls",
+				"text": "The Walls Platinum Haewark Hamlet Watchstone",
+				"type": "Platinum Haewark Hamlet Watchstone"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "War Among the Stars",
 				"text": "War Among the Stars อัญมณีผู้พิทักษ์งาช้าง",
 				"type": "อัญมณีผู้พิทักษ์งาช้าง"
@@ -23605,6 +25423,468 @@
 			{
 				"text": "อัญมณีผู้พิทักษ์งาช้าง",
 				"type": "อัญมณีผู้พิทักษ์งาช้าง"
+			},
+			{
+				"text": "Chromium Haewark Hamlet Watchstone",
+				"type": "Chromium Haewark Hamlet Watchstone"
+			},
+			{
+				"text": "Chromium Tirn's End Watchstone",
+				"type": "Chromium Tirn's End Watchstone"
+			},
+			{
+				"text": "Chromium Lex Proxima Watchstone",
+				"type": "Chromium Lex Proxima Watchstone"
+			},
+			{
+				"text": "Chromium Lex Ejoris Watchstone",
+				"type": "Chromium Lex Ejoris Watchstone"
+			},
+			{
+				"text": "Chromium New Vastir Watchstone",
+				"type": "Chromium New Vastir Watchstone"
+			},
+			{
+				"text": "Chromium Glennach Cairns Watchstone",
+				"type": "Chromium Glennach Cairns Watchstone"
+			},
+			{
+				"text": "Chromium Valdo's Rest Watchstone",
+				"type": "Chromium Valdo's Rest Watchstone"
+			},
+			{
+				"text": "Chromium Lira Arthain Watchstone",
+				"type": "Chromium Lira Arthain Watchstone"
+			},
+			{
+				"text": "Platinum Haewark Hamlet Watchstone",
+				"type": "Platinum Haewark Hamlet Watchstone"
+			},
+			{
+				"text": "Platinum Tirn's End Watchstone",
+				"type": "Platinum Tirn's End Watchstone"
+			},
+			{
+				"text": "Platinum Lex Proxima Watchstone",
+				"type": "Platinum Lex Proxima Watchstone"
+			},
+			{
+				"text": "Platinum Lex Ejoris Watchstone",
+				"type": "Platinum Lex Ejoris Watchstone"
+			},
+			{
+				"text": "Platinum New Vastir Watchstone",
+				"type": "Platinum New Vastir Watchstone"
+			},
+			{
+				"text": "Platinum Glennach Cairns Watchstone",
+				"type": "Platinum Glennach Cairns Watchstone"
+			},
+			{
+				"text": "Platinum Valdo's Rest Watchstone",
+				"type": "Platinum Valdo's Rest Watchstone"
+			},
+			{
+				"text": "Platinum Lira Arthain Watchstone",
+				"type": "Platinum Lira Arthain Watchstone"
+			},
+			{
+				"text": "Titanium Haewark Hamlet Watchstone",
+				"type": "Titanium Haewark Hamlet Watchstone"
+			},
+			{
+				"text": "Titanium Tirn's End Watchstone",
+				"type": "Titanium Tirn's End Watchstone"
+			},
+			{
+				"text": "Titanium Lex Proxima Watchstone",
+				"type": "Titanium Lex Proxima Watchstone"
+			},
+			{
+				"text": "Titanium Lex Ejoris Watchstone",
+				"type": "Titanium Lex Ejoris Watchstone"
+			},
+			{
+				"text": "Titanium New Vastir Watchstone",
+				"type": "Titanium New Vastir Watchstone"
+			},
+			{
+				"text": "Titanium Glennach Cairns Watchstone",
+				"type": "Titanium Glennach Cairns Watchstone"
+			},
+			{
+				"text": "Titanium Valdo's Rest Watchstone",
+				"type": "Titanium Valdo's Rest Watchstone"
+			},
+			{
+				"text": "Titanium Lira Arthain Watchstone",
+				"type": "Titanium Lira Arthain Watchstone"
+			}
+		],
+		"label": ""
+	},
+	{
+		"entries": [
+			{
+				"text": "ฝาเท้าหนังปลาไหล",
+				"type": "ฝาเท้าหนังปลาไหล"
+			},
+			{
+				"text": "ฝาเท้าหนังจิ้งจอก",
+				"type": "ฝาเท้าหนังจิ้งจอก"
+			},
+			{
+				"text": "ฝาเท้าขนนก",
+				"type": "ฝาเท้าขนนก"
+			},
+			{
+				"text": "ฝาเท้าไหมถัก",
+				"type": "ฝาเท้าไหมถัก"
+			},
+			{
+				"text": "เข็มกลัดเงิน",
+				"type": "เข็มกลัดเงิน"
+			},
+			{
+				"text": "เข็มกลัดทอง",
+				"type": "เข็มกลัดทอง"
+			},
+			{
+				"text": "เข็มกลัดรุ้ง",
+				"type": "เข็มกลัดรุ้ง"
+			},
+			{
+				"text": "เข็มกลัดใบไม้",
+				"type": "เข็มกลัดใบไม้"
+			},
+			{
+				"text": "กำไลข้อมือหนัง",
+				"type": "กำไลข้อมือหนัง"
+			},
+			{
+				"text": "กำไลข้อมือทนทาน",
+				"type": "กำไลข้อมือทนทาน"
+			},
+			{
+				"text": "กำไลข้อมือฝังเพรช",
+				"type": "กำไลข้อมือฝังเพรช"
+			},
+			{
+				"text": "กำไลข้อมือเหล็กกล้า",
+				"type": "กำไลข้อมือเหล็กกล้า"
+			},
+			{
+				"text": "ศิลาเพ่งสมาธิ",
+				"type": "ศิลาเพ่งสมาธิ"
+			},
+			{
+				"text": "สายนำพลัง",
+				"type": "สายนำพลัง"
+			},
+			{
+				"text": "เครื่องรางรวบรวมพลัง",
+				"type": "เครื่องรางรวบรวมพลัง"
+			},
+			{
+				"text": "ยันต์ระเบิด",
+				"type": "ยันต์ระเบิด"
+			},
+			{
+				"text": "ผ้าคลุมสภาพเยิน",
+				"type": "ผ้าคลุมสภาพเยิน"
+			},
+			{
+				"text": "ผ้าคลุมขาดวิ่น",
+				"type": "ผ้าคลุมขาดวิ่น"
+			},
+			{
+				"text": "ผ้าคลุมพร้อมฮู้ด",
+				"type": "ผ้าคลุมพร้อมฮู้ด"
+			},
+			{
+				"text": "ผ้าคลุมที่ทอจากเสียงกระซิบ",
+				"type": "ผ้าคลุมที่ทอจากเสียงกระซิบ"
+			},
+			{
+				"text": "วอร์ดอย่างง่าย",
+				"type": "วอร์ดอย่างง่าย"
+			},
+			{
+				"text": "วอร์ดมันวาว",
+				"type": "วอร์ดมันวาว"
+			},
+			{
+				"text": "วอร์ดวาววับ",
+				"type": "วอร์ดวาววับ"
+			},
+			{
+				"text": "วอร์ดอาคมแกร่งกล้า",
+				"type": "วอร์ดอาคมแกร่งกล้า"
+			},
+			{
+				"text": "ชุดพรางตัวอย่างง่าย",
+				"type": "ชุดพรางตัวอย่างง่าย"
+			},
+			{
+				"text": "ชุดพรางตัวนักแสดง",
+				"type": "ชุดพรางตัวนักแสดง"
+			},
+			{
+				"text": "ชุดพรางตัวสายลับ",
+				"type": "ชุดพรางตัวสายลับ"
+			},
+			{
+				"text": "ชุดพรางตัวผู้ลอบสังหาร",
+				"type": "ชุดพรางตัวผู้ลอบสังหาร"
+			},
+			{
+				"text": "ดินระเบิดแสงวอล์ทาซิก",
+				"type": "ดินระเบิดแสงวอล์ทาซิก"
+			},
+			{
+				"text": "ดินระเบิดแสงทาร์ทาน",
+				"type": "ดินระเบิดแสงทาร์ทาน"
+			},
+			{
+				"text": "ดินระเบิดแสงอซูไรต์",
+				"type": "ดินระเบิดแสงอซูไรต์"
+			},
+			{
+				"text": "ดินระเบิดแสงทอเมติค",
+				"type": "ดินระเบิดแสงทอเมติค"
+			},
+			{
+				"text": "สว่านเหล็ก",
+				"type": "สว่านเหล็ก"
+			},
+			{
+				"text": "สว่านหน้าแปลน",
+				"type": "สว่านหน้าแปลน"
+			},
+			{
+				"text": "เครื่องพ่นไฟกำมะถัน",
+				"type": "เครื่องพ่นไฟกำมะถัน"
+			},
+			{
+				"text": "เครื่องพ่นไฟทอเมติค",
+				"type": "เครื่องพ่นไฟทอเมติค"
+			},
+			{
+				"text": "ลิ่มสะเดาะกุญแจอย่างง่าย",
+				"type": "ลิ่มสะเดาะกุญแจอย่างง่าย"
+			},
+			{
+				"text": "ลิ่มสะเดาะกุญแจมาตรฐาน",
+				"type": "ลิ่มสะเดาะกุญแจมาตรฐาน"
+			},
+			{
+				"text": "ลิ่มสะเดาะกุญแจคุณภาพดี",
+				"type": "ลิ่มสะเดาะกุญแจคุณภาพดี"
+			},
+			{
+				"text": "ลิ่มสะเดาะกุญแจมือฉมัง",
+				"type": "ลิ่มสะเดาะกุญแจมือฉมัง"
+			},
+			{
+				"text": "หินลับคมแบบหยาบ",
+				"type": "หินลับคมแบบหยาบ"
+			},
+			{
+				"text": "หินลับคมมาตรฐาน",
+				"type": "หินลับคมมาตรฐาน"
+			},
+			{
+				"text": "หินลับคมอย่างดี",
+				"type": "หินลับคมอย่างดี"
+			},
+			{
+				"text": "หินลับคมออบซิเดียน",
+				"type": "หินลับคมออบซิเดียน"
+			},
+			{
+				"text": "เครื่องรางตรวจจับไม่ประณีต",
+				"type": "เครื่องรางตรวจจับไม่ประณีต"
+			},
+			{
+				"text": "เครื่องรางตรวจจับปราณีต",
+				"type": "เครื่องรางตรวจจับปราณีต"
+			},
+			{
+				"text": "เครื่องรางตรวจจับลงอาคม",
+				"type": "เครื่องรางตรวจจับลงอาคม"
+			},
+			{
+				"text": "เครื่องรางตรวจจับอาคมแกร่งกล้า",
+				"type": "เครื่องรางตรวจจับอาคมแกร่งกล้า"
+			},
+			{
+				"text": "หัวลูกศรหน้าแปลน",
+				"type": "หัวลูกศรหน้าแปลน"
+			},
+			{
+				"text": "หัวลูกศรลูกปลาย",
+				"type": "หัวลูกศรลูกปลาย"
+			},
+			{
+				"text": "หัวลูกศรปลายเว้า",
+				"type": "หัวลูกศรปลายเว้า"
+			},
+			{
+				"text": "หัวลูกศรเที่ยงตรง",
+				"type": "หัวลูกศรเที่ยงตรง"
+			},
+			{
+				"text": "พวงกุญแจเริ่มต้น",
+				"type": "พวงกุญแจเริ่มต้น"
+			},
+			{
+				"text": "พวงกุญแจอเนกประสงค์",
+				"type": "พวงกุญแจอเนกประสงค์"
+			},
+			{
+				"text": "พวงกุญแจผี",
+				"type": "พวงกุญแจผี"
+			},
+			{
+				"text": "พวงกุญแจยอดพระกาฬ",
+				"type": "พวงกุญแจยอดพระกาฬ"
+			}
+		],
+		"label": ""
+	},
+	{
+		"entries": [
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Contract: Breaking the Unbreakable",
+				"text": "Contract: Breaking the Unbreakable สัญญาจ้างหวงห้าม",
+				"type": "สัญญาจ้างหวงห้าม"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Contract: Death to Darnaw",
+				"text": "Contract: Death to Darnaw สัญญาจ้างทหารเรือ",
+				"type": "สัญญาจ้างทหารเรือ"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Contract: Heart of Glory",
+				"text": "Contract: Heart of Glory สัญญาจ้างภายในครอบครัว",
+				"type": "สัญญาจ้างภายในครอบครัว"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Contract: The Slaver King",
+				"text": "Contract: The Slaver King สัญญาจ้างศาลเตี้ย",
+				"type": "สัญญาจ้างศาลเตี้ย"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "Contract: The Twins",
+				"text": "Contract: The Twins สัญญาจ้างพยาบาท",
+				"type": "สัญญาจ้างพยาบาท"
+			},
+			{
+				"text": "พิมพ์เขียว: บังเกอร์",
+				"type": "พิมพ์เขียว: บังเกอร์"
+			},
+			{
+				"text": "พิมพ์เขียว: หอจดบันทึก",
+				"type": "พิมพ์เขียว: หอจดบันทึก"
+			},
+			{
+				"text": "พิมพ์เขียว: ห้องทดลอง",
+				"type": "พิมพ์เขียว: ห้องทดลอง"
+			},
+			{
+				"text": "พิมพ์เขียว: หอสมุดต้องห้าม",
+				"type": "พิมพ์เขียว: หอสมุดต้องห้าม"
+			},
+			{
+				"text": "พิมพ์เขียว: แมนชั่น",
+				"type": "พิมพ์เขียว: แมนชั่น"
+			},
+			{
+				"text": "พิมพ์เขียว: ดงโจร",
+				"type": "พิมพ์เขียว: ดงโจร"
+			},
+			{
+				"text": "พิมพ์เขียว: โกดัง",
+				"type": "พิมพ์เขียว: โกดัง"
+			},
+			{
+				"text": "พิมพ์เขียว: อุโมงค์",
+				"type": "พิมพ์เขียว: อุโมงค์"
+			},
+			{
+				"text": "พิมพ์เขียว: มุมมืด",
+				"type": "พิมพ์เขียว: มุมมืด"
+			},
+			{
+				"text": "สัญญาจ้าง: บังเกอร์",
+				"type": "สัญญาจ้าง: บังเกอร์"
+			},
+			{
+				"text": "สัญญาจ้าง: หอจดบันทึก",
+				"type": "สัญญาจ้าง: หอจดบันทึก"
+			},
+			{
+				"text": "สัญญาจ้าง: ห้องทดลอง",
+				"type": "สัญญาจ้าง: ห้องทดลอง"
+			},
+			{
+				"text": "สัญญาจ้าง: หอสมุดต้องห้าม",
+				"type": "สัญญาจ้าง: หอสมุดต้องห้าม"
+			},
+			{
+				"text": "สัญญาจ้าง: แมนชั่น",
+				"type": "สัญญาจ้าง: แมนชั่น"
+			},
+			{
+				"text": "สัญญาจ้าง: ดงโจร",
+				"type": "สัญญาจ้าง: ดงโจร"
+			},
+			{
+				"text": "สัญญาจ้าง: โกดัง",
+				"type": "สัญญาจ้าง: โกดัง"
+			},
+			{
+				"text": "สัญญาจ้าง: อุโมงค์",
+				"type": "สัญญาจ้าง: อุโมงค์"
+			},
+			{
+				"text": "สัญญาจ้าง: มุมมืด",
+				"type": "สัญญาจ้าง: มุมมืด"
+			},
+			{
+				"text": "สัญญาจ้างภายในครอบครัว",
+				"type": "สัญญาจ้างภายในครอบครัว"
+			},
+			{
+				"text": "สัญญาจ้างทหารเรือ",
+				"type": "สัญญาจ้างทหารเรือ"
+			},
+			{
+				"text": "สัญญาจ้างหวงห้าม",
+				"type": "สัญญาจ้างหวงห้าม"
+			},
+			{
+				"text": "สัญญาจ้างพยาบาท",
+				"type": "สัญญาจ้างพยาบาท"
+			},
+			{
+				"text": "สัญญาจ้างศาลเตี้ย",
+				"type": "สัญญาจ้างศาลเตี้ย"
 			}
 		],
 		"label": ""

@@ -202,6 +202,31 @@
 				"text": "費斯特之鏡"
 			},
 			{
+				"id": "rogues-marker",
+				"image": "/image/Art/2DItems/Currency/Heist/HeistCoinCurrency.png?v=91f470e219855da2a828fd553feb30f6",
+				"text": "盜賊之印"
+			},
+			{
+				"id": "prime-regrading-lens",
+				"image": "/image/Art/2DItems/Currency/AlternateSkillGemCurrency.png?v=634a6af3d5429427461933d11843fa45",
+				"text": "初階篩分之鏡"
+			},
+			{
+				"id": "secondary-regrading-lens",
+				"image": "/image/Art/2DItems/Currency/AlternateSupportGemCurrency.png?v=f542ce9b30b707538c3673b82d6f57af",
+				"text": "次階篩分之鏡"
+			},
+			{
+				"id": "tempering-orb",
+				"image": "/image/Art/2DItems/Currency/DivineEnchantBodyArmourCurrency.png?v=d072c438605f9e018a771d631a09d126",
+				"text": "淬鍊石"
+			},
+			{
+				"id": "tailoring-orb",
+				"image": "/image/Art/2DItems/Currency/DivineEnchantWeaponCurrency.png?v=a04c73695d57792be93cbf91864a2467",
+				"text": "裁縫石"
+			},
+			{
 				"id": "annulment-shard",
 				"image": "/image/Art/2DItems/Currency/AnnullShard.png?v=502496c41d3da750bcecbb194d0aa3f4",
 				"text": "無效石碎片"
@@ -2071,8 +2096,16 @@
 				"text": "代伯之墨"
 			},
 			{
+				"id": "a-familiar-call",
+				"text": "似曾相識"
+			},
+			{
 				"id": "a-mothers-parting-gift",
 				"text": "母親的禮物"
+			},
+			{
+				"id": "a-note-in-the-wind",
+				"text": "隨風飄記"
 			},
 			{
 				"id": "abandoned-wealth",
@@ -2151,6 +2184,10 @@
 				"text": "弓匠的夢想"
 			},
 			{
+				"id": "brothers-stash",
+				"text": "伯仲財庫"
+			},
+			{
 				"id": "buried-treasure",
 				"text": "深埋祕寶"
 			},
@@ -2183,6 +2220,10 @@
 				"text": "飢渴之佔"
 			},
 			{
+				"id": "cursed-words",
+				"text": "髒話"
+			},
+			{
 				"id": "dark-dreams",
 				"text": "漆黑夢魘"
 			},
@@ -2201,6 +2242,10 @@
 			{
 				"id": "demigods-wager",
 				"text": "昇華的賭注"
+			},
+			{
+				"id": "desecrated-virtue",
+				"text": "褻瀆的美德"
 			},
 			{
 				"id": "destined-to-crumble",
@@ -2253,6 +2298,10 @@
 			{
 				"id": "gemcutters-promise",
 				"text": "寶石匠的允諾"
+			},
+			{
+				"id": "gift-of-asenath",
+				"text": "安賽娜絲贈禮"
 			},
 			{
 				"id": "gift-of-the-gemling-queen",
@@ -2343,6 +2392,10 @@
 				"text": "忠誠"
 			},
 			{
+				"id": "luck-of-the-vaal",
+				"text": "瓦爾之運"
+			},
+			{
 				"id": "lucky-connections",
 				"text": "好運連連"
 			},
@@ -2387,6 +2440,10 @@
 				"text": "邊緣之冠"
 			},
 			{
+				"id": "peaceful-moments",
+				"text": "平靜時刻"
+			},
+			{
 				"id": "perfection",
 				"text": "完美無瑕"
 			},
@@ -2397,6 +2454,10 @@
 			{
 				"id": "pride-of-the-first-ones",
 				"text": "初始者的驕傲"
+			},
+			{
+				"id": "prometheus-armoury",
+				"text": "普羅米修斯的裝甲庫"
 			},
 			{
 				"id": "prosperity",
@@ -2451,6 +2512,10 @@
 				"text": "無罪救贖"
 			},
 			{
+				"id": "the-academic",
+				"text": "學術界"
+			},
+			{
 				"id": "the-admirer",
 				"text": "仰慕者"
 			},
@@ -2479,6 +2544,10 @@
 				"text": "復仇者"
 			},
 			{
+				"id": "the-awakened",
+				"text": "覺醒"
+			},
+			{
 				"id": "the-bargain",
 				"text": "談判"
 			},
@@ -2493,6 +2562,10 @@
 			{
 				"id": "the-betrayal",
 				"text": "背叛"
+			},
+			{
+				"id": "the-bitter-blossom",
+				"text": "苦澀綻放"
 			},
 			{
 				"id": "the-blazing-fire",
@@ -2513,6 +2586,10 @@
 			{
 				"id": "the-brittle-emperor",
 				"text": "碎裂大帝"
+			},
+			{
+				"id": "the-cache",
+				"text": "囤積"
 			},
 			{
 				"id": "the-cacophony",
@@ -2751,6 +2828,14 @@
 				"text": "黃金年代"
 			},
 			{
+				"id": "the-greatest-intentions",
+				"text": "雄偉動機"
+			},
+			{
+				"id": "the-gulf",
+				"text": "鴻溝"
+			},
+			{
 				"id": "the-hale-heart",
 				"text": "心心向榮"
 			},
@@ -2765,6 +2850,10 @@
 			{
 				"id": "the-heroic-shot",
 				"text": "英勇射擊"
+			},
+			{
+				"id": "the-hive-of-knowledge",
+				"text": "蜂巢知識"
 			},
 			{
 				"id": "the-hoarder",
@@ -2811,6 +2900,10 @@
 				"text": "珠寶商的施捨"
 			},
 			{
+				"id": "the-journalist",
+				"text": "記者"
+			},
+			{
 				"id": "the-journey",
 				"text": "愛旅行"
 			},
@@ -2841,6 +2934,10 @@
 			{
 				"id": "the-lion",
 				"text": "雄獅"
+			},
+			{
+				"id": "the-long-con",
+				"text": "長期詐騙"
 			},
 			{
 				"id": "the-lord-in-black",
@@ -3087,6 +3184,10 @@
 				"text": "求生專家"
 			},
 			{
+				"id": "the-sustenance",
+				"text": "賴以為生"
+			},
+			{
 				"id": "the-sword-kings-salute",
 				"text": "劍王之禮"
 			},
@@ -3115,6 +3216,10 @@
 				"text": "遠征"
 			},
 			{
+				"id": "the-tumbleweed",
+				"text": "風滾草"
+			},
+			{
 				"id": "the-twilight-moon",
 				"text": "暮光之月"
 			},
@@ -3133,6 +3238,10 @@
 			{
 				"id": "the-undisputed",
 				"text": "不許你胡說"
+			},
+			{
+				"id": "the-unexpected-prize",
+				"text": "飛來橫財"
 			},
 			{
 				"id": "the-union",
@@ -3173,6 +3282,10 @@
 			{
 				"id": "the-web",
 				"text": "蛛網"
+			},
+			{
+				"id": "the-white-knight",
+				"text": "白騎士"
 			},
 			{
 				"id": "the-wilted-rose",
@@ -3247,12 +3360,24 @@
 				"text": "賞金獵手"
 			},
 			{
+				"id": "triskaidekaphobia",
+				"text": "極度癲狂"
+			},
+			{
 				"id": "turn-the-other-cheek",
 				"text": "忍辱"
 			},
 			{
+				"id": "unchained",
+				"text": "未連鎖"
+			},
+			{
 				"id": "underground-forest",
 				"text": "地底叢林"
+			},
+			{
+				"id": "unrequited-love",
+				"text": "單相思"
 			},
 			{
 				"id": "vanity",
@@ -3285,20 +3410,20 @@
 	{
 		"entries": [
 			{
-				"id": "desert-map-tier-1",
-				"text": "貧瘠之地"
+				"id": "mausoleum-map-tier-1",
+				"text": "靜縊陵墓"
 			},
 			{
-				"id": "glacier-map-tier-1",
-				"text": "冰川山丘"
+				"id": "park-map-tier-1",
+				"text": "園林苑"
 			},
 			{
-				"id": "lookout-map-tier-1",
-				"text": "如履危牆"
+				"id": "tower-map-tier-1",
+				"text": "闇獄尖塔"
 			},
 			{
-				"id": "tropical-island-map-tier-1",
-				"text": "晴空幽島"
+				"id": "volcano-map-tier-1",
+				"text": "火山炎域"
 			}
 		],
 		"id": "MapsTier1",
@@ -3307,12 +3432,12 @@
 	{
 		"entries": [
 			{
-				"id": "ashen-wood-map-tier-2",
-				"text": "旱木林地"
-			},
-			{
 				"id": "beach-map-tier-2",
 				"text": "白沙灘頭"
+			},
+			{
+				"id": "caldera-map-tier-2",
+				"text": "火山炎口"
 			},
 			{
 				"id": "colonnade-map-tier-2",
@@ -3331,60 +3456,60 @@
 				"text": "疾風峽灣"
 			},
 			{
-				"id": "cursed-crypt-map-tier-2",
-				"text": "惡咒陵墓"
+				"id": "desert-spring-map-tier-2",
+				"text": "硫磺荒漠"
+			},
+			{
+				"id": "dungeon-map-tier-2",
+				"text": "禁魂炎獄"
 			},
 			{
 				"id": "fields-map-tier-2",
 				"text": "無疆田野"
 			},
 			{
+				"id": "glacier-map-tier-2",
+				"text": "冰川山丘"
+			},
+			{
 				"id": "haunted-mansion-map-tier-2",
 				"text": "幽魂宅邸"
 			},
 			{
-				"id": "ivory-temple-map-tier-2",
-				"text": "象牙神殿"
+				"id": "lava-chamber-map-tier-2",
+				"text": "熔岩之室"
 			},
 			{
-				"id": "jungle-valley-map-tier-2",
-				"text": "劇毒林谷"
+				"id": "lookout-map-tier-2",
+				"text": "如履危牆"
 			},
 			{
-				"id": "mausoleum-map-tier-2",
-				"text": "靜縊陵墓"
+				"id": "moon-temple-map-tier-2",
+				"text": "嬋娟神殿"
+			},
+			{
+				"id": "phantasmagoria-map-tier-2",
+				"text": "魔靈幻獄"
 			},
 			{
 				"id": "pier-map-tier-2",
 				"text": "怒浪之港"
 			},
 			{
-				"id": "strand-map-tier-2",
-				"text": "致命岩灘"
+				"id": "residence-map-tier-2",
+				"text": "神主居所"
 			},
 			{
-				"id": "sulphur-vents-map-tier-2",
-				"text": "硫磺蝕岸"
-			},
-			{
-				"id": "summit-map-tier-2",
-				"text": "寒頂之巔"
+				"id": "underground-river-map-tier-2",
+				"text": "地底之河"
 			},
 			{
 				"id": "underground-sea-map-tier-2",
 				"text": "濱海幽穴"
 			},
 			{
-				"id": "villa-map-tier-2",
-				"text": "魅影別墅"
-			},
-			{
 				"id": "wasteland-map-tier-2",
 				"text": "荒地"
-			},
-			{
-				"id": "waterways-map-tier-2",
-				"text": "危機水道"
 			}
 		],
 		"id": "MapsTier2",
@@ -3393,8 +3518,8 @@
 	{
 		"entries": [
 			{
-				"id": "ancient-city-map-tier-3",
-				"text": "遠古危城"
+				"id": "arena-map-tier-3",
+				"text": "競技場"
 			},
 			{
 				"id": "arsenal-map-tier-3",
@@ -3413,12 +3538,20 @@
 				"text": "晨曦墓地"
 			},
 			{
-				"id": "crystal-ore-map-tier-3",
-				"text": "紫晶礦山"
+				"id": "courtyard-map-tier-3",
+				"text": "奇術之庭"
 			},
 			{
-				"id": "dunes-map-tier-3",
-				"text": "暮色沙丘"
+				"id": "crater-map-tier-3",
+				"text": "殘破殞坑"
+			},
+			{
+				"id": "dig-map-tier-3",
+				"text": "違禁掘坑"
+			},
+			{
+				"id": "estuary-map-tier-3",
+				"text": "熔火岩灘"
 			},
 			{
 				"id": "gardens-map-tier-3",
@@ -3433,24 +3566,20 @@
 				"text": "墮影墓場"
 			},
 			{
-				"id": "infested-valley-map-tier-3",
-				"text": "病疫林谷"
+				"id": "grotto-map-tier-3",
+				"text": "幽暗地穴"
+			},
+			{
+				"id": "iceberg-map-tier-3",
+				"text": "極原冰帽"
 			},
 			{
 				"id": "mesa-map-tier-3",
 				"text": "平頂荒漠"
 			},
 			{
-				"id": "moon-temple-map-tier-3",
-				"text": "嬋娟神殿"
-			},
-			{
 				"id": "mud-geyser-map-tier-3",
 				"text": "陰晦泥灘"
-			},
-			{
-				"id": "museum-map-tier-3",
-				"text": "古博物館"
 			},
 			{
 				"id": "orchard-map-tier-3",
@@ -3465,44 +3594,40 @@
 				"text": "海風高原"
 			},
 			{
-				"id": "primordial-pool-map-tier-3",
-				"text": "血腥沼澤"
+				"id": "primordial-blocks-map-tier-3",
+				"text": "血腥陣地"
 			},
 			{
 				"id": "racecourse-map-tier-3",
 				"text": "古競速場"
 			},
 			{
-				"id": "ramparts-map-tier-3",
-				"text": "濱海堡壘"
+				"id": "shipyard-map-tier-3",
+				"text": "熾炎船塢"
 			},
 			{
-				"id": "sunken-city-map-tier-3",
-				"text": "亞特蘭提斯"
+				"id": "shore-map-tier-3",
+				"text": "暮光海灘"
+			},
+			{
+				"id": "strand-map-tier-3",
+				"text": "致命岩灘"
 			},
 			{
 				"id": "temple-map-tier-3",
 				"text": "奪魂之殿"
 			},
 			{
-				"id": "terrace-map-tier-3",
-				"text": "露台花園"
-			},
-			{
-				"id": "toxic-sewer-map-tier-3",
-				"text": "腐敗下水道"
+				"id": "thicket-map-tier-3",
+				"text": "驚懼樹叢"
 			},
 			{
 				"id": "vaal-pyramid-map-tier-3",
 				"text": "瓦爾金字塔"
 			},
 			{
-				"id": "vault-map-tier-3",
-				"text": "魔金寶庫"
-			},
-			{
-				"id": "waste-pool-map-tier-3",
-				"text": "死寂泥溝"
+				"id": "villa-map-tier-3",
+				"text": "魅影別墅"
 			}
 		],
 		"id": "MapsTier3",
@@ -3515,84 +3640,84 @@
 				"text": "惡靈學院"
 			},
 			{
-				"id": "arachnid-tomb-map-tier-4",
-				"text": "異蛛墓塚"
-			},
-			{
-				"id": "arena-map-tier-4",
-				"text": "競技場"
-			},
-			{
 				"id": "bone-crypt-map-tier-4",
 				"text": "骨跡陵墓"
-			},
-			{
-				"id": "caldera-map-tier-4",
-				"text": "火山炎口"
 			},
 			{
 				"id": "channel-map-tier-4",
 				"text": "秘密通道"
 			},
 			{
+				"id": "colosseum-map-tier-4",
+				"text": "大決鬥場"
+			},
+			{
 				"id": "courthouse-map-tier-4",
 				"text": "失序教院"
-			},
-			{
-				"id": "courtyard-map-tier-4",
-				"text": "奇術之庭"
-			},
-			{
-				"id": "dark-forest-map-tier-4",
-				"text": "夜語幽林"
 			},
 			{
 				"id": "defiled-cathedral-map-tier-4",
 				"text": "不潔教堂"
 			},
 			{
-				"id": "desert-map-tier-4",
-				"text": "貧瘠之地"
-			},
-			{
-				"id": "desert-spring-map-tier-4",
-				"text": "硫磺荒漠"
+				"id": "dunes-map-tier-4",
+				"text": "暮色沙丘"
 			},
 			{
 				"id": "excavation-map-tier-4",
 				"text": "挖掘場"
 			},
 			{
-				"id": "glacier-map-tier-4",
-				"text": "冰川山丘"
+				"id": "ivory-temple-map-tier-4",
+				"text": "象牙神殿"
 			},
 			{
-				"id": "grotto-map-tier-4",
-				"text": "幽暗地穴"
+				"id": "jungle-valley-map-tier-4",
+				"text": "劇毒林谷"
 			},
 			{
-				"id": "lair-map-tier-4",
-				"text": "餓獸巢穴"
+				"id": "marshes-map-tier-4",
+				"text": "惡臭沼地"
 			},
 			{
-				"id": "lava-chamber-map-tier-4",
-				"text": "熔岩之室"
+				"id": "mausoleum-map-tier-4",
+				"text": "靜縊陵墓"
 			},
 			{
-				"id": "lookout-map-tier-4",
-				"text": "如履危牆"
+				"id": "museum-map-tier-4",
+				"text": "古博物館"
 			},
 			{
 				"id": "park-map-tier-4",
 				"text": "園林苑"
 			},
 			{
-				"id": "peninsula-map-tier-4",
-				"text": "乾潮林地"
+				"id": "precinct-map-tier-4",
+				"text": "苦行之域"
 			},
 			{
-				"id": "shore-map-tier-4",
-				"text": "暮光海灘"
+				"id": "ramparts-map-tier-4",
+				"text": "濱海堡壘"
+			},
+			{
+				"id": "reef-map-tier-4",
+				"text": "危機海礁"
+			},
+			{
+				"id": "siege-map-tier-4",
+				"text": "禁斷圍城"
+			},
+			{
+				"id": "terrace-map-tier-4",
+				"text": "露台花園"
+			},
+			{
+				"id": "tower-map-tier-4",
+				"text": "闇獄尖塔"
+			},
+			{
+				"id": "toxic-sewer-map-tier-4",
+				"text": "腐敗下水道"
 			},
 			{
 				"id": "tropical-island-map-tier-4",
@@ -3609,6 +3734,10 @@
 	{
 		"entries": [
 			{
+				"id": "alleyways-map-tier-5",
+				"text": "危城巷弄"
+			},
+			{
 				"id": "arid-lake-map-tier-5",
 				"text": "乾枯湖岸"
 			},
@@ -3621,8 +3750,12 @@
 				"text": "聖殿"
 			},
 			{
-				"id": "belfry-map-tier-5",
-				"text": "雲頂鐘樓"
+				"id": "cage-map-tier-5",
+				"text": "羈破牢籠"
+			},
+			{
+				"id": "caldera-map-tier-5",
+				"text": "火山炎口"
 			},
 			{
 				"id": "castle-ruins-map-tier-5",
@@ -3641,8 +3774,8 @@
 				"text": "寧逸溫房"
 			},
 			{
-				"id": "dig-map-tier-5",
-				"text": "違禁掘坑"
+				"id": "dungeon-map-tier-5",
+				"text": "禁魂炎獄"
 			},
 			{
 				"id": "fields-map-tier-5",
@@ -3653,44 +3786,36 @@
 				"text": "幽魂宅邸"
 			},
 			{
-				"id": "ivory-temple-map-tier-5",
-				"text": "象牙神殿"
+				"id": "infested-valley-map-tier-5",
+				"text": "病疫林谷"
 			},
 			{
-				"id": "leyline-map-tier-5",
-				"text": "荒涼牧野"
+				"id": "laboratory-map-tier-5",
+				"text": "實驗居所"
 			},
 			{
-				"id": "marshes-map-tier-5",
-				"text": "惡臭沼地"
+				"id": "lookout-map-tier-5",
+				"text": "如履危牆"
 			},
 			{
-				"id": "mausoleum-map-tier-5",
-				"text": "靜縊陵墓"
+				"id": "moon-temple-map-tier-5",
+				"text": "嬋娟神殿"
+			},
+			{
+				"id": "phantasmagoria-map-tier-5",
+				"text": "魔靈幻獄"
+			},
+			{
+				"id": "plaza-map-tier-5",
+				"text": "廣場"
 			},
 			{
 				"id": "port-map-tier-5",
 				"text": "失落城塢"
 			},
 			{
-				"id": "scriptorium-map-tier-5",
-				"text": "墓影書坊"
-			},
-			{
-				"id": "strand-map-tier-5",
-				"text": "致命岩灘"
-			},
-			{
-				"id": "sulphur-vents-map-tier-5",
-				"text": "硫磺蝕岸"
-			},
-			{
-				"id": "villa-map-tier-5",
-				"text": "魅影別墅"
-			},
-			{
-				"id": "waterways-map-tier-5",
-				"text": "危機水道"
+				"id": "residence-map-tier-5",
+				"text": "神主居所"
 			},
 			{
 				"id": "wharf-map-tier-5",
@@ -3703,12 +3828,8 @@
 	{
 		"entries": [
 			{
-				"id": "ancient-city-map-tier-6",
-				"text": "遠古危城"
-			},
-			{
-				"id": "ashen-wood-map-tier-6",
-				"text": "旱木林地"
+				"id": "arena-map-tier-6",
+				"text": "競技場"
 			},
 			{
 				"id": "bazaar-map-tier-6",
@@ -3731,32 +3852,36 @@
 				"text": "疾風峽灣"
 			},
 			{
-				"id": "crystal-ore-map-tier-6",
-				"text": "紫晶礦山"
+				"id": "crater-map-tier-6",
+				"text": "殘破殞坑"
 			},
 			{
-				"id": "cursed-crypt-map-tier-6",
-				"text": "惡咒陵墓"
+				"id": "desert-spring-map-tier-6",
+				"text": "硫磺荒漠"
+			},
+			{
+				"id": "dig-map-tier-6",
+				"text": "違禁掘坑"
+			},
+			{
+				"id": "glacier-map-tier-6",
+				"text": "冰川山丘"
 			},
 			{
 				"id": "graveyard-map-tier-6",
 				"text": "墮影墓場"
 			},
 			{
-				"id": "infested-valley-map-tier-6",
-				"text": "病疫林谷"
+				"id": "iceberg-map-tier-6",
+				"text": "極原冰帽"
 			},
 			{
-				"id": "jungle-valley-map-tier-6",
-				"text": "劇毒林谷"
+				"id": "lava-chamber-map-tier-6",
+				"text": "熔岩之室"
 			},
 			{
 				"id": "mud-geyser-map-tier-6",
 				"text": "陰晦泥灘"
-			},
-			{
-				"id": "museum-map-tier-6",
-				"text": "古博物館"
 			},
 			{
 				"id": "pen-map-tier-6",
@@ -3767,44 +3892,44 @@
 				"text": "怒浪之港"
 			},
 			{
-				"id": "plaza-map-tier-6",
-				"text": "廣場"
+				"id": "primordial-blocks-map-tier-6",
+				"text": "血腥陣地"
 			},
 			{
 				"id": "racecourse-map-tier-6",
 				"text": "古競速場"
 			},
 			{
-				"id": "ramparts-map-tier-6",
-				"text": "濱海堡壘"
+				"id": "scriptorium-map-tier-6",
+				"text": "墓影書坊"
 			},
 			{
 				"id": "sepulchre-map-tier-6",
 				"text": "陰暗墓塚"
 			},
 			{
-				"id": "summit-map-tier-6",
-				"text": "寒頂之巔"
-			},
-			{
-				"id": "sunken-city-map-tier-6",
-				"text": "亞特蘭提斯"
+				"id": "shore-map-tier-6",
+				"text": "暮光海灘"
 			},
 			{
 				"id": "temple-map-tier-6",
 				"text": "奪魂之殿"
 			},
 			{
-				"id": "terrace-map-tier-6",
-				"text": "露台花園"
+				"id": "thicket-map-tier-6",
+				"text": "驚懼樹叢"
+			},
+			{
+				"id": "underground-river-map-tier-6",
+				"text": "地底之河"
 			},
 			{
 				"id": "underground-sea-map-tier-6",
 				"text": "濱海幽穴"
 			},
 			{
-				"id": "vault-map-tier-6",
-				"text": "魔金寶庫"
+				"id": "villa-map-tier-6",
+				"text": "魅影別墅"
 			},
 			{
 				"id": "wasteland-map-tier-6",
@@ -3829,28 +3954,32 @@
 				"text": "骨跡陵墓"
 			},
 			{
-				"id": "canyon-map-tier-7",
-				"text": "炙陽峽谷"
-			},
-			{
 				"id": "cemetery-map-tier-7",
 				"text": "晨曦墓地"
+			},
+			{
+				"id": "city-square-map-tier-7",
+				"text": "危城廣場"
+			},
+			{
+				"id": "colosseum-map-tier-7",
+				"text": "大決鬥場"
 			},
 			{
 				"id": "courthouse-map-tier-7",
 				"text": "失序教院"
 			},
 			{
-				"id": "dark-forest-map-tier-7",
-				"text": "夜語幽林"
+				"id": "courtyard-map-tier-7",
+				"text": "奇術之庭"
 			},
 			{
 				"id": "defiled-cathedral-map-tier-7",
 				"text": "不潔教堂"
 			},
 			{
-				"id": "dunes-map-tier-7",
-				"text": "暮色沙丘"
+				"id": "estuary-map-tier-7",
+				"text": "熔火岩灘"
 			},
 			{
 				"id": "excavation-map-tier-7",
@@ -3869,12 +3998,8 @@
 				"text": "幽暗地穴"
 			},
 			{
-				"id": "lair-map-tier-7",
-				"text": "餓獸巢穴"
-			},
-			{
-				"id": "lava-chamber-map-tier-7",
-				"text": "熔岩之室"
+				"id": "jungle-valley-map-tier-7",
+				"text": "劇毒林谷"
 			},
 			{
 				"id": "lighthouse-map-tier-7",
@@ -3885,28 +4010,36 @@
 				"text": "平頂荒漠"
 			},
 			{
-				"id": "moon-temple-map-tier-7",
-				"text": "嬋娟神殿"
+				"id": "museum-map-tier-7",
+				"text": "古博物館"
 			},
 			{
 				"id": "orchard-map-tier-7",
 				"text": "密林果園"
 			},
 			{
-				"id": "peninsula-map-tier-7",
-				"text": "乾潮林地"
-			},
-			{
 				"id": "plateau-map-tier-7",
 				"text": "海風高原"
 			},
 			{
-				"id": "primordial-pool-map-tier-7",
-				"text": "血腥沼澤"
+				"id": "precinct-map-tier-7",
+				"text": "苦行之域"
 			},
 			{
-				"id": "shore-map-tier-7",
-				"text": "暮光海灘"
+				"id": "ramparts-map-tier-7",
+				"text": "濱海堡壘"
+			},
+			{
+				"id": "shipyard-map-tier-7",
+				"text": "熾炎船塢"
+			},
+			{
+				"id": "siege-map-tier-7",
+				"text": "禁斷圍城"
+			},
+			{
+				"id": "strand-map-tier-7",
+				"text": "致命岩灘"
 			},
 			{
 				"id": "toxic-sewer-map-tier-7",
@@ -3915,14 +4048,6 @@
 			{
 				"id": "vaal-pyramid-map-tier-7",
 				"text": "瓦爾金字塔"
-			},
-			{
-				"id": "volcano-map-tier-7",
-				"text": "火山炎域"
-			},
-			{
-				"id": "waste-pool-map-tier-7",
-				"text": "死寂泥溝"
 			}
 		],
 		"id": "MapsTier7",
@@ -3931,16 +4056,12 @@
 	{
 		"entries": [
 			{
-				"id": "arachnid-tomb-map-tier-8",
-				"text": "異蛛墓塚"
+				"id": "alleyways-map-tier-8",
+				"text": "危城巷弄"
 			},
 			{
-				"id": "arena-map-tier-8",
-				"text": "競技場"
-			},
-			{
-				"id": "caldera-map-tier-8",
-				"text": "火山炎口"
+				"id": "ancient-city-map-tier-8",
+				"text": "遠古危城"
 			},
 			{
 				"id": "castle-ruins-map-tier-8",
@@ -3951,36 +4072,28 @@
 				"text": "秘密通道"
 			},
 			{
-				"id": "courtyard-map-tier-8",
-				"text": "奇術之庭"
+				"id": "dunes-map-tier-8",
+				"text": "暮色沙丘"
 			},
 			{
-				"id": "desert-map-tier-8",
-				"text": "貧瘠之地"
+				"id": "infested-valley-map-tier-8",
+				"text": "病疫林谷"
 			},
 			{
-				"id": "desert-spring-map-tier-8",
-				"text": "硫磺荒漠"
-			},
-			{
-				"id": "dig-map-tier-8",
-				"text": "違禁掘坑"
-			},
-			{
-				"id": "glacier-map-tier-8",
-				"text": "冰川山丘"
-			},
-			{
-				"id": "leyline-map-tier-8",
-				"text": "荒涼牧野"
-			},
-			{
-				"id": "lookout-map-tier-8",
-				"text": "如履危牆"
+				"id": "ivory-temple-map-tier-8",
+				"text": "象牙神殿"
 			},
 			{
 				"id": "malformation-map-tier-8",
 				"text": "畸形亡域"
+			},
+			{
+				"id": "marshes-map-tier-8",
+				"text": "惡臭沼地"
+			},
+			{
+				"id": "mausoleum-map-tier-8",
+				"text": "靜縊陵墓"
 			},
 			{
 				"id": "park-map-tier-8",
@@ -3991,12 +4104,24 @@
 				"text": "失落城塢"
 			},
 			{
-				"id": "primordial-blocks-map-tier-8",
-				"text": "血腥陣地"
+				"id": "reef-map-tier-8",
+				"text": "危機海礁"
+			},
+			{
+				"id": "terrace-map-tier-8",
+				"text": "露台花園"
+			},
+			{
+				"id": "tower-map-tier-8",
+				"text": "闇獄尖塔"
 			},
 			{
 				"id": "tropical-island-map-tier-8",
 				"text": "晴空幽島"
+			},
+			{
+				"id": "volcano-map-tier-8",
+				"text": "火山炎域"
 			}
 		],
 		"id": "MapsTier8",
@@ -4005,16 +4130,12 @@
 	{
 		"entries": [
 			{
-				"id": "arcade-map-tier-9",
-				"text": "崩壞長廊"
+				"id": "acid-caverns-map-tier-9",
+				"text": "酸岩酸嶼"
 			},
 			{
 				"id": "arid-lake-map-tier-9",
 				"text": "乾枯湖岸"
-			},
-			{
-				"id": "ashen-wood-map-tier-9",
-				"text": "旱木林地"
 			},
 			{
 				"id": "atoll-map-tier-9",
@@ -4029,8 +4150,12 @@
 				"text": "白沙灘頭"
 			},
 			{
-				"id": "belfry-map-tier-9",
-				"text": "雲頂鐘樓"
+				"id": "cage-map-tier-9",
+				"text": "羈破牢籠"
+			},
+			{
+				"id": "caldera-map-tier-9",
+				"text": "火山炎口"
 			},
 			{
 				"id": "chateau-map-tier-9",
@@ -4053,8 +4178,16 @@
 				"text": "疾風峽灣"
 			},
 			{
-				"id": "cursed-crypt-map-tier-9",
-				"text": "惡咒陵墓"
+				"id": "desert-spring-map-tier-9",
+				"text": "硫磺荒漠"
+			},
+			{
+				"id": "dig-map-tier-9",
+				"text": "違禁掘坑"
+			},
+			{
+				"id": "dungeon-map-tier-9",
+				"text": "禁魂炎獄"
 			},
 			{
 				"id": "factory-map-tier-9",
@@ -4065,6 +4198,14 @@
 				"text": "無疆田野"
 			},
 			{
+				"id": "geode-map-tier-9",
+				"text": "詭譎晶洞"
+			},
+			{
+				"id": "glacier-map-tier-9",
+				"text": "冰川山丘"
+			},
+			{
 				"id": "graveyard-map-tier-9",
 				"text": "墮影墓場"
 			},
@@ -4073,88 +4214,72 @@
 				"text": "幽魂宅邸"
 			},
 			{
-				"id": "infested-valley-map-tier-9",
-				"text": "病疫林谷"
+				"id": "laboratory-map-tier-9",
+				"text": "實驗居所"
 			},
 			{
-				"id": "ivory-temple-map-tier-9",
-				"text": "象牙神殿"
-			},
-			{
-				"id": "jungle-valley-map-tier-9",
-				"text": "劇毒林谷"
+				"id": "lava-chamber-map-tier-9",
+				"text": "熔岩之室"
 			},
 			{
 				"id": "lighthouse-map-tier-9",
 				"text": "絕望燈塔"
 			},
 			{
-				"id": "marshes-map-tier-9",
-				"text": "惡臭沼地"
+				"id": "lookout-map-tier-9",
+				"text": "如履危牆"
 			},
 			{
-				"id": "mausoleum-map-tier-9",
-				"text": "靜縊陵墓"
+				"id": "moon-temple-map-tier-9",
+				"text": "嬋娟神殿"
 			},
 			{
-				"id": "maze-map-tier-9",
-				"text": "冥神之域"
+				"id": "overgrown-shrine-map-tier-9",
+				"text": "密草神殿"
+			},
+			{
+				"id": "phantasmagoria-map-tier-9",
+				"text": "魔靈幻獄"
 			},
 			{
 				"id": "pier-map-tier-9",
 				"text": "怒浪之港"
 			},
 			{
-				"id": "pit-map-tier-9",
-				"text": "巨坑"
+				"id": "plaza-map-tier-9",
+				"text": "廣場"
 			},
 			{
 				"id": "relic-chambers-map-tier-9",
 				"text": "古典密室"
 			},
 			{
-				"id": "scriptorium-map-tier-9",
-				"text": "墓影書坊"
-			},
-			{
-				"id": "shipyard-map-tier-9",
-				"text": "熾炎船塢"
+				"id": "residence-map-tier-9",
+				"text": "神主居所"
 			},
 			{
 				"id": "shrine-map-tier-9",
 				"text": "奇術秘殿"
 			},
 			{
-				"id": "strand-map-tier-9",
-				"text": "致命岩灘"
+				"id": "thicket-map-tier-9",
+				"text": "驚懼樹叢"
 			},
 			{
-				"id": "sulphur-vents-map-tier-9",
-				"text": "硫磺蝕岸"
-			},
-			{
-				"id": "summit-map-tier-9",
-				"text": "寒頂之巔"
-			},
-			{
-				"id": "sunken-city-map-tier-9",
-				"text": "亞特蘭提斯"
+				"id": "underground-river-map-tier-9",
+				"text": "地底之河"
 			},
 			{
 				"id": "underground-sea-map-tier-9",
 				"text": "濱海幽穴"
 			},
 			{
-				"id": "villa-map-tier-9",
-				"text": "魅影別墅"
+				"id": "waste-pool-map-tier-9",
+				"text": "死寂泥溝"
 			},
 			{
 				"id": "wasteland-map-tier-9",
 				"text": "荒地"
-			},
-			{
-				"id": "waterways-map-tier-9",
-				"text": "危機水道"
 			},
 			{
 				"id": "wharf-map-tier-9",
@@ -4167,8 +4292,8 @@
 	{
 		"entries": [
 			{
-				"id": "ancient-city-map-tier-10",
-				"text": "遠古危城"
+				"id": "arena-map-tier-10",
+				"text": "競技場"
 			},
 			{
 				"id": "arsenal-map-tier-10",
@@ -4191,24 +4316,32 @@
 				"text": "晨曦墓地"
 			},
 			{
+				"id": "colosseum-map-tier-10",
+				"text": "大決鬥場"
+			},
+			{
 				"id": "courthouse-map-tier-10",
 				"text": "失序教院"
 			},
 			{
-				"id": "crystal-ore-map-tier-10",
-				"text": "紫晶礦山"
+				"id": "courtyard-map-tier-10",
+				"text": "奇術之庭"
+			},
+			{
+				"id": "crater-map-tier-10",
+				"text": "殘破殞坑"
+			},
+			{
+				"id": "dark-forest-map-tier-10",
+				"text": "夜語幽林"
 			},
 			{
 				"id": "defiled-cathedral-map-tier-10",
 				"text": "不潔教堂"
 			},
 			{
-				"id": "desert-map-tier-10",
-				"text": "貧瘠之地"
-			},
-			{
-				"id": "dunes-map-tier-10",
-				"text": "暮色沙丘"
+				"id": "estuary-map-tier-10",
+				"text": "熔火岩灘"
 			},
 			{
 				"id": "excavation-map-tier-10",
@@ -4223,16 +4356,16 @@
 				"text": "赤貧居所"
 			},
 			{
-				"id": "glacier-map-tier-10",
-				"text": "冰川山丘"
+				"id": "grotto-map-tier-10",
+				"text": "幽暗地穴"
 			},
 			{
-				"id": "lair-map-tier-10",
-				"text": "餓獸巢穴"
+				"id": "iceberg-map-tier-10",
+				"text": "極原冰帽"
 			},
 			{
-				"id": "lookout-map-tier-10",
-				"text": "如履危牆"
+				"id": "mausoleum-map-tier-10",
+				"text": "靜縊陵墓"
 			},
 			{
 				"id": "mesa-map-tier-10",
@@ -4243,84 +4376,76 @@
 				"text": "濕地礦山"
 			},
 			{
-				"id": "moon-temple-map-tier-10",
-				"text": "嬋娟神殿"
-			},
-			{
 				"id": "mud-geyser-map-tier-10",
 				"text": "陰晦泥灘"
-			},
-			{
-				"id": "museum-map-tier-10",
-				"text": "古博物館"
 			},
 			{
 				"id": "orchard-map-tier-10",
 				"text": "密林果園"
 			},
 			{
-				"id": "pen-map-tier-10",
-				"text": "穢陰獄牢"
+				"id": "park-map-tier-10",
+				"text": "園林苑"
 			},
 			{
-				"id": "peninsula-map-tier-10",
-				"text": "乾潮林地"
+				"id": "pen-map-tier-10",
+				"text": "穢陰獄牢"
 			},
 			{
 				"id": "plateau-map-tier-10",
 				"text": "海風高原"
 			},
 			{
-				"id": "plaza-map-tier-10",
-				"text": "廣場"
-			},
-			{
-				"id": "precinct-map-tier-10",
-				"text": "苦行之域"
-			},
-			{
-				"id": "primordial-pool-map-tier-10",
-				"text": "血腥沼澤"
+				"id": "primordial-blocks-map-tier-10",
+				"text": "血腥陣地"
 			},
 			{
 				"id": "racecourse-map-tier-10",
 				"text": "古競速場"
 			},
 			{
-				"id": "ramparts-map-tier-10",
-				"text": "濱海堡壘"
+				"id": "scriptorium-map-tier-10",
+				"text": "墓影書坊"
 			},
 			{
 				"id": "sepulchre-map-tier-10",
 				"text": "陰暗墓塚"
 			},
 			{
+				"id": "shipyard-map-tier-10",
+				"text": "熾炎船塢"
+			},
+			{
+				"id": "shore-map-tier-10",
+				"text": "暮光海灘"
+			},
+			{
+				"id": "siege-map-tier-10",
+				"text": "禁斷圍城"
+			},
+			{
+				"id": "strand-map-tier-10",
+				"text": "致命岩灘"
+			},
+			{
 				"id": "temple-map-tier-10",
 				"text": "奪魂之殿"
 			},
 			{
-				"id": "terrace-map-tier-10",
-				"text": "露台花園"
-			},
-			{
-				"id": "toxic-sewer-map-tier-10",
-				"text": "腐敗下水道"
-			},
-			{
-				"id": "tropical-island-map-tier-10",
-				"text": "晴空幽島"
+				"id": "tower-map-tier-10",
+				"text": "闇獄尖塔"
 			},
 			{
 				"id": "vaal-pyramid-map-tier-10",
 				"text": "瓦爾金字塔"
 			},
 			{
-				"id": "vault-map-tier-10",
-				"text": "魔金寶庫"
+				"id": "villa-map-tier-10",
+				"text": "魅影別墅"
 			},
 			{
-				"id": "waste-pool-map-tier-10",
-				"text": "死寂泥溝"
+				"id": "volcano-map-tier-10",
+				"text": "火山炎域"
 			}
 		],
 		"id": "MapsTier10",
@@ -4333,8 +4458,12 @@
 				"text": "惡靈學院"
 			},
 			{
-				"id": "arachnid-tomb-map-tier-11",
-				"text": "異蛛墓塚"
+				"id": "alleyways-map-tier-11",
+				"text": "危城巷弄"
+			},
+			{
+				"id": "ancient-city-map-tier-11",
+				"text": "遠古危城"
 			},
 			{
 				"id": "arena-map-tier-11",
@@ -4345,16 +4474,12 @@
 				"text": "乾枯湖岸"
 			},
 			{
+				"id": "armoury-map-tier-11",
+				"text": "軍械庫"
+			},
+			{
 				"id": "arsenal-map-tier-11",
 				"text": "古兵工廠"
-			},
-			{
-				"id": "ashen-wood-map-tier-11",
-				"text": "旱木林地"
-			},
-			{
-				"id": "atoll-map-tier-11",
-				"text": "濱海山丘"
 			},
 			{
 				"id": "barrows-map-tier-11",
@@ -4369,20 +4494,20 @@
 				"text": "骨跡陵墓"
 			},
 			{
-				"id": "caldera-map-tier-11",
-				"text": "火山炎口"
+				"id": "cage-map-tier-11",
+				"text": "羈破牢籠"
 			},
 			{
-				"id": "cemetery-map-tier-11",
-				"text": "晨曦墓地"
+				"id": "caldera-map-tier-11",
+				"text": "火山炎口"
 			},
 			{
 				"id": "channel-map-tier-11",
 				"text": "秘密通道"
 			},
 			{
-				"id": "city-square-map-tier-11",
-				"text": "危城廣場"
+				"id": "chateau-map-tier-11",
+				"text": "古堡"
 			},
 			{
 				"id": "colonnade-map-tier-11",
@@ -4409,20 +4534,12 @@
 				"text": "疾風峽灣"
 			},
 			{
-				"id": "crater-map-tier-11",
-				"text": "殘破殞坑"
-			},
-			{
 				"id": "crimson-temple-map-tier-11",
 				"text": "緋紅神殿"
 			},
 			{
-				"id": "cursed-crypt-map-tier-11",
-				"text": "惡咒陵墓"
-			},
-			{
-				"id": "dark-forest-map-tier-11",
-				"text": "夜語幽林"
+				"id": "desert-map-tier-11",
+				"text": "貧瘠之地"
 			},
 			{
 				"id": "desert-spring-map-tier-11",
@@ -4431,6 +4548,14 @@
 			{
 				"id": "dunes-map-tier-11",
 				"text": "暮色沙丘"
+			},
+			{
+				"id": "dungeon-map-tier-11",
+				"text": "禁魂炎獄"
+			},
+			{
+				"id": "estuary-map-tier-11",
+				"text": "熔火岩灘"
 			},
 			{
 				"id": "factory-map-tier-11",
@@ -4445,16 +4570,20 @@
 				"text": "洪災礦坑"
 			},
 			{
+				"id": "glacier-map-tier-11",
+				"text": "冰川山丘"
+			},
+			{
 				"id": "graveyard-map-tier-11",
 				"text": "墮影墓場"
 			},
 			{
-				"id": "grotto-map-tier-11",
-				"text": "幽暗地穴"
-			},
-			{
 				"id": "haunted-mansion-map-tier-11",
 				"text": "幽魂宅邸"
+			},
+			{
+				"id": "iceberg-map-tier-11",
+				"text": "極原冰帽"
 			},
 			{
 				"id": "ivory-temple-map-tier-11",
@@ -4469,108 +4598,104 @@
 				"text": "熔岩之室"
 			},
 			{
-				"id": "leyline-map-tier-11",
-				"text": "荒涼牧野"
-			},
-			{
 				"id": "lighthouse-map-tier-11",
 				"text": "絕望燈塔"
+			},
+			{
+				"id": "lookout-map-tier-11",
+				"text": "如履危牆"
 			},
 			{
 				"id": "marshes-map-tier-11",
 				"text": "惡臭沼地"
 			},
 			{
-				"id": "mausoleum-map-tier-11",
-				"text": "靜縊陵墓"
-			},
-			{
-				"id": "maze-map-tier-11",
-				"text": "冥神之域"
-			},
-			{
 				"id": "mesa-map-tier-11",
 				"text": "平頂荒漠"
+			},
+			{
+				"id": "moon-temple-map-tier-11",
+				"text": "嬋娟神殿"
 			},
 			{
 				"id": "mud-geyser-map-tier-11",
 				"text": "陰晦泥灘"
 			},
 			{
+				"id": "museum-map-tier-11",
+				"text": "古博物館"
+			},
+			{
+				"id": "overgrown-shrine-map-tier-11",
+				"text": "密草神殿"
+			},
+			{
+				"id": "phantasmagoria-map-tier-11",
+				"text": "魔靈幻獄"
+			},
+			{
 				"id": "pier-map-tier-11",
 				"text": "怒浪之港"
+			},
+			{
+				"id": "plaza-map-tier-11",
+				"text": "廣場"
 			},
 			{
 				"id": "port-map-tier-11",
 				"text": "失落城塢"
 			},
 			{
-				"id": "primordial-blocks-map-tier-11",
-				"text": "血腥陣地"
-			},
-			{
-				"id": "primordial-pool-map-tier-11",
-				"text": "血腥沼澤"
+				"id": "precinct-map-tier-11",
+				"text": "苦行之域"
 			},
 			{
 				"id": "racecourse-map-tier-11",
 				"text": "古競速場"
 			},
 			{
+				"id": "ramparts-map-tier-11",
+				"text": "濱海堡壘"
+			},
+			{
+				"id": "reef-map-tier-11",
+				"text": "危機海礁"
+			},
+			{
 				"id": "relic-chambers-map-tier-11",
 				"text": "古典密室"
 			},
 			{
-				"id": "scriptorium-map-tier-11",
-				"text": "墓影書坊"
-			},
-			{
-				"id": "shore-map-tier-11",
-				"text": "暮光海灘"
-			},
-			{
-				"id": "strand-map-tier-11",
-				"text": "致命岩灘"
-			},
-			{
-				"id": "sulphur-vents-map-tier-11",
-				"text": "硫磺蝕岸"
-			},
-			{
-				"id": "summit-map-tier-11",
-				"text": "寒頂之巔"
-			},
-			{
-				"id": "sunken-city-map-tier-11",
-				"text": "亞特蘭提斯"
+				"id": "residence-map-tier-11",
+				"text": "神主居所"
 			},
 			{
 				"id": "terrace-map-tier-11",
 				"text": "露台花園"
 			},
 			{
+				"id": "thicket-map-tier-11",
+				"text": "驚懼樹叢"
+			},
+			{
+				"id": "toxic-sewer-map-tier-11",
+				"text": "腐敗下水道"
+			},
+			{
+				"id": "underground-river-map-tier-11",
+				"text": "地底之河"
+			},
+			{
 				"id": "underground-sea-map-tier-11",
 				"text": "濱海幽穴"
 			},
 			{
-				"id": "vault-map-tier-11",
-				"text": "魔金寶庫"
-			},
-			{
-				"id": "villa-map-tier-11",
-				"text": "魅影別墅"
-			},
-			{
-				"id": "volcano-map-tier-11",
-				"text": "火山炎域"
+				"id": "vaal-pyramid-map-tier-11",
+				"text": "瓦爾金字塔"
 			},
 			{
 				"id": "wasteland-map-tier-11",
 				"text": "荒地"
-			},
-			{
-				"id": "waterways-map-tier-11",
-				"text": "危機水道"
 			},
 			{
 				"id": "wharf-map-tier-11",
@@ -4587,20 +4712,20 @@
 				"text": "惡靈學院"
 			},
 			{
-				"id": "ancient-city-map-tier-12",
-				"text": "遠古危城"
+				"id": "acid-caverns-map-tier-12",
+				"text": "酸岩酸嶼"
+			},
+			{
+				"id": "alleyways-map-tier-12",
+				"text": "危城巷弄"
 			},
 			{
 				"id": "arachnid-nest-map-tier-12",
 				"text": "異蛛巢穴"
 			},
 			{
-				"id": "arcade-map-tier-12",
-				"text": "崩壞長廊"
-			},
-			{
-				"id": "armoury-map-tier-12",
-				"text": "軍械庫"
+				"id": "atoll-map-tier-12",
+				"text": "濱海山丘"
 			},
 			{
 				"id": "basilica-map-tier-12",
@@ -4611,20 +4736,12 @@
 				"text": "遠古市集"
 			},
 			{
-				"id": "belfry-map-tier-12",
-				"text": "雲頂鐘樓"
-			},
-			{
 				"id": "bog-map-tier-12",
 				"text": "瘴氣泥沼"
 			},
 			{
 				"id": "bone-crypt-map-tier-12",
 				"text": "骨跡陵墓"
-			},
-			{
-				"id": "caldera-map-tier-12",
-				"text": "火山炎口"
 			},
 			{
 				"id": "canyon-map-tier-12",
@@ -4635,16 +4752,32 @@
 				"text": "遺跡廢墟"
 			},
 			{
-				"id": "chateau-map-tier-12",
-				"text": "古堡"
+				"id": "cemetery-map-tier-12",
+				"text": "晨曦墓地"
+			},
+			{
+				"id": "city-square-map-tier-12",
+				"text": "危城廣場"
+			},
+			{
+				"id": "colosseum-map-tier-12",
+				"text": "大決鬥場"
 			},
 			{
 				"id": "courthouse-map-tier-12",
 				"text": "失序教院"
 			},
 			{
+				"id": "crater-map-tier-12",
+				"text": "殘破殞坑"
+			},
+			{
 				"id": "crystal-ore-map-tier-12",
 				"text": "紫晶礦山"
+			},
+			{
+				"id": "dark-forest-map-tier-12",
+				"text": "夜語幽林"
 			},
 			{
 				"id": "defiled-cathedral-map-tier-12",
@@ -4655,10 +4788,6 @@
 				"text": "違禁掘坑"
 			},
 			{
-				"id": "dungeon-map-tier-12",
-				"text": "禁魂炎獄"
-			},
-			{
 				"id": "excavation-map-tier-12",
 				"text": "挖掘場"
 			},
@@ -4667,24 +4796,24 @@
 				"text": "迷宮花園"
 			},
 			{
-				"id": "ghetto-map-tier-12",
-				"text": "赤貧居所"
+				"id": "geode-map-tier-12",
+				"text": "詭譎晶洞"
 			},
 			{
-				"id": "grotto-map-tier-12",
-				"text": "幽暗地穴"
+				"id": "ghetto-map-tier-12",
+				"text": "赤貧居所"
 			},
 			{
 				"id": "infested-valley-map-tier-12",
 				"text": "病疫林谷"
 			},
 			{
-				"id": "lair-map-tier-12",
-				"text": "餓獸巢穴"
+				"id": "ivory-temple-map-tier-12",
+				"text": "象牙神殿"
 			},
 			{
-				"id": "leyline-map-tier-12",
-				"text": "荒涼牧野"
+				"id": "laboratory-map-tier-12",
+				"text": "實驗居所"
 			},
 			{
 				"id": "malformation-map-tier-12",
@@ -4695,48 +4824,24 @@
 				"text": "濕地礦山"
 			},
 			{
-				"id": "moon-temple-map-tier-12",
-				"text": "嬋娟神殿"
-			},
-			{
-				"id": "museum-map-tier-12",
-				"text": "古博物館"
-			},
-			{
 				"id": "orchard-map-tier-12",
 				"text": "密林果園"
-			},
-			{
-				"id": "park-map-tier-12",
-				"text": "園林苑"
 			},
 			{
 				"id": "pen-map-tier-12",
 				"text": "穢陰獄牢"
 			},
 			{
-				"id": "peninsula-map-tier-12",
-				"text": "乾潮林地"
-			},
-			{
-				"id": "pit-map-tier-12",
-				"text": "巨坑"
-			},
-			{
 				"id": "plateau-map-tier-12",
 				"text": "海風高原"
 			},
 			{
-				"id": "plaza-map-tier-12",
-				"text": "廣場"
+				"id": "primordial-blocks-map-tier-12",
+				"text": "血腥陣地"
 			},
 			{
-				"id": "precinct-map-tier-12",
-				"text": "苦行之域"
-			},
-			{
-				"id": "ramparts-map-tier-12",
-				"text": "濱海堡壘"
+				"id": "scriptorium-map-tier-12",
+				"text": "墓影書坊"
 			},
 			{
 				"id": "sepulchre-map-tier-12",
@@ -4747,20 +4852,40 @@
 				"text": "熾炎船塢"
 			},
 			{
+				"id": "shore-map-tier-12",
+				"text": "暮光海灘"
+			},
+			{
 				"id": "shrine-map-tier-12",
 				"text": "奇術秘殿"
+			},
+			{
+				"id": "siege-map-tier-12",
+				"text": "禁斷圍城"
 			},
 			{
 				"id": "spider-forest-map-tier-12",
 				"text": "巨蛛之林"
 			},
 			{
+				"id": "strand-map-tier-12",
+				"text": "致命岩灘"
+			},
+			{
 				"id": "temple-map-tier-12",
 				"text": "奪魂之殿"
 			},
 			{
-				"id": "vaal-pyramid-map-tier-12",
-				"text": "瓦爾金字塔"
+				"id": "toxic-sewer-map-tier-12",
+				"text": "腐敗下水道"
+			},
+			{
+				"id": "tropical-island-map-tier-12",
+				"text": "晴空幽島"
+			},
+			{
+				"id": "villa-map-tier-12",
+				"text": "魅影別墅"
 			},
 			{
 				"id": "waste-pool-map-tier-12",
@@ -4773,16 +4898,12 @@
 	{
 		"entries": [
 			{
-				"id": "arachnid-tomb-map-tier-13",
-				"text": "異蛛墓塚"
+				"id": "ancient-city-map-tier-13",
+				"text": "遠古危城"
 			},
 			{
 				"id": "arcade-map-tier-13",
 				"text": "崩壞長廊"
-			},
-			{
-				"id": "arena-map-tier-13",
-				"text": "競技場"
 			},
 			{
 				"id": "barrows-map-tier-13",
@@ -4805,64 +4926,68 @@
 				"text": "核心"
 			},
 			{
-				"id": "courtyard-map-tier-13",
-				"text": "奇術之庭"
-			},
-			{
 				"id": "crimson-temple-map-tier-13",
 				"text": "緋紅神殿"
 			},
 			{
-				"id": "dark-forest-map-tier-13",
-				"text": "夜語幽林"
+				"id": "cursed-crypt-map-tier-13",
+				"text": "惡咒陵墓"
 			},
 			{
-				"id": "desert-spring-map-tier-13",
-				"text": "硫磺荒漠"
+				"id": "dunes-map-tier-13",
+				"text": "暮色沙丘"
 			},
 			{
 				"id": "geode-map-tier-13",
 				"text": "詭譎晶洞"
 			},
 			{
+				"id": "grotto-map-tier-13",
+				"text": "幽暗地穴"
+			},
+			{
+				"id": "lair-map-tier-13",
+				"text": "餓獸巢穴"
+			},
+			{
 				"id": "malformation-map-tier-13",
 				"text": "畸形亡域"
 			},
 			{
-				"id": "overgrown-shrine-map-tier-13",
-				"text": "密草神殿"
+				"id": "marshes-map-tier-13",
+				"text": "惡臭沼地"
+			},
+			{
+				"id": "maze-map-tier-13",
+				"text": "冥神之域"
+			},
+			{
+				"id": "museum-map-tier-13",
+				"text": "古博物館"
 			},
 			{
 				"id": "port-map-tier-13",
 				"text": "失落城塢"
 			},
 			{
-				"id": "primordial-blocks-map-tier-13",
-				"text": "血腥陣地"
+				"id": "precinct-map-tier-13",
+				"text": "苦行之域"
 			},
 			{
-				"id": "shore-map-tier-13",
-				"text": "暮光海灘"
+				"id": "ramparts-map-tier-13",
+				"text": "濱海堡壘"
+			},
+			{
+				"id": "reef-map-tier-13",
+				"text": "危機海礁"
 			},
 			{
 				"id": "shrine-map-tier-13",
 				"text": "奇術秘殿"
 			},
 			{
-				"id": "siege-map-tier-13",
-				"text": "禁斷圍城"
-			},
-			{
-				"id": "toxic-sewer-map-tier-13",
-				"text": "腐敗下水道"
-			},
-			{
-				"id": "underground-river-map-tier-13",
-				"text": "地底之河"
-			},
-			{
-				"id": "volcano-map-tier-13",
-				"text": "火山炎域"
+				"id": "terrace-map-tier-13",
+				"text": "露台花園"
 			}
 		],
 		"id": "MapsTier13",
@@ -4875,16 +5000,16 @@
 				"text": "惡靈學院"
 			},
 			{
-				"id": "alleyways-map-tier-14",
-				"text": "危城巷弄"
-			},
-			{
-				"id": "ancient-city-map-tier-14",
-				"text": "遠古危城"
+				"id": "acid-caverns-map-tier-14",
+				"text": "酸岩酸嶼"
 			},
 			{
 				"id": "arachnid-nest-map-tier-14",
 				"text": "異蛛巢穴"
+			},
+			{
+				"id": "arena-map-tier-14",
+				"text": "競技場"
 			},
 			{
 				"id": "arid-lake-map-tier-14",
@@ -4897,10 +5022,6 @@
 			{
 				"id": "arsenal-map-tier-14",
 				"text": "古兵工廠"
-			},
-			{
-				"id": "ashen-wood-map-tier-14",
-				"text": "旱木林地"
 			},
 			{
 				"id": "atoll-map-tier-14",
@@ -4921,6 +5042,14 @@
 			{
 				"id": "bog-map-tier-14",
 				"text": "瘴氣泥沼"
+			},
+			{
+				"id": "cage-map-tier-14",
+				"text": "羈破牢籠"
+			},
+			{
+				"id": "caldera-map-tier-14",
+				"text": "火山炎口"
 			},
 			{
 				"id": "canyon-map-tier-14",
@@ -4959,20 +5088,16 @@
 				"text": "破碎堡礁"
 			},
 			{
+				"id": "courtyard-map-tier-14",
+				"text": "奇術之庭"
+			},
+			{
 				"id": "coves-map-tier-14",
 				"text": "疾風峽灣"
 			},
 			{
-				"id": "crater-map-tier-14",
-				"text": "殘破殞坑"
-			},
-			{
 				"id": "crystal-ore-map-tier-14",
 				"text": "紫晶礦山"
-			},
-			{
-				"id": "cursed-crypt-map-tier-14",
-				"text": "惡咒陵墓"
 			},
 			{
 				"id": "defiled-cathedral-map-tier-14",
@@ -4983,12 +5108,12 @@
 				"text": "貧瘠之地"
 			},
 			{
-				"id": "dig-map-tier-14",
-				"text": "違禁掘坑"
+				"id": "desert-spring-map-tier-14",
+				"text": "硫磺荒漠"
 			},
 			{
-				"id": "dunes-map-tier-14",
-				"text": "暮色沙丘"
+				"id": "dig-map-tier-14",
+				"text": "違禁掘坑"
 			},
 			{
 				"id": "dungeon-map-tier-14",
@@ -5035,12 +5160,12 @@
 				"text": "幽魂宅邸"
 			},
 			{
-				"id": "infested-valley-map-tier-14",
-				"text": "病疫林谷"
+				"id": "iceberg-map-tier-14",
+				"text": "極原冰帽"
 			},
 			{
-				"id": "ivory-temple-map-tier-14",
-				"text": "象牙神殿"
+				"id": "infested-valley-map-tier-14",
+				"text": "病疫林谷"
 			},
 			{
 				"id": "jungle-valley-map-tier-14",
@@ -5051,12 +5176,12 @@
 				"text": "實驗居所"
 			},
 			{
-				"id": "lair-map-tier-14",
-				"text": "餓獸巢穴"
-			},
-			{
 				"id": "lava-chamber-map-tier-14",
 				"text": "熔岩之室"
+			},
+			{
+				"id": "leyline-map-tier-14",
+				"text": "荒涼牧野"
 			},
 			{
 				"id": "lighthouse-map-tier-14",
@@ -5067,16 +5192,8 @@
 				"text": "如履危牆"
 			},
 			{
-				"id": "marshes-map-tier-14",
-				"text": "惡臭沼地"
-			},
-			{
 				"id": "mausoleum-map-tier-14",
 				"text": "靜縊陵墓"
-			},
-			{
-				"id": "maze-map-tier-14",
-				"text": "冥神之域"
 			},
 			{
 				"id": "mesa-map-tier-14",
@@ -5095,8 +5212,8 @@
 				"text": "陰晦泥灘"
 			},
 			{
-				"id": "museum-map-tier-14",
-				"text": "古博物館"
+				"id": "overgrown-shrine-map-tier-14",
+				"text": "密草神殿"
 			},
 			{
 				"id": "park-map-tier-14",
@@ -5119,16 +5236,16 @@
 				"text": "怒浪之港"
 			},
 			{
-				"id": "pit-map-tier-14",
-				"text": "巨坑"
-			},
-			{
 				"id": "plateau-map-tier-14",
 				"text": "海風高原"
 			},
 			{
 				"id": "plaza-map-tier-14",
 				"text": "廣場"
+			},
+			{
+				"id": "primordial-blocks-map-tier-14",
+				"text": "血腥陣地"
 			},
 			{
 				"id": "primordial-pool-map-tier-14",
@@ -5151,8 +5268,12 @@
 				"text": "墓影書坊"
 			},
 			{
-				"id": "shipyard-map-tier-14",
-				"text": "熾炎船塢"
+				"id": "shore-map-tier-14",
+				"text": "暮光海灘"
+			},
+			{
+				"id": "siege-map-tier-14",
+				"text": "禁斷圍城"
 			},
 			{
 				"id": "spider-forest-map-tier-14",
@@ -5171,10 +5292,6 @@
 				"text": "硫磺蝕岸"
 			},
 			{
-				"id": "summit-map-tier-14",
-				"text": "寒頂之巔"
-			},
-			{
 				"id": "sunken-city-map-tier-14",
 				"text": "亞特蘭提斯"
 			},
@@ -5183,16 +5300,20 @@
 				"text": "奪魂之殿"
 			},
 			{
-				"id": "terrace-map-tier-14",
-				"text": "露台花園"
-			},
-			{
 				"id": "thicket-map-tier-14",
 				"text": "驚懼樹叢"
 			},
 			{
+				"id": "tower-map-tier-14",
+				"text": "闇獄尖塔"
+			},
+			{
 				"id": "tropical-island-map-tier-14",
 				"text": "晴空幽島"
+			},
+			{
+				"id": "underground-river-map-tier-14",
+				"text": "地底之河"
 			},
 			{
 				"id": "underground-sea-map-tier-14",
@@ -5203,12 +5324,16 @@
 				"text": "瓦爾金字塔"
 			},
 			{
-				"id": "vault-map-tier-14",
-				"text": "魔金寶庫"
-			},
-			{
 				"id": "villa-map-tier-14",
 				"text": "魅影別墅"
+			},
+			{
+				"id": "volcano-map-tier-14",
+				"text": "火山炎域"
+			},
+			{
+				"id": "waste-pool-map-tier-14",
+				"text": "死寂泥溝"
 			},
 			{
 				"id": "wasteland-map-tier-14",
@@ -5229,12 +5354,20 @@
 	{
 		"entries": [
 			{
-				"id": "acid-caverns-map-tier-15",
-				"text": "酸岩酸嶼"
+				"id": "alleyways-map-tier-15",
+				"text": "危城巷弄"
 			},
 			{
-				"id": "arachnid-tomb-map-tier-15",
-				"text": "異蛛墓塚"
+				"id": "ancient-city-map-tier-15",
+				"text": "遠古危城"
+			},
+			{
+				"id": "arcade-map-tier-15",
+				"text": "崩壞長廊"
+			},
+			{
+				"id": "ashen-wood-map-tier-15",
+				"text": "旱木林地"
 			},
 			{
 				"id": "barrows-map-tier-15",
@@ -5253,14 +5386,6 @@
 				"text": "旱地墓室"
 			},
 			{
-				"id": "caldera-map-tier-15",
-				"text": "火山炎口"
-			},
-			{
-				"id": "canyon-map-tier-15",
-				"text": "炙陽峽谷"
-			},
-			{
 				"id": "castle-ruins-map-tier-15",
 				"text": "遺跡廢墟"
 			},
@@ -5273,6 +5398,10 @@
 				"text": "秘密通道"
 			},
 			{
+				"id": "city-square-map-tier-15",
+				"text": "危城廣場"
+			},
+			{
 				"id": "core-map-tier-15",
 				"text": "核心"
 			},
@@ -5281,8 +5410,8 @@
 				"text": "失序教院"
 			},
 			{
-				"id": "courtyard-map-tier-15",
-				"text": "奇術之庭"
+				"id": "crater-map-tier-15",
+				"text": "殘破殞坑"
 			},
 			{
 				"id": "crimson-temple-map-tier-15",
@@ -5293,40 +5422,32 @@
 				"text": "夜語幽林"
 			},
 			{
-				"id": "desert-spring-map-tier-15",
-				"text": "硫磺荒漠"
+				"id": "dunes-map-tier-15",
+				"text": "暮色沙丘"
 			},
 			{
 				"id": "gardens-map-tier-15",
 				"text": "迷宮花園"
 			},
 			{
-				"id": "geode-map-tier-15",
-				"text": "詭譎晶洞"
-			},
-			{
-				"id": "grotto-map-tier-15",
-				"text": "幽暗地穴"
-			},
-			{
-				"id": "iceberg-map-tier-15",
-				"text": "極原冰帽"
+				"id": "ivory-temple-map-tier-15",
+				"text": "象牙神殿"
 			},
 			{
 				"id": "lava-lake-map-tier-15",
 				"text": "岩漿熔湖"
 			},
 			{
-				"id": "leyline-map-tier-15",
-				"text": "荒涼牧野"
-			},
-			{
 				"id": "malformation-map-tier-15",
 				"text": "畸形亡域"
 			},
 			{
-				"id": "necropolis-map-tier-15",
-				"text": "魔影墓場"
+				"id": "marshes-map-tier-15",
+				"text": "惡臭沼地"
+			},
+			{
+				"id": "museum-map-tier-15",
+				"text": "古博物館"
 			},
 			{
 				"id": "orchard-map-tier-15",
@@ -5341,6 +5462,10 @@
 				"text": "神域之殿"
 			},
 			{
+				"id": "pit-map-tier-15",
+				"text": "巨坑"
+			},
+			{
 				"id": "port-map-tier-15",
 				"text": "失落城塢"
 			},
@@ -5349,32 +5474,32 @@
 				"text": "苦行之域"
 			},
 			{
-				"id": "primordial-blocks-map-tier-15",
-				"text": "血腥陣地"
+				"id": "promenade-map-tier-15",
+				"text": "月色迴廊"
 			},
 			{
-				"id": "ramparts-map-tier-15",
-				"text": "濱海堡壘"
+				"id": "reef-map-tier-15",
+				"text": "危機海礁"
 			},
 			{
 				"id": "sepulchre-map-tier-15",
 				"text": "陰暗墓塚"
 			},
 			{
-				"id": "shore-map-tier-15",
-				"text": "暮光海灘"
+				"id": "shipyard-map-tier-15",
+				"text": "熾炎船塢"
 			},
 			{
 				"id": "shrine-map-tier-15",
 				"text": "奇術秘殿"
 			},
 			{
-				"id": "tower-map-tier-15",
-				"text": "闇獄尖塔"
+				"id": "toxic-sewer-map-tier-15",
+				"text": "腐敗下水道"
 			},
 			{
-				"id": "waste-pool-map-tier-15",
-				"text": "死寂泥溝"
+				"id": "vault-map-tier-15",
+				"text": "魔金寶庫"
 			}
 		],
 		"id": "MapsTier15",
@@ -5383,104 +5508,104 @@
 	{
 		"entries": [
 			{
-				"id": "alleyways-map-tier-16",
-				"text": "危城巷弄"
+				"id": "arachnid-tomb-map-tier-16",
+				"text": "異蛛墓塚"
 			},
 			{
-				"id": "arcade-map-tier-16",
-				"text": "崩壞長廊"
-			},
-			{
-				"id": "arena-map-tier-16",
-				"text": "競技場"
-			},
-			{
-				"id": "armoury-map-tier-16",
-				"text": "軍械庫"
+				"id": "atoll-map-tier-16",
+				"text": "濱海山丘"
 			},
 			{
 				"id": "basilica-map-tier-16",
 				"text": "聖殿"
 			},
 			{
-				"id": "belfry-map-tier-16",
-				"text": "雲頂鐘樓"
+				"id": "canyon-map-tier-16",
+				"text": "炙陽峽谷"
 			},
 			{
-				"id": "cage-map-tier-16",
-				"text": "羈破牢籠"
+				"id": "crystal-ore-map-tier-16",
+				"text": "紫晶礦山"
 			},
 			{
-				"id": "chateau-map-tier-16",
-				"text": "古堡"
+				"id": "cursed-crypt-map-tier-16",
+				"text": "惡咒陵墓"
 			},
 			{
-				"id": "colosseum-map-tier-16",
-				"text": "大決鬥場"
+				"id": "geode-map-tier-16",
+				"text": "詭譎晶洞"
 			},
 			{
-				"id": "dig-map-tier-16",
-				"text": "違禁掘坑"
+				"id": "grotto-map-tier-16",
+				"text": "幽暗地穴"
 			},
 			{
-				"id": "dungeon-map-tier-16",
-				"text": "禁魂炎獄"
+				"id": "infested-valley-map-tier-16",
+				"text": "病疫林谷"
 			},
 			{
-				"id": "estuary-map-tier-16",
-				"text": "熔火岩灘"
+				"id": "jungle-valley-map-tier-16",
+				"text": "劇毒林谷"
 			},
 			{
-				"id": "lava-chamber-map-tier-16",
-				"text": "熔岩之室"
+				"id": "laboratory-map-tier-16",
+				"text": "實驗居所"
 			},
 			{
-				"id": "overgrown-shrine-map-tier-16",
-				"text": "密草神殿"
+				"id": "lair-map-tier-16",
+				"text": "餓獸巢穴"
 			},
 			{
-				"id": "park-map-tier-16",
-				"text": "園林苑"
+				"id": "leyline-map-tier-16",
+				"text": "荒涼牧野"
 			},
 			{
-				"id": "phantasmagoria-map-tier-16",
-				"text": "魔靈幻獄"
+				"id": "maze-map-tier-16",
+				"text": "冥神之域"
 			},
 			{
-				"id": "promenade-map-tier-16",
-				"text": "月色迴廊"
+				"id": "necropolis-map-tier-16",
+				"text": "魔影墓場"
 			},
 			{
-				"id": "reef-map-tier-16",
-				"text": "危機海礁"
+				"id": "peninsula-map-tier-16",
+				"text": "乾潮林地"
 			},
 			{
-				"id": "shipyard-map-tier-16",
-				"text": "熾炎船塢"
+				"id": "primordial-pool-map-tier-16",
+				"text": "血腥沼澤"
 			},
 			{
-				"id": "siege-map-tier-16",
-				"text": "禁斷圍城"
+				"id": "ramparts-map-tier-16",
+				"text": "濱海堡壘"
 			},
 			{
-				"id": "thicket-map-tier-16",
-				"text": "驚懼樹叢"
+				"id": "sulphur-vents-map-tier-16",
+				"text": "硫磺蝕岸"
 			},
 			{
-				"id": "toxic-sewer-map-tier-16",
-				"text": "腐敗下水道"
+				"id": "summit-map-tier-16",
+				"text": "寒頂之巔"
 			},
 			{
-				"id": "underground-river-map-tier-16",
-				"text": "地底之河"
+				"id": "sunken-city-map-tier-16",
+				"text": "亞特蘭提斯"
+			},
+			{
+				"id": "terrace-map-tier-16",
+				"text": "露台花園"
+			},
+			{
+				"id": "tropical-island-map-tier-16",
+				"text": "晴空幽島"
 			},
 			{
 				"id": "vaal-temple-map-tier-16",
 				"text": "瓦爾密殿"
 			},
 			{
-				"id": "volcano-map-tier-16",
-				"text": "火山炎域"
+				"id": "waste-pool-map-tier-16",
+				"text": "死寂泥溝"
 			}
 		],
 		"id": "MapsTier16",
@@ -5489,32 +5614,136 @@
 	{
 		"entries": [
 			{
-				"id": "blighted-desert-map",
-				"text": "凋落的 貧瘠之地"
+				"id": "blighted-academy-map",
+				"text": "凋落的 惡靈學院"
 			},
 			{
-				"id": "blighted-glacier-map",
-				"text": "凋落的 冰川山丘"
+				"id": "blighted-acid-caverns-map",
+				"text": "凋落的 酸岩酸嶼"
 			},
 			{
-				"id": "blighted-lookout-map",
-				"text": "凋落的 如履危牆"
+				"id": "blighted-alleyways-map",
+				"text": "凋落的 危城巷弄"
 			},
 			{
-				"id": "blighted-tropical-island-map",
-				"text": "凋落的 晴空幽島"
+				"id": "blighted-ancient-city-map",
+				"text": "凋落的 遠古危城"
+			},
+			{
+				"id": "blighted-arachnid-nest-map",
+				"text": "凋落的 異蛛巢穴"
+			},
+			{
+				"id": "blighted-arachnid-tomb-map",
+				"text": "凋落的 異蛛墓塚"
+			},
+			{
+				"id": "blighted-arcade-map",
+				"text": "凋落的 崩壞長廊"
+			},
+			{
+				"id": "blighted-arena-map",
+				"text": "凋落的 競技場"
+			},
+			{
+				"id": "blighted-arid-lake-map",
+				"text": "凋落的 乾枯湖岸"
+			},
+			{
+				"id": "blighted-armoury-map",
+				"text": "凋落的 軍械庫"
+			},
+			{
+				"id": "blighted-arsenal-map",
+				"text": "凋落的 古兵工廠"
 			},
 			{
 				"id": "blighted-ashen-wood-map",
 				"text": "凋落的 旱木林地"
 			},
 			{
+				"id": "blighted-atoll-map",
+				"text": "凋落的 濱海山丘"
+			},
+			{
+				"id": "blighted-barrows-map",
+				"text": "凋落的 熱林塚墓"
+			},
+			{
+				"id": "blighted-basilica-map",
+				"text": "凋落的 聖殿"
+			},
+			{
+				"id": "blighted-bazaar-map",
+				"text": "凋落的 遠古市集"
+			},
+			{
 				"id": "blighted-beach-map",
 				"text": "凋落的 白沙灘頭"
 			},
 			{
+				"id": "blighted-belfry-map",
+				"text": "凋落的 雲頂鐘樓"
+			},
+			{
+				"id": "blighted-bog-map",
+				"text": "凋落的 瘴氣泥沼"
+			},
+			{
+				"id": "blighted-bone-crypt-map",
+				"text": "凋落的 骨跡陵墓"
+			},
+			{
+				"id": "blighted-burial-chambers-map",
+				"text": "凋落的 旱地墓室"
+			},
+			{
+				"id": "blighted-cage-map",
+				"text": "凋落的 羈破牢籠"
+			},
+			{
+				"id": "blighted-caldera-map",
+				"text": "凋落的 火山炎口"
+			},
+			{
+				"id": "blighted-canyon-map",
+				"text": "凋落的 炙陽峽谷"
+			},
+			{
+				"id": "blighted-carcass-map",
+				"text": "凋落的 惡臭屍域"
+			},
+			{
+				"id": "blighted-castle-ruins-map",
+				"text": "凋落的 遺跡廢墟"
+			},
+			{
+				"id": "blighted-cells-map",
+				"text": "凋落的 幽魂監牢"
+			},
+			{
+				"id": "blighted-cemetery-map",
+				"text": "凋落的 晨曦墓地"
+			},
+			{
+				"id": "blighted-channel-map",
+				"text": "凋落的 秘密通道"
+			},
+			{
+				"id": "blighted-chateau-map",
+				"text": "凋落的 古堡"
+			},
+			{
+				"id": "blighted-city-square-map",
+				"text": "凋落的 危城廣場"
+			},
+			{
 				"id": "blighted-colonnade-map",
 				"text": "凋落的 激戰柱廊"
+			},
+			{
+				"id": "blighted-colosseum-map",
+				"text": "凋落的 大決鬥場"
 			},
 			{
 				"id": "blighted-conservatory-map",
@@ -5525,20 +5754,124 @@
 				"text": "凋落的 破碎堡礁"
 			},
 			{
+				"id": "blighted-core-map",
+				"text": "凋落的 核心"
+			},
+			{
+				"id": "blighted-courthouse-map",
+				"text": "凋落的 失序教院"
+			},
+			{
+				"id": "blighted-courtyard-map",
+				"text": "凋落的 奇術之庭"
+			},
+			{
 				"id": "blighted-coves-map",
 				"text": "凋落的 疾風峽灣"
+			},
+			{
+				"id": "blighted-crater-map",
+				"text": "凋落的 殘破殞坑"
+			},
+			{
+				"id": "blighted-crimson-temple-map",
+				"text": "凋落的 緋紅神殿"
+			},
+			{
+				"id": "blighted-crystal-ore-map",
+				"text": "凋落的 紫晶礦山"
 			},
 			{
 				"id": "blighted-cursed-crypt-map",
 				"text": "凋落的 惡咒陵墓"
 			},
 			{
+				"id": "blighted-dark-forest-map",
+				"text": "凋落的 夜語幽林"
+			},
+			{
+				"id": "blighted-defiled-cathedral-map",
+				"text": "凋落的 不潔教堂"
+			},
+			{
+				"id": "blighted-desert-map",
+				"text": "凋落的 貧瘠之地"
+			},
+			{
+				"id": "blighted-desert-spring-map",
+				"text": "凋落的 硫磺荒漠"
+			},
+			{
+				"id": "blighted-dig-map",
+				"text": "凋落的 違禁掘坑"
+			},
+			{
+				"id": "blighted-dunes-map",
+				"text": "凋落的 暮色沙丘"
+			},
+			{
+				"id": "blighted-dungeon-map",
+				"text": "凋落的 禁魂炎獄"
+			},
+			{
+				"id": "blighted-estuary-map",
+				"text": "凋落的 熔火岩灘"
+			},
+			{
+				"id": "blighted-excavation-map",
+				"text": "凋落的 挖掘場"
+			},
+			{
+				"id": "blighted-factory-map",
+				"text": "凋落的 鐵鏽工廠"
+			},
+			{
 				"id": "blighted-fields-map",
 				"text": "凋落的 無疆田野"
 			},
 			{
+				"id": "blighted-flooded-mine-map",
+				"text": "凋落的 洪災礦坑"
+			},
+			{
+				"id": "blighted-fungal-hollow-map",
+				"text": "凋落的 毒菌魔域"
+			},
+			{
+				"id": "blighted-gardens-map",
+				"text": "凋落的 迷宮花園"
+			},
+			{
+				"id": "blighted-geode-map",
+				"text": "凋落的 詭譎晶洞"
+			},
+			{
+				"id": "blighted-ghetto-map",
+				"text": "凋落的 赤貧居所"
+			},
+			{
+				"id": "blighted-glacier-map",
+				"text": "凋落的 冰川山丘"
+			},
+			{
+				"id": "blighted-graveyard-map",
+				"text": "凋落的 墮影墓場"
+			},
+			{
+				"id": "blighted-grotto-map",
+				"text": "凋落的 幽暗地穴"
+			},
+			{
 				"id": "blighted-haunted-mansion-map",
 				"text": "凋落的 幽魂宅邸"
+			},
+			{
+				"id": "blighted-iceberg-map",
+				"text": "凋落的 極原冰帽"
+			},
+			{
+				"id": "blighted-infested-valley-map",
+				"text": "凋落的 病疫林谷"
 			},
 			{
 				"id": "blighted-ivory-temple-map",
@@ -5549,88 +5882,56 @@
 				"text": "凋落的 劇毒林谷"
 			},
 			{
+				"id": "blighted-laboratory-map",
+				"text": "凋落的 實驗居所"
+			},
+			{
+				"id": "blighted-lair-map",
+				"text": "凋落的 餓獸巢穴"
+			},
+			{
+				"id": "blighted-lava-chamber-map",
+				"text": "凋落的 熔岩之室"
+			},
+			{
+				"id": "blighted-lava-lake-map",
+				"text": "凋落的 岩漿熔湖"
+			},
+			{
+				"id": "blighted-leyline-map",
+				"text": "凋落的 荒涼牧野"
+			},
+			{
+				"id": "blighted-lighthouse-map",
+				"text": "凋落的 絕望燈塔"
+			},
+			{
+				"id": "blighted-lookout-map",
+				"text": "凋落的 如履危牆"
+			},
+			{
+				"id": "blighted-malformation-map",
+				"text": "凋落的 畸形亡域"
+			},
+			{
+				"id": "blighted-marshes-map",
+				"text": "凋落的 惡臭沼地"
+			},
+			{
 				"id": "blighted-mausoleum-map",
 				"text": "凋落的 靜縊陵墓"
 			},
 			{
-				"id": "blighted-pier-map",
-				"text": "凋落的 怒浪之港"
-			},
-			{
-				"id": "blighted-strand-map",
-				"text": "凋落的 致命岩灘"
-			},
-			{
-				"id": "blighted-sulphur-vents-map",
-				"text": "凋落的 硫磺蝕岸"
-			},
-			{
-				"id": "blighted-summit-map",
-				"text": "凋落的 寒頂之巔"
-			},
-			{
-				"id": "blighted-underground-sea-map",
-				"text": "凋落的 濱海幽穴"
-			},
-			{
-				"id": "blighted-villa-map",
-				"text": "凋落的 魅影別墅"
-			},
-			{
-				"id": "blighted-wasteland-map",
-				"text": "凋落的 荒地"
-			},
-			{
-				"id": "blighted-waterways-map",
-				"text": "凋落的 危機水道"
-			},
-			{
-				"id": "blighted-ancient-city-map",
-				"text": "凋落的 遠古危城"
-			},
-			{
-				"id": "blighted-arsenal-map",
-				"text": "凋落的 古兵工廠"
-			},
-			{
-				"id": "blighted-bazaar-map",
-				"text": "凋落的 遠古市集"
-			},
-			{
-				"id": "blighted-bog-map",
-				"text": "凋落的 瘴氣泥沼"
-			},
-			{
-				"id": "blighted-cemetery-map",
-				"text": "凋落的 晨曦墓地"
-			},
-			{
-				"id": "blighted-crystal-ore-map",
-				"text": "凋落的 紫晶礦山"
-			},
-			{
-				"id": "blighted-dunes-map",
-				"text": "凋落的 暮色沙丘"
-			},
-			{
-				"id": "blighted-gardens-map",
-				"text": "凋落的 迷宮花園"
-			},
-			{
-				"id": "blighted-ghetto-map",
-				"text": "凋落的 赤貧居所"
-			},
-			{
-				"id": "blighted-graveyard-map",
-				"text": "凋落的 墮影墓場"
-			},
-			{
-				"id": "blighted-infested-valley-map",
-				"text": "凋落的 病疫林谷"
+				"id": "blighted-maze-map",
+				"text": "凋落的 冥神之域"
 			},
 			{
 				"id": "blighted-mesa-map",
 				"text": "凋落的 平頂荒漠"
+			},
+			{
+				"id": "blighted-mineral-pools-map",
+				"text": "凋落的 濕地礦山"
 			},
 			{
 				"id": "blighted-moon-temple-map",
@@ -5645,20 +5946,76 @@
 				"text": "凋落的 古博物館"
 			},
 			{
+				"id": "blighted-necropolis-map",
+				"text": "凋落的 魔影墓場"
+			},
+			{
 				"id": "blighted-orchard-map",
 				"text": "凋落的 密林果園"
+			},
+			{
+				"id": "blighted-overgrown-ruin-map",
+				"text": "凋落的 長草遺跡"
+			},
+			{
+				"id": "blighted-overgrown-shrine-map",
+				"text": "凋落的 密草神殿"
+			},
+			{
+				"id": "blighted-palace-map",
+				"text": "凋落的 神域之殿"
+			},
+			{
+				"id": "blighted-park-map",
+				"text": "凋落的 園林苑"
 			},
 			{
 				"id": "blighted-pen-map",
 				"text": "凋落的 穢陰獄牢"
 			},
 			{
+				"id": "blighted-peninsula-map",
+				"text": "凋落的 乾潮林地"
+			},
+			{
+				"id": "blighted-phantasmagoria-map",
+				"text": "凋落的 魔靈幻獄"
+			},
+			{
+				"id": "blighted-pier-map",
+				"text": "凋落的 怒浪之港"
+			},
+			{
+				"id": "blighted-pit-map",
+				"text": "凋落的 巨坑"
+			},
+			{
 				"id": "blighted-plateau-map",
 				"text": "凋落的 海風高原"
 			},
 			{
+				"id": "blighted-plaza-map",
+				"text": "凋落的 廣場"
+			},
+			{
+				"id": "blighted-port-map",
+				"text": "凋落的 失落城塢"
+			},
+			{
+				"id": "blighted-precinct-map",
+				"text": "凋落的 苦行之域"
+			},
+			{
+				"id": "blighted-primordial-blocks-map",
+				"text": "凋落的 血腥陣地"
+			},
+			{
 				"id": "blighted-primordial-pool-map",
 				"text": "凋落的 血腥沼澤"
+			},
+			{
+				"id": "blighted-promenade-map",
+				"text": "凋落的 月色迴廊"
 			},
 			{
 				"id": "blighted-racecourse-map",
@@ -5667,6 +6024,62 @@
 			{
 				"id": "blighted-ramparts-map",
 				"text": "凋落的 濱海堡壘"
+			},
+			{
+				"id": "blighted-reef-map",
+				"text": "凋落的 危機海礁"
+			},
+			{
+				"id": "blighted-relic-chambers-map",
+				"text": "凋落的 古典密室"
+			},
+			{
+				"id": "blighted-residence-map",
+				"text": "凋落的 神主居所"
+			},
+			{
+				"id": "blighted-scriptorium-map",
+				"text": "凋落的 墓影書坊"
+			},
+			{
+				"id": "blighted-sepulchre-map",
+				"text": "凋落的 陰暗墓塚"
+			},
+			{
+				"id": "blighted-shipyard-map",
+				"text": "凋落的 熾炎船塢"
+			},
+			{
+				"id": "blighted-shore-map",
+				"text": "凋落的 暮光海灘"
+			},
+			{
+				"id": "blighted-shrine-map",
+				"text": "凋落的 奇術秘殿"
+			},
+			{
+				"id": "blighted-siege-map",
+				"text": "凋落的 禁斷圍城"
+			},
+			{
+				"id": "blighted-spider-forest-map",
+				"text": "凋落的 巨蛛之林"
+			},
+			{
+				"id": "blighted-spider-lair-map",
+				"text": "凋落的 巨蛛巢穴"
+			},
+			{
+				"id": "blighted-strand-map",
+				"text": "凋落的 致命岩灘"
+			},
+			{
+				"id": "blighted-sulphur-vents-map",
+				"text": "凋落的 硫磺蝕岸"
+			},
+			{
+				"id": "blighted-summit-map",
+				"text": "凋落的 寒頂之巔"
 			},
 			{
 				"id": "blighted-sunken-city-map",
@@ -5681,348 +6094,64 @@
 				"text": "凋落的 露台花園"
 			},
 			{
-				"id": "blighted-toxic-sewer-map",
-				"text": "凋落的 腐敗下水道"
-			},
-			{
-				"id": "blighted-vaal-pyramid-map",
-				"text": "凋落的 瓦爾金字塔"
-			},
-			{
-				"id": "blighted-vault-map",
-				"text": "凋落的 魔金寶庫"
-			},
-			{
-				"id": "blighted-waste-pool-map",
-				"text": "凋落的 死寂泥溝"
-			},
-			{
-				"id": "blighted-academy-map",
-				"text": "凋落的 惡靈學院"
-			},
-			{
-				"id": "blighted-arachnid-tomb-map",
-				"text": "凋落的 異蛛墓塚"
-			},
-			{
-				"id": "blighted-arena-map",
-				"text": "凋落的 競技場"
-			},
-			{
-				"id": "blighted-bone-crypt-map",
-				"text": "凋落的 骨跡陵墓"
-			},
-			{
-				"id": "blighted-caldera-map",
-				"text": "凋落的 火山炎口"
-			},
-			{
-				"id": "blighted-channel-map",
-				"text": "凋落的 秘密通道"
-			},
-			{
-				"id": "blighted-courthouse-map",
-				"text": "凋落的 失序教院"
-			},
-			{
-				"id": "blighted-courtyard-map",
-				"text": "凋落的 奇術之庭"
-			},
-			{
-				"id": "blighted-dark-forest-map",
-				"text": "凋落的 夜語幽林"
-			},
-			{
-				"id": "blighted-defiled-cathedral-map",
-				"text": "凋落的 不潔教堂"
-			},
-			{
-				"id": "blighted-desert-spring-map",
-				"text": "凋落的 硫磺荒漠"
-			},
-			{
-				"id": "blighted-excavation-map",
-				"text": "凋落的 挖掘場"
-			},
-			{
-				"id": "blighted-grotto-map",
-				"text": "凋落的 幽暗地穴"
-			},
-			{
-				"id": "blighted-lair-map",
-				"text": "凋落的 餓獸巢穴"
-			},
-			{
-				"id": "blighted-lava-chamber-map",
-				"text": "凋落的 熔岩之室"
-			},
-			{
-				"id": "blighted-park-map",
-				"text": "凋落的 園林苑"
-			},
-			{
-				"id": "blighted-peninsula-map",
-				"text": "凋落的 乾潮林地"
-			},
-			{
-				"id": "blighted-shore-map",
-				"text": "凋落的 暮光海灘"
-			},
-			{
-				"id": "blighted-volcano-map",
-				"text": "凋落的 火山炎域"
-			},
-			{
-				"id": "blighted-arid-lake-map",
-				"text": "凋落的 乾枯湖岸"
-			},
-			{
-				"id": "blighted-atoll-map",
-				"text": "凋落的 濱海山丘"
-			},
-			{
-				"id": "blighted-basilica-map",
-				"text": "凋落的 聖殿"
-			},
-			{
-				"id": "blighted-belfry-map",
-				"text": "凋落的 雲頂鐘樓"
-			},
-			{
-				"id": "blighted-castle-ruins-map",
-				"text": "凋落的 遺跡廢墟"
-			},
-			{
-				"id": "blighted-chateau-map",
-				"text": "凋落的 古堡"
-			},
-			{
-				"id": "blighted-dig-map",
-				"text": "凋落的 違禁掘坑"
-			},
-			{
-				"id": "blighted-leyline-map",
-				"text": "凋落的 荒涼牧野"
-			},
-			{
-				"id": "blighted-marshes-map",
-				"text": "凋落的 惡臭沼地"
-			},
-			{
-				"id": "blighted-port-map",
-				"text": "凋落的 失落城塢"
-			},
-			{
-				"id": "blighted-scriptorium-map",
-				"text": "凋落的 墓影書坊"
-			},
-			{
-				"id": "blighted-wharf-map",
-				"text": "凋落的 毒牙海港"
-			},
-			{
-				"id": "blighted-plaza-map",
-				"text": "凋落的 廣場"
-			},
-			{
-				"id": "blighted-sepulchre-map",
-				"text": "凋落的 陰暗墓塚"
-			},
-			{
-				"id": "blighted-canyon-map",
-				"text": "凋落的 炙陽峽谷"
-			},
-			{
-				"id": "blighted-lighthouse-map",
-				"text": "凋落的 絕望燈塔"
-			},
-			{
-				"id": "blighted-malformation-map",
-				"text": "凋落的 畸形亡域"
-			},
-			{
-				"id": "blighted-primordial-blocks-map",
-				"text": "凋落的 血腥陣地"
-			},
-			{
-				"id": "blighted-arcade-map",
-				"text": "凋落的 崩壞長廊"
-			},
-			{
-				"id": "blighted-factory-map",
-				"text": "凋落的 鐵鏽工廠"
-			},
-			{
-				"id": "blighted-maze-map",
-				"text": "凋落的 冥神之域"
-			},
-			{
-				"id": "blighted-pit-map",
-				"text": "凋落的 巨坑"
-			},
-			{
-				"id": "blighted-relic-chambers-map",
-				"text": "凋落的 古典密室"
-			},
-			{
-				"id": "blighted-shipyard-map",
-				"text": "凋落的 熾炎船塢"
-			},
-			{
-				"id": "blighted-shrine-map",
-				"text": "凋落的 奇術秘殿"
-			},
-			{
-				"id": "blighted-cells-map",
-				"text": "凋落的 幽魂監牢"
-			},
-			{
-				"id": "blighted-mineral-pools-map",
-				"text": "凋落的 濕地礦山"
-			},
-			{
-				"id": "blighted-precinct-map",
-				"text": "凋落的 苦行之域"
-			},
-			{
-				"id": "blighted-barrows-map",
-				"text": "凋落的 熱林塚墓"
-			},
-			{
-				"id": "blighted-city-square-map",
-				"text": "凋落的 危城廣場"
-			},
-			{
-				"id": "blighted-core-map",
-				"text": "凋落的 核心"
-			},
-			{
-				"id": "blighted-crimson-temple-map",
-				"text": "凋落的 緋紅神殿"
-			},
-			{
-				"id": "blighted-flooded-mine-map",
-				"text": "凋落的 洪災礦坑"
-			},
-			{
-				"id": "blighted-crater-map",
-				"text": "凋落的 殘破殞坑"
-			},
-			{
-				"id": "blighted-arachnid-nest-map",
-				"text": "凋落的 異蛛巢穴"
-			},
-			{
-				"id": "blighted-armoury-map",
-				"text": "凋落的 軍械庫"
-			},
-			{
-				"id": "blighted-dungeon-map",
-				"text": "凋落的 禁魂炎獄"
-			},
-			{
-				"id": "blighted-spider-forest-map",
-				"text": "凋落的 巨蛛之林"
-			},
-			{
-				"id": "blighted-geode-map",
-				"text": "凋落的 詭譎晶洞"
-			},
-			{
-				"id": "blighted-overgrown-shrine-map",
-				"text": "凋落的 密草神殿"
-			},
-			{
-				"id": "blighted-siege-map",
-				"text": "凋落的 禁斷圍城"
-			},
-			{
-				"id": "blighted-underground-river-map",
-				"text": "凋落的 地底之河"
-			},
-			{
-				"id": "blighted-alleyways-map",
-				"text": "凋落的 危城巷弄"
-			},
-			{
-				"id": "blighted-carcass-map",
-				"text": "凋落的 惡臭屍域"
-			},
-			{
-				"id": "blighted-colosseum-map",
-				"text": "凋落的 大決鬥場"
-			},
-			{
-				"id": "blighted-estuary-map",
-				"text": "凋落的 熔火岩灘"
-			},
-			{
-				"id": "blighted-laboratory-map",
-				"text": "凋落的 實驗居所"
-			},
-			{
-				"id": "blighted-phantasmagoria-map",
-				"text": "凋落的 魔靈幻獄"
-			},
-			{
-				"id": "blighted-residence-map",
-				"text": "凋落的 神主居所"
-			},
-			{
-				"id": "blighted-spider-lair-map",
-				"text": "凋落的 巨蛛巢穴"
-			},
-			{
-				"id": "blighted-fungal-hollow-map",
-				"text": "凋落的 毒菌魔域"
-			},
-			{
 				"id": "blighted-thicket-map",
 				"text": "凋落的 驚懼樹叢"
-			},
-			{
-				"id": "blighted-acid-caverns-map",
-				"text": "凋落的 酸岩酸嶼"
-			},
-			{
-				"id": "blighted-burial-chambers-map",
-				"text": "凋落的 旱地墓室"
-			},
-			{
-				"id": "blighted-iceberg-map",
-				"text": "凋落的 極原冰帽"
-			},
-			{
-				"id": "blighted-lava-lake-map",
-				"text": "凋落的 岩漿熔湖"
-			},
-			{
-				"id": "blighted-necropolis-map",
-				"text": "凋落的 魔影墓場"
-			},
-			{
-				"id": "blighted-overgrown-ruin-map",
-				"text": "凋落的 長草遺跡"
-			},
-			{
-				"id": "blighted-palace-map",
-				"text": "凋落的 神域之殿"
 			},
 			{
 				"id": "blighted-tower-map",
 				"text": "凋落的 闇獄尖塔"
 			},
 			{
-				"id": "blighted-cage-map",
-				"text": "凋落的 羈破牢籠"
+				"id": "blighted-toxic-sewer-map",
+				"text": "凋落的 腐敗下水道"
 			},
 			{
-				"id": "blighted-promenade-map",
-				"text": "凋落的 月色迴廊"
+				"id": "blighted-tropical-island-map",
+				"text": "凋落的 晴空幽島"
 			},
 			{
-				"id": "blighted-reef-map",
-				"text": "凋落的 危機海礁"
+				"id": "blighted-underground-river-map",
+				"text": "凋落的 地底之河"
+			},
+			{
+				"id": "blighted-underground-sea-map",
+				"text": "凋落的 濱海幽穴"
+			},
+			{
+				"id": "blighted-vaal-pyramid-map",
+				"text": "凋落的 瓦爾金字塔"
+			},
+			{
+				"id": "blighted-vaal-temple-map",
+				"text": "凋落的 瓦爾密殿"
+			},
+			{
+				"id": "blighted-vault-map",
+				"text": "凋落的 魔金寶庫"
+			},
+			{
+				"id": "blighted-villa-map",
+				"text": "凋落的 魅影別墅"
+			},
+			{
+				"id": "blighted-volcano-map",
+				"text": "凋落的 火山炎域"
+			},
+			{
+				"id": "blighted-waste-pool-map",
+				"text": "凋落的 死寂泥溝"
+			},
+			{
+				"id": "blighted-wasteland-map",
+				"text": "凋落的 荒地"
+			},
+			{
+				"id": "blighted-waterways-map",
+				"text": "凋落的 危機水道"
+			},
+			{
+				"id": "blighted-wharf-map",
+				"text": "凋落的 毒牙海港"
 			}
 		],
 		"id": "MapsBlighted",

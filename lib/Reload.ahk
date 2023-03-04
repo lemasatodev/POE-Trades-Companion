@@ -8,6 +8,7 @@
 }
 
 ReloadWithParams(params, getCurrentParams=False, asAdmin=False) {
+	global PROGRAM
 	if (getCurrentParams) {
 		params .= " " Get_CmdLineParameters()
 	}

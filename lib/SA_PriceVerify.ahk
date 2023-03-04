@@ -247,6 +247,7 @@ VerifyItemPrice(cmdLineParams) {
 #Include Logs.ahk
 #Include GGG_API.ahk
 #Include PoeTrade.ahk
+#Include WindowsSettings.ahk
 
 #Include %A_ScriptDir%/third-party
 #Include cURL.ahk

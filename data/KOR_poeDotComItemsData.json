@@ -53,6 +53,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "안의 비통(Arn's Anguish)",
+				"text": "안의 비통(Arn's Anguish) 헝겊 허리띠",
+				"type": "헝겊 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "육체로부터의 해방(Ascent From Flesh)",
 				"text": "육체로부터의 해방(Ascent From Flesh) 사슬 허리띠",
 				"type": "사슬 허리띠"
@@ -181,6 +189,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "검은화염(Blackflame)",
+				"text": "검은화염(Blackflame) 자수정 반지",
+				"type": "자수정 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "검은 심장(Blackheart)",
 				"text": "검은 심장(Blackheart) 철제 반지",
 				"type": "철제 반지"
@@ -248,6 +264,14 @@
 				"name": "학살 심장(Carnage Heart)",
 				"text": "학살 심장(Carnage Heart) 오닉스 목걸이",
 				"type": "오닉스 목걸이"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "해방의 사슬(Chains of Emancipation)",
+				"text": "해방의 사슬(Chains of Emancipation) 사슬 허리띠",
+				"type": "사슬 허리띠"
 			},
 			{
 				"flags": {
@@ -461,6 +485,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "예견된 최후(Fated End)",
+				"text": "예견된 최후(Fated End) 파우아 반지",
+				"type": "파우아 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "연회의 속박(Feastbind)",
 				"text": "연회의 속박(Feastbind) 소박한 띠",
 				"type": "소박한 띠"
@@ -496,6 +528,14 @@
 				"name": "폭식(Gluttony)",
 				"text": "폭식(Gluttony) 가죽 허리띠",
 				"type": "가죽 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "그레이븐의 비밀(Graven's Secret)",
+				"text": "그레이븐의 비밀(Graven's Secret) 헝겊 허리띠",
+				"type": "헝겊 허리띠"
 			},
 			{
 				"flags": {
@@ -608,6 +648,14 @@
 				"name": "키카자루(Kikazaru)",
 				"text": "키카자루(Kikazaru) 토파즈 반지",
 				"type": "토파즈 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "통솔력의 가치(Leadership's Price)",
+				"text": "통솔력의 가치(Leadership's Price) 오닉스 목걸이",
+				"type": "오닉스 목걸이"
 			},
 			{
 				"flags": {
@@ -765,6 +813,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "올레샤의 기쁨(Olesya's Delight)",
+				"text": "올레샤의 기쁨(Olesya's Delight) 헝겊 허리띠",
+				"type": "헝겊 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "페란두스 문장(Perandus Blazon)",
 				"text": "페란두스 문장(Perandus Blazon) 헝겊 허리띠",
 				"type": "헝겊 허리띠"
@@ -901,6 +957,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "화염격 걸쇠(Pyroshock Clasp)",
+				"text": "화염격 걸쇠(Pyroshock Clasp) 가죽 허리띠",
+				"type": "가죽 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "라시칼도어의 인내(Rashkaldor's Patience)",
 				"text": "라시칼도어의 인내(Rashkaldor's Patience) 비취 목걸이",
 				"type": "비취 목걸이"
@@ -912,6 +976,118 @@
 				"name": "적검단 가락지(Redblade Band)",
 				"text": "적검단 가락지(Redblade Band) 무보석 반지",
 				"type": "무보석 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "앗지리의 결점(Atziri's Foible) 모조품",
+				"text": "앗지리의 결점(Atziri's Foible) 모조품 파우아 목걸이",
+				"type": "파우아 목걸이"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "약해진 숨결(Bated Breath) 모조품",
+				"text": "약해진 숨결(Bated Breath) 모조품 사슬 허리띠",
+				"type": "사슬 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "도이드리의 파멸(Doedre's Damning) 모조품",
+				"text": "도이드리의 파멸(Doedre's Damning) 모조품 파우아 반지",
+				"type": "파우아 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "잉걸불 지피기(Emberwake) 모조품",
+				"text": "잉걸불 지피기(Emberwake) 모조품 루비 반지",
+				"type": "루비 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "헤드헌터(Headhunter) 모조품",
+				"text": "헤드헌터(Headhunter) 모조품 가죽 허리띠",
+				"type": "가죽 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "하이리의 진리(Hyrri's Truth) 모조품",
+				"text": "하이리의 진리(Hyrri's Truth) 모조품 비취 목걸이",
+				"type": "비취 목걸이"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "카루이의 수호(Karui Ward) 모조품",
+				"text": "카루이의 수호(Karui Ward) 모조품 비취 목걸이",
+				"type": "비취 목걸이"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "말라카이의 책략(Malachai's Artifice) 모조품",
+				"text": "말라카이의 책략(Malachai's Artifice) 모조품 무보석 반지",
+				"type": "무보석 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "빛의 매듭(Prismweave) 모조품",
+				"text": "빛의 매듭(Prismweave) 모조품 소박한 띠",
+				"type": "소박한 띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "공성분쇄기(Siegebreaker) 모조품",
+				"text": "공성분쇄기(Siegebreaker) 모조품 무거운 허리띠",
+				"type": "무거운 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "영혼 올가미(Soul Tether) 모조품",
+				"text": "영혼 올가미(Soul Tether) 모조품 헝겊 허리띠",
+				"type": "헝겊 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "타살리오의 표식(Tasalio's Sign) 모조품",
+				"text": "타살리오의 표식(Tasalio's Sign) 모조품 사파이어 반지",
+				"type": "사파이어 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "공허의 눈(Voideye) 모조품",
+				"text": "공허의 눈(Voideye) 모조품 무보석 반지",
+				"type": "무보석 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "겨울심장(Winterheart) 모조품",
+				"text": "겨울심장(Winterheart) 모조품 황금 목걸이",
+				"type": "황금 목걸이"
 			},
 			{
 				"flags": {
@@ -944,6 +1120,14 @@
 				"name": "로미라의 연회(Romira's Banquet)",
 				"text": "로미라의 연회(Romira's Banquet) 다이아몬드 반지",
 				"type": "다이아몬드 반지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "부식혈의 약속(Rotblood Promise)",
+				"text": "부식혈의 약속(Rotblood Promise) 무보석 반지",
+				"type": "무보석 반지"
 			},
 			{
 				"flags": {
@@ -1085,6 +1269,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "생존자의 죄책감(Survivor's Guilt)",
+				"text": "생존자의 죄책감(Survivor's Guilt) 무거운 허리띠",
+				"type": "무거운 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "승리자의 부적(Talisman of the Victor)",
 				"text": "승리자의 부적(Talisman of the Victor) 흑옥 목걸이",
 				"type": "흑옥 목걸이"
@@ -1141,9 +1333,25 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "약품(The Druggery)",
+				"text": "약품(The Druggery) 헝겊 허리띠",
+				"type": "헝겊 허리띠"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "에피곤(The Effigon)",
 				"text": "에피곤(The Effigon) 황금 목걸이",
 				"type": "황금 목걸이"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "덧없는 유대(The Ephemeral Bond)",
+				"text": "덧없는 유대(The Ephemeral Bond) 청금석 목걸이",
+				"type": "청금석 목걸이"
 			},
 			{
 				"flags": {
@@ -1168,6 +1376,14 @@
 				"name": "평온(The Halcyon)",
 				"text": "평온(The Halcyon) 비취 목걸이",
 				"type": "비취 목걸이"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "노상강도(The Highwayman)",
+				"text": "노상강도(The Highwayman) 황금 반지",
+				"type": "황금 반지"
 			},
 			{
 				"flags": {
@@ -1554,6 +1770,14 @@
 				"type": "마노 목걸이"
 			},
 			{
+				"text": "관측기 목걸이",
+				"type": "관측기 목걸이"
+			},
+			{
+				"text": "평범한 목걸이",
+				"type": "평범한 목걸이"
+			},
+			{
 				"text": "검은 턱 부적",
 				"type": "검은 턱 부적"
 			},
@@ -1706,6 +1930,14 @@
 				"type": "황금 오비"
 			},
 			{
+				"text": "섬세한 주조자 허리띠",
+				"type": "섬세한 주조자 허리띠"
+			},
+			{
+				"text": "기계 경보 허리띠",
+				"type": "기계 경보 허리띠"
+			},
+			{
 				"text": "균열 반지",
 				"type": "균열 반지"
 			},
@@ -1780,6 +2012,18 @@
 			{
 				"text": "황금 고리",
 				"type": "황금 고리"
+			},
+			{
+				"text": "톱니장치 반지",
+				"type": "톱니장치 반지"
+			},
+			{
+				"text": "정동석 반지",
+				"type": "정동석 반지"
+			},
+			{
+				"text": "도둑 장신구",
+				"type": "도둑 장신구"
 			}
 		],
 		"label": "장신구"
@@ -1873,6 +2117,14 @@
 				"name": "앰부의 돌진(Ambu's Charge)",
 				"text": "앰부의 돌진(Ambu's Charge) 십자군 사슬 갑옷",
 				"type": "십자군 사슬 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "고대 해골(Ancient Skull)",
+				"text": "고대 해골(Ancient Skull) 뼈 투구",
+				"type": "뼈 투구"
 			},
 			{
 				"flags": {
@@ -2070,6 +2322,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "블런더보어(Blunderbore)",
+				"text": "블런더보어(Blunderbore) 우주의 판금 갑옷",
+				"type": "우주의 판금 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "울러의 뼈(Bones of Ullr)",
 				"text": "울러의 뼈(Bones of Ullr) 실크 슬리퍼",
 				"type": "실크 슬리퍼"
@@ -2230,6 +2490,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "시체 보행자(Corpsewalker)",
+				"text": "시체 보행자(Corpsewalker) 육욕의 장화",
+				"type": "육욕의 장화"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "코스프리의 의지(Cospri's Will)",
 				"text": "코스프리의 의지(Cospri's Will) 암살자의 의복",
 				"type": "암살자의 의복"
@@ -2305,6 +2573,14 @@
 				"name": "크라칸의 발자국(Craiceann's Tracks)",
 				"text": "크라칸의 발자국(Craiceann's Tracks) 거인 각반",
 				"type": "거인 각반"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "갈망의 문양(Crest of Desire)",
+				"text": "갈망의 문양(Crest of Desire) 홈이 긴 배서닛",
+				"type": "홈이 긴 배서닛"
 			},
 			{
 				"flags": {
@@ -2566,6 +2842,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "도플갱어 위장(Doppelgänger Guise)",
+				"text": "도플갱어 위장(Doppelgänger Guise) 가학자 의복",
+				"type": "가학자 의복"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "도리아니의 기만(Doryani's Delusion)",
 				"text": "도리아니의 기만(Doryani's Delusion) 송아지 가죽 장화",
 				"type": "송아지 가죽 장화"
@@ -2681,6 +2965,14 @@
 				"name": "에쉬의 얼굴(Esh's Visage)",
 				"text": "에쉬의 얼굴(Esh's Visage) 바알 영혼 방패",
 				"type": "바알 영혼 방패"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "탐험의 끝(Expedition's End)",
+				"text": "탐험의 끝(Expedition's End) 파수꾼 재킷",
+				"type": "파수꾼 재킷"
 			},
 			{
 				"flags": {
@@ -2809,6 +3101,14 @@
 				"name": "살점조각사(Fleshcrafter)",
 				"text": "살점조각사(Fleshcrafter) 네크로맨서 실크 갑옷",
 				"type": "네크로맨서 실크 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "천둥의 샘(Font of Thunder)",
+				"text": "천둥의 샘(Font of Thunder) 거울 같은 가시 방패",
+				"type": "거울 같은 가시 방패"
 			},
 			{
 				"flags": {
@@ -3014,6 +3314,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "열렬한 자의 손(Hand of the Fervent)",
+				"text": "열렬한 자의 손(Hand of the Fervent) 맹신자 장갑",
+				"type": "맹신자 장갑"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "고위 템플러의 손(Hands of the High Templar)",
 				"text": "고위 템플러의 손(Hands of the High Templar) 십자군 장갑",
 				"type": "십자군 장갑"
@@ -3063,8 +3371,8 @@
 					"unique": 1
 				},
 				"name": "흐림노르의 결의(Hrimnor's Resolve)",
-				"text": "흐림노르의 결의(Hrimnor's Resolve) 금실 투구",
-				"type": "금실 투구"
+				"text": "흐림노르의 결의(Hrimnor's Resolve) 삼니움 투구",
+				"type": "삼니움 투구"
 			},
 			{
 				"flags": {
@@ -3257,6 +3565,14 @@
 				"name": "음흉한 시선(Leer Cast)",
 				"text": "음흉한 시선(Leer Cast) 축제용 가면",
 				"type": "축제용 가면"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "광분의 유산(Legacy of Fury)",
+				"text": "광분의 유산(Legacy of Fury) 아룡 비늘 장화",
+				"type": "아룡 비늘 장화"
 			},
 			{
 				"flags": {
@@ -3510,6 +3826,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "말썽의 나락(Maw of Mischief)",
+				"text": "말썽의 나락(Maw of Mischief) 뼈 투구",
+				"type": "뼈 투구"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "메기노드의 조임쇠(Meginord's Vise)",
 				"text": "메기노드의 조임쇠(Meginord's Vise) 강철 건틀릿",
 				"type": "강철 건틀릿"
@@ -3521,6 +3845,14 @@
 				"name": "기억의 금고(Memory Vault)",
 				"text": "기억의 금고(Memory Vault) 집정관 왕관",
 				"type": "집정관 왕관"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "용병의 운명(Mercenary's Lot)",
+				"text": "용병의 운명(Mercenary's Lot) 송아지 가죽 장갑",
+				"type": "송아지 가죽 장갑"
 			},
 			{
 				"flags": {
@@ -3670,6 +4002,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "쿼트라의 제어기(Qotra's Regulator)",
+				"text": "쿼트라의 제어기(Qotra's Regulator) 주권자 가시 방패",
+				"type": "주권자 가시 방패"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "숲의 여왕(Queen of the Forest)",
 				"text": "숲의 여왕(Queen of the Forest) 운명의 가죽 갑옷",
 				"type": "운명의 가죽 갑옷"
@@ -3742,9 +4082,265 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "제국의 유물(Remnant of Empires)",
+				"text": "제국의 유물(Remnant of Empires) 염소 가죽 버클러",
+				"type": "염소 가죽 버클러"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "참회(Repentance)",
 				"text": "참회(Repentance) 십자군 장갑",
 				"type": "십자군 장갑"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "깊은 심연(Abyssus) 모조품",
+				"text": "깊은 심연(Abyssus) 모조품 에조미어 기병 투구",
+				"type": "에조미어 기병 투구"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "알베른의 적대(Alberon's Warpath) 모조품",
+				"text": "알베른의 적대(Alberon's Warpath) 모조품 병사 장화",
+				"type": "병사 장화"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "생존 경쟁(Allelopathy) 모조품",
+				"text": "생존 경쟁(Allelopathy) 모조품 악령술사 장갑",
+				"type": "악령술사 장갑"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "우두머리의 울부짖음(Alpha's Howl) 모조품",
+				"text": "우두머리의 울부짖음(Alpha's Howl) 모조품 죄인 삼각모",
+				"type": "죄인 삼각모"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "앰부의 돌진(Ambu's Charge) 모조품",
+				"text": "앰부의 돌진(Ambu's Charge) 모조품 십자군 사슬 갑옷",
+				"type": "십자군 사슬 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "앗지리의 예리함(Atziri's Acuity) 모조품",
+				"text": "앗지리의 예리함(Atziri's Acuity) 모조품 바알 건틀릿",
+				"type": "바알 건틀릿"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "울러의 뼈(Bones of Ullr) 모조품",
+				"text": "울러의 뼈(Bones of Ullr) 모조품 실크 슬리퍼",
+				"type": "실크 슬리퍼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "영원의 연막(The Eternity Shroud) 모조품",
+				"text": "영원의 연막(The Eternity Shroud) 모조품 피의 의복",
+				"type": "피의 의복"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "페룰의 모피(Farrul's Fur) 모조품",
+				"text": "페룰의 모피(Farrul's Fur) 모조품 승리의 라멜라",
+				"type": "승리의 라멜라"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "금단의 샤코(Forbidden Shako) 모조품",
+				"text": "금단의 샤코(Forbidden Shako) 모조품 대형 왕관",
+				"type": "대형 왕관"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "의회의 장악(Grip of the Council) 모조품",
+				"text": "의회의 장악(Grip of the Council) 모조품 신비학자의 장갑",
+				"type": "신비학자의 장갑"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "이냐의 통찰(Inya's Epiphany) 모조품",
+				"text": "이냐의 통찰(Inya's Epiphany) 모조품 신비학자의 슬리퍼",
+				"type": "신비학자의 슬리퍼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "칼리사의 은총(Kalisa's Grace) 모조품",
+				"text": "칼리사의 은총(Kalisa's Grace) 모조품 금실 장갑",
+				"type": "금실 장갑"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "카옴의 심장(Kaom's Heart) 모조품",
+				"text": "카옴의 심장(Kaom's Heart) 모조품 영광의 판금 갑옷",
+				"type": "영광의 판금 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "음흉한 시선(Leer Cast) 모조품",
+				"text": "음흉한 시선(Leer Cast) 모조품 축제용 가면",
+				"type": "축제용 가면"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "라이온아이의 발(Lioneye's Paws) 모조품",
+				"text": "라이온아이의 발(Lioneye's Paws) 모조품 청동 비늘 장화",
+				"type": "청동 비늘 장화"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "지식의 매듭(Loreweave) 모조품",
+				"text": "지식의 매듭(Loreweave) 모조품 고상한 고리 갑옷",
+				"type": "고상한 고리 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "말로니의 기계 장치(Maloney's Mechanism) 모조품",
+				"text": "말로니의 기계 장치(Maloney's Mechanism) 모조품 화려한 화살통",
+				"type": "화려한 화살통"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "안개 벽(Mistwall) 모조품",
+				"text": "안개 벽(Mistwall) 모조품 옻칠한 버클러",
+				"type": "옻칠한 버클러"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "완벽한 구조(The Perfect Form) 모조품",
+				"text": "완벽한 구조(The Perfect Form) 모조품 성좌의 가죽 갑옷",
+				"type": "성좌의 가죽 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "붉은 발자취(The Red Trail) 모조품",
+				"text": "붉은 발자취(The Red Trail) 모조품 거신 각반",
+				"type": "거신 각반"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "끊임없는 수호(The Restless Ward) 모조품",
+				"text": "끊임없는 수호(The Restless Ward) 모조품 육욕의 갑옷",
+				"type": "육욕의 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "무광의 연막(Shroud of the Lightless) 모조품",
+				"text": "무광의 연막(Shroud of the Lightless) 모조품 육욕의 갑옷",
+				"type": "육욕의 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "영혼의 일격(Soul Strike) 모조품",
+				"text": "영혼의 일격(Soul Strike) 모조품 가시촉 화살통",
+				"type": "가시촉 화살통"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "쇄도(The Stampede) 모조품",
+				"text": "쇄도(The Stampede) 모조품 암살자의 장화",
+				"type": "암살자의 장화"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "삼단 공격(Three-step Assault) 모조품",
+				"text": "삼단 공격(Three-step Assault) 모조품 거친 생가죽 장화",
+				"type": "거친 생가죽 장화"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "투코하마의 요새(Tukohama's Fortress) 모조품",
+				"text": "투코하마의 요새(Tukohama's Fortress) 모조품 칠흑의 거대 방패",
+				"type": "칠흑의 거대 방패"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "밤의 장막(Veil of the Night) 모조품",
+				"text": "밤의 장막(Veil of the Night) 모조품 대형 투구",
+				"type": "대형 투구"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "빅타리오의 자비(Victario's Charity) 모조품",
+				"text": "빅타리오의 자비(Victario's Charity) 모조품 합판 연모양 방패",
+				"type": "합판 연모양 방패"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "공허 보행자(Voidwalker) 모조품",
+				"text": "공허 보행자(Voidwalker) 모조품 살인자의 장화",
+				"type": "살인자의 장화"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "볼쿠르의 인도(Volkuur's Guidance) 모조품",
+				"text": "볼쿠르의 인도(Volkuur's Guidance) 모조품 맹신자 장갑",
+				"type": "맹신자 장갑"
 			},
 			{
 				"flags": {
@@ -3902,6 +4498,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "파편 분쇄(Shattershard)",
+				"text": "파편 분쇄(Shattershard) 진홍색 원형 방패",
+				"type": "진홍색 원형 방패"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "샤브론의 책략(Shavronne's Gambit)",
 				"text": "샤브론의 책략(Shavronne's Gambit) 학자 장화",
 				"type": "학자 장화"
@@ -3993,6 +4597,14 @@
 				"name": "뱀의 손길(Slitherpinch)",
 				"text": "뱀의 손길(Slitherpinch) 청동 비늘 건틀릿",
 				"type": "청동 비늘 건틀릿"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "섭리의 편린 화살통(Slivers of Providence)",
+				"text": "섭리의 편린 화살통(Slivers of Providence) 톱니 화살통",
+				"type": "톱니 화살통"
 			},
 			{
 				"flags": {
@@ -4126,6 +4738,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "제독(The Admiral)",
+				"text": "제독(The Admiral) 광택 나는 외투",
+				"type": "광택 나는 외투"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "기대(The Anticipation)",
 				"text": "기대(The Anticipation) 에조미어 거대 방패",
 				"type": "에조미어 거대 방패"
@@ -4246,6 +4866,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "풋내기(The Fledgling)",
+				"text": "풋내기(The Fledgling) 옻칠한 투구",
+				"type": "옻칠한 투구"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "무형의 불꽃(The Formless Flame)",
 				"text": "무형의 불꽃(The Formless Flame) 공성 투구",
 				"type": "공성 투구"
@@ -4265,6 +4893,14 @@
 				"name": "분쇄형 회전기(The Fracturing Spinner)",
 				"text": "분쇄형 회전기(The Fracturing Spinner) 뭉툭한 화살통",
 				"type": "뭉툭한 화살통"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "무시무시한 극장(The Ghastly Theatre)",
+				"text": "무시무시한 극장(The Ghastly Theatre) 티크목 원형 방패",
+				"type": "티크목 원형 방패"
 			},
 			{
 				"flags": {
@@ -4622,6 +5258,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "비리디의 장막",
+				"text": "비리디의 장막 집정관 왕관",
+				"type": "집정관 왕관"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "비스 모티스(Vis Mortis)",
 				"text": "비스 모티스(Vis Mortis) 네크로맨서 실크 갑옷",
 				"type": "네크로맨서 실크 갑옷"
@@ -4737,6 +5381,14 @@
 				"name": "황야의 겉옷(Wildwrap)",
 				"text": "황야의 겉옷(Wildwrap) 끈을 멘 가죽 갑옷",
 				"type": "끈을 멘 가죽 갑옷"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "의지의 충돌(Willclash)",
+				"text": "의지의 충돌(Willclash) 황금 가면",
+				"type": "황금 가면"
 			},
 			{
 				"flags": {
@@ -5331,6 +5983,18 @@
 				"type": "살인자의 장화"
 			},
 			{
+				"text": "구름속삭임 장화",
+				"type": "구름속삭임 장화"
+			},
+			{
+				"text": "바람가름 장화",
+				"type": "바람가름 장화"
+			},
+			{
+				"text": "태풍의 기수 장화",
+				"type": "태풍의 기수 장화"
+			},
+			{
 				"text": "양모 신발",
 				"type": "양모 신발"
 			},
@@ -5365,6 +6029,18 @@
 			{
 				"text": "악령술사 장화",
 				"type": "악령술사 장화"
+			},
+			{
+				"text": "황혼걸음 슬리퍼",
+				"type": "황혼걸음 슬리퍼"
+			},
+			{
+				"text": "밤바람 슬리퍼",
+				"type": "밤바람 슬리퍼"
+			},
+			{
+				"text": "꿈의 정벌 슬리퍼",
+				"type": "꿈의 정벌 슬리퍼"
 			},
 			{
 				"text": "철제 각반",
@@ -5467,6 +6143,18 @@
 				"type": "십자군 장화"
 			},
 			{
+				"text": "일반 금속 발 보호대",
+				"type": "일반 금속 발 보호대"
+			},
+			{
+				"text": "검은 강철 발 보호대",
+				"type": "검은 강철 발 보호대"
+			},
+			{
+				"text": "유황 발 보호대",
+				"type": "유황 발 보호대"
+			},
+			{
 				"text": "움켜쥔 장갑",
 				"type": "움켜쥔 장갑"
 			},
@@ -5551,6 +6239,18 @@
 				"type": "살인자의 미트"
 			},
 			{
+				"text": "서툰 장갑",
+				"type": "서툰 장갑"
+			},
+			{
+				"text": "남향 장갑",
+				"type": "남향 장갑"
+			},
+			{
+				"text": "왼편 장갑",
+				"type": "왼편 장갑"
+			},
+			{
 				"text": "양모 장갑",
 				"type": "양모 장갑"
 			},
@@ -5585,6 +6285,18 @@
 			{
 				"text": "악령술사 장갑",
 				"type": "악령술사 장갑"
+			},
+			{
+				"text": "지맥 장갑",
+				"type": "지맥 장갑"
+			},
+			{
+				"text": "에테르 바람 장갑",
+				"type": "에테르 바람 장갑"
+			},
+			{
+				"text": "연결부 장갑",
+				"type": "연결부 장갑"
 			},
 			{
 				"text": "철제 건틀릿",
@@ -5687,6 +6399,18 @@
 				"type": "십자군 장갑"
 			},
 			{
+				"text": "고된 건틀릿",
+				"type": "고된 건틀릿"
+			},
+			{
+				"text": "가혹한 건틀릿",
+				"type": "가혹한 건틀릿"
+			},
+			{
+				"text": "쇠약 건틀릿",
+				"type": "쇠약 건틀릿"
+			},
+			{
 				"text": "뼈 투구",
 				"type": "뼈 투구"
 			},
@@ -5779,6 +6503,18 @@
 				"type": "할리퀸 가면"
 			},
 			{
+				"text": "강풍 왕관",
+				"type": "강풍 왕관"
+			},
+			{
+				"text": "겨울 왕관",
+				"type": "겨울 왕관"
+			},
+			{
+				"text": "눈보라 왕관",
+				"type": "눈보라 왕관"
+			},
+			{
 				"text": "덩굴 관",
 				"type": "덩굴 관"
 			},
@@ -5859,8 +6595,8 @@
 				"type": "공성 투구"
 			},
 			{
-				"text": "금실 투구",
-				"type": "금실 투구"
+				"text": "삼니움 투구",
+				"type": "삼니움 투구"
 			},
 			{
 				"text": "에조미어 기병 투구",
@@ -5907,6 +6643,18 @@
 				"type": "돼지 머리 배서닛"
 			},
 			{
+				"text": "슬픔 가면",
+				"type": "슬픔 가면"
+			},
+			{
+				"text": "속죄 가면",
+				"type": "속죄 가면"
+			},
+			{
+				"text": "참회 가면",
+				"type": "참회 가면"
+			},
+			{
 				"text": "녹슨 코이프",
 				"type": "녹슨 코이프"
 			},
@@ -5945,6 +6693,18 @@
 			{
 				"text": "예언자 왕관",
 				"type": "예언자 왕관"
+			},
+			{
+				"text": "임프 왕관",
+				"type": "임프 왕관"
+			},
+			{
+				"text": "악마 왕관",
+				"type": "악마 왕관"
+			},
+			{
+				"text": "대악마 왕관",
+				"type": "대악마 왕관"
 			},
 			{
 				"text": "황금 화관",
@@ -6017,6 +6777,18 @@
 			{
 				"text": "주름진 버클러",
 				"type": "주름진 버클러"
+			},
+			{
+				"text": "흡열성 버클러",
+				"type": "흡열성 버클러"
+			},
+			{
+				"text": "극지의 버클러",
+				"type": "극지의 버클러"
+			},
+			{
+				"text": "조율된 냉기 버클러",
+				"type": "조율된 냉기 버클러"
 			},
 			{
 				"text": "가시 박힌 꾸러미",
@@ -6133,6 +6905,18 @@
 			{
 				"text": "고대의 영혼 방패",
 				"type": "고대의 영혼 방패"
+			},
+			{
+				"text": "기진맥진한 영혼 방패",
+				"type": "기진맥진한 영혼 방패"
+			},
+			{
+				"text": "아우르는 영혼 방패",
+				"type": "아우르는 영혼 방패"
+			},
+			{
+				"text": "조율된 전이 영혼 방패",
+				"type": "조율된 전이 영혼 방패"
 			},
 			{
 				"text": "쪼개진 거대 방패",
@@ -6255,6 +7039,18 @@
 				"type": "바로크 원형 방패"
 			},
 			{
+				"text": "발열성 거대 방패",
+				"type": "발열성 거대 방패"
+			},
+			{
+				"text": "마그마 거대 방패",
+				"type": "마그마 거대 방패"
+			},
+			{
+				"text": "조율된 열기 거대 방패",
+				"type": "조율된 열기 거대 방패"
+			},
+			{
 				"text": "널빤지 연모양 방패",
 				"type": "널빤지 연모양 방패"
 			},
@@ -6372,6 +7168,10 @@
 				"type": "버려진 재산"
 			},
 			{
+				"text": "순응",
+				"type": "순응"
+			},
+			{
 				"text": "약간의 잉크",
 				"type": "약간의 잉크"
 			},
@@ -6460,6 +7260,14 @@
 				"type": "활장이의 꿈"
 			},
 			{
+				"text": "유배의 형제",
+				"type": "유배의 형제"
+			},
+			{
+				"text": "형제의 보관함",
+				"type": "형제의 보관함"
+			},
+			{
 				"text": "파묻힌 보물",
 				"type": "파묻힌 보물"
 			},
@@ -6492,6 +7300,10 @@
 				"type": "갈망하던 소유"
 			},
 			{
+				"text": "저주의 말",
+				"type": "저주의 말"
+			},
+			{
 				"text": "암흑의 꿈",
 				"type": "암흑의 꿈"
 			},
@@ -6512,6 +7324,10 @@
 				"type": "반신의 내기"
 			},
 			{
+				"text": "훼손된 미덕",
+				"type": "훼손된 미덕"
+			},
+			{
 				"text": "무너질 운명",
 				"type": "무너질 운명"
 			},
@@ -6528,8 +7344,16 @@
 				"type": "도이드리의 광기"
 			},
 			{
+				"text": "드리운 꿈",
+				"type": "드리운 꿈"
+			},
+			{
 				"text": "죽음의 비통함",
 				"type": "죽음의 비통함"
+			},
+			{
+				"text": "죽어가는 빛",
+				"type": "죽어가는 빛"
 			},
 			{
 				"text": "대지 흡수자",
@@ -6550,6 +7374,10 @@
 			{
 				"text": "아로새겨진 피",
 				"type": "아로새겨진 피"
+			},
+			{
+				"text": "운명적인 만남",
+				"type": "운명적인 만남"
 			},
 			{
 				"text": "금지된 힘",
@@ -6582,6 +7410,10 @@
 			{
 				"text": "영혼의 조화",
 				"type": "영혼의 조화"
+			},
+			{
+				"text": "출몰하는 그림자",
+				"type": "출몰하는 그림자"
 			},
 			{
 				"text": "그녀의 가면",
@@ -6628,6 +7460,10 @@
 				"type": "깜짝 상자"
 			},
 			{
+				"text": "보관자의 타락",
+				"type": "보관자의 타락"
+			},
+			{
 				"text": "란타도어의 죽은 연인",
 				"type": "란타도어의 죽은 연인"
 			},
@@ -6650,6 +7486,10 @@
 			{
 				"text": "잃어버린 세계",
 				"type": "잃어버린 세계"
+			},
+			{
+				"text": "얼음을 가르는 사랑",
+				"type": "얼음을 가르는 사랑"
 			},
 			{
 				"text": "충성심",
@@ -6740,6 +7580,10 @@
 				"type": "부활"
 			},
 			{
+				"text": "무모한 야망",
+				"type": "무모한 야망"
+			},
+			{
 				"text": "추모",
 				"type": "추모"
 			},
@@ -6760,6 +7604,10 @@
 				"type": "운명의 파편"
 			},
 			{
+				"text": "사회의 회한",
+				"type": "사회의 회한"
+			},
+			{
 				"text": "허비된 번영",
 				"type": "허비된 번영"
 			},
@@ -6770,6 +7618,10 @@
 			{
 				"text": "결백한 자의 원조",
 				"type": "결백한 자의 원조"
+			},
+			{
+				"text": "학구열",
+				"type": "학구열"
 			},
 			{
 				"text": "숭배자",
@@ -6796,6 +7648,10 @@
 				"type": "예술가"
 			},
 			{
+				"text": "점성술사",
+				"type": "점성술사"
+			},
+			{
 				"text": "복수자",
 				"type": "복수자"
 			},
@@ -6812,12 +7668,20 @@
 				"type": "타고난 전투원"
 			},
 			{
+				"text": "곰 여인",
+				"type": "곰 여인"
+			},
+			{
 				"text": "짐승",
 				"type": "짐승"
 			},
 			{
 				"text": "배신",
 				"type": "배신"
+			},
+			{
+				"text": "쓰라린 만개",
+				"type": "쓰라린 만개"
 			},
 			{
 				"text": "맹렬한 화염",
@@ -6838,6 +7702,10 @@
 			{
 				"text": "말라붙은 황제",
 				"type": "말라붙은 황제"
+			},
+			{
+				"text": "은닉처",
+				"type": "은닉처"
 			},
 			{
 				"text": "불협화음",
@@ -7076,6 +7944,10 @@
 				"type": "위대한 뜻"
 			},
 			{
+				"text": "만",
+				"type": "만"
+			},
+			{
 				"text": "건강한 심장",
 				"type": "건강한 심장"
 			},
@@ -7140,6 +8012,10 @@
 				"type": "보석 상인의 은혜"
 			},
 			{
+				"text": "집필가",
+				"type": "집필가"
+			},
+			{
 				"text": "여행",
 				"type": "여행"
 			},
@@ -7174,6 +8050,10 @@
 			{
 				"text": "기나긴 속임수",
 				"type": "기나긴 속임수"
+			},
+			{
+				"text": "오랜 감시",
+				"type": "오랜 감시"
 			},
 			{
 				"text": "어둠 속의 군주",
@@ -7258,6 +8138,10 @@
 			{
 				"text": "계약",
 				"type": "계약"
+			},
+			{
+				"text": "환자",
+				"type": "환자"
 			},
 			{
 				"text": "참회자",
@@ -7476,6 +8360,10 @@
 				"type": "모두가 인정하는 자"
 			},
 			{
+				"text": "뜻밖의 포상",
+				"type": "뜻밖의 포상"
+			},
+			{
 				"text": "결합",
 				"type": "결합"
 			},
@@ -7518,6 +8406,10 @@
 			{
 				"text": "백기사",
 				"type": "백기사"
+			},
+			{
+				"text": "백시",
+				"type": "백시"
 			},
 			{
 				"text": "시들은 장미",
@@ -7592,12 +8484,24 @@
 				"type": "보물 사냥꾼"
 			},
 			{
+				"text": "13 공포증",
+				"type": "13 공포증"
+			},
+			{
 				"text": "다른 뺨을 내밀라",
 				"type": "다른 뺨을 내밀라"
 			},
 			{
+				"text": "해방",
+				"type": "해방"
+			},
+			{
 				"text": "지하 숲",
 				"type": "지하 숲"
+			},
+			{
+				"text": "짝사랑",
+				"type": "짝사랑"
 			},
 			{
 				"text": "자만심",
@@ -7845,6 +8749,10 @@
 				"type": "각성한 육분의"
 			},
 			{
+				"text": "고양된 육분의",
+				"type": "고양된 육분의"
+			},
+			{
 				"text": "최종형 육분의",
 				"type": "최종형 육분의"
 			},
@@ -7959,6 +8867,10 @@
 			{
 				"text": "방어구 장인의 고철",
 				"type": "방어구 장인의 고철"
+			},
+			{
+				"text": "멸망의 오브",
+				"type": "멸망의 오브"
 			},
 			{
 				"text": "차율라의 파편",
@@ -8569,6 +9481,14 @@
 				"type": "전격 주문서"
 			},
 			{
+				"text": "재단 오브",
+				"type": "재단 오브"
+			},
+			{
+				"text": "단조 오브",
+				"type": "단조 오브"
+			},
+			{
 				"text": "감정 주문서",
 				"type": "감정 주문서"
 			},
@@ -8837,6 +9757,10 @@
 				"type": "카오스 파편"
 			},
 			{
+				"text": "1차 재보정 렌즈",
+				"type": "1차 재보정 렌즈"
+			},
+			{
 				"text": "색채의 오브",
 				"type": "색채의 오브"
 			},
@@ -8847,6 +9771,10 @@
 			{
 				"text": "쥬얼러 오브",
 				"type": "쥬얼러 오브"
+			},
+			{
+				"text": "2차 재보정 렌즈",
+				"type": "2차 재보정 렌즈"
 			},
 			{
 				"text": "고대의 오브",
@@ -8863,6 +9791,14 @@
 			{
 				"text": "흰 로아 깃털",
 				"type": "흰 로아 깃털"
+			},
+			{
+				"text": "의식의 파편",
+				"type": "의식의 파편"
+			},
+			{
+				"text": "의식의 그릇",
+				"type": "의식의 그릇"
 			},
 			{
 				"text": "대가 지도제작자의 봉인",
@@ -8891,6 +9827,10 @@
 			{
 				"text": "기술자의 파편",
 				"type": "기술자의 파편"
+			},
+			{
+				"text": "메이븐의 오브",
+				"type": "메이븐의 오브"
 			},
 			{
 				"text": "제왕의 오브",
@@ -9029,248 +9969,216 @@
 				"type": "카드 묶음"
 			},
 			{
-				"text": "푸르미 싹",
-				"type": "푸르미 싹"
+				"text": "도둑의 증표",
+				"type": "도둑의 증표"
 			},
 			{
-				"text": "푸르미 꽃",
-				"type": "푸르미 꽃"
+				"text": "파루드의 단지",
+				"type": "파루드의 단지"
 			},
 			{
-				"text": "푸르미 나무 꽃",
-				"type": "푸르미 나무 꽃"
+				"text": "오검 가지 촛대",
+				"type": "오검 가지 촛대"
 			},
 			{
-				"text": "생기 싹",
-				"type": "생기 싹"
+				"text": "엄니 있는 인간형 해골",
+				"type": "엄니 있는 인간형 해골"
 			},
 			{
-				"text": "생기 꽃",
-				"type": "생기 꽃"
+				"text": "천공의 돌",
+				"type": "천공의 돌"
 			},
 			{
-				"text": "생기 나무 꽃",
-				"type": "생기 나무 꽃"
+				"text": "최초의 잿더미 단지",
+				"type": "최초의 잿더미 단지"
 			},
 			{
-				"text": "행운 싹",
-				"type": "행운 싹"
+				"text": "심장 감개",
+				"type": "심장 감개"
 			},
 			{
-				"text": "행운 꽃",
-				"type": "행운 꽃"
+				"text": "수수께끼 조립물 A4",
+				"type": "수수께끼 조립물 A4"
 			},
 			{
-				"text": "행운 나무 꽃",
-				"type": "행운 나무 꽃"
+				"text": "수수께끼 조립물 B2",
+				"type": "수수께끼 조립물 B2"
 			},
 			{
-				"text": "원시 새끼 도끼날 씨앗",
-				"type": "원시 새끼 도끼날 씨앗"
+				"text": "수수께끼 조립물 C5",
+				"type": "수수께끼 조립물 C5"
 			},
 			{
-				"text": "야생 가시열매",
-				"type": "야생 가시열매"
+				"text": "수수께끼 조립물 D1",
+				"type": "수수께끼 조립물 D1"
 			},
 			{
-				"text": "야생 털짐승 알곡",
-				"type": "야생 털짐승 알곡"
+				"text": "테클라티피치의 거울",
+				"type": "테클라티피치의 거울"
 			},
 			{
-				"text": "야생 털짐승 어미 구근",
-				"type": "야생 털짐승 어미 구근"
+				"text": "트라이픽시스의 상자",
+				"type": "트라이픽시스의 상자"
 			},
 			{
-				"text": "원시 물집열매",
-				"type": "원시 물집열매"
+				"text": "카스피로 황제의 흉상",
+				"type": "카스피로 황제의 흉상"
 			},
 			{
-				"text": "야생 가시큰턱 구근",
-				"type": "야생 가시큰턱 구근"
+				"text": "황금 헤차팔 우상",
+				"type": "황금 헤차팔 우상"
 			},
 			{
-				"text": "혈기 채찍다리 구근",
-				"type": "혈기 채찍다리 구근"
+				"text": "웰라카스의 플라스크",
+				"type": "웰라카스의 플라스크"
 			},
 			{
-				"text": "야생 가시나무등 구근",
-				"type": "야생 가시나무등 구근"
+				"text": "금단의 등화",
+				"type": "금단의 등화"
 			},
 			{
-				"text": "혈기 비늘열매",
-				"type": "혈기 비늘열매"
+				"text": "물의 여신",
+				"type": "물의 여신"
 			},
 			{
-				"text": "야생 부족장 알곡",
-				"type": "야생 부족장 알곡"
+				"text": "황금 이비스",
+				"type": "황금 이비스"
 			},
 			{
-				"text": "원시 독사 알곡",
-				"type": "원시 독사 알곡"
+				"text": "불가사의한 수정",
+				"type": "불가사의한 수정"
 			},
 			{
-				"text": "혈기 포식자 구근",
-				"type": "혈기 포식자 구근"
+				"text": "살아있는 얼음",
+				"type": "살아있는 얼음"
 			},
 			{
-				"text": "야생 새끼 곰 씨앗",
-				"type": "야생 새끼 곰 씨앗"
+				"text": "루나리스의 인장",
+				"type": "루나리스의 인장"
 			},
 			{
-				"text": "원시 큰턱개구리 씨앗",
-				"type": "원시 큰턱개구리 씨앗"
+				"text": "황금 마타틀 우상",
+				"type": "황금 마타틀 우상"
 			},
 			{
-				"text": "원시 낭종소환사 구근",
-				"type": "원시 낭종소환사 구근"
+				"text": "케스의 향",
+				"type": "케스의 향"
 			},
 			{
-				"text": "야생 헬리온 씨앗",
-				"type": "야생 헬리온 씨앗"
+				"text": "천연 진주 가보",
+				"type": "천연 진주 가보"
 			},
 			{
-				"text": "야생 헬리온 우두머리 구근",
-				"type": "야생 헬리온 우두머리 구근"
+				"text": "솔라리스의 인장",
+				"type": "솔라리스의 인장"
 			},
 			{
-				"text": "야생 이빨 사냥개 알곡",
-				"type": "야생 이빨 사냥개 알곡"
+				"text": "황금 나푸앗지 우상",
+				"type": "황금 나푸앗지 우상"
 			},
 			{
-				"text": "혈기 수액빨이 알곡",
-				"type": "혈기 수액빨이 알곡"
+				"text": "정수 화로",
+				"type": "정수 화로"
 			},
 			{
-				"text": "원시 키메랄 알곡",
-				"type": "원시 키메랄 알곡"
+				"text": "고대의 봉인",
+				"type": "고대의 봉인"
 			},
 			{
-				"text": "야생 창궐의 여왕 구근",
-				"type": "야생 창궐의 여왕 구근"
+				"text": "이노센스의 피",
+				"type": "이노센스의 피"
 			},
 			{
-				"text": "야생 새끼거미 씨앗",
-				"type": "야생 새끼거미 씨앗"
+				"text": "데카라의 결의",
+				"type": "데카라의 결의"
 			},
 			{
-				"text": "원시 물집군주 구근",
-				"type": "원시 물집군주 구근"
+				"text": "오르발라의 다섯 번째 모험",
+				"type": "오르발라의 다섯 번째 모험"
 			},
 			{
-				"text": "원시 부활자 구근",
-				"type": "원시 부활자 구근"
+				"text": "최초의 죄악을 먹는 자의 지팡이",
+				"type": "최초의 죄악을 먹는 자의 지팡이"
 			},
 			{
-				"text": "혈기 거미류 씨앗",
-				"type": "혈기 거미류 씨앗"
+				"text": "뒤집힌 유물의 검",
+				"type": "뒤집힌 유물의 검"
 			},
 			{
-				"text": "야생 호문쿨루스 알곡",
-				"type": "야생 호문쿨루스 알곡"
+				"text": "에조미어의 문양",
+				"type": "에조미어의 문양"
 			},
 			{
-				"text": "야생 유인원 씨앗",
-				"type": "야생 유인원 씨앗"
+				"text": "황금 노예 우상",
+				"type": "황금 노예 우상"
 			},
 			{
-				"text": "원시 박살발톱 구근",
-				"type": "원시 박살발톱 구근"
+				"text": "황금 솝로틀리 우상",
+				"type": "황금 솝로틀리 우상"
 			},
 			{
-				"text": "혈기 거머리 씨앗",
-				"type": "혈기 거머리 씨앗"
+				"text": "의식용 잔",
+				"type": "의식용 잔"
 			},
 			{
-				"text": "혈기 기생충 알곡",
-				"type": "혈기 기생충 알곡"
+				"text": "문장 황금 우상",
+				"type": "문장 황금 우상"
 			},
 			{
-				"text": "혈기 둥지등 알곡",
-				"type": "혈기 둥지등 알곡"
+				"text": "황금 의식용 가면",
+				"type": "황금 의식용 가면"
 			},
 			{
-				"text": "혈기 애버라라크 구근",
-				"type": "혈기 애버라라크 구근"
+				"text": "황금 기도 우상",
+				"type": "황금 기도 우상"
 			},
 			{
-				"text": "원시 포식의 호러 씨앗",
-				"type": "원시 포식의 호러 씨앗"
+				"text": "황금 괴기물",
+				"type": "황금 괴기물"
 			},
 			{
-				"text": "원시 렉스 알곡",
-				"type": "원시 렉스 알곡"
+				"text": "황금 희생 상형 문자",
+				"type": "황금 희생 상형 문자"
 			},
 			{
-				"text": "원시 렉스 어미 구근",
-				"type": "원시 렉스 어미 구근"
+				"text": "에즈 미레이의 책",
+				"type": "에즈 미레이의 책"
 			},
 			{
-				"text": "원시 로아 씨앗",
-				"type": "원시 로아 씨앗"
+				"text": "아리모르의 손",
+				"type": "아리모르의 손"
 			},
 			{
-				"text": "혈기 서슬다리 알곡",
-				"type": "혈기 서슬다리 알곡"
+				"text": "아버라스의 뿔",
+				"type": "아버라스의 뿔"
 			},
 			{
-				"text": "원시 넝마주이 알곡",
-				"type": "원시 넝마주이 알곡"
+				"text": "프로클라 제독의 담뱃대",
+				"type": "프로클라 제독의 담뱃대"
 			},
 			{
-				"text": "원시 먼지침 씨앗",
-				"type": "원시 먼지침 씨앗"
+				"text": "연금술 성배",
+				"type": "연금술 성배"
 			},
 			{
-				"text": "혈기 전갈 씨앗",
-				"type": "혈기 전갈 씨앗"
-			},
-			{
-				"text": "혈기 방망이꼬리 알곡",
-				"type": "혈기 방망이꼬리 알곡"
-			},
-			{
-				"text": "원시 먼지게 알곡",
-				"type": "원시 먼지게 알곡"
-			},
-			{
-				"text": "야생 뾰족등 알곡",
-				"type": "야생 뾰족등 알곡"
-			},
-			{
-				"text": "혈기 감시자 구근",
-				"type": "혈기 감시자 구근"
-			},
-			{
-				"text": "혈기 가시엮기 씨앗",
-				"type": "혈기 가시엮기 씨앗"
-			},
-			{
-				"text": "혈기 시체매 구근",
-				"type": "혈기 시체매 구근"
-			},
-			{
-				"text": "혈기 웨타 씨앗",
-				"type": "혈기 웨타 씨앗"
-			},
-			{
-				"text": "야생 가시늑대 씨앗",
-				"type": "야생 가시늑대 씨앗"
+				"text": "초승달 파편",
+				"type": "초승달 파편"
 			},
 			{
 				"text": "땅을 태우는 메포드의 포획한 영혼",
 				"type": "땅을 태우는 메포드의 포획한 영혼"
 			},
 			{
-				"text": "스락시아의 포획한 영혼",
-				"type": "스락시아의 포획한 영혼"
+				"text": "엑셀리스 오라픽스의 포획한 영혼",
+				"type": "엑셀리스 오라픽스의 포획한 영혼"
 			},
 			{
-				"text": "글라스의 포획한 영혼",
-				"type": "글라스의 포획한 영혼"
+				"text": "도전자 푸루나의 포획한 영혼",
+				"type": "도전자 푸루나의 포획한 영혼"
 			},
 			{
-				"text": "바알의 그림자의 포획한 영혼",
-				"type": "바알의 그림자의 포획한 영혼"
+				"text": "타락자 에다이아크의 포획한 영혼",
+				"type": "타락자 에다이아크의 포획한 영혼"
 			},
 			{
 				"text": "끝없는 사구의 추적자의 포획한 영혼",
@@ -9412,6 +10320,30 @@
 				"name": "사자의 포효(Lion's Roar)",
 				"text": "사자의 포효(Lion's Roar) 화강암 플라스크",
 				"type": "화강암 플라스크"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "라비앙가의 혼백(Lavianga's Spirit) 모조품",
+				"text": "라비앙가의 혼백(Lavianga's Spirit) 모조품 축성된 마나 플라스크",
+				"type": "축성된 마나 플라스크"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "루미의 혼합물(Rumi's Concoction) 모조품",
+				"text": "루미의 혼합물(Rumi's Concoction) 모조품 화강암 플라스크",
+				"type": "화강암 플라스크"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "신의 슬픔(The Sorrow of the Divine) 모조품",
+				"text": "신의 슬픔(The Sorrow of the Divine) 모조품 유황 플라스크",
+				"type": "유황 플라스크"
 			},
 			{
 				"flags": {
@@ -9791,6 +10723,10 @@
 				"type": "폭발 화살비"
 			},
 			{
+				"text": "맹렬한 포격",
+				"type": "맹렬한 포격"
+			},
+			{
 				"text": "황폐",
 				"type": "황폐"
 			},
@@ -9879,6 +10815,10 @@
 				"type": "신체 전환"
 			},
 			{
+				"text": "치직대는 창",
+				"type": "치직대는 창"
+			},
+			{
 				"text": "암살자의 징표",
 				"type": "암살자의 징표"
 			},
@@ -9939,8 +10879,8 @@
 				"type": "신성한 진노"
 			},
 			{
-				"text": "지배의 강타",
-				"type": "지배의 강타"
+				"text": "지배의 맹타",
+				"type": "지배의 맹타"
 			},
 			{
 				"text": "이중 타격",
@@ -10035,6 +10975,10 @@
 				"type": "신성한 화염 토템"
 			},
 			{
+				"text": "화염 벽",
+				"type": "화염 벽"
+			},
+			{
 				"text": "화염 쇄도",
 				"type": "화염 쇄도"
 			},
@@ -10089,6 +11033,10 @@
 			{
 				"text": "서리 폭탄",
 				"type": "서리 폭탄"
+			},
+			{
+				"text": "서리 방패",
+				"type": "서리 방패"
 			},
 			{
 				"text": "서리 방벽",
@@ -10147,6 +11095,14 @@
 				"type": "천둥의 전령"
 			},
 			{
+				"text": "사술 폭발",
+				"type": "사술 폭발"
+			},
+			{
+				"text": "물의 구체",
+				"type": "물의 구체"
+			},
+			{
 				"text": "얼음 충격",
 				"type": "얼음 충격"
 			},
@@ -10179,8 +11135,8 @@
 				"type": "소각"
 			},
 			{
-				"text": "지옥불 강타",
-				"type": "지옥불 강타"
+				"text": "지옥불 맹타",
+				"type": "지옥불 맹타"
 			},
 			{
 				"text": "위협의 함성",
@@ -10195,8 +11151,8 @@
 				"type": "역학 투사체"
 			},
 			{
-				"text": "연속 베기",
-				"type": "연속 베기"
+				"text": "피부 찢기",
+				"type": "피부 찢기"
 			},
 			{
 				"text": "강철 관통",
@@ -10235,8 +11191,8 @@
 				"type": "번개 차원 이동"
 			},
 			{
-				"text": "마그마 보주",
-				"type": "마그마 보주"
+				"text": "몰려오는 마그마",
+				"type": "몰려오는 마그마"
 			},
 			{
 				"text": "선대의 수호자",
@@ -10311,8 +11267,8 @@
 				"type": "자부심"
 			},
 			{
-				"text": "투사체 약화",
-				"type": "투사체 약화"
+				"text": "저격수의 징표",
+				"type": "저격수의 징표"
 			},
 			{
 				"text": "관통상",
@@ -10355,8 +11311,8 @@
 				"type": "낙인 소환"
 			},
 			{
-				"text": "징벌",
-				"type": "징벌"
+				"text": "역습",
+				"type": "역습"
 			},
 			{
 				"text": "회복 토템",
@@ -10419,8 +11375,12 @@
 				"type": "공성 쇠뇌"
 			},
 			{
-				"text": "강타",
-				"type": "강타"
+				"text": "힘의 부적",
+				"type": "힘의 부적"
+			},
+			{
+				"text": "징벌",
+				"type": "징벌"
 			},
 			{
 				"text": "연막 지뢰",
@@ -10449,6 +11409,10 @@
 			{
 				"text": "분할 화살",
 				"type": "분할 화살"
+			},
+			{
+				"text": "강철 분할",
+				"type": "강철 분할"
 			},
 			{
 				"text": "정전기 타격",
@@ -10719,6 +11683,10 @@
 				"type": "활력"
 			},
 			{
+				"text": "공허 구체",
+				"type": "공허 구체"
+			},
+			{
 				"text": "시체 불덩이",
 				"type": "시체 불덩이"
 			},
@@ -10971,12 +11939,12 @@
 				"type": "마무리 타격 보조"
 			},
 			{
-				"text": "명중 시 저주 보조",
-				"type": "명중 시 저주 보조"
+				"text": "사술 손길 보조",
+				"type": "사술 손길 보조"
 			},
 			{
-				"text": "각성한 명중 시 저주 보조",
-				"type": "각성한 명중 시 저주 보조"
+				"text": "각성한 사술 손길 보조",
+				"type": "각성한 사술 손길 보조"
 			},
 			{
 				"text": "체온저하 보조",
@@ -10991,8 +11959,8 @@
 				"type": "각성한 치명적인 상태 이상 보조"
 			},
 			{
-				"text": "죽음의 표식 보조",
-				"type": "죽음의 표식 보조"
+				"text": "포식자 보조",
+				"type": "포식자 보조"
 			},
 			{
 				"text": "부패 보조",
@@ -11009,6 +11977,10 @@
 			{
 				"text": "각성한 원소 집중 보조",
 				"type": "각성한 원소 집중 보조"
+			},
+			{
+				"text": "원소 관통 보조",
+				"type": "원소 관통 보조"
 			},
 			{
 				"text": "원소 확산 보조",
@@ -11113,6 +12085,10 @@
 			{
 				"text": "꿰뚫기 보조",
 				"type": "꿰뚫기 보조"
+			},
+			{
+				"text": "임박한 멸망 보조",
+				"type": "임박한 멸망 보조"
 			},
 			{
 				"text": "효과 범위 증가 보조",
@@ -11291,6 +12267,10 @@
 				"type": "관통 보조"
 			},
 			{
+				"text": "핵심 조준 보조",
+				"type": "핵심 조준 보조"
+			},
+			{
 				"text": "근접 사격 보조",
 				"type": "근접 사격 보조"
 			},
@@ -11407,6 +12387,10 @@
 				"type": "향상된 덫 보조"
 			},
 			{
+				"text": "삼위일체 보조",
+				"type": "삼위일체 보조"
+			},
+			{
 				"text": "벌어지는 상처 보조",
 				"type": "벌어지는 상처 보조"
 			},
@@ -11466,6 +12450,14 @@
 				"name": "고대 경로석(Ancient Waystones)",
 				"text": "고대 경로석(Ancient Waystones) 진홍색 주얼",
 				"type": "진홍색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "정점 모드(Apex Mode)",
+				"text": "정점 모드(Apex Mode) 코발트색 주얼",
+				"type": "코발트색 주얼"
 			},
 			{
 				"flags": {
@@ -11751,6 +12743,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "끝없는 불행(Endless Misery)",
+				"text": "끝없는 불행(Endless Misery) 코발트색 주얼",
+				"type": "코발트색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "활력의 방어구(Energised Armour)",
 				"text": "활력의 방어구(Energised Armour) 진홍색 주얼",
 				"type": "진홍색 주얼"
@@ -12007,6 +13007,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "강철의 군주(Lord of Steel)",
+				"text": "강철의 군주(Lord of Steel) 진청록색 주얼",
+				"type": "진청록색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "불순한 의도(Malicious Intent)",
 				"text": "불순한 의도(Malicious Intent) 코발트색 주얼",
 				"type": "코발트색 주얼"
@@ -12073,6 +13081,14 @@
 				},
 				"name": "변이한 종양(Mutated Growth)",
 				"text": "변이한 종양(Mutated Growth) 코발트색 주얼",
+				"type": "코발트색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "저점 모드(Nadir Mode)",
+				"text": "저점 모드(Nadir Mode) 코발트색 주얼",
 				"type": "코발트색 주얼"
 			},
 			{
@@ -12209,6 +13225,78 @@
 				},
 				"name": "무모한 방어(Reckless Defence)",
 				"text": "무모한 방어(Reckless Defence) 코발트색 주얼",
+				"type": "코발트색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "피의 희생(Blood Sacrifice) 모조품",
+				"text": "피의 희생(Blood Sacrifice) 모조품 진홍색 주얼",
+				"type": "진홍색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "저렴한 건축(Cheap Construction) 모조품",
+				"text": "저렴한 건축(Cheap Construction) 모조품 진청록색 주얼",
+				"type": "진청록색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "정복자의 효율(Conqueror's Efficiency) 모조품",
+				"text": "정복자의 효율(Conqueror's Efficiency) 모조품 진홍색 주얼",
+				"type": "진홍색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "가냘픈 꽃(Fragile Bloom) 모조품",
+				"text": "가냘픈 꽃(Fragile Bloom) 모조품 진홍색 주얼",
+				"type": "진홍색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "핫헤드(Hotheaded) 모조품",
+				"text": "핫헤드(Hotheaded) 모조품 진청록색 주얼",
+				"type": "진청록색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "태고의 완력(Primordial Might) 모조품",
+				"text": "태고의 완력(Primordial Might) 모조품 진홍색 주얼",
+				"type": "진홍색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "타고난 재능(Pure Talent) 모조품",
+				"text": "타고난 재능(Pure Talent) 모조품 진청록색 주얼",
+				"type": "진청록색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "무모한 방어(Reckless Defence) 모조품",
+				"text": "무모한 방어(Reckless Defence) 모조품 코발트색 주얼",
+				"type": "코발트색 주얼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "불안정한 하중(Unstable Payload) 모조품",
+				"text": "불안정한 하중(Unstable Payload) 모조품 코발트색 주얼",
 				"type": "코발트색 주얼"
 			},
 			{
@@ -12559,8 +13647,8 @@
 				"flags": {
 					"unique": 1
 				},
-				"name": "불세례(Volley Fire)",
-				"text": "불세례(Volley Fire) 진청록색 주얼",
+				"name": "일제 포격(Volley Fire)",
+				"text": "일제 포격(Volley Fire) 진청록색 주얼",
 				"type": "진청록색 주얼"
 			},
 			{
@@ -12830,6 +13918,33 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "코텍스(Cortex) 모조품",
+				"text": "코텍스(Cortex) 모조품 유물의 방 지도(Relic Chambers Map)",
+				"type": "유물의 방 지도(Relic Chambers Map)"
+			},
+			{
+				"disc": "warfortheatlas",
+				"flags": {
+					"unique": 1
+				},
+				"name": "아룬의 기둥(Pillars of Arun) 모조품",
+				"text": "아룬의 기둥(Pillars of Arun) 모조품 사구 지도(Dunes Map)",
+				"type": "사구 지도(Dunes Map)"
+			},
+			{
+				"disc": "warfortheatlas",
+				"flags": {
+					"unique": 1
+				},
+				"name": "푸어조이의 은신처(Poorjoy's Asylum) 모조품",
+				"text": "푸어조이의 은신처(Poorjoy's Asylum) 모조품 사원 지도(Temple Map)",
+				"type": "사원 지도(Temple Map)"
+			},
+			{
+				"disc": "warfortheatlas",
+				"flags": {
+					"unique": 1
+				},
 				"name": "다시 쓰인 희미한 기억(Rewritten Distant Memory)",
 				"text": "다시 쓰인 희미한 기억(Rewritten Distant Memory) 교회당 지도(Basilica Map)",
 				"type": "교회당 지도(Basilica Map)"
@@ -13017,6 +14132,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "가시나무 계곡 지도",
+				"type": "가시나무 계곡 지도"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "묘실 지도(Burial Chambers Map)",
 				"type": "묘실 지도(Burial Chambers Map)"
 			},
@@ -13077,6 +14197,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "차가운 강 지도(Cold River Map)",
+				"type": "차가운 강 지도(Cold River Map)"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "가로수 지도(Colonnade Map)",
 				"type": "가로수 지도(Colonnade Map)"
 			},
@@ -13122,6 +14247,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "진홍색 마을 지도(Crimson Township Map)",
+				"type": "진홍색 마을 지도(Crimson Township Map)"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "수정 광석 지도(Crystal Ore Map)",
 				"type": "수정 광석 지도(Crystal Ore Map)"
 			},
@@ -13154,6 +14284,11 @@
 				"disc": "warfortheatlas",
 				"text": "발굴지 지도(Dig Map)",
 				"type": "발굴지 지도(Dig Map)"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "메마른 바다 지도(Dry Sea Map)",
+				"type": "메마른 바다 지도(Dry Sea Map)"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -13192,6 +14327,26 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "금단의 숲 지도(Forbidden Woods Map)",
+				"type": "금단의 숲 지도(Forbidden Woods Map)"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "갈라지는 강 지도(Forking River Map)",
+				"type": "갈라지는 강 지도(Forking River Map)"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "주조소 지도",
+				"type": "주조소 지도"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "얼어붙은 오막 지도(Frozen Cabins Map)",
+				"type": "얼어붙은 오막 지도(Frozen Cabins Map)"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "정원 지도(Gardens Map)",
 				"type": "정원 지도(Gardens Map)"
 			},
@@ -13209,6 +14364,11 @@
 				"disc": "warfortheatlas",
 				"text": "빙하 지도(Glacier Map)",
 				"type": "빙하 지도(Glacier Map)"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "무덤 고랑 지도(Grave Trough Map)",
+				"type": "무덤 고랑 지도(Grave Trough Map)"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -13487,6 +14647,11 @@
 			},
 			{
 				"disc": "warfortheatlas",
+				"text": "곡물 창고 지도",
+				"type": "곡물 창고 지도"
+			},
+			{
+				"disc": "warfortheatlas",
 				"text": "거미 숲 지도(Spider Forest Map)",
 				"type": "거미 숲 지도(Spider Forest Map)"
 			},
@@ -13499,6 +14664,11 @@
 				"disc": "warfortheatlas",
 				"text": "곰팡이 동혈 지도(Fungal Hollow Map)",
 				"type": "곰팡이 동혈 지도(Fungal Hollow Map)"
+			},
+			{
+				"disc": "warfortheatlas",
+				"text": "침체지 지도",
+				"type": "침체지 지도"
 			},
 			{
 				"disc": "warfortheatlas",
@@ -15705,16 +16875,16 @@
 				"type": "울네톨의 순수한 균열석"
 			},
 			{
-				"text": "예속의 조각",
-				"type": "예속의 조각"
+				"text": "조종의 조각",
+				"type": "조종의 조각"
 			},
 			{
-				"text": "절멸의 조각",
-				"type": "절멸의 조각"
+				"text": "박멸의 조각",
+				"type": "박멸의 조각"
 			},
 			{
-				"text": "속박의 조각",
-				"type": "속박의 조각"
+				"text": "위압의 조각",
+				"type": "위압의 조각"
 			},
 			{
 				"text": "정화의 조각",
@@ -15743,6 +16913,10 @@
 			{
 				"text": "무궁한 바알 상징",
 				"type": "무궁한 바알 상징"
+			},
+			{
+				"text": "메이븐의 문서",
+				"type": "메이븐의 문서"
 			},
 			{
 				"text": "여신에게 바치는 헌신",
@@ -15835,6 +17009,62 @@
 			{
 				"text": "필멸의 슬픔",
 				"type": "필멸의 슬픔"
+			},
+			{
+				"text": "메이븐의 초대: 글렌나크 돌무덤",
+				"type": "메이븐의 초대: 글렌나크 돌무덤"
+			},
+			{
+				"text": "메이븐의 초대: 발도의 휴식처",
+				"type": "메이븐의 초대: 발도의 휴식처"
+			},
+			{
+				"text": "메이븐의 초대: 티른의 끝자락",
+				"type": "메이븐의 초대: 티른의 끝자락"
+			},
+			{
+				"text": "메이븐의 초대: 렉스 프록시마",
+				"type": "메이븐의 초대: 렉스 프록시마"
+			},
+			{
+				"text": "메이븐의 초대: 뉴 바스티르",
+				"type": "메이븐의 초대: 뉴 바스티르"
+			},
+			{
+				"text": "메이븐의 초대: 리라 아르타인",
+				"type": "메이븐의 초대: 리라 아르타인"
+			},
+			{
+				"text": "메이븐의 초대: 헤이워크 촌락",
+				"type": "메이븐의 초대: 헤이워크 촌락"
+			},
+			{
+				"text": "메이븐의 초대: 렉스 에요리스",
+				"type": "메이븐의 초대: 렉스 에요리스"
+			},
+			{
+				"text": "메이븐의 초대: 형성된 영역",
+				"type": "메이븐의 초대: 형성된 영역"
+			},
+			{
+				"text": "메이븐의 초대: 뒤틀린 영역",
+				"type": "메이븐의 초대: 뒤틀린 영역"
+			},
+			{
+				"text": "메이븐의 초대: 잊혀진 영역",
+				"type": "메이븐의 초대: 잊혀진 영역"
+			},
+			{
+				"text": "메이븐의 초대: 숨겨진 영역",
+				"type": "메이븐의 초대: 숨겨진 영역"
+			},
+			{
+				"text": "메이븐의 초대: 끔찍한 영역",
+				"type": "메이븐의 초대: 끔찍한 영역"
+			},
+			{
+				"text": "피 담긴 그릇",
+				"type": "피 담긴 그릇"
 			},
 			{
 				"text": "녹슨 야수 도감 갑충석",
@@ -16093,6 +17323,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "액툼(Actum)",
+				"text": "액툼(Actum) 도살자 도끼",
+				"type": "도살자 도끼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "전진하는 요새(Advancing Fortress)",
 				"text": "전진하는 요새(Advancing Fortress) 내장 거열기",
 				"type": "내장 거열기"
@@ -16205,6 +17443,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "태양의 재(Ashes of the Sun)",
+				"text": "태양의 재(Ashes of the Sun) 표류목 곤봉",
+				"type": "표류목 곤봉"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "앗지리의 경멸(Atziri's Disfavour)",
 				"text": "앗지리의 경멸(Atziri's Disfavour) 바알 도끼",
 				"type": "바알 도끼"
@@ -16264,6 +17510,14 @@
 				"name": "악몽(Bitterdream)",
 				"text": "악몽(Bitterdream) 그림자 셉터",
 				"type": "그림자 셉터"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "여름날의 피(Blood of Summer)",
+				"text": "여름날의 피(Blood of Summer) 녹슨 검",
+				"type": "녹슨 검"
 			},
 			{
 				"flags": {
@@ -16477,6 +17731,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "반신의 권위",
+				"text": "반신의 권위 황금 검",
+				"type": "황금 검"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "파쇄자(Disintegrator)",
 				"text": "파쇄자(Disintegrator) 마엘스트롬 지팡이",
 				"type": "마엘스트롬 지팡이"
@@ -16669,8 +17931,8 @@
 				"flags": {
 					"unique": 1
 				},
-				"name": "늪 가지(Fencoil)",
-				"text": "늪 가지(Fencoil) 울퉁불퉁한 나뭇가지",
+				"name": "늪 감긴 가지(Fencoil)",
+				"text": "늪 감긴 가지(Fencoil) 울퉁불퉁한 나뭇가지",
 				"type": "울퉁불퉁한 나뭇가지"
 			},
 			{
@@ -16688,6 +17950,14 @@
 				"name": "식인종(Flesh-Eater)",
 				"text": "식인종(Flesh-Eater) 몽환의 철퇴",
 				"type": "몽환의 철퇴"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "영원의 조각(Fragment of Eternity)",
+				"text": "영원의 조각(Fragment of Eternity) 유리 단도",
+				"type": "유리 단도"
 			},
 			{
 				"flags": {
@@ -16712,6 +17982,14 @@
 				"name": "조프리의 헌신(Geofri's Devotion)",
 				"text": "조프리의 헌신(Geofri's Devotion) 황동 대형 망치",
 				"type": "황동 대형 망치"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "고블린날(Goblinedge)",
+				"text": "고블린날(Goblinedge) 매복자",
+				"type": "매복자"
 			},
 			{
 				"flags": {
@@ -17301,6 +18579,262 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "순환의 유물(Relic of the Cycle)",
+				"text": "순환의 유물(Relic of the Cycle) 조잡한 활",
+				"type": "조잡한 활"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "전진하는 요새(Advancing Fortress) 모조품",
+				"text": "전진하는 요새(Advancing Fortress) 모조품 내장 거열기",
+				"type": "내장 거열기"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "매혹(Allure) 모조품",
+				"text": "매혹(Allure) 모조품 바알 클로",
+				"type": "바알 클로"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "악몽(Bitterdream) 모조품",
+				"text": "악몽(Bitterdream) 모조품 그림자 셉터",
+				"type": "그림자 셉터"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "피의 오락(Bloodplay) 모조품",
+				"text": "피의 오락(Bloodplay) 모조품 스틸레토",
+				"type": "스틸레토"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "피의 가시(The Blood Thorn) 모조품",
+				"text": "피의 가시(The Blood Thorn) 모조품 울퉁불퉁한 나뭇가지",
+				"type": "울퉁불퉁한 나뭇가지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "날붙이 끝(Cold Iron Point) 모조품",
+				"text": "날붙이 끝(Cold Iron Point) 모조품 에조미어 단검",
+				"type": "에조미어 단검"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "꿈의 깃털(Dreamfeather) 모조품",
+				"text": "꿈의 깃털(Dreamfeather) 모조품 영원의 검",
+				"type": "영원의 검"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "황혼의 아침(Duskdawn) 모조품",
+				"text": "황혼의 아침(Duskdawn) 모조품 마엘스트롬 지팡이",
+				"type": "마엘스트롬 지팡이"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "에아렌델의 포옹(Earendel's Embrace) 모조품",
+				"text": "에아렌델의 포옹(Earendel's Embrace) 모조품 웃는 조각상 홀",
+				"type": "웃는 조각상 홀"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "늪 감긴 가지(Fencoil) 모조품",
+				"text": "늪 감긴 가지(Fencoil) 모조품 울퉁불퉁한 나뭇가지",
+				"type": "울퉁불퉁한 나뭇가지"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "서리 숨결(Frostbreath) 모조품",
+				"text": "서리 숨결(Frostbreath) 모조품 화려한 철퇴",
+				"type": "화려한 철퇴"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "수확(The Harvest) 모조품",
+				"text": "수확(The Harvest) 모조품 벽옥 절단기",
+				"type": "벽옥 절단기"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "심장 분쇄기(Heartbreaker) 모조품",
+				"text": "심장 분쇄기(Heartbreaker) 모조품 왕실 양날 단검",
+				"type": "왕실 양날 단검"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "침범자(Infractem) 모조품",
+				"text": "침범자(Infractem) 모조품 대량 학살의 활",
+				"type": "대량 학살의 활"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "인스뷰리 칼날(Innsbury Edge) 모조품",
+				"text": "인스뷰리 칼날(Innsbury Edge) 모조품 장로의 검",
+				"type": "장로의 검"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "철의 지휘관(Iron Commander) 모조품",
+				"text": "철의 지휘관(Iron Commander) 모조품 죽음의 활",
+				"type": "죽음의 활"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "콩고르의 끝없는 격노(Kongor's Undying Rage) 모조품",
+				"text": "콩고르의 끝없는 격노(Kongor's Undying Rage) 모조품 공포의 대형 망치",
+				"type": "공포의 대형 망치"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "최후의 수단(Last Resort) 모조품",
+				"text": "최후의 수단(Last Resort) 모조품 못박은 너클",
+				"type": "못박은 너클"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "심야의 교섭(Midnight Bargain) 모조품",
+				"text": "심야의 교섭(Midnight Bargain) 모조품 아로새긴 마법봉",
+				"type": "아로새긴 마법봉"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "성운(Nebulis) 모조품",
+				"text": "성운(Nebulis) 모조품 공허의 셉터",
+				"type": "공허의 셉터"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "오로의 희생(Oro's Sacrifice) 모조품",
+				"text": "오로의 희생(Oro's Sacrifice) 모조품 지옥불 검",
+				"type": "지옥불 검"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "모순(Paradoxica) 모조품",
+				"text": "모순(Paradoxica) 모조품 바알 레이피어",
+				"type": "바알 레이피어"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "화살 비(Quill Rain) 모조품",
+				"text": "화살 비(Quill Rain) 모조품 단궁",
+				"type": "단궁"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "영혼 수확자(Soul Taker) 모조품",
+				"text": "영혼 수확자(Soul Taker) 모조품 공성용 도끼",
+				"type": "공성용 도끼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "격렬한 강철(The Tempestuous Steel) 모조품",
+				"text": "격렬한 강철(The Tempestuous Steel) 모조품 전쟁 검",
+				"type": "전쟁 검"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "트리파논(Trypanon) 모조품",
+				"text": "트리파논(Trypanon) 모조품 대형 나무 망치",
+				"type": "대형 나무 망치"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "툴의 몰락(Tulfall) 모조품",
+				"text": "툴의 몰락(Tulfall) 모조품 회오리 마법봉",
+				"type": "회오리 마법봉"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "트위즐(Twyzel) 모조품",
+				"text": "트위즐(Twyzel) 모조품 현자 마법봉",
+				"type": "현자 마법봉"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "웅힐의 투박함(Ungil's Gauche) 모조품",
+				"text": "웅힐의 투박함(Ungil's Gauche) 모조품 주머니 단도",
+				"type": "주머니 단도"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "윈드리퍼(Windripper) 모조품",
+				"text": "윈드리퍼(Windripper) 모조품 제국 활",
+				"type": "제국 활"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "엔트로피의 날개(Wings of Entropy) 모조품",
+				"text": "엔트로피의 날개(Wings of Entropy) 모조품 에조미어 도끼",
+				"type": "에조미어 도끼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "울림의 막대(Reverberation Rod)",
 				"text": "울림의 막대(Reverberation Rod) 나선형 마법봉",
 				"type": "나선형 마법봉"
@@ -17349,6 +18883,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "부패한 겨울(Rust of Winter)",
+				"text": "부패한 겨울(Rust of Winter) 녹슨 손도끼",
+				"type": "녹슨 손도끼"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "핏빛 장난(Sanguine Gambol)",
 				"text": "핏빛 장난(Sanguine Gambol) 무두질용 단도",
 				"type": "무두질용 단도"
@@ -17360,6 +18902,14 @@
 				"name": "스카이바(Scaeva)",
 				"text": "스카이바(Scaeva) 글라디우스",
 				"type": "글라디우스"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "운명의 흉터(Scar of Fate)",
+				"text": "운명의 흉터(Scar of Fate) 못박은 너클",
+				"type": "못박은 너클"
 			},
 			{
 				"flags": {
@@ -17397,8 +18947,8 @@
 				"flags": {
 					"unique": 1
 				},
-				"name": "신을 먹는 자의 흔적(Sign of the Sin Eater)",
-				"text": "신을 먹는 자의 흔적(Sign of the Sin Eater) 폭군의 세크헴",
+				"name": "죄악을 먹는 자의 흔적(Sign of the Sin Eater)",
+				"text": "죄악을 먹는 자의 흔적(Sign of the Sin Eater) 폭군의 세크헴",
 				"type": "폭군의 세크헴"
 			},
 			{
@@ -17480,6 +19030,14 @@
 				"name": "최초 선구자의 척추(Spine of the First Claimant)",
 				"text": "최초 선구자의 척추(Spine of the First Claimant) 철제 셉터",
 				"type": "철제 셉터"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "달의 파편(Splinter of the Moon)",
+				"text": "달의 파편(Splinter of the Moon) 표류목 마법봉",
+				"type": "표류목 마법봉"
 			},
 			{
 				"flags": {
@@ -17621,6 +19179,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "버팀대(The Fulcrum)",
+				"text": "버팀대(The Fulcrum) 에조미어 지팡이",
+				"type": "에조미어 지팡이"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "속박된 여신(The Goddess Bound)",
 				"text": "속박된 여신(The Goddess Bound) 고래뼈 레이피어",
 				"type": "고래뼈 레이피어"
@@ -17664,6 +19230,22 @@
 				"name": "수확(The Harvest)",
 				"text": "수확(The Harvest) 벽옥 절단기",
 				"type": "벽옥 절단기"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "숨겨진 칼날(The Hidden Blade)",
+				"text": "숨겨진 칼날(The Hidden Blade) 매복자",
+				"type": "매복자"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "철제 운집(The Iron Mass)",
+				"text": "철제 운집(The Iron Mass) 글라디우스",
+				"type": "글라디우스"
 			},
 			{
 				"flags": {
@@ -17805,6 +19387,14 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "새벽의 천둥(Thunder of the Dawn)",
+				"text": "새벽의 천둥(Thunder of the Dawn) 부식된 칼날",
+				"type": "부식된 칼날"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "물결 분쇄기(Tidebreaker)",
 				"text": "물결 분쇄기(Tidebreaker) 제국 대형 망치",
 				"type": "제국 대형 망치"
@@ -17904,6 +19494,14 @@
 				"name": "바루나스트라(Varunastra)",
 				"text": "바루나스트라(Varunastra) 바알 칼날",
 				"type": "바알 칼날"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "신성의 자취(Vestige of Divinity)",
+				"text": "신성의 자취(Vestige of Divinity) 울퉁불퉁한 나뭇가지",
+				"type": "울퉁불퉁한 나뭇가지"
 			},
 			{
 				"flags": {
@@ -18122,6 +19720,18 @@
 				"type": "도리깨 클로"
 			},
 			{
+				"text": "그림자 송곳니",
+				"type": "그림자 송곳니"
+			},
+			{
+				"text": "해악의 송곳니",
+				"type": "해악의 송곳니"
+			},
+			{
+				"text": "공허의 송곳니",
+				"type": "공허의 송곳니"
+			},
+			{
 				"text": "이중 클로",
 				"type": "이중 클로"
 			},
@@ -18222,6 +19832,18 @@
 				"type": "박피 단도"
 			},
 			{
+				"text": "중공 단검",
+				"type": "중공 단검"
+			},
+			{
+				"text": "가압 단검",
+				"type": "가압 단검"
+			},
+			{
+				"text": "공압 단검",
+				"type": "공압 단검"
+			},
+			{
 				"text": "갈래 단검",
 				"type": "갈래 단검"
 			},
@@ -18232,6 +19854,18 @@
 			{
 				"text": "사이",
 				"type": "사이"
+			},
+			{
+				"text": "일렁이는 화염 칼",
+				"type": "일렁이는 화염 칼"
+			},
+			{
+				"text": "번쩍이는 불꽃 칼",
+				"type": "번쩍이는 불꽃 칼"
+			},
+			{
+				"text": "지옥불 칼",
+				"type": "지옥불 칼"
 			},
 			{
 				"text": "녹슨 손도끼",
@@ -18320,6 +19954,18 @@
 			{
 				"text": "벽옥 손도끼",
 				"type": "벽옥 손도끼"
+			},
+			{
+				"text": "가학의 도끼",
+				"type": "가학의 도끼"
+			},
+			{
+				"text": "책망의 도끼",
+				"type": "책망의 도끼"
+			},
+			{
+				"text": "광기의 도끼",
+				"type": "광기의 도끼"
 			},
 			{
 				"text": "조각된 손도끼",
@@ -18422,6 +20068,18 @@
 				"type": "석화된 곤봉"
 			},
 			{
+				"text": "조명탄 철퇴",
+				"type": "조명탄 철퇴"
+			},
+			{
+				"text": "균열 철퇴",
+				"type": "균열 철퇴"
+			},
+			{
+				"text": "우뢰 철퇴",
+				"type": "우뢰 철퇴"
+			},
+			{
 				"text": "아룡 철퇴",
 				"type": "아룡 철퇴"
 			},
@@ -18520,6 +20178,18 @@
 			{
 				"text": "웃는 조각상 홀",
 				"type": "웃는 조각상 홀"
+			},
+			{
+				"text": "진동 셉터",
+				"type": "진동 셉터"
+			},
+			{
+				"text": "안정화의 셉터",
+				"type": "안정화의 셉터"
+			},
+			{
+				"text": "갈마드는 셉터",
+				"type": "갈마드는 셉터"
 			},
 			{
 				"text": "뿔 달린 셉터",
@@ -18624,6 +20294,22 @@
 			{
 				"text": "차란의 검",
 				"type": "차란의 검"
+			},
+			{
+				"text": "황금 검",
+				"type": "황금 검"
+			},
+			{
+				"text": "변화무쌍한 정령의 칼",
+				"type": "변화무쌍한 정령의 칼"
+			},
+			{
+				"text": "변덕스러운 정령의 칼",
+				"type": "변덕스러운 정령의 칼"
+			},
+			{
+				"text": "무질서한 정령의 칼",
+				"type": "무질서한 정령의 칼"
 			},
 			{
 				"text": "갈고리 검",
@@ -18806,6 +20492,18 @@
 				"type": "소집의 마법봉"
 			},
 			{
+				"text": "조립 마법봉",
+				"type": "조립 마법봉"
+			},
+			{
+				"text": "군집 마법봉",
+				"type": "군집 마법봉"
+			},
+			{
+				"text": "축적 마법봉",
+				"type": "축적 마법봉"
+			},
+			{
 				"text": "이교도 마법봉",
 				"type": "이교도 마법봉"
 			},
@@ -18910,6 +20608,18 @@
 				"type": "수목원 활"
 			},
 			{
+				"text": "다면체 활",
+				"type": "다면체 활"
+			},
+			{
+				"text": "주물 활",
+				"type": "주물 활"
+			},
+			{
+				"text": "태양의 활",
+				"type": "태양의 활"
+			},
+			{
 				"text": "반동궁",
 				"type": "반동궁"
 			},
@@ -18998,6 +20708,18 @@
 				"type": "육척봉"
 			},
 			{
+				"text": "변신 지팡이",
+				"type": "변신 지팡이"
+			},
+			{
+				"text": "보복 지팡이",
+				"type": "보복 지팡이"
+			},
+			{
+				"text": "충전 지팡이",
+				"type": "충전 지팡이"
+			},
+			{
 				"text": "초승달의 지팡이",
 				"type": "초승달의 지팡이"
 			},
@@ -19008,6 +20730,18 @@
 			{
 				"text": "월식 지팡이",
 				"type": "월식 지팡이"
+			},
+			{
+				"text": "가능성의 막대",
+				"type": "가능성의 막대"
+			},
+			{
+				"text": "잠재력의 막대",
+				"type": "잠재력의 막대"
+			},
+			{
+				"text": "불예측의 막대",
+				"type": "불예측의 막대"
 			},
 			{
 				"text": "돌도끼",
@@ -19084,6 +20818,18 @@
 			{
 				"text": "목재용 도끼",
 				"type": "목재용 도끼"
+			},
+			{
+				"text": "최종형 가로날도끼",
+				"type": "최종형 가로날도끼"
+			},
+			{
+				"text": "연마한 가로날도끼",
+				"type": "연마한 가로날도끼"
+			},
+			{
+				"text": "정점의 가로날도끼",
+				"type": "정점의 가로날도끼"
 			},
 			{
 				"text": "단검 도끼",
@@ -19174,6 +20920,18 @@
 				"type": "대형 나무 망치"
 			},
 			{
+				"text": "둔력 응축자",
+				"type": "둔력 응축자"
+			},
+			{
+				"text": "압착력 확대자",
+				"type": "압착력 확대자"
+			},
+			{
+				"text": "충격력 확산자",
+				"type": "충격력 확산자"
+			},
+			{
 				"text": "모닝스타",
 				"type": "모닝스타"
 			},
@@ -19260,6 +21018,18 @@
 			{
 				"text": "보병 검",
 				"type": "보병 검"
+			},
+			{
+				"text": "질책의 칼",
+				"type": "질책의 칼"
+			},
+			{
+				"text": "폭발성 칼",
+				"type": "폭발성 칼"
+			},
+			{
+				"text": "추방의 칼",
+				"type": "추방의 칼"
 			},
 			{
 				"text": "곡도",
@@ -21726,7 +23496,7 @@
 				"type": "Doedre the Defiler"
 			},
 			{
-				"text": "거룩한 허스크",
+				"text": "거룩한 껍데기",
 				"type": "The Hallowed Husk"
 			},
 			{
@@ -22486,7 +24256,7 @@
 				"type": "Aidan the Frenzied"
 			},
 			{
-				"text": "피의 정체꾼 ",
+				"text": "피의 정체꾼",
 				"type": "Blood Stasis "
 			},
 			{
@@ -23534,8 +25304,16 @@
 				"flags": {
 					"unique": 1
 				},
-				"name": "환호하는 천민(Booming Populace)",
-				"text": "환호하는 천민(Booming Populace) 상아색 감시자의 돌",
+				"name": "아틀라스의 꼭대기",
+				"text": "아틀라스의 꼭대기 백금 렉스 에요리스 감시자의 돌",
+				"type": "백금 렉스 에요리스 감시자의 돌"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "불어나는 무리(Booming Populace)",
+				"text": "불어나는 무리(Booming Populace) 상아색 감시자의 돌",
 				"type": "상아색 감시자의 돌"
 			},
 			{
@@ -23553,6 +25331,14 @@
 				"name": "와전(Misinformation)",
 				"text": "와전(Misinformation) 상아색 감시자의 돌",
 				"type": "상아색 감시자의 돌"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "쉴 수 없는 반복",
+				"text": "쉴 수 없는 반복 백금 발도의 휴식처 감시자의 돌",
+				"type": "백금 발도의 휴식처 감시자의 돌"
 			},
 			{
 				"flags": {
@@ -23582,6 +25368,54 @@
 				"flags": {
 					"unique": 1
 				},
+				"name": "개척자",
+				"text": "개척자 백금 글렌나크 돌무덤 감시자의 돌",
+				"type": "백금 글렌나크 돌무덤 감시자의 돌"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "소유권",
+				"text": "소유권 백금 티른의 끝자락 감시자의 돌",
+				"type": "백금 티른의 끝자락 감시자의 돌"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "근접한 봉우리",
+				"text": "근접한 봉우리 백금 렉스 프록시마 감시자의 돌",
+				"type": "백금 렉스 프록시마 감시자의 돌"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "거짓 희망",
+				"text": "거짓 희망 백금 리라 아르타인 감시자의 돌",
+				"type": "백금 리라 아르타인 감시자의 돌"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "끝없는 지평선",
+				"text": "끝없는 지평선 백금 뉴 바스티르 감시자의 돌",
+				"type": "백금 뉴 바스티르 감시자의 돌"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "장벽",
+				"text": "장벽 백금 헤이워크 촌락 감시자의 돌",
+				"type": "백금 헤이워크 촌락 감시자의 돌"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
 				"name": "별들의 전쟁(War Among the Stars)",
 				"text": "별들의 전쟁(War Among the Stars) 상아색 감시자의 돌",
 				"type": "상아색 감시자의 돌"
@@ -23605,6 +25439,468 @@
 			{
 				"text": "상아색 감시자의 돌",
 				"type": "상아색 감시자의 돌"
+			},
+			{
+				"text": "크롬 헤이워크 촌락 감시자의 돌",
+				"type": "크롬 헤이워크 촌락 감시자의 돌"
+			},
+			{
+				"text": "크롬 티른의 끝자락 감시자의 돌",
+				"type": "크롬 티른의 끝자락 감시자의 돌"
+			},
+			{
+				"text": "크롬 렉스 프록시마 감시자의 돌",
+				"type": "크롬 렉스 프록시마 감시자의 돌"
+			},
+			{
+				"text": "크롬 렉스 에요리스 감시자의 돌",
+				"type": "크롬 렉스 에요리스 감시자의 돌"
+			},
+			{
+				"text": "크롬 뉴 바스티르 감시자의 돌",
+				"type": "크롬 뉴 바스티르 감시자의 돌"
+			},
+			{
+				"text": "크롬 글렌나크 돌무덤 감시자의 돌",
+				"type": "크롬 글렌나크 돌무덤 감시자의 돌"
+			},
+			{
+				"text": "크롬 발도의 휴식처 감시자의 돌",
+				"type": "크롬 발도의 휴식처 감시자의 돌"
+			},
+			{
+				"text": "크롬 리라 아르타인 감시자의 돌",
+				"type": "크롬 리라 아르타인 감시자의 돌"
+			},
+			{
+				"text": "백금 헤이워크 촌락 감시자의 돌",
+				"type": "백금 헤이워크 촌락 감시자의 돌"
+			},
+			{
+				"text": "백금 티른의 끝자락 감시자의 돌",
+				"type": "백금 티른의 끝자락 감시자의 돌"
+			},
+			{
+				"text": "백금 렉스 프록시마 감시자의 돌",
+				"type": "백금 렉스 프록시마 감시자의 돌"
+			},
+			{
+				"text": "백금 렉스 에요리스 감시자의 돌",
+				"type": "백금 렉스 에요리스 감시자의 돌"
+			},
+			{
+				"text": "백금 뉴 바스티르 감시자의 돌",
+				"type": "백금 뉴 바스티르 감시자의 돌"
+			},
+			{
+				"text": "백금 글렌나크 돌무덤 감시자의 돌",
+				"type": "백금 글렌나크 돌무덤 감시자의 돌"
+			},
+			{
+				"text": "백금 발도의 휴식처 감시자의 돌",
+				"type": "백금 발도의 휴식처 감시자의 돌"
+			},
+			{
+				"text": "백금 리라 아르타인 감시자의 돌",
+				"type": "백금 리라 아르타인 감시자의 돌"
+			},
+			{
+				"text": "티타늄 헤이워크 촌락 감시자의 돌",
+				"type": "티타늄 헤이워크 촌락 감시자의 돌"
+			},
+			{
+				"text": "티타늄 티른의 끝자락 감시자의 돌",
+				"type": "티타늄 티른의 끝자락 감시자의 돌"
+			},
+			{
+				"text": "티타늄 렉스 프록시마 감시자의 돌",
+				"type": "티타늄 렉스 프록시마 감시자의 돌"
+			},
+			{
+				"text": "티타늄 렉스 에요리스 감시자의 돌",
+				"type": "티타늄 렉스 에요리스 감시자의 돌"
+			},
+			{
+				"text": "티타늄 뉴 바스티르 감시자의 돌",
+				"type": "티타늄 뉴 바스티르 감시자의 돌"
+			},
+			{
+				"text": "티타늄 글렌나크 돌무덤 감시자의 돌",
+				"type": "티타늄 글렌나크 돌무덤 감시자의 돌"
+			},
+			{
+				"text": "티타늄 발도의 휴식처 감시자의 돌",
+				"type": "티타늄 발도의 휴식처 감시자의 돌"
+			},
+			{
+				"text": "티타늄 리라 아르타인 감시자의 돌",
+				"type": "티타늄 리라 아르타인 감시자의 돌"
+			}
+		],
+		"label": ""
+	},
+	{
+		"entries": [
+			{
+				"text": "장어가죽 밑창",
+				"type": "장어가죽 밑창"
+			},
+			{
+				"text": "여우가죽 밑창",
+				"type": "여우가죽 밑창"
+			},
+			{
+				"text": "날개 달린 밑창",
+				"type": "날개 달린 밑창"
+			},
+			{
+				"text": "비단 직물 밑창",
+				"type": "비단 직물 밑창"
+			},
+			{
+				"text": "은 브로치",
+				"type": "은 브로치"
+			},
+			{
+				"text": "황금 브로치",
+				"type": "황금 브로치"
+			},
+			{
+				"text": "유약 도색 브로치",
+				"type": "유약 도색 브로치"
+			},
+			{
+				"text": "잎사귀 브로치",
+				"type": "잎사귀 브로치"
+			},
+			{
+				"text": "가죽 팔보호구",
+				"type": "가죽 팔보호구"
+			},
+			{
+				"text": "징 박힌 팔보호구",
+				"type": "징 박힌 팔보호구"
+			},
+			{
+				"text": "룬 문자 팔보호구",
+				"type": "룬 문자 팔보호구"
+			},
+			{
+				"text": "강철 팔보호구",
+				"type": "강철 팔보호구"
+			},
+			{
+				"text": "초점석",
+				"type": "초점석"
+			},
+			{
+				"text": "관로",
+				"type": "관로"
+			},
+			{
+				"text": "집합 부적",
+				"type": "집합 부적"
+			},
+			{
+				"text": "격발 반지",
+				"type": "격발 반지"
+			},
+			{
+				"text": "찢어진 망토",
+				"type": "찢어진 망토"
+			},
+			{
+				"text": "해진 망토",
+				"type": "해진 망토"
+			},
+			{
+				"text": "두건 망토",
+				"type": "두건 망토"
+			},
+			{
+				"text": "속삭임 망토",
+				"type": "속삭임 망토"
+			},
+			{
+				"text": "조잡한 수호",
+				"type": "조잡한 수호"
+			},
+			{
+				"text": "빛나는 수호",
+				"type": "빛나는 수호"
+			},
+			{
+				"text": "반짝이는 수호",
+				"type": "반짝이는 수호"
+			},
+			{
+				"text": "마석학 수호",
+				"type": "마석학 수호"
+			},
+			{
+				"text": "기본 변장 도구",
+				"type": "기본 변장 도구"
+			},
+			{
+				"text": "극장 변장 도구",
+				"type": "극장 변장 도구"
+			},
+			{
+				"text": "첩보 변장 도구",
+				"type": "첩보 변장 도구"
+			},
+			{
+				"text": "왕 시해자 변장 도구",
+				"type": "왕 시해자 변장 도구"
+			},
+			{
+				"text": "전도성 섬광가루",
+				"type": "전도성 섬광가루"
+			},
+			{
+				"text": "트라탄 섬광가루",
+				"type": "트라탄 섬광가루"
+			},
+			{
+				"text": "남동석 섬광가루",
+				"type": "남동석 섬광가루"
+			},
+			{
+				"text": "마석 섬광가루",
+				"type": "마석 섬광가루"
+			},
+			{
+				"text": "강철 송곳",
+				"type": "강철 송곳"
+			},
+			{
+				"text": "테두리 송곳",
+				"type": "테두리 송곳"
+			},
+			{
+				"text": "유황 발염기",
+				"type": "유황 발염기"
+			},
+			{
+				"text": "마석 발염기",
+				"type": "마석 발염기"
+			},
+			{
+				"text": "단순한 자물쇠 따개",
+				"type": "단순한 자물쇠 따개"
+			},
+			{
+				"text": "표준 자물쇠 따개",
+				"type": "표준 자물쇠 따개"
+			},
+			{
+				"text": "정교한 자물쇠 따개",
+				"type": "정교한 자물쇠 따개"
+			},
+			{
+				"text": "고급 자물쇠 따개",
+				"type": "고급 자물쇠 따개"
+			},
+			{
+				"text": "거친 숫돌",
+				"type": "거친 숫돌"
+			},
+			{
+				"text": "표준 숫돌",
+				"type": "표준 숫돌"
+			},
+			{
+				"text": "정교한 숫돌",
+				"type": "정교한 숫돌"
+			},
+			{
+				"text": "흑요석 숫돌",
+				"type": "흑요석 숫돌"
+			},
+			{
+				"text": "조잡한 감지 부적",
+				"type": "조잡한 감지 부적"
+			},
+			{
+				"text": "정교한 감지 부적",
+				"type": "정교한 감지 부적"
+			},
+			{
+				"text": "광택 나는 감지 부적",
+				"type": "광택 나는 감지 부적"
+			},
+			{
+				"text": "마석학 감지 부적",
+				"type": "마석학 감지 부적"
+			},
+			{
+				"text": "테두리 화살촉",
+				"type": "테두리 화살촉"
+			},
+			{
+				"text": "분열 화살촉",
+				"type": "분열 화살촉"
+			},
+			{
+				"text": "중공 화살촉",
+				"type": "중공 화살촉"
+			},
+			{
+				"text": "정확한 화살촉",
+				"type": "정확한 화살촉"
+			},
+			{
+				"text": "필수 열쇠고리",
+				"type": "필수 열쇠고리"
+			},
+			{
+				"text": "다용도 열쇠고리",
+				"type": "다용도 열쇠고리"
+			},
+			{
+				"text": "해골 열쇠고리",
+				"type": "해골 열쇠고리"
+			},
+			{
+				"text": "명인 열쇠고리",
+				"type": "명인 열쇠고리"
+			}
+		],
+		"label": ""
+	},
+	{
+		"entries": [
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "계약: 파괴 불가능한 존재 파괴하기",
+				"text": "계약: 파괴 불가능한 존재 파괴하기 예방 차원의 계약",
+				"type": "예방 차원의 계약"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "계약: 다나우에게 죽음을",
+				"text": "계약: 다나우에게 죽음을 해군 계약",
+				"type": "해군 계약"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "계약: 영광의 심장",
+				"text": "계약: 영광의 심장 가문의 계약",
+				"type": "가문의 계약"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "계약: 노예상의 왕",
+				"text": "계약: 노예상의 왕 치안 계약",
+				"type": "치안 계약"
+			},
+			{
+				"flags": {
+					"unique": 1
+				},
+				"name": "계약: 쌍둥이",
+				"text": "계약: 쌍둥이 복수의 계약",
+				"type": "복수의 계약"
+			},
+			{
+				"text": "도면: 벙커",
+				"type": "도면: 벙커"
+			},
+			{
+				"text": "도면: 기록 보관소",
+				"type": "도면: 기록 보관소"
+			},
+			{
+				"text": "도면: 실험실",
+				"type": "도면: 실험실"
+			},
+			{
+				"text": "도면: 금지된 도서관",
+				"type": "도면: 금지된 도서관"
+			},
+			{
+				"text": "도면: 대저택",
+				"type": "도면: 대저택"
+			},
+			{
+				"text": "도면: 밀수범 소굴",
+				"type": "도면: 밀수범 소굴"
+			},
+			{
+				"text": "도면: 저장소",
+				"type": "도면: 저장소"
+			},
+			{
+				"text": "도면: 터널",
+				"type": "도면: 터널"
+			},
+			{
+				"text": "도면: 취약 지점",
+				"type": "도면: 취약 지점"
+			},
+			{
+				"text": "계약: 벙커",
+				"type": "계약: 벙커"
+			},
+			{
+				"text": "계약: 기록 보관소",
+				"type": "계약: 기록 보관소"
+			},
+			{
+				"text": "계약: 실험실",
+				"type": "계약: 실험실"
+			},
+			{
+				"text": "계약: 금지된 도서관",
+				"type": "계약: 금지된 도서관"
+			},
+			{
+				"text": "계약: 대저택",
+				"type": "계약: 대저택"
+			},
+			{
+				"text": "계약: 밀수범 소굴",
+				"type": "계약: 밀수범 소굴"
+			},
+			{
+				"text": "계약: 저장소",
+				"type": "계약: 저장소"
+			},
+			{
+				"text": "계약: 터널",
+				"type": "계약: 터널"
+			},
+			{
+				"text": "계약: 취약 지점",
+				"type": "계약: 취약 지점"
+			},
+			{
+				"text": "가문의 계약",
+				"type": "가문의 계약"
+			},
+			{
+				"text": "해군 계약",
+				"type": "해군 계약"
+			},
+			{
+				"text": "예방 차원의 계약",
+				"type": "예방 차원의 계약"
+			},
+			{
+				"text": "복수의 계약",
+				"type": "복수의 계약"
+			},
+			{
+				"text": "치안 계약",
+				"type": "치안 계약"
 			}
 		],
 		"label": ""

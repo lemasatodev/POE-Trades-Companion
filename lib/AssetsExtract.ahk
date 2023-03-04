@@ -16,6 +16,7 @@
 	appendToFile .= ""
 	.		"if (!A_IsCompiled && A_ScriptName = ""FileInstall_Cmds.ahk"") {"
 	. "`n"	"	#Include %A_ScriptDir%/lib/Logs.ahk"
+	. "`n"	"	#Include %A_ScriptDir%/lib/WindowsSettings.ahk"
 	. "`n"	"	#Include %A_ScriptDir%/lib/third-party/Get_ResourceSize.ahk"
 	. "`n"
 	. "`n"	"	if (!PROGRAM)"

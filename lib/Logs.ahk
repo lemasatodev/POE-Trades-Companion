@@ -16,7 +16,7 @@
 	FileAppend,% "",% PROGRAM.LOGS_FILE
 	os3264bits := A_Is64bitOS?"x64":"x86"
 	appendToFile := "OS Informations: " quote A_OSType A_Space . A_OSVersion A_Space . os3264bits quote
-	. "`n"			"OS Res-DPI: " quote . Get_WindowsResolutionDPI() . quote
+	. "`n"			"OS Res-DPI: " quote . Get_DpiFactor() . quote
 	. "`n"
 	. "`n"			"AHK Version: " quote A_AhkVersion quote
 	. "`n"			"Is Unicode: " quote A_IsUnicode quote

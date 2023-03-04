@@ -1,4 +1,23 @@
-1.15.BETA_9992 (21 July 2020)
+1.15.BETA_9995 (17 Jan 2021)
+
+	Changes:
+	- Updated item location grid according to new positions while not in a folder tab.
+
+= = = = = = = = = = = = =
+
+1.15.BETA_9994 (14 Oct 2020)
+
+	Added:
+	- Heist cheat sheet.
+	- EGS support.
+	- Can now use any png file as a cheat sheet. Just drop them in the corresponding folder.
+	
+	Changes:
+	- Updated Betrayal, Delve and Incursion cheat sheets to use a new format.
+
+= = = = = = = = = = = = =
+
+1.15.BETA_9993 (23 July 2020)
 
 	Fixes:
 	- Updated Korean whisper patterns.

@@ -4,7 +4,7 @@
 		global PROGRAM, GAME, SKIN
 		global GuiMyStats, GuiMyStats_Controls, GuiMyStats_Submit
 		static guiCreated
-		windowsDPI := Get_WindowsResolutionDPI()
+		windowsDPI := Get_DpiFactor()
 	
 		delay := SetControlDelay(0), batch := SetBatchLines(-1)
 		; Initialize gui arrays

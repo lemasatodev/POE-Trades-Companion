@@ -1,5 +1,6 @@
 ﻿if (!A_IsCompiled && A_ScriptName = "FileInstall_Cmds.ahk") {
 	#Include %A_ScriptDir%/lib/Logs.ahk
+	#Include %A_ScriptDir%/lib/WindowsSettings.ahk
 	#Include %A_ScriptDir%/lib/third-party/Get_ResourceSize.ahk
 
 	if (!PROGRAM)
@@ -8491,6 +8492,31 @@ if (ErrorLevel) {
 	errorLog .= "`n`n""Failed to extract file!"
 	.	"`nSource: resources\cheatsheets\Essence.png"
 	.	"`nDest: " PROGRAM.CHEATSHEETS_FOLDER "\Essence.png"
+	.	"`nFlag: " 2
+}
+
+; ----------------------------
+if !InStr(FileExist(PROGRAM.CHEATSHEETS_FOLDER ""), "D")
+	FileCreateDir,% PROGRAM.CHEATSHEETS_FOLDER ""
+
+if (A_IsCompiled) {
+	sourceFileSize := Get_ResourceSize("resources\cheatsheets\Heist.png")
+	FileGetSize, destFileSize, % PROGRAM.CHEATSHEETS_FOLDER "\Heist.png"
+}
+else {
+	FileGetSize, sourceFileSize, resources\cheatsheets\Heist.png
+	FileGetSize, destFileSize, % PROGRAM.CHEATSHEETS_FOLDER "\Heist.png"
+}
+if (sourceFileSize != destFileSize)
+	FileInstall, resources\cheatsheets\Heist.png, % PROGRAM.CHEATSHEETS_FOLDER "\Heist.png", 1
+if (ErrorLevel) {
+	AppendToLogs("Failed to extract file!"
+	.	"`nSource: resources\cheatsheets\Heist.png"
+	.	"`nDest: " PROGRAM.CHEATSHEETS_FOLDER "\Heist.png"
+	.	"`nFlag: " 2)
+	errorLog .= "`n`n""Failed to extract file!"
+	.	"`nSource: resources\cheatsheets\Heist.png"
+	.	"`nDest: " PROGRAM.CHEATSHEETS_FOLDER "\Heist.png"
 	.	"`nFlag: " 2
 }
 
