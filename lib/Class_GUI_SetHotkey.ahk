@@ -1,5 +1,5 @@
-﻿/*	by lemasato
-	https://github.com/lemasato
+﻿/*	by lemasatodev
+	https://github.com/lemasatodev
 
 	Requirements:
 		Class_GUI.ahk	EasyFuncs.ahk

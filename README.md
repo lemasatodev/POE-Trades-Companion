@@ -1,29 +1,29 @@
 ### The README.md is being reworked and some parts will be missing for now.  
 &nbsp;  
 
-<a href="https://www.paypal.me/masato/"><img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/others/Banners/Donate using PayPal.png" height=40></a> <!-- Paypal Banner -->  
+<a href="https://www.paypal.me/masato/"><img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/others/Banners/Donate using PayPal.png" height=40></a> <!-- Paypal Banner -->  
 [paypal.me/masato](https://www.paypal.me/masato) - [Alternative paypal cart button](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BSWU76BLQBMCU)
     
 POE Trades Companion is and will always be free to use.  
-Your name will appear on a special "Hall of Fame" tab within the application and also on [this page](https://github.com/lemasato/POE-Trades-Companion/wiki/Support)!  
+Your name will appear on a special "Hall of Fame" tab within the application and also on [this page](https://github.com/lemasatodev/POE-Trades-Companion/wiki/Support)!  
 
 Join the official discord channel!  
-<a href="https://discord.gg/UMxqtfC"><img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/resources/imgs/Discord_big.png" height=50></a>
+<a href="https://discord.gg/UMxqtfC"><img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/resources/imgs/Discord_big.png" height=50></a>
 
 If needed, you can contact me on:  
-<a href="https://www.pathofexile.com/forum/view-thread/1755148/"><img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/resources/imgs/POE_big.png" height=30></a>&nbsp;&nbsp;&nbsp;
-<a href="https://discord.gg/UMxqtfC"><img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/resources/imgs/Discord_big.png" height=30></a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.reddit.com/user/lemasato/submitted/"><img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/resources/imgs/Reddit_big.png" height=30></a>  
+<a href="https://www.pathofexile.com/forum/view-thread/1755148/"><img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/resources/imgs/POE_big.png" height=30></a>&nbsp;&nbsp;&nbsp;
+<a href="https://discord.gg/UMxqtfC"><img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/resources/imgs/Discord_big.png" height=30></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.reddit.com/user/lemasatodev/submitted/"><img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/resources/imgs/Reddit_big.png" height=30></a>  
 
 ***
 
 ## Usage
 - Download and install [AutoHotKey](https://autohotkey.com/download/) from the official website.  
-- Download and extract [POE-Trades-Companion-AHK.zip](https://github.com/lemasato/POE-Trades-Companion/releases) from the releases page.  
+- Download and extract [POE-Trades-Companion-AHK.zip](https://github.com/lemasatodev/POE-Trades-Companion/releases) from the releases page.  
 - Run POE Trades Companion.ahk  
 
 You can access the Settings menu by right clicking the icon.  
-**[POE Trades Companion Wiki Page](https://github.com/lemasato/POE-Trades-Companion/wiki)**  
+**[POE Trades Companion Wiki Page](https://github.com/lemasatodev/POE-Trades-Companion/wiki)**  
 
 You could also download the executable but some protections are flagging it as malicious.  
 
@@ -78,15 +78,15 @@ The entire updating process is automated.
 |Path of Exile|White|Dark Blue|  
 |---|---|---|  
 |Based on Path of Exile, blends perfectly with the game.|A sleek, simplistic combination of white and blue|The "night" alternative to the White skin.|
-|![](https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/resources/skins/Path%20of%20Exile/Preview.png)|![](https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/resources/skins/White/Preview.png)|![](https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/resources/skins/Dark%20Blue/Preview.png)
+|![](https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/resources/skins/Path%20of%20Exile/Preview.png)|![](https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/resources/skins/White/Preview.png)|![](https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/resources/skins/Dark%20Blue/Preview.png)
 
-If interested, you may as well **[make your own skin](https://github.com/lemasato/POE-Trades-Companion/wiki/Creating-Your-Skin)**
+If interested, you may as well **[make your own skin](https://github.com/lemasatodev/POE-Trades-Companion/wiki/Creating-Your-Skin)**
 
 ***
 
 ## Interface
 
-<img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/screenshots/Main%20interface.png">
+<img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/screenshots/Main%20interface.png">
 
 ## Price checking
 
@@ -113,7 +113,7 @@ If the item is detected to be a map, only the map stash tab will be shown. If yo
 
 Note that this feature also shows your item name and stash tab name to make finding even easier.
 
-<img src=https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/screenshots/ItemGrid%20Maps.png width=300> <img src=https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/screenshots/ItemGrid%20Normal.png width=300>
+<img src=https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/screenshots/ItemGrid%20Maps.png width=300> <img src=https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/screenshots/ItemGrid%20Normal.png width=300>
 
 ## Easily trade currency with an hotkey  
 
@@ -140,36 +140,36 @@ While it should be safe to "spam" this hotkey (because there are some countermea
 
 *Pictures have been hidden. Click on each message to show them*
 
-<a href="https://github.com/lemasato/POE-Trades-Companion/wiki/How-to-use#customizing-buttons">Wiki: Customizing buttons</a>
-<br><a href="https://github.com/lemasato/POE-Trades-Companion/wiki/How-to-use#explaining-some-actions
+<a href="https://github.com/lemasatodev/POE-Trades-Companion/wiki/How-to-use#customizing-buttons">Wiki: Customizing buttons</a>
+<br><a href="https://github.com/lemasatodev/POE-Trades-Companion/wiki/How-to-use#explaining-some-actions
 ">Wiki: Explaining some actions</a>
-<br><a href="https://github.com/lemasato/POE-Trades-Companion/wiki/How-to-use#variables">Wiki: Variables</a>
+<br><a href="https://github.com/lemasatodev/POE-Trades-Companion/wiki/How-to-use#variables">Wiki: Variables</a>
 
 <details>
     <summary>Settings Main tab
     <br>Set the behaviour of the interface.</summary>
-        <img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/screenshots/Settings 1-Main.png">
+        <img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/screenshots/Settings 1-Main.png">
 </details>
 &nbsp;  
     
 <details>
     <summary>Customization Skins tab
     <br>Change the skin, or adjust it to your likings.</summary>
-        <img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/screenshots/Settings 2-Skins.png">
+        <img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/screenshots/Settings 2-Skins.png">
 </details>
 &nbsp;  
     
 <details>
     <summary>Customization Buttons tab
     <br>Move, disable, rename, customize your buttons.</summary>
-        <img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/screenshots/Settings 3-Buttons.png">
+        <img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/screenshots/Settings 3-Buttons.png">
 </details>
 &nbsp;  
     
 <details>
     <summary>Hotkeys Basic tab
     <br>Set-up simple hotkeys limited to one action.</summary>
-        <img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/screenshots/Settings 4-Basic.png">
+        <img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/screenshots/Settings 4-Basic.png">
 </details>
 &nbsp;  
 
@@ -180,7 +180,7 @@ While it should be safe to "spam" this hotkey (because there are some countermea
     <br>In such cases, switch to a manual hotkey by using the "HK Type Switch" button.
     <br>https://autohotkey.com/docs/Hotkeys.htm
     <br>https://autohotkey.com/docs/KeyList.htm</summary>
-        <img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/screenshots/Settings 5-Advanced.png">
+        <img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/screenshots/Settings 5-Advanced.png">
 </details>
 &nbsp;  
     
@@ -188,5 +188,5 @@ While it should be safe to "spam" this hotkey (because there are some countermea
     <summary>Available actions
     <br>Note that "Custom Buttons" actions are only available for hotkeys.
     <br>This allows you to bind an hotkey to a Custom Button.</summary>
-        <img src="https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/others/Help/Settings 6-Actions List.png">
+        <img src="https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/others/Help/Settings 6-Actions List.png">
 </details>

@@ -1,4 +1,4 @@
-﻿/*	Slightly modified library for personal use (lemasato)
+﻿/*	Slightly modified library for personal use (lemasatodev)
 	Added Is_JSON(), JSON_Load() and JSON_Dump() functions
 */
 

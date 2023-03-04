@@ -3,7 +3,7 @@
 *					POE Trades Companion																														*
 *					See all the information about the trade request upon receiving a poe.trade whisper															*
 *																																								*
-*					https://github.com/lemasato/POE-Trades-Companion/																							*
+*					https://github.com/lemasatodev/POE-Trades-Companion/																							*
 *					https://www.reddit.com/r/pathofexile/comments/57oo3h/																						*
 *					https://www.pathofexile.com/forum/view-thread/1755148/																						*
 *																																								*	
@@ -93,11 +93,11 @@ Start_Script() {
 	PROGRAM.IS_BETA					:= IsContaining(PROGRAM.VERSION, "beta")?"True":"False"
 	PROGRAM.ALPHA					:= "Discord ALPHA 14"
 
-	PROGRAM.GITHUB_USER 			:= "lemasato"
+	PROGRAM.GITHUB_USER 			:= "lemasatodev"
 	PROGRAM.GITHUB_REPO 			:= "POE-Trades-Companion"
 	PROGRAM.GITHUB_BRANCH			:= PROGRAM.IS_BETA ? "dev" : "master"
 
-	PROGRAM.MAIN_FOLDER 			:= MyDocuments "\lemasato\" PROGRAM.NAME
+	PROGRAM.MAIN_FOLDER 			:= MyDocuments "\lemasatodev\" PROGRAM.NAME
 	PROGRAM.LOGS_FOLDER 			:= PROGRAM.MAIN_FOLDER "\Logs"
 	PROGRAM.TEMP_FOLDER 			:= PROGRAM.MAIN_FOLDER "\Temp"
 	PROGRAM.DATA_FOLDER				:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\Data":"\data")
@@ -139,9 +139,9 @@ Start_Script() {
 
 	PROGRAM.CURL_EXECUTABLE			:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\curl.exe":"\lib\third-party\curl.exe")
 
-	PROGRAM.LINK_REDDIT 			:= "https://www.reddit.com/user/lemasato/submitted/"
+	PROGRAM.LINK_REDDIT 			:= "https://www.reddit.com/user/lemasatodev/submitted/"
 	PROGRAM.LINK_GGG 				:= "https://www.pathofexile.com/forum/view-thread/1755148/"
-	PROGRAM.LINK_GITHUB 			:= "https://github.com/lemasato/POE-Trades-Companion"
+	PROGRAM.LINK_GITHUB 			:= "https://github.com/lemasatodev/POE-Trades-Companion"
 	PROGRAM.LINK_SUPPORT 			:= "https://www.paypal.me/masato/"
 	PROGRAM.LINK_DISCORD 			:= "https://discord.gg/UMxqtfC"
 

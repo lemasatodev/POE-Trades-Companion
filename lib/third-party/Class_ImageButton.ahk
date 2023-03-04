@@ -1,6 +1,6 @@
 ﻿/*
 
-Modified Class_ImageButton.ahk by lemasato to include private fonts
+Modified Class_ImageButton.ahk by lemasatodev to include private fonts
 
 Private fonts (how to use example):
    FGP_ by kon can be found here: https://github.com/ahkon/FGP-FileGetProperties
@@ -41,8 +41,8 @@ Function:          Create images and assign them to pushbuttons.
 Tested with:       AHK 1.1.14.03 (A32/U32/U64)
 Tested on:         Win 7 (x64)
 Change history:    
-    1.4.2 / 2018-08-20 / lemasato - Added DestroyBtnImgList into the Class, for easier use
-    1.4.1 / 2018-06-12 / lemasato - Added private fonts support on ImageButton.Create()
+    1.4.2 / 2018-08-20 / lemasatodev - Added DestroyBtnImgList into the Class, for easier use
+    1.4.1 / 2018-06-12 / lemasatodev - Added private fonts support on ImageButton.Create()
     1.4   / 2014-06-07 / just me  - fixed bug for button caption = "0", "000", etc.
     1.3   / 2014-02-28 / just me  - added support for ARGB colors
     1.2   / 2014-02-23 / just me  - added borders

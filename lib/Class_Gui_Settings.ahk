@@ -2408,7 +2408,7 @@ Class GUI_Settings {
 	TabAbout_GetHallOfFame() {
 		global PROGRAM
 
-		url := "https://github.com/lemasato/POE-Trades-Companion/wiki/Support"
+		url := "https://github.com/lemasatodev/POE-Trades-Companion/wiki/Support"
     	headers := "Content-Type: text/html, charset=UTF-8"
     	options := "TimeOut: 7"
     	. "`n"     "Charset: UTF-8"

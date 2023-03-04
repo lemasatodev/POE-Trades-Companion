@@ -112,7 +112,7 @@ GetImageSize(ImageFullPath) {
 
 Gdip_ResizeBitmap(pBitmap, PercentOrWH, useSmoothInterpol=True, Dispose=True) {
 	; Credits to Learning one for the original function
-	; Modified version of the function by lemasato
+	; Modified version of the function by lemasatodev
 	; Added useSmoothInterpol param to remove the "washed out colors" bug when the resized bitmap is used as part to create bigger bitmap with Gdip_DrawImage()
     Gdip_GetImageDimensions(pBitmap, origW, origH)
     if PercentOrWH contains w,h
