@@ -1,0 +1,25 @@
+{
+	"enable" : true,
+	
+	"settings" : {
+		"skip_admin" : true,
+		
+		"use_chat_logs" : false,
+		"simulate_new_trade_while_tab_close" : false,
+		
+		"skip_update_check" : false,
+		"force_update_check" : false,
+		
+		"skip_assets_extracting" : false,
+
+		"open_settings_gui" : true,
+		"open_mystats_gui" : false,
+		"instant_settings_tooltips" : false,
+		"settings_copy_ctrlname" : false
+	},
+
+	"chat_logs": [
+		"2017/06/04 17:31:02 105384166 355 [INFO Client 6416] @From iSellStuff: Hi, I would like to buy your Rise of the Phoenix Mosaic Kite Shield listed for 100 chaos in Incursion (stash tab \"price testing\"; position: left 8, top 2)"
+
+	]
+}

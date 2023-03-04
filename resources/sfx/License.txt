@@ -1,0 +1,24 @@
+----------------------------------------
+Credits to Rhodesmas
+https://freesound.org/people/rhodesmas/
+http://creativecommons.org/licenses/by-nc/3.0/
+
+Rhodesmas_Notif_1.wav 
+Rhodesmas_Notif_2.wav 
+Rhodesmas_Up_1.wav 
+Rhodesmas_Up_2.wav 
+Rhodesmas_Up_3.wav 
+----------------------------------------
+Credits to HelpTheWretched
+http://noproblo.dayjo.org/ZeldaSounds/
+http://www.ZeldaSounds.com
+
+MM_Tatl_Gleam.wav
+MM_Tatl_Hey.wav
+WW_MainMenu_CopyErase_Start.wav
+WW_MainMenu_Letter.wav
+ZSS_Calibrate1.wav
+ZSS_Calibrate2.wav
+ZSS_Calibrate3.wav
+ZSS_Calibrate4.wav
+----------------------------------------
