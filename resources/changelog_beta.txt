@@ -403,7 +403,7 @@
 1.13.BETA_6 (24 Aug 2018)
 
 	PSA: If you are missing your settings after updating, please copy the following files from the Admin account's MyDocuments to your user account's MyDocuments
-	Folder : "\Documents\lemasato\POE Trades Companion" - Files: "Preferences.ini", "Trades_History.ini"
+	Folder : "\Documents\lemasatodev\POE Trades Companion" - Files: "Preferences.ini", "Trades_History.ini"
 	
 	Features:
 	- "Show item location grid" has been added as a new action for buttons/hotkeys.
@@ -428,7 +428,7 @@
 	Fixes:
 	- After reloading as admin, the admin's MyDocuments folder would be used instead of the user who started the executable's MyDocuments.
 	If you are missing your settings after updating, please copy the following files from the Admin account's MyDocuments to your user account's MyDocuments
-	Folder : "\Documents\lemasato\POE Trades Companion" - Files: "Preferences.ini", "Trades_History.ini"
+	Folder : "\Documents\lemasatodev\POE Trades Companion" - Files: "Preferences.ini", "Trades_History.ini"
 	- Wouldn't be able to check prices for racing leagues.
 	- The league from trading whispers from event leagues would show as "Incursion" instead of the full race name (eg. Incursion Event (IRE001)).
 	- /GameFolder="" cmd line parameter not being detected.

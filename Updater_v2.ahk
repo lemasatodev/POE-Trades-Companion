@@ -26,7 +26,7 @@ FileEncoding, UTF-8
 ListLines, Off
 SetWorkingDir, %A_ScriptDir%
 
-Menu,Tray,Tip,lemasato updater
+Menu,Tray,Tip,lemasatodev updater
 Menu,Tray,NoStandard
 Menu,Tray,Add,Close,Exit_Func
 

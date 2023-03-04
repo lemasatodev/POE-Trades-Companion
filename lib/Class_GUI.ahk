@@ -1,5 +1,5 @@
-﻿/*	Class GUI by lemasato
-	www.github.com/lemasato
+﻿/*	Class GUI by lemasatodev
+	www.github.com/lemasatodev
 
 	Usage example:
 CUSTOM_GUI.Create()

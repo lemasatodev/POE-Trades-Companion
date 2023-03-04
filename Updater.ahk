@@ -9,7 +9,7 @@ global localFolder := A_MyDocuments "\AutoHotKey\" programName
 
 global iniFilePath := localFolder "\Preferences.ini"
 global newVersionPath := "POE-TC-NewVersion.exe"
-global programDL := "https://raw.githubusercontent.com/lemasato/POE-Trades-Companion/master/" programName ".exe"
+global programDL := "https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/" programName ".exe"
 
 ;		Retrieving the current date and time, then separating into their own vars
 FormatTime, currentDateTime,,dd/MM/yy-HH:mm:ss
@@ -147,8 +147,8 @@ Download_Link:
 	Run, % programDL
 return
 Thread_Link:
-	Run, "https://github.com/lemasato/POE-Trades-Companion/releases"
+	Run, "https://github.com/lemasatodev/POE-Trades-Companion/releases"
 return
 Repo_Link:
-	Run, "https://github.com/lemasato/POE-Trades-Companion/"
+	Run, "https://github.com/lemasatodev/POE-Trades-Companion/"
 return
