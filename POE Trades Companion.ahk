@@ -100,7 +100,7 @@ Start_Script() {
 	PROGRAM.GITHUB_REPO 			:= "POE-Trades-Companion"
 	PROGRAM.GITHUB_BRANCH			:= PROGRAM.IS_BETA ? "dev" : "master"
 
-	PROGRAM.MAIN_FOLDER 			:= MyDocuments "\lemasatodev\" PROGRAM.NAME
+	PROGRAM.MAIN_FOLDER 			:= MyDocuments "\lemasato\" PROGRAM.NAME
 	PROGRAM.LOGS_FOLDER 			:= PROGRAM.MAIN_FOLDER "\Logs"
 	PROGRAM.TEMP_FOLDER 			:= PROGRAM.MAIN_FOLDER "\Temp"
 	PROGRAM.DATA_FOLDER				:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\Data":"\data")
