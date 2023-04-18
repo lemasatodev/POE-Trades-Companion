@@ -1,13 +1,12 @@
 ﻿PoeTrade_GenerateCurrencyData() {
-    global PROGRAM
-
     jsonData := PoeTrade_GetCurrencyData()
+
     if !(jsonData) {
         MsgBox(4096, "", "Function: " A_ThisFunc "`nCurrency JSON data is invalid, cancelling.")
         return
     }
 
-    nice := JSON_Dump(jsondata)
+    nice := JSON.Beautify(jsondata)
     for key, value in jsonData {
         if !(jsonData[value].Abridged = key) {
             dataTxt .= dataTxt ? "`n" key : key
@@ -19,11 +18,11 @@
         return
     }
 
-    fileLocation := PROGRAM.DATA_FOLDER "/poeTradeCurrencyData.json"
+    fileLocation := A_ScriptDir "/data/poeTradeCurrencyData.json"
     FileDelete,% fileLocation
     FileAppend,% nice,% fileLocation
 
-    fileLocation := PROGRAM.DATA_FOLDER "/CurrencyNames.txt"
+    fileLocation := A_ScriptDir "/data/CurrencyNames.txt"
     FileDelete,% fileLocation
     FileAppend,% dataTxt,% fileLocation
 }
@@ -94,10 +93,10 @@ PoeTrade_GetCurrencyData() {
         }
     }
 
-    if !(currenciesObj["Chaos Orb"] || !IsObject(currenciesObj["Chaos Orb"])) {
+    if !(currenciesObj["Chaos Orb"]) {
         AppendToLogs(A_ThisFunc "(createData=" createData "): Couldn't retrieve currency data from poe.trade, falling back to json.")
         FileRead, JSONFile,% PROGRAM.DATA_FOLDER "\poeTradeCurrencyData.json"
-        currenciesObj := JSON_Load(JSONFile)
+        currenciesObj := JSON.Load(JSONFile)
     }
 
     Return currenciesObj

@@ -1,50 +1,32 @@
 ﻿OnHotkeyPress() {
-	global PROGRAM, GuiTrades
+	global PROGRAM
 	static uniqueNum
 	hkPressed := A_ThisHotkey
-	uniqueNum := !uniqueNum
+	hkSettings := PROGRAM.HOTKEYS[hkPressed]
+
+	isHKBasic := hkSettings.Type ? True : False
+	isHKAdvanced := hkSettings.Action_1_Type ? True : False
 
 	KeyWait, Ctrl, L
 	KeyWait, Shift, L
 	KeyWait, Alt, L
 	keysState := GetKeyStateFunc("Ctrl,LCtrl,RCtrl")
-	hkSettings := PROGRAM.HOTKEYS[hkPressed]
+	if (isHKBasic) {
+		Do_Action(hkSettings.Type, hkSettings.Content, True)
+	}
+	else if (isHKAdvanced) {
+		uniqueNum := !uniqueNum
+		Loop % hkSettings.Actions_Count {
+			acType := hkSettings["Action_" A_Index "_Type"], acContent := hkSettings["Action_" A_Index "_Content"]
 
-	buyMode := GuiTrades.Buy.Is_Tabs ? "Tabs" : "Stack"
-	sellMode := GuiTrades.Sell.Is_Tabs ? "Tabs" : "Stack"
-	tradesVariables := "%buyer%,%buyerName%,%seller%,%sellerName%,%item%,%itemName%,%price%,%itemPrice%"
-	_buyOrSell := "Sell"
-	
-	Loop % hkSettings.Actions.Count() {
-		thisAction := hkSettings.Actions[A_Index]
-		actionType := thisAction.Type, actionContent := thisAction.Content
-
-		if (actionType = "APPLY_ACTIONS_TO_BUY_INTERFACE")
-			_buyOrSell := "Buy"
-		else if (actionType = "APPLY_ACTIONS_TO_SELL_INTERFACE")
-			_buyOrSell := "Sell"
-
-		if (actionType != "COPY_ITEM_INFOS") { ; Make sure to only copy item infos after all actions have been done
-			if IsContaining(actionContent, tradesVariables) && (GuiTrades[_buyOrSell].Is_Stack)
-				TrayNotifications.Show("Action in Stack mode not supported yet.", ""
-				. "This action cannot be done because it contains one of the following variables: ""%buyer%,%item%,%price%""."
-				. "`n`n" "Stack mode doesn't provide any way to mark a stack as selected currently.", {Fade_Timer:12000})
-			else if IsContaining(actionType, "CUSTOM_BUTTON") && (GuiTrades[_buyOrSell].Is_Stack) {
-				TrayNotifications.Show("Action in Stack mode not supported yet.", ""
-				. "This action cannot be done because it refers to a custom button."
-				. "`n`n" "Stack mode doesn't provide any way to mark a stack as selected currently.", {Fade_Timer:12000})
-			}
-			else
-				Do_Action(actionType,  actionContent, _buyOrSell, GuiTrades[_buyOrSell].Active_Tab, uniqueNum)
+			if (actionType != "COPY_ITEM_INFOS")
+				Do_Action(acType, acContent, True, uniqueNum)
+			else if (actionType = "COPY_ITEM_INFOS")
+				doCopyActionAtEnd := True
 		}
-		else 
-			doCopyActionAtEnd := True
+		if (doCopyActionAtEnd)
+			Do_Action("COPY_ITEM_INFOS", "", True, uniqueNum)
 	}
-	if (doCopyActionAtEnd=True) {
-		Sleep 100
-		Do_Action("COPY_ITEM_INFOS", "", _buyOrSell, GuiTrades[_buyOrSell].Active_Tab, uniqueNum)
-	}
-
 	SetKeyStateFunc(keysState)
 }
 
@@ -60,11 +42,10 @@ DisableHotkeys() {
 	global PROGRAM
 
 	; Disable hotkeys
-	Hotkey, IfWinActive, [a-zA-Z0-9_] ahk_group POEGameGroup ; Useless to change TitleMatchMode to RegEx here, bcs hotkeys will always use the "default" that was given during autorun - which is RegEx in this case, so it works
 	for hk, nothing in PROGRAM.HOTKEYS {
 		if (hk != "") {
+			Hotkey, IfWinActive, ahk_group POEGameGroup
 			try {
-				Hotkey,% hk, OnHotkeyPress, Off
 				Hotkey,% hk, Off
 				logsStr := "Disabled hotkey with key """ hk """"
 			}
@@ -85,37 +66,141 @@ DisableHotkeys() {
 
 EnableHotkeys() {
 	global PROGRAM, POEGameGroup
-	programName := PROGRAM.NAME
+	programName := PROGRAM.NAME, iniFilePath := PROGRAM.INI_FILE
+	Set_TitleMatchMode("RegEx")
+
 	PROGRAM.HOTKEYS := {}
+	Loop 15 { ; 15 Basic hotkeys
+		thisHotkeySettings := PROGRAM.SETTINGS["SETTINGS_HOTKEY_" A_Index]
+		toggle := thisHotkeySettings.Enabled
+		acContent := thisHotkeySettings.Content
+		acType := thisHotkeySettings.Type
+		hk := thisHotkeySettings.Hotkey
+		hkSC := TransformKeyStr_ToScanCodeStr(hk)
+		if !(hkSC)
+			hkSC := TransformKeyStr_ToVirtualKeyStr(hk)
 
-	Hotkey, IfWinActive, [a-zA-Z0-9_] ahk_group POEGameGroup ; Useless to change TitleMatchMode to RegEx here, bcs hotkeys will always use the "default" that was given during autorun - which is RegEx in this case, so it works
-	Loop % PROGRAM.SETTINGS.HOTKEYS.Count() {
-		hkIndex := A_Index
-		loopedHKSection := PROGRAM.SETTINGS.HOTKEYS[hkIndex]
-		loopedHKHotkey := loopedHKSection.Hotkey
-		hkSC := AutomaticallyTransformKeyStr_ToVirtualKeyOrScanCodeStr(loopedHKHotkey)
-		hkReadable := Transform_AHKHotkeyString_Into_ReadableHotkeyString(loopedHKHotkey)
-
-		if !(hkSC) {
-			logsStr := "Failed to enable hotkey doe to key or sc/vk being empty: key """ hkReadable """ (sc/vk: """ hkSC """)"
-			logsAppend .= logsAppend ? "`n" logsStr : logsStr
-			Continue
-		}
-			
-		PROGRAM.HOTKEYS[hkSC] := {}
-		PROGRAM.HOTKEYS[hkSC].Actions := ObjFullyClone(loopedHKSection.Actions)
-		try {
-			Hotkey,% hkSC, OnHotkeyPress, On
-			logsStr := "Enabled hotkey with key """ hkReadable """ (sc/vk: """ hkSC """)"
-			logsAppend .= logsAppend ? "`n" logsStr : logsStr
-		}
-		catch {
-			logsStr := "Failed to enable hotkey doe to key or sc/vk being empty: key """ hkReadable """ (sc/vk: """ hkSC """)"
+		if (toggle = "True") && (hk != "") && (acType != "") {
+			PROGRAM.HOTKEYS[hkSC] := {}
+			PROGRAM.HOTKEYS[hkSC].Content := acContent
+			PROGRAM.HOTKEYS[hkSC].Type := acType
+			Hotkey, IfWinActive, ahk_group POEGameGroup
+			try {
+				Hotkey,% hkSC, OnHotkeyPress
+				Hotkey,% hkSC, OnHotkeyPress, On
+				logsStr := "Enabled hotkey with key """ hk """ (sc/vk: """ hkSC """)"
+			}
+			catch
+				logsStr := "Failed to enable hotkey with key """ hk """ (sc/vk: """ hkSC """)"
 			logsAppend .= logsAppend ? "`n" logsStr : logsStr
 		}
 	}
-	Hotkey, IfWinActive
+
+	Loop { ; Infinite Advanced Hotkeys
+		thisHotkeySettings := PROGRAM.SETTINGS["SETTINGS_HOTKEY_ADV_" A_Index]
+		acContent := thisHotkeySettings.Action_1_Content
+		acType := thisHotkeySettings.Action_1_Type
+		hk := thisHotkeySettings.Hotkey
+		hkSC := TransformKeyStr_ToScanCodeStr(hk)
+		if !(hkSC)
+			hkSC := TransformKeyStr_ToVirtualKeyStr(hk)
+
+		if (A_Index > 1000) {
+			AppendToLogs(A_ThisFunc "(): Broke out of loop after 1000.")
+			Break
+		}
+
+		if IsObject(thisHotkeySettings) {
+			PROGRAM.HOTKEYS[hkSC] := {}
+
+			Loop {
+				LoopAcType := thisHotkeySettings["Action_" A_Index "_Type"]
+				LoopAcContent := thisHotkeySettings["Action_" A_Index "_Content"]
+
+				if !(LoopAcType)
+					Break
+
+				PROGRAM.HOTKEYS[hkSC]["Action_" A_Index "_Type"] := LoopAcType
+				PROGRAM.HOTKEYS[hkSC]["Action_" A_Index "_Content"] := LoopAcContent
+				PROGRAM.HOTKEYS[hkSC]["Actions_Count"] := A_Index
+			}
+			if (hk != "") && (hkSC != "") {
+				Hotkey, IfWinActive, ahk_group POEGameGroup
+				try {
+					Hotkey,% hkSC, OnHotkeyPress, On
+					logsStr := "Enabled hotkey with key """ hk """ (sc/vk: """ hkSC """)"
+					logsAppend .= logsAppend ? "`n" logsStr : logsStr
+				}
+				catch {
+					logsStr := "Failed to enable hotkey doe to key or sc/vk being empty: key """ hk """ (sc/vk: """ hkSC """)"
+					logsAppend .= logsAppend ? "`n" logsStr : logsStr
+				}
+			}
+		}
+		else
+			Break
+	}
 
 	if (logsAppend)
 		AppendToLogs(logsAppend)
+		
+	Set_TitleMatchMode()
+}
+
+TransformKeyStr_ToVirtualKeyStr(hk) {
+	hkStr := hk, hkLen := StrLen(hk)
+	Loop 9 {
+		char := SubStr(hkStr, A_Index, 1)
+		if IsIn(char, "^,+,!,#,<,>,*,~,$") && (hkLen > A_Index)
+			hkStr_final .= char
+		else
+			Break
+	}
+	StringTrimLeft, hkStr_noMods, hkStr,% StrLen(hkStr_final)
+	hkVK := GetKeyVK(hkStr_noMods), hkVK := Format("VK{:X}", hkVK)
+	hkStr_final .= hkVK
+
+    if (hkVK = "VK0")
+        return
+
+	return hkStr_final
+}
+
+TransformKeyStr_ToScanCodeStr(hk) {
+	hkStr := hk, hkLen := StrLen(hk)
+	Loop 9 {
+		char := SubStr(hkStr, A_Index, 1)
+		if IsIn(char, "^,+,!,#,<,>,*,~,$") && (hkLen > A_Index)
+			hkStr_final .= char
+		else
+			Break
+	}
+	StringTrimLeft, hkStr_noMods, hkStr,% StrLen(hkStr_final)
+	hkSC := GetKeySC(hkStr_noMods), hkSC := Format("SC{:X}", hkSC)
+	hkStr_final .= hkSC
+
+    if (hkSC = "SC0")
+        return
+
+	return hkStr_final
+}
+
+RemoveModifiersFromHotkeyStr(hk, returnMods=False) {
+	hkStr := hk, hkLen := StrLen(hk), charsToRemove := 0
+	Loop 9 {
+		char := SubStr(hkStr, A_Index, 1)
+		if IsIn(char, "^,+,!,#,<,>,*,~,$") && (hkLen > A_Index)
+			charsToRemove++
+		else
+			Break
+	}
+	if (returnMods=False) {
+		StringTrimLeft, hkStrNoMods, hkStr, %charsToRemove%
+		return hkStrNoMods
+	}
+	else {
+		StringTrimLeft, hkStrNoMods, hkStr, %charsToRemove%
+		StringTrimRight, hkStrOnlyMods, hkStr,% hkLen-charsToRemove
+		return [hkStrNoMods,hkStrOnlyMods]
+	}
 }

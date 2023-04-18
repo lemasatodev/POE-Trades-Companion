@@ -5,9 +5,9 @@
 	headers := "Content-Type: text/html; charset=UTF-8"
     options := "TimeOut: 25"
 
-    WinHttpRequest_cURL(url, data:="", headers, options), html := data
+    WinHttpRequest(url, data:="", headers, options), html := data
 
-    mapsJSON := JSON_Load(html)
+    mapsJSON := JSON.Load(html)
     return mapsJSON
 }
 
@@ -19,9 +19,9 @@ PoeNinja_GetUniqueMapOverview(league) {
 	headers := "Content-Type: text/html; charset=UTF-8"
     options := "TimeOut: 25"
 
-    WinHttpRequest_cURL(url, data:="", headers, options), html := data
+    WinHttpRequest(url, data:="", headers, options), html := data
 
-    uniqueMapsJSON := JSON_Load(html)
+    uniqueMapsJSON := JSON.Load(html)
     return uniqueMapsJSON
 }
 
@@ -30,9 +30,9 @@ PoeNinja_GetCurrencyOverview(league) {
 	headers := "Content-Type: text/html; charset=UTF-8"
     options := "TimeOut: 25"
 
-    WinHttpRequest_cURL(url, data:="", headers, options), html := data
+    WinHttpRequest(url, data:="", headers, options), html := data
 
-    currencyJSON := JSON_Load(html)
+    currencyJSON := JSON.Load(html)
     return currencyJSON
 }
 
@@ -103,7 +103,7 @@ PoeNinja_CreateMapDataFile(league) {
         }
     }
 
-    finalData := JSON_Dump(mapsSorted)
+    finalData := JSON.Beautify(mapsSorted)
     finalData := StrReplace(finalData, "\u251c\u00c2", "ö")
 
     if (!mapsSorted.Count() || !mapsSorted["tier_unique"].Count() || StrLen(finalData) < 100) {

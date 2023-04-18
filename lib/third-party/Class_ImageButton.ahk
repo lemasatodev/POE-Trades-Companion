@@ -1,6 +1,6 @@
 ﻿/*
 
-Modified Class_ImageButton.ahk by lemasatodev to include private fonts
+Modified Class_ImageButton.ahk by lemasato to include private fonts
 
 Private fonts (how to use example):
    FGP_ by kon can be found here: https://github.com/ahkon/FGP-FileGetProperties
@@ -41,8 +41,8 @@ Function:          Create images and assign them to pushbuttons.
 Tested with:       AHK 1.1.14.03 (A32/U32/U64)
 Tested on:         Win 7 (x64)
 Change history:    
-    1.4.2 / 2018-08-20 / lemasatodev - Added DestroyBtnImgList into the Class, for easier use
-    1.4.1 / 2018-06-12 / lemasatodev - Added private fonts support on ImageButton.Create()
+    1.4.2 / 2018-08-20 / lemasato - Added DestroyBtnImgList into the Class, for easier use
+    1.4.1 / 2018-06-12 / lemasato - Added private fonts support on ImageButton.Create()
     1.4   / 2014-06-07 / just me  - fixed bug for button caption = "0", "000", etc.
     1.3   / 2014-02-28 / just me  - added support for ARGB colors
     1.2   / 2014-02-23 / just me  - added borders
@@ -324,19 +324,19 @@ Class ImageButton {
          && (FileExist(Option.2) || (DllCall("Gdi32.dll\GetObjectType", "Ptr", Option.2, "UInt") = OBJ_BITMAP))
             Image := Option.2
          Else {
-            If !(Option.2 + 0) && !This.HTML.HasKey(Option.2) && (Option.2 != "0x000000")
+            If !(Option.2 + 0) && !This.HTML.HasKey(Option.2)
                Return This.SetError("Invalid value for StartColor in Options[" . Index . "]!")
             BkgColor1 := This.GetARGB(Option.2)
             If (Option.3 = "")
                Option.3 := Option.2
-            If !(Option.3 + 0) && !This.HTML.HasKey(Option.3) && (Option.3 != "0x000000")
+            If !(Option.3 + 0) && !This.HTML.HasKey(Option.3)
                Return This.SetError("Invalid value for TargetColor in Options[" . Index . "]!")
             BkgColor2 := This.GetARGB(Option.3)
          }
          ; TextColor
          If (Option.4 = "")
             Option.4 := This.DefTxtColor
-         If !(Option.4 + 0) && !This.HTML.HasKey(Option.4) && (Option.4 != "0x000000")
+         If !(Option.4 + 0) && !This.HTML.HasKey(Option.4)
             Return This.SetError("Invalid value for TxtColor in Options[" . Index . "]!")
          TxtColor := This.GetARGB(Option.4)
          ; Rounded
@@ -350,13 +350,13 @@ Class ImageButton {
          ; GuiColor
          If (Option.6 = "")
             Option.6 := This.DefGuiColor
-         If !(Option.6 + 0) && !This.HTML.HasKey(Option.6) && (Option.6 != "0x000000")
+         If !(Option.6 + 0) && !This.HTML.HasKey(Option.6)
             Return This.SetError("Invalid value for GuiColor in Options[" . Index . "]!")
          GuiColor := This.GetARGB(Option.6)
          ; BorderColor
          BorderColor := ""
          If (Option.7 <> "") {
-            If !(Option.7 + 0) && !This.HTML.HasKey(Option.7) && (Option.7 != "0x000000")
+            If !(Option.7 + 0) && !This.HTML.HasKey(Option.7)
                Return This.SetError("Invalid value for BorderColor in Options[" . Index . "]!")
             BorderColor := 0xFF000000 | This.GetARGB(Option.7) ; BorderColor must be always opaque
          }

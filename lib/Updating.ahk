@@ -1,11 +1,9 @@
 ﻿IsUpdateAvailable() {
 	global PROGRAM
-	if !IsObject(PROGRAM.SETTINGS)
-		Declare_LocalSettings()
+	iniFile := PROGRAM.INI_FILE
 
-	useBeta := PROGRAM.SETTINGS.UPDATING.UseBeta, useBeta := useBeta="True"?True:False
-	PROGRAM.SETTINGS.UPDATING.LastUpdateCheck := A_Now
-	Save_LocalSettings()
+	useBeta := INI.Get(iniFile, "UPDATING", "UseBeta"), useBeta := useBeta="True"?True:False
+	INI.Set(iniFile, "UPDATING", "LastUpdateCheck", A_Now)
 
 	recentRels := GitHubAPI_GetRecentReleases(PROGRAM.GITHUB_USER, PROGRAM.GITHUB_REPO)
 	if !(recentRels) {
@@ -28,9 +26,9 @@
 	}
 	stableTag := latestStable.tag_name, betaTag := latestBeta.tag_name
 
-	PROGRAM.SETTINGS.UPDATING.LatestStable := stableTag
-	PROGRAM.SETTINGS.UPDATING.LatestBeta := betaTag
-	Save_LocalSettings()
+	INI.Set(iniFile, "UPDATING", "LatestStable", stableTag)
+	INI.Set(iniFile, "UPDATING", "LatestBeta", betaTag)
+	Declare_LocalSettings()
 
 	; Determine if stable or beta is better
 	stableSplit := StrSplit(stableTag, "."), stable_main := stableSplit.1, stable_patch := stableSplit.2, stable_fix := stableSplit.3
@@ -100,17 +98,11 @@
 }
 
 UpdateCheck(checkType="normal", notifOrBox="notif") {
-	global PROGRAM, SPACEBAR_WAIT
-	if !IsObject(PROGRAM.SETTINGS)
-		Declare_LocalSettings()
+	global PROGRAM
+	iniFile := PROGRAM.INI_FILE
 
-	if (PROGRAM.ALPHA) {
-		TrayNotifications.Show("Update checking disabled on ALPHA", "Automatic updates are disabled on the Discord ALPHA, but you will be notified on Discord when a new update is available.")
-		return
-	}
-
-	autoupdate := PROGRAM.SETTINGS.UPDATING.DownloadUpdatesAutomatically
-	lastUpdateCheck := PROGRAM.SETTINGS.UPDATING.DownloadUpdatesAutomatically.LastUpdateCheck
+	autoupdate := INI.Get(iniFile, "UPDATING", "DownloadUpdatesAutomatically")
+	lastUpdateCheck := INI.Get(iniFile, "UPDATING", "LastUpdateCheck")
 	if (checkType="forced") ; Fake the last update check, so it's higher than set limit
 		lastUpdateCheck := 1994010101010101
 
@@ -235,8 +227,7 @@ DownloadAndRunUpdater(dl="") {
 			LoadFonts()
 			return
 		}
-		PROGRAM.SETTINGS.GENERAL.ShowChangelog := "True"
-		Save_LocalSettings()
+		INI.Set(PROGRAM.INI_FILE, "GENERAL", "ShowChangelog", "True")
 		FileRemoveDir,% A_ScriptDir "_backup", 1
 		FileRemoveDir,% updateFolder, 1
 		Reload()
@@ -254,16 +245,14 @@ DownloadAndRunUpdater(dl="") {
 
 Run_Updater(downloadLink) {
 	global PROGRAM
+	iniFile := PROGRAM.INI_FILE
 
-	PROGRAM.SETTINGS.UPDATING.LastUpdate := A_Now
-	Save_LocalSettings()
-
+	INI.Set(iniFile, "UPDATING", "LastUpdate", A_Now)
 	Run,% PROGRAM.UPDATER_FILENAME 
 	. " /Name=""" PROGRAM.NAME  """"
-	. " /FileFullPath=""" A_ScriptFullPath """"
+	. " /File_Name=""" A_ScriptFullPath """"
 	. " /Local_Folder=""" PROGRAM.MAIN_FOLDER """"
-	. " /Settings_File=""" PROGRAM.SETTINGS_FILE """"
-	. " /Download_Link=""" downloadLink """"
-	. " /cURL_Executable=""" PROGRAM.CURL_EXECUTABLE
+	. " /Ini_File=""" PROGRAM.INI_FILE """"
+	. " /NewVersion_Link=""" downloadLink """"
 	ExitApp
 }

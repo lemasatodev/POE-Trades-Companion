@@ -18,7 +18,7 @@
 		AppendtoLogs("Unable to read file: """ gameFile """ System Error Code: " A_LastError)
 	}
 
-	File := FileOpen(gameFileCopy, "w", "UTF-8")
+	File := FileOpen(gameFileCopy, "w", "UTF-16")
 	File.Write(fileContent)
 	if (ErrorLevel) {
 		AppendtoLogs("Unable to write in file: """ gameFileCopy """")
@@ -28,7 +28,7 @@
 
 	if (cantWriteCopy && fileContent) {
 		fileEncode := A_FileEncoding
-		FileEncoding, UTF-8
+		FileEncoding, UTF-16
 
 		FileDelete,% gameFileCopy
 		FileAppend,% fileContent,% gameFileCopy
@@ -67,11 +67,17 @@
 	return returnObj
 }
 
-Declare_GameSettings(settingsObj="") {
+Declare_GameSettings(settingsObj) {
 	global GAME
 
-	if !IsObject(settingsObj)
-		settingsObj := Get_GameSettings()
+	GAME["SETTINGS"] := {}
 
-	GAME.SETTINGS := {}, GAME.SETTINGS := ObjFullyClone(settingsObj)
+	; for iniSection, nothing in settingsObj {
+		; GAME["SETTINGS"][iniSection] := {}
+		; for iniKey, iniValue in settingsObj[iniSection]
+			; GAME["SETTINGS"][iniSection][iniKey] := iniValue
+	; }
+
+	for iniKey, iniValue in settingsObj
+		GAME["SETTINGS"][iniKey] := iniValue
 }

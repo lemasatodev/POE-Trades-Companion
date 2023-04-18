@@ -32,12 +32,12 @@ GitHubAPI_GetReleases(user, repo, which="releases_only", latestOnly=False, pageI
     options := "TimeOut: 25"
     . "`n"     "Charset: UTF-8"
 
-    WinHttpRequest_cURL(url, data:="", headers, options), html := data
+    WinHttpRequest(url, data:="", headers, options), html := data
     
 	if GitHubAPI_IsRateLimitExceeded(html, reqHeaders)
 		Return
 
-	parsedJSON  	:= JSON_Load(html)
+	parsedJSON  	:= JSON.Load(html)
 
     if (which="releases_only" && latestOnly) {
         relInfos := parsedJSON

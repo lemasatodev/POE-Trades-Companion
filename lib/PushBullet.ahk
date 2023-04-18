@@ -17,7 +17,7 @@ PB_PushNote(_token, _title, _msg) {
     headers := "Access-Token: " _token
     . "`n" "Content-Type: application/json"
 
-    WinHttpRequest_cURL("https://api.pushbullet.com/v2/pushes", data, headers)
+    WinHttpRequest("https://api.pushbullet.com/v2/pushes", data, headers)
 
     RegExMatch(headers, "O)HTTP\/1\.1 (.*)`n", outVar)
         statusCode := outVar.1

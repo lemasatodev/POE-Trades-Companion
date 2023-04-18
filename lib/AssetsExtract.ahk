@@ -10,12 +10,13 @@
 
 ;	File location
 	installFile := A_ScriptDir "\FileInstall_Cmds.ahk"
-	FileDelete(installFile)
+	FileDelete,% installFile
 
 ;	Pass PROGRAM to file
 	appendToFile .= ""
 	.		"if (!A_IsCompiled && A_ScriptName = ""FileInstall_Cmds.ahk"") {"
 	. "`n"	"	#Include %A_ScriptDir%/lib/Logs.ahk"
+	. "`n"	"	#Include %A_ScriptDir%/lib/WindowsSettings.ahk"
 	. "`n"	"	#Include %A_ScriptDir%/lib/third-party/Get_ResourceSize.ahk"
 	. "`n"
 	. "`n"	"	if (!PROGRAM)"
@@ -57,13 +58,13 @@
 	appendToFile .= FileInstall("""" filePath """", "PROGRAM.MAIN_FOLDER """ "\" "GitHub.url" """", 2)
 
 ;	- - - - DATA
-	allowedExtensions := "txt,json"
+	allowedFiles := "CurrencyNames.txt,poetradeCurrencyNames.json,poeTradeCurrencyData.json,poeDotComCurrencyData.json,mapsData.json,UniqueMaps.txt"
 	Loop, Files,% A_ScriptDir "\data\*"
 	{
 		RegExMatch(A_LoopFileFullPath, "O)\\data\\(.*)", path)
 		filePath := "data\" path.1
 
-		if IsIn(A_LoopFileExt, allowedExtensions)
+		if (IsIn(A_LoopFileName, allowedFiles))
 			appendToFile .= FileInstall("""" filePath """", "PROGRAM.DATA_FOLDER """ "\" A_LoopFileName """", 2)
 	}
 

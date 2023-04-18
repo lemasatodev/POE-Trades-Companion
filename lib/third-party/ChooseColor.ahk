@@ -1,7 +1,7 @@
 ﻿/*  Windows Color Picker Plus (by rbrtryn)
     https://autohotkey.com/board/topic/91229-windows-color-picker-plus/
 
-    Edited by me lemasatodev:
+    Edited by me lemasato:
         BGR2RGB():
         Use Format() to convert the value to hex instead of SetFormat
 */

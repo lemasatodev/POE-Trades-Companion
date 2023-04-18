@@ -28,43 +28,7 @@ Gdip_Shutdown(pToken="")
 	return 0
 }
 
-Gdip_PrivateFontFamilyCreate(ByRef hCollection, fontFile, fontTitle="") {
-
-	if (!hCollection)
-		DllCall("gdiplus\GdipNewPrivateFontCollection", "Ptr*", hCollection)
-	if (!fontTitle)
-		fontTitle := FGP_Value(fontFile, 21) ; 21 = Title
-
-	DllCall("gdi32\AddFontResourceEx", "Str", fontFile, "UInt", FR_PRIVATE:=0x10, "UInt", 0)
-
-	if (!A_IsUnicode) {
-		nSize := DllCall("kernel32\MultiByteToWideChar", "Uint", 0, "Uint", 0, "Ptr", &fontFile, "int", -1, "Uint", 0, "int", 0)
-		VarSetCapacity(wFontfile, nSize * 2 + 1)
-		DllCall("kernel32\MultiByteToWideChar", "Uint", 0, "Uint", 0, "Ptr", &fontFile, "int", -1, "Ptr", &wFontfile, "int", nSize + 1)
-
-		nSize := DllCall("kernel32\MultiByteToWideChar", "Uint", 0, "Uint", 0, "Ptr", &fontTitle, "int", -1, "Uint", 0, "int", 0)
-		VarSetCapacity(wFontTitle, nSize * 2 + 1)
-		DllCall("kernel32\MultiByteToWideChar", "Uint", 0, "Uint", 0, "Ptr", &fontTitle, "int", -1, "Ptr", &wFontTitle, "int", nSize + 1)
-
-		DllCall("gdiplus\GdipNewPrivateFontCollection", "Ptr*", hCollection)
-		DllCall("gdiplus\GdipPrivateAddFontFile", "Ptr", hCollection, "Ptr", &wFontfile)
-		DllCall("gdiplus\GdipCreateFontFamilyFromName", "Ptr", &wFontTitle, "Ptr", hCollection, "Ptr*", hFamily)
-	}
-	else {
-		DllCall("gdiplus\GdipPrivateAddFontFile", "Ptr", hCollection, "Ptr", &fontFile)
-		DllCall("gdiplus\GdipCreateFontFamilyFromName", "Ptr", &fontTitle, "Ptr", hCollection, "Ptr*", hFamily)
-	}
-
-	return hFamily
-}
-
 Gdip_CreateResizedHBITMAP_FromFile(file, NewWidth="", NewHeight="", PreserveAspectRatio=true) {
-	return Gdip_CreateResizedBITMAP_FromFile("hBitMap", file, NewWidth, NewHeight, PreserveAspectRatio)
-}
-Gdip_CreateResizedPBITMAP_FromFile(file, NewWidth="", NewHeight="", PreserveAspectRatio=true) {
-	return Gdip_CreateResizedBITMAP_FromFile("pBitMap", file, NewWidth, NewHeight, PreserveAspectRatio)
-}
-Gdip_CreateResizedBITMAP_FromFile(pBitMap_or_hBitMap, file, NewWidth="", NewHeight="", PreserveAspectRatio=true) {
 	; Credits to ResConImg from ahkon for the original code
 	; Dont forget to add 0xE to the picture control
 	pBitmapFile := Gdip_CreateBitmapFromFile(file)
@@ -88,81 +52,12 @@ Gdip_CreateResizedBITMAP_FromFile(pBitMap_or_hBitMap, file, NewWidth="", NewHeig
 	Gdip_SetInterpolationMode(graph, 7)
 	Gdip_DrawImage(graph, pBitmapFile, 0, 0, NewWidth, NewHeight)          ; Draw the original image onto the new bitmap
 
-	if (pBitMap_or_hBitMap="hBitMap")
-		hBitmap := Gdip_CreateHBITMAPFromBitmap(pBitmap)
+	hBitmap := Gdip_CreateHBITMAPFromBitmap(pBitmap)
 
 	Gdip_DisposeImage(pBitmapFile)                                          ; Delete the bitmap of the original image
-	if (pBitMap_or_hBitMap="hBitMap")
-		Gdip_DisposeImage(pBitmap)                                          ; Delete the new bitmap
+	Gdip_DisposeImage(pBitmap)                                              ; Delete the new bitmap
 	Gdip_DeleteGraphics(graph)                                              ; The graphics may now be deleted
-
-	if (pBitMap_or_hBitMap="hBitMap")
-		return hBitmap
-	else return pBitmap
-}
-
-GetImageSize(ImageFullPath) {
-	; Credits to SKAN for the function
-	; autohotkey.com/board/topic/12001-finding-the-widthheight-of-a-picture/?p=204745
-	pBM := Gdip_CreateBitmapFromFile(ImageFullPath)				      ; Obtain GDI+ Handle  
-	w := Gdip_GetImageWidth(pBM), h := Gdip_GetImageHeight(pBM)   ; Get Dimensions
-	Gdip_DisposeImage(pBM)                                          ; Dispose image
-	return {W:w, H:h}
-}
-
-Gdip_ResizeBitmap(pBitmap, PercentOrWH, useSmoothInterpol=True, Dispose=True) {
-	; Credits to Learning one for the original function
-	; Modified version of the function by lemasatodev
-	; Added useSmoothInterpol param to remove the "washed out colors" bug when the resized bitmap is used as part to create bigger bitmap with Gdip_DrawImage()
-    Gdip_GetImageDimensions(pBitmap, origW, origH)
-    if PercentOrWH contains w,h
-    {
-        RegExMatch(PercentOrWH, "i)w(\d*)", w), RegExMatch(PercentOrWH, "i)h(\d*)", h)
-        NewWidth := w1, NewHeight := h1
-        NewWidth := (NewWidth = "") ? origW/(origH/NewHeight) : NewWidth
-        NewHeight := (NewHeight = "") ? origH/(origW/NewWidth) : NewHeight
-    }
-    else
-    NewWidth := origW*PercentOrWH/100, NewHeight := origH*PercentOrWH/100      
-    pBitmap2 := Gdip_CreateBitmap(NewWidth, NewHeight)
-    G2 := Gdip_GraphicsFromImage(pBitmap2)
-	if (useSmoothInterpol=True)
-		Gdip_SetSmoothingMode(G2, 4), Gdip_SetInterpolationMode(G2, 7)
-    Gdip_DrawImage(G2, pBitmap, 0, 0, NewWidth, NewHeight)
-    Gdip_DeleteGraphics(G2)
-    if (Dispose=True)
-        Gdip_DisposeImage(pBitmap)
-    return pBitmap2
-}
-
-Gdip_AddColoredBorderToImage(imagePath, borderSize, borderColor) {
-	if !IsBetween(StrLen(borderColor), 8, 10) || !IsHex(borderColor)
-		Throw Exception("Border color value is invalid. Must be RGB/ARGB hex.`nCurrent value: " borderColor, -1)
-	if ( StrLen(borderColor) = 8 ) {
-		borderColor := "0xFF" . StrSplit(borderColor, "0x").2
-	}
-	; Getting image size and drawing background
-	imageSize := GetImageSize(imagePath)
-	pBitmapFinal := Gdip_CreateBitmap(imageSize.W, imageSize.H)
-	G := Gdip_GraphicsFromImage(pBitmapFinal)
-	pBrush := Gdip_BrushCreateSolid(0xff00ff00)
-	Gdip_FillRectangle(G, pBrush, 0, 0, imageSize.W, imageSize.H)
-	; Drawing image
-	asset := Gdip_CreateBitmapFromFile(imagePath)
-	Gdip_DrawImage(G, asset, 0, 0, imageSize.W, imageSize.H, 0, 0, imageSize.W, imageSize.H)
-	; Drawing border
-	pBrush2 := Gdip_BrushCreateSolid(borderColor)
-	Gdip_FillRectangle(G, pBrush2, 0, 0, imageSize.W, borderSize)
-	Gdip_FillRectangle(G, pBrush2, 0, 0, borderSize, imageSize.H)
-	Gdip_FillRectangle(G, pBrush2, 0, imageSize.H-borderSize, imageSize.W, borderSize)
-	Gdip_FillRectangle(G, pBrush2, imageSize.W-borderSize, 0, borderSize, imageSize.H)
-	; Final bitmap
-	hBitmapFinal := Gdip_CreateHBITMAPFromBitmap(pBitmapFinal)
-	; Dispose
-	Gdip_DisposeImage(pBitmapFinal)
-	Gdip_DeleteBrush(pBrush), Gdip_DeleteBrush(pBrush2)
-	Gdip_DeleteGraphics(G)
-	return hBitmapFinal
+	return hBitmap
 }
 
 

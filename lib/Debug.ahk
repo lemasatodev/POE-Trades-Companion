@@ -7,14 +7,20 @@
 		Return
 
 	if FileExist(A_ScriptDir "\Debug.json") {
-		debugObj := JSON_Load(A_ScriptDir "\Debug.json")
-		if (debugObj.enable != True)
+		FileRead, debugJSON,% A_ScriptDir "\Debug.json"
+		parsed_debugJSON := JSON.Load(debugJSON)
+
+		if (parsed_debugJSON.enable != True)
 			Return
 
-		debugText := JSON.Dump(debugObj, "", "`t")
-		AppendToLogs(A_ThisFunc "(): Loaded debug json:`n" debugText "`n")
+		for key, value in parsed_debugJSON
+			if (value=True)
+				logsStr := logsStr?logsStr ", " key "=" value : key "=" value
 
-		DEBUG.SETTINGS 		:= ObjFullyClone(debugObj.settings)
-		DEBUG.CHATLOGS 		:= ObjFullyClone(debugObj.chat_logs)
+		if (logsStr)
+			AppendToLogs(A_ThisFunc "(): Loaded debug json: " logsStr ".")
+
+		DEBUG.SETTINGS 		:= parsed_debugJSON.settings
+		DEBUG.CHATLOGS 		:= parsed_debugJSON.chat_logs
 	}
 }

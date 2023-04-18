@@ -1,58 +1,73 @@
 ﻿class GUI_Intercom {
-
-    static sGUI := {}
-
     Create() {
-        this.sGUI := new GUI("Intercom", "+AlwaysOnTop +ToolWindow +LastFound -SysMenu -Caption -Border +HwndhGuiIntercom +Label" this.__class, "Intercom")
-        Loop 100 ; Making 100 slots, setting SubRoutine
-            this.sGUI.Add("Edit", "x0 y0 w0 h0 hwndhEDIT_Slot" A_Index " "), this.sGUI.BindFunctionToControl("hEDIT_Slot" A_Index, "OnSlotContentChange")
-        this.sGUI.Show("x0 y0 w0 w0 NoActivate Hide")
+        global GuiIntercom, GuiIntercom_Controls
+        ; Creating GUI
+        GUI_Intercom.Destroy()
+        Gui.New("Intercom", "+AlwaysOnTop +ToolWindow +LastFound -SysMenu -Caption -Border +LabelGUI_Intercom_ +HwndhGuiIntercom", "Intercom")
+        ; Making 100 slots, setting SubRoutine
+        Loop 100 {
+            Gui.Add("Intercom", "Edit", "x0 y0 w0 h0 hwndhEDIT_Slot" A_Index " ")
+            __f := GUI_Intercom.OnSlotContentChange.bind(GUI_Intercom, A_Index)
+            GuiControl, Intercom:+g,% GuiIntercom_Controls["hEDIT_Slot" A_Index],% __f
+        }
+        ; Show GUI, hidden
+        Gui.Show("Intercom", "x0 y0 w0 w0 NoActivate Hide")
     }
 
     GetNextAvailableSlot() {
         ; Returns the first available slot ID
         Loop 100 {
-            if ( this.IsSlotAvailable(A_Index) = True )
+            if ( GUI_Intercom.IsSlotAvailable(A_Index) = True )
                 return A_Index
         }
     }
 
     IsSlotAvailable(slotNum) {
         ; Returns whether the slot is empty or not
-        return this.GetSlotContent(slotNum) = "" ? True : False
+        if ( GUI_Intercom.GetSlotContent(slotNum) = "")
+            return True
+        else return False
     }
 
     GetSlotContent(slotNum) {
         ; Returns the slot content
-        return this.sGUI.GetControlContent("hEDIT_Slot" slotNum)
+        global GuiIntercom_Controls
+        return GUI_Intercom.Submit("hEDIT_Slot" slotNum)
     }
 
-    MakeSlotEmpty(slotNum) {
+    EmptySlot(slotNum) {
         ; Make the slot available by emptying it
-        this.SetSlotContent(slotNum, "")
+        global GuiIntercom_Controls
+        GUI_InterCom.SetSlotContent(slotNum,"")
     }
 
     SetSlotContent(slotNum, content) {
         ; Set text within the slot
-        this.sGUI.SetControlContent("hEDIT_Slot" slotNum, content)
+        global GuiIntercom_Controls
+        GuiControl, Intercom:,% GuiIntercom_Controls["hEDIT_Slot" slotNum],%content%
     }
 
     ReserveSlot(slotNum) {
         ; Reserves the slot by putting text in it
-        this.SetSlotContent(slotNum, "RESERVED")
+        global GuiIntercom_Controls
+        GUI_InterCom.SetSlotContent(slotNum,"RESERVED")
     }
 
     GetSlotHandle(slotNum) {
         ; Return the slot handle
-        return this.sGUI.Controls["hEDIT_Slot" slotNum]
+        global GuiIntercom_Controls
+        return GuiIntercom_Controls["hEDIT_Slot" slotNum]
     }
 
     OnSlotContentChange(slotNum="", CtrlHwnd="") {
-        ; Handle running the functions within the slot    
-        slotContent := this.GetSlotContent(slotNum)
-        if (slotContent) { ; if slot has been attributed content
+        ; Handle running the functions within the slot
+        global GuiIntercom_Controls
+        _ctrl := GuiIntercom_Controls["hEDIT_Slot1"]
+    
+        newContent := GUI_Intercom.GetSlotContent(slotNum)
+        if (newContent) { ; if slot has been attributed content
             funcReturnValues := {} ; obj containing the return values of the function ran
-            Loop, Parse, slotContent, `n
+            Loop, Parse, newContent, `n
             {
                 ; Detect the kind of function string
                 funcStr_return := funcStr_funcName := funcStr_funcParams := ""
@@ -78,11 +93,22 @@
                     funcReturnValues[funcStr_return] := func_return
                 }
             }
-            this.MakeSlotEmpty(slotNum) ; done, make sure to empty slot
+            GUI_InterCom.EmptySlot(slotNum) ; done, make sure to empty slot
         }
     }
 
+    Submit(CtrlName="") {
+        ; Update all control values into GuiIntercom_Submit
+        ; Return the value of the specified control
+		global GuiIntercom_Submit
+		Gui.Submit("Intercom")
+
+		if (CtrlName) {
+			Return GuiIntercom_Submit[ctrlName]
+		}
+	}
+
     Destroy() {
-        this.sGUI.Destroy()
+        Gui.Destroy("Intercom")
     }
 }

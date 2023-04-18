@@ -1,50 +1,4 @@
-﻿
-LoadFonts() {
-	Load_Or_Unload_Fonts("LOAD")
-}
-
-UnloadFonts() {
-	Load_Or_Unload_Fonts("UNLOAD")
-}
-
-Load_Or_Unload_Fonts(whatDo) {
-	global PROGRAM
-	static hCollection
-	fontsFolder := PROGRAM.FONTS_FOLDER
-
-	if (whatDo = "LOAD") {
-		PROGRAM["FONTS"] := {}
-		DllCall("gdiplus\GdipNewPrivateFontCollection", "Ptr*", hCollection)
-	}
-
-	Loop, Files, %fontsFolder%\*.ttf
-	{
-		fontFile := A_LoopFileFullPath, fontTitle := FGP_Value(A_LoopFileFullPath, 21)	; 21 = Title
-		if ( whatDo="LOAD") {
-			hFamily := Gdip_PrivateFontFamilyCreate(hCollection, fontFile, fontTitle)
-			if (hFamily) {
-				PROGRAM.FONTS[fontTitle] := hFamily
-				AppendToLogs(A_ThisFunc "(): Loaded font file """ A_LoopFileName """ with title """ fontTitle """ inside family """ hFamily """.")
-			}
-			else {
-				AppendToLogs(A_ThisFunc "(): Couldn't load font file """ A_LoopFileName """ with title """ fontTitle """ (family=""" hFamily """)!")
-			}
-		}
-		else if ( whatDo="UNLOAD") {
-			Gdip_DeleteFontFamily(PROGRAM.FONTS[fontTitle])
-			DllCall("gdi32\RemoveFontResourceEx", "Str", A_LoopFileFullPath, "UInt", FR_PRIVATE:=0x10, "Int", 0)
-			AppendToLogs(A_ThisFunc "(): Unloaded font with title """ fontTitle ".")
-		}
-	}
-
-	if (whatDo = "UNLOAD")
-		PROGRAM["FONTS"] := {}
-
-	; SendMessage, 0x1D,,,, ahk_id 0xFFFF
-	PostMessage, 0x1D,,,, ahk_id 0xFFFF
-}
-
-InstallFonts(runAgain=False) {
+﻿InstallFonts(runAgain=False) {
 /*		Compare local and installed fonts file size
 		If any font is not installed or is different, run FontReg.
 */
@@ -124,4 +78,50 @@ InstallFonts(runAgain=False) {
 		RunWait,% "*RunAs " fontsFolder "\FontReg.exe /Copy",% fontsFolder
 		%A_ThisFunc%(True)
 	}
+}
+
+LoadFonts() {
+	Load_Or_Unload_Fonts("LOAD")
+}
+
+UnloadFonts() {
+	Load_Or_Unload_Fonts("UNLOAD")
+}
+
+Load_Or_Unload_Fonts(whatDo) {
+	global PROGRAM
+	static hCollection
+	fontsFolder := PROGRAM.FONTS_FOLDER
+
+	if (whatDo = "LOAD") {
+		PROGRAM["FONTS"] := {}
+		DllCall("gdiplus\GdipNewPrivateFontCollection", "uint*", hCollection)
+	}
+
+	Loop, Files, %fontsFolder%\*.ttf
+	{
+		fontFile := A_LoopFileFullPath, fontTitle := FGP_Value(A_LoopFileFullPath, 21)	; 21 = Title
+		if ( whatDo="LOAD") {
+			DllCall( "GDI32.DLL\AddFontResourceEx", Str, fontFile,UInt,(FR_PRIVATE:=0x10), Int,0)
+			DllCall("gdiplus\GdipPrivateAddFontFile", "uint", hCollection, "uint", &fontFile)
+			DllCall("gdiplus\GdipCreateFontFamilyFromName", "uint", &fontTitle, "uint", hCollection, "uint*", hFamily)
+			if (hFamily) {
+				PROGRAM.FONTS[fontTitle] := hFamily
+				AppendToLogs(A_ThisFunc "(): Loaded font file """ A_LoopFileName """ with title """ fontTitle """ inside family """ hFamily """.")
+			}
+			else
+				AppendToLogs(A_ThisFunc "(): Couldn't load font file """ A_LoopFileName """ with title """ fontTitle """ (family=""" hFamily """)!")
+		}
+		else if ( whatDo="UNLOAD") {
+			Gdip_DeleteFontFamily(PROGRAM.FONTS[fontTitle])
+			DllCall( "GDI32.DLL\RemoveFontResourceEx",Str, A_LoopFileFullPath,UInt,(FR_PRIVATE:=0x10),Int,0)
+			AppendToLogs(A_ThisFunc "(): Unloaded font with title """ fontTitle ".")
+		}
+	}
+
+	if (whatDo = "UNLOAD")
+		PROGRAM["FONTS"] := {}
+
+	; SendMessage, 0x1D,,,, ahk_id 0xFFFF
+	PostMessage, 0x1D,,,, ahk_id 0xFFFF
 }

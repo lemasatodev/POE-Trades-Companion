@@ -14,15 +14,15 @@ Close_PreviousInstance() {
 *		  and closing if a match is found
 */
 	global PROGRAM, RUNTIME_PARAMETERS
+	iniFile := PROGRAM.INI_FILE
 
 	if ( RUNTIME_PARAMETERS.NoReplace = 1 ) {
 		Return
 	}
 
-	localSettings := Get_LocalSettings()	
-	prevPID := localSettings.UPDATING.PID = DllCall("GetCurrentProcessId") ? 0 : localSettings.UPDATING.PID ; Prevent to close app due to same pid
-	prevPName := localSettings.UPDATING.FileProcessName
-	prevHwnd := localSettings.UPDATING.ScriptHwnd
+	prevPID := INI.Get(iniFile, "UPDATING", "PID")
+	prevPName := INI.Get(iniFile, "UPDATING", "FileProcessName")
+	prevHwnd := INI.Get(iniFile, "UPDATING", "ScriptHwnd")
 
 	Process, Exist, %prevPID%
 	existingPID := ErrorLevel

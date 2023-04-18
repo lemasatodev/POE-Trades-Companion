@@ -1,5 +1,6 @@
 ﻿OnClipboardChange_Func(_Type) {
 	global PROGRAM, GAME
+	global LASTACTIVATED_GAMEPID
 	global AUTOWHISPER_HISTORY, AUTOWHISPER_WAITKEYUP, AUTOWHISPER_CANCEL
 	static isFunctionRunning, previousStr
 
@@ -55,14 +56,10 @@
 	}
 
 	; Sending the message
-	err := Send_GameMessage("WRITE_SEND", clipboardStr, GAME.LastActivePID)
+	err := Send_GameMessage("WRITE_SEND", clipboardStr, LASTACTIVATED_GAMEPID)
 	if (err) {
 		ShowToolTip(PROGRAM.NAME " - " err "`nFailed to send the whisper in-game.")
 		Return
-	}
-	if (PROGRAM.SETTINGS.SETTINGS_MAIN.SendWhoisWithTradingWhisperCTRLCopy = "True") {
-		RegExMatch(clipboardStr, "iO)@(.*?) .*", match)
-		Send_GameMessage("WRITE_SEND", "/whois " match.1, GAME.LastActivePID)
 	}
 
 	; Update AUTOWHISPER_HISTORY array

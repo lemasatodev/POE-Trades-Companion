@@ -191,7 +191,7 @@
 	- The Item Grid for regular tabs would appear for items at position 13.
 	
 	Misc:
-	- Delete the _UPDATE folder after updating (inside /MyDocuments/lemasatodev/POE Trades Companion/).
+	- Delete the _UPDATE folder after updating (inside /MyDocuments/lemasato/POE Trades Companion/).
 	- Make the FileInstall_Cmds.ahk file hidden.
 	- Removed ".gitattributes,.gitignore,_ConvertRelease.ahk,Debug.json,README.md,Updater.ahk,Updater_v2.ahk,VerPatch.exe" files and "others,screenshots" folders from the release .zip as they are not required to the user.
 	- Added url shortcut files pointing to Wiki / Github inside Trades Companion's local folder.
@@ -390,7 +390,7 @@
 
 = = = = = = = = = = = = =	
 1.12.7 (31 Jul 2018)
-	If you are getting flags about Trades Companion being a "virus", you may want to read here: https://github.com/lemasatodev/POE-Trades-Companion/issues/121
+	If you are getting flags about Trades Companion being a "virus", you may want to read here: https://github.com/lemasato/POE-Trades-Companion/issues/121
 	Especially my third post.
 	
 	TLDR;
@@ -416,7 +416,7 @@
 	- Now uses private fonts. This means fonts no longer need to be installed onto the system.
 	
 	RECOMMENDED: Either reinstall Fontin SmallCaps or delete it from Windows to fix an issue where "ffi" appears as blank
-	https://github.com/lemasatodev/POE-Trades-Companion/wiki/FAQ#when-holding-alt-over-an-item-sux-appears-instead-of-suffix
+	https://github.com/lemasato/POE-Trades-Companion/wiki/FAQ#when-holding-alt-over-an-item-sux-appears-instead-of-suffix
 	
 	
 = = = = = = = = = = = = =
@@ -482,7 +482,7 @@
 	Since 1.11.3:
 		TL;DR: Condensed patch notes:
 		- New skinning system. It has been made much more accessible in case you'd like to make your own skin.
-		www.github.com/lemasatodev/POE-Trades-Companion/wiki/Creating-Your-Skin
+		www.github.com/lemasato/POE-Trades-Companion/wiki/Creating-Your-Skin
 		
 		The old "System" skin has been replaced with "White" and its "Dark Blue" night alternative.
 		White (new): A combination of white/blue colours.
@@ -797,7 +797,7 @@
 1.12.BETA_1 (25 Jul 2017)
 	Skinning is now easier than ever.
 	If you are interested into making your own skin, visit here:
-	github.com/lemasatodev/POE-Trades-Companion/wiki/Creating-Your-Skin
+	github.com/lemasato/POE-Trades-Companion/wiki/Creating-Your-Skin
 
 	What's new:
 	- The Trades GUI has been greatly improved. See the link at the top.

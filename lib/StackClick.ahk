@@ -3,9 +3,9 @@
 	static lastAvailable, lastTime
 	static scanCode_Enter := PROGRAM.SCANCODES.Enter
 
-	activeTab := GUI_Trades_V2.GetActiveTab("Sell")
-	tabContent := GUI_Trades_V2.GetTabContent("Sell", activeTab)
-	if !IsNum(activeTab) || !RegExMatch(tabContent.Item, "\d+") || (GuiTrades.Sell.Is_Minimized = True) { ; No tabs || not currency trade || gui minimized
+	activeTab := GUI_Trades.GetActiveTab()
+	tabContent := GUI_Trades.GetTabContent(activeTab)
+	if !IsNum(activeTab) || !RegExMatch(tabContent.Item, "\d+") || (GuiTrades.Is_Minimized = True) { ; No tabs || not currency trade || gui minimized
 		GoSub %A_ThisFunc%_SendHotkeyKeys
 		return
 	}
@@ -21,14 +21,14 @@
 	}
 	clip := Clipboard
 
-	item := Get_CurrencyFullName(tabContent.Item)
+	item := Get_CurrencyInfos(tabContent.Item).Name
 
 	if (item && RegExMatch(clip, "i)(?:" item ")[\s\S]*: (\d+(?:[,.]\d+)*)\/(\d+(?:[,.]\d+)*)", match)) {
 		available := RegexReplace(match1, "[,.]")
 		stackSize := RegexReplace(match2, "[,.]")
 
 		RegExMatch(tabContent.Item, "\d+", required) ; get required amount
-		withdrawn := tabContent.WithdrawTally ? tabContent.WithdrawTally : 0
+		withdrawn := tabContent.WithdrawTally
 		amount := (available >= stackSize) ? stackSize : available
 
 		; if available amount hasn't changed, it's likely the previous click hasn't gone through yet
@@ -60,7 +60,7 @@
 		}
 
 		withdrawn := withdrawn + amount ;update for tooltip
-		GUI_Trades_V2.UpdateSlotContent("Sell", activeTab, "WithdrawTally", withdrawn)
+		GUI_Trades.UpdateSlotContent(activeTab, "WithdrawTally", withdrawn)
 		Gosub %A_ThisFunc%_ShowToolTip
 		; If transfering individual stacks, add a 250ms delay to account for lag and remove lastAvailable. Otherwise next click will do nothing
 		if (available == stackSize) {

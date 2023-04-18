@@ -25,7 +25,6 @@ DetectHiddenWindows, Off
 FileEncoding, UTF-8 ; Cyrilic characters
 SetWinDelay, 0
 ListLines, Off
-SetTitleMatchMode("RegEx", "Fast")
 
 ; Basic tray menu
 if ( !A_IsCompiled && FileExist(A_ScriptDir "\resources\icon.ico") )
@@ -42,7 +41,7 @@ Menu,Tray,Icon
 ; Left click
 OnMessage(0x404, "AHK_NOTIFYICON") 
 
-Hotkey, IfWinActive,[a-zA-Z0-9_] ahk_group POEGameGroup
+Hotkey, IfWinActive, ahk_group POEGameGroup
 Hotkey, ^RButton, StackClick
 
 Hotkey, IfWinActive,% "ahk_pid " DllCall("GetCurrentProcessId")
@@ -55,9 +54,6 @@ Hotkey, IfWinActive,% "ahk_pid " DllCall("GetCurrentProcessId")
 ;         . "`nline: " e.line "`nmessage: " e.message "`nextra: " e.extra
 ; }
 Return
-
-f5::reload
-
 
 ; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -81,8 +77,8 @@ Start_Script() {
 	global Stats_TradeCurrencyNames 		:= {} ; Abridged currency names from poe.trade
 	global Stats_RealCurrencyNames 			:= {} ; All currency full names
 
+	global LEAGUES 							:= [] ; Trading leagues
 	global MyDocuments
-	scriptStartTime := A_TickCount
 
 	; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	Handle_CmdLineParameters() 		; RUNTIME_PARAMETERS
@@ -92,13 +88,12 @@ Start_Script() {
 
 	; Set global - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	PROGRAM.NAME					:= "POE Trades Companion"
-	PROGRAM.VERSION 				:= "1.15.BETA_9993" ; code on par with 1.15.BETA_9993
+	PROGRAM.VERSION 				:= "1.15.BETA_9995"
 	PROGRAM.IS_BETA					:= IsContaining(PROGRAM.VERSION, "beta")?"True":"False"
-	PROGRAM.ALPHA					:= "Discord ALPHA 11"
 
 	PROGRAM.GITHUB_USER 			:= "lemasatodev"
 	PROGRAM.GITHUB_REPO 			:= "POE-Trades-Companion"
-	PROGRAM.GITHUB_BRANCH			:= PROGRAM.IS_BETA ? "dev" : "master"
+	PROGRAM.GITHUB_BRANCH			:= "master"
 
 	PROGRAM.MAIN_FOLDER 			:= MyDocuments "\lemasato\" PROGRAM.NAME
 	PROGRAM.LOGS_FOLDER 			:= PROGRAM.MAIN_FOLDER "\Logs"
@@ -112,35 +107,27 @@ Start_Script() {
 	PROGRAM.TRANSLATIONS_FOLDER		:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\Translations":"\resources\translations")
 	PROGRAM.CURRENCY_IMGS_FOLDER	:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\CurrencyImages":"\resources\currency_imgs")
 	PROGRAM.CHEATSHEETS_FOLDER		:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\Cheatsheets":"\resources\cheatsheets")
-	PROGRAM.AUTOHOTKEY_EXECUTABLE 	:= A_IsCompiled ? "" : (A_ScriptDir "\resources\AutoHotKey.exe")
 
-	prefsFileName 					:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Preferences"):("Preferences")
-	sellBackupFileName 				:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Sell_Trades_Backup"):("Sell_Trades_Backup")
-	buyBackupFileName 				:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Buy_Trades_Backup"):("Buy_Trades_Backup")
-	tradesSellHistoryFileName 		:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Sell_History"):("Sell_History")
-	tradesBuyHistoryFileName 		:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Buy_History"):("Buy_History")
-	tradesSellHistoryFileNameOld 	:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Trades_History"):("Trades_History")
-	tradesBuyHistoryFileNameOld 	:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Buy_History"):("Buy_History")
+	prefsFileName 					:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Preferences.ini"):("Preferences.ini")
+	backupFileName 					:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Trades_Backup.ini"):("Trades_Backup.ini")
+	tradesHistoryFileName 			:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Trades_History.ini"):("Trades_History.ini")
+	tradesHistoryBuyFileName 		:= (RUNTIME_PARAMETERS.InstanceName)?(RUNTIME_PARAMETERS.InstanceName "_Buy_History.ini"):("Buy_History.ini")
 	PROGRAM.FONTS_SETTINGS_FILE		:= PROGRAM.FONTS_FOLDER "\Settings.ini"
-	PROGRAM.SETTINGS_FILE			:= PROGRAM.MAIN_FOLDER "\" prefsFileName ".json"
-	PROGRAM.SETTINGS_FILE_OLD		:= PROGRAM.MAIN_FOLDER "\" prefsFileName ".ini"
+	PROGRAM.INI_FILE 				:= PROGRAM.MAIN_FOLDER "\" prefsFileName
 	PROGRAM.LOGS_FILE 				:= PROGRAM.LOGS_FOLDER "\" A_YYYY "-" A_MM "-" A_DD " " A_Hour "h" A_Min "m" A_Sec "s.txt"
 	PROGRAM.CHANGELOG_FILE 			:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\changelog.txt":"\resources\changelog.txt")
 	PROGRAM.CHANGELOG_FILE_BETA 	:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\changelog_beta.txt":"\resources\changelog_beta.txt")
-	PROGRAM.TRADES_SELL_HISTORY_FILE 		:= PROGRAM.MAIN_FOLDER "\" tradesSellHistoryFileName ".json"
-	PROGRAM.TRADES_SELL_HISTORY_FILE_OLD 	:= PROGRAM.MAIN_FOLDER "\" tradesSellHistoryFileNameOld ".ini"
-	PROGRAM.TRADES_BUY_HISTORY_FILE			:= PROGRAM.MAIN_FOLDER "\" tradesBuyHistoryFileName ".json"
-	PROGRAM.TRADES_BUY_HISTORY_FILE_OLD 	:= PROGRAM.MAIN_FOLDER "\" tradesBuyHistoryFileNameOld ".ini"
-	PROGRAM.TRADES_SELL_BACKUP_FILE	:= PROGRAM.MAIN_FOLDER "\" sellBackupFileName ".json"
-	PROGRAM.TRADES_BUY_BACKUP_FILE	:= PROGRAM.MAIN_FOLDER "\" buyBackupFileName ".json"
-	PROGRAM.TRADING_LEAGUES_JSON	:= PROGRAM.DATA_FOLDER "\tradingLeagues.json"
+	PROGRAM.TRADES_HISTORY_FILE 	:= PROGRAM.MAIN_FOLDER "\" tradesHistoryFileName
+	PROGRAM.TRADES_HISTORY_BUY_FILE	:= PROGRAM.MAIN_FOLDER "\" tradesHistoryBuyFileName
+	
+	PROGRAM.TRADES_BACKUP_FILE		:= PROGRAM.MAIN_FOLDER "\" backupFileName
 
 	PROGRAM.NEW_FILENAME			:= PROGRAM.MAIN_FOLDER "\POE-TC-NewVersion.exe"
 	PROGRAM.UPDATER_FILENAME 		:= PROGRAM.MAIN_FOLDER "\POE-TC-Updater.exe"
-	PROGRAM.LINK_UPDATER 			:= "https://raw.githubusercontent.com/" PROGRAM.GITHUB_USER "/" PROGRAM.GITHUB_REPO "/" PROGRAM.GITHUB_BRANCH "/Updater_v2.exe"
-	PROGRAM.LINK_CHANGELOG 			:= "https://raw.githubusercontent.com/" PROGRAM.GITHUB_USER "/" PROGRAM.GITHUB_REPO "/" PROGRAM.GITHUB_BRANCH "/resources/changelog.txt"
+	PROGRAM.LINK_UPDATER 			:= "https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/Updater_v2.exe"
+	PROGRAM.LINK_CHANGELOG 			:= "https://raw.githubusercontent.com/lemasatodev/POE-Trades-Companion/master/resources/changelog.txt"
 
-	PROGRAM.CURL_EXECUTABLE			:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\curl.exe":"\lib\third-party\curl.exe")
+	PROGRAM.CURL_EXECUTABLE			:= PROGRAM.MAIN_FOLDER "\curl.exe"
 
 	PROGRAM.LINK_REDDIT 			:= "https://www.reddit.com/user/lemasatodev/submitted/"
 	PROGRAM.LINK_GGG 				:= "https://www.pathofexile.com/forum/view-thread/1755148/"
@@ -152,16 +139,28 @@ Start_Script() {
 	GAME.INI_FILE 					:= GAME.MAIN_FOLDER "\production_Config.ini"
 	GAME.INI_FILE_COPY 		 		:= PROGRAM.MAIN_FOLDER "\production_Config.ini"
 	GAME.EXECUTABLES 				:= "PathOfExile.exe,PathOfExile_x64.exe,PathOfExileSteam.exe,PathOfExile_x64Steam.exe,PathOfExile_KG.exe,PathOfExile_x64_KG.exe,PathOfExileEGS.exe,PathOfExile_x64EGS.exe"
-	GAME.LEAGUES		 			:= []
+	GAME.CHALLENGE_LEAGUE 			:= "Ritual"
+	GAME.STANDARD_LEAGUE_TRANS		:= {RUS:["Стандарт","Одна жизнь"], KOR:["스탠다드","하드코어"], TWN:["標準模式","專家模式"]} ; STD, HC
+	GAME.CHALLENGE_LEAGUE_TRANS		:= {RUS:["Ритуал","Ритуал Одна жизнь"], KOR:["의식","하드코어 의식"], TWN:["劫盜聯盟","劫盜聯盟（專家）"]} ; Rest don't have translations. Translated whispers suck and are inconsistent
+
+	PROGRAM.SETTINGS.SUPPORT_MESSAGE 	:= "@%buyerName% " PROGRAM.NAME ": view-thread/1755148"
 
 	PROGRAM.PID 					:= DllCall("GetCurrentProcessId")
 
 	SetWorkingDir,% PROGRAM.MAIN_FOLDER
 
-	if !(RUNTIME_PARAMETERS.IsRanThroughBundledAhkExecutable) {
-		asAdminOrNot := RUNTIME_PARAMETERS.SkipAdmin || DEBUG.SETTINGS.skip_admin ? False : True
-		ReloadWithParams(" /IsRanThroughBundledAhkExecutable /MyDocuments=""" MyDocuments """", getCurrentParams:=True, asAdminOrNot)
+	; Auto admin reload - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	if (!A_IsAdmin && !RUNTIME_PARAMETERS.SkipAdmin && !DEBUG.SETTINGS.skip_admin) {
+		ReloadWithParams(" /MyDocuments=""" MyDocuments """", getCurrentParams:=True, asAdmin:=True)
 	}
+
+	; Game executables groups - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	global POEGameArr := []
+	Loop, Parse,% GAME.EXECUTABLES, % ","
+		POEGameArr.Push(A_LoopField)
+	global POEGameList := GAME.EXECUTABLES	
+	for nothing, executable in POEGameArr
+		GroupAdd, POEGameGroup, ahk_exe %executable%
 
 	; Create local directories - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 	directories := PROGRAM.MAIN_FOLDER "`n" PROGRAM.SFX_FOLDER "`n" PROGRAM.LOGS_FOLDER "`n" PROGRAM.SKINS_FOLDER
@@ -179,59 +178,17 @@ Start_Script() {
 		}
 	}
 
-	if (RUNTIME_PARAMETERS.CreateRelease)
-		CreateRelease()
-	if (RUNTIME_PARAMETERS.CreateZip)
-		CreateZipRelease()
-	if (RUNTIME_PARAMETERS.CompileExecutable)
-		CompileExe()
-	if (RUNTIME_PARAMETERS.CreateRelease || RUNTIME_PARAMETERS.CreateZip || RUNTIME_PARAMETERS.CompileExecutable)
-		ExitApp
-	
-	if (RUNTIME_PARAMETERS.UpdateDataFiles)
-		UpdateDataFiles()
-	if (RUNTIME_PARAMETERS.UpdateTranslations)
-		UpdateTranslations()
-	
-
-	; Extracting assets
-	if !(DEBUG.settings.skip_assets_extracting)
-		AssetsExtract()
-
-	; Creating settings and file
-	; LocalSettings_CreateFileIfNotExisting()
-	; LocalSettings_VerifyEncoding()
-
-	Delete_OldLogsFile()
+	; Logs files
 	Create_LogsFile()
+	Delete_OldLogsFile()
 
-	; Loading global GDIP 
-	GDIP_Startup()
-	
-	; Loading fonts
-	LoadFonts() 
-
-	; Closing previous instance
 	if (!RUNTIME_PARAMETERS.NewInstance)
 		Close_PreviousInstance()
 	TrayRefresh()
 
-	; More local settings stuff
-	Set_LocalSettings()
-	Update_LocalSettings()
-	Declare_LocalSettings()
-	PROGRAM.TRANSLATIONS := GetTranslations(PROGRAM.SETTINGS.GENERAL.Language)
-	Declare_SkinAssetsAndSettings()
+	if !(DEBUG.settings.skip_assets_extracting)
+		AssetsExtract()
 
-	; Game executables groups
-	global POEGameArr := []
-	Loop, Parse,% GAME.EXECUTABLES, % ","
-		POEGameArr.Push(A_LoopField)
-	global POEGameList := GAME.EXECUTABLES	
-	for nothing, executable in POEGameArr
-		GroupAdd, POEGameGroup, ahk_exe %executable%
-
-	; Warning stuff
 	if !FileExist(PROGRAM.TRANSLATIONS_FOLDER "\english.json") {
 		Run,% PROGRAM.LINK_GITHUB "/releases"
 		MsgBox(4096+48,PROGRAM.NAME " - IMPORTANT"
@@ -299,7 +256,7 @@ Start_Script() {
 		ExitApp
 	}
 
-	; Loading currency data for stats gui
+	; Currency names for stats gui - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	PROGRAM.DATA := {}
 	FileRead, allCurrency,% PROGRAM.DATA_FOLDER "\CurrencyNames.txt"
 	Loop, Parse, allCurrency, `n, `r
@@ -309,22 +266,55 @@ Start_Script() {
 	}
 	StringTrimRight, currencyList, currencyList, 1 ; Remove last comma
 	PROGRAM.DATA.CURRENCY_LIST := currencyList
-	FileRead, poeTradeCurrencyData,% PROGRAM.DATA_FOLDER "\poeTradeCurrencyData.json"
-    PROGRAM.DATA.POETRADE_CURRENCY_DATA := JSON_Load(poeTradeCurrencyData), poeTradeCurrencyData := ""
 
-	; Loading maps data for item grid
+	FileRead, JSONFile,% PROGRAM.DATA_FOLDER "\poeTradeCurrencyData.json"
+    PROGRAM["DATA"]["POETRADE_CURRENCY_DATA"] := JSON.Load(JSONFile)
+
+	FileRead, gggCurrency,% PROGRAM.DATA_FOLDER "\poeDotComCurrencyData.json"
+	PROGRAM["DATA"]["POEDOTCOM_CURRENCY_DATA"] := JSON.Load(gggCurrency)
+
+	; Maps data for ITemGrid - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	FileRead, mapsData,% PROGRAM.DATA_FOLDER "\mapsData.json"
-	PROGRAM.DATA.MAPS_DATA := JSON_Load(mapsData)
+	PROGRAM.DATA.MAPS_DATA := JSON.Load(mapsData)
+
 	FileRead, uniqueMapsList,% PROGRAM.DATA_FOLDER "\UniqueMaps.txt"
 	PROGRAM.DATA.UNIQUE_MAPS_LIST := uniqueMapsList
 
-	; Loading whisper regexes data
-	FileRead, whisperRegexes,% PROGRAM.DATA_FOLDER "\tradingRegexes.json"
-	PROGRAM.DATA.TRADING_REGEXES := JSON_Load(whisperRegexes)
+	; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	GDIP_Startup()
+
+	; Fonts related
+	LoadFonts() 
+
+	; Import old settings if accepted
+	oldIni := MyDocuments "\AutoHotkey\POE Trades Companion\Preferences.ini"
+	if FileExist(oldIni) {
+		hasAsked := INI.Get(PROGRAM.INI_File, "GENERAL", "HasAskedForImport")
+		INI.Set(PROGRAM.INI_File, "GENERAL", "HasAskedForImport", "True")
+		if (hasAsked != "True") {
+			AppendToLogs("Showing import pre1.13 settings GUI.")
+			GUI_ImportPre1dot13Settings.Show()
+			global GuiImportPre1dot13Settings
+			WinWait,% "ahk_id " GuiImportPre1dot13Settings.Handle
+			WinWaitClose,% "ahk_id " GuiImportPre1dot13Settings.Handle
+			AppendToLogs("Successfully closed pre1.13 settings GUI.")
+		}
+	}
+	
+	; Local settings
+	LocalSettings_VerifyEncoding()
+	Set_LocalSettings()
+	Update_LocalSettings()
+	localSettings := Get_LocalSettings()
+	Declare_LocalSettings(localSettings)
+	PROGRAM.TRANSLATIONS := GetTranslations(PROGRAM.SETTINGS.GENERAL.Language)
 
 	; Game settings
+	gameSettings := Get_GameSettings()
 	Declare_GameSettings(gameSettings)
-	GGG_API_Get_ActiveTradingLeagues()
+
+	Declare_SkinAssetsAndSettings()
 
 	if RegExMatch(GetKeyboardLayout(), "i)^(0xF002|0xF01B|0xF01A|0xF01C0809|0xF01C0409).*")
 		TrayNotifications.Show(PROGRAM.NAME, "Dvorak keyboard layout detected, scancode fix applied.")
@@ -351,19 +341,21 @@ Start_Script() {
 		}
 	}
 
+	Get_TradingLeagues() ; Getting leagues
+
 	if (PROGRAM.SETTINGS.GENERAL.AskForLanguage = "True")
-		GUI_ChooseLang.WaitForLang()
+		GUI_ChooseLang.Show()
 	
 	TrayMenu()
 	EnableHotkeys()
 
-	GUI_Intercom.Create()
 	; ImageButton_TestDelay()
-
-	; GUI_Trades_V2.Create(, buyOrSell:="Sell", stackOrTabs:=PROGRAM.SETTINGS.SELL_INTERFACE.Mode)
-	; GUI_Trades_V2.Create(, buyOrSell:="Buy", stackOrTabs:=PROGRAM.SETTINGS.BUY_INTERFACE.Mode)
-	; GUI_Trades_V2.LoadBackup("Sell")
-	; GUI_Trades_V2.LoadBackup("Buy")
+	GUI_Intercom.Create()
+	GUI_TradesMinimized.Create()
+	Gui_Trades.Create()
+	GUI_Trades.LoadBackup()
+	GUI_TradesBuyCompact.Create()
+	GUI_TradesBuyCompact.Show()
 
 	; Parse debug msgs
 	if (DEBUG.settings.use_chat_logs) {
@@ -372,41 +364,38 @@ Start_Script() {
 	}
 	Monitor_GameLogs()
 
-	if !WinExist("ahk_id " GUI_Settings.sGUI.Handle)
-		GUI_Settings.Create()
-	if (DEBUG.settings.open_settings_gui)
-		GUI_Settings.Show()
+	global GuiSettings
+	if !WinExist("ahk_id " GuiSettings.Handle)
+		Gui_Settings.Create()
+	if (DEBUG.settings.open_settings_gui) {
+		Gui_Settings.Show()
+	}
 
-	if (DEBUG.settings.open_mystats_gui)
+	if (DEBUG.settings.open_mystats_gui) {
 		GUI_MyStats.Show()
+	}
 
 	if (PROGRAM.SETTINGS.PROGRAM.Show_Changelogs = True) 
 	|| (PROGRAM.SETTINGS.GENERAL.ShowChangelog = "True") {
-		PROGRAM.SETTINGS.Delete("PROGRAM") ; old section
+		INI.Remove(PROGRAM.INI_FILE, "PROGRAM")
+		INI.Set(PROGRAM.INI_FILE, "GENERAL", "ShowChangelog", "False")
+		PROGRAM.SETTINGS.PROGRAM.Show_Changelogs := ""
 		PROGRAM.SETTINGS.GENERAL.ShowChangelog := "False"
-		Save_LocalSettings()
 		trayMsg := StrReplace(PROGRAM.TRANSLATIONS.TrayNotifications.UpdateSuccessful_Msg, "%version%", PROGRAM.VERSION)
 		TrayNotifications.Show(PROGRAM.TRANSLATIONS.TrayNotifications.UpdateSuccessful_Title, trayMsg)
-		GUI_Settings.Show("Updating")
+		GUI_Settings.Show("Misc Updating")
 	}
-
-	; Shellmessage, after all gui are created	
+	
 	ShellMessage_Enable()
-	WinGet, activeHwnd, ID, A
-	ShellMessage(4, activeHwnd)
-
-	; Clipboard change funcs + refresh list
 	OnClipboardChange("OnClipboardChange_Func")
-	SetTimer, GUI_Trades_V2_Sell_RefreshIgnoreList, 35000 ; 35s
+	SetTimer, GUI_Trades_RefreshIgnoreList, 60000 ; One min
 
-	; Showing tray notification
 	trayMsg := PROGRAM.TRANSLATIONS.TrayNotifications.AppLoaded_Msg
 	if (PROGRAM.SETTINGS.SETTINGS_MAIN.NoTabsTransparency <= 20)
 		trayMsg .= "`n`n" . StrReplace(PROGRAM.TRANSLATIONS.TrayNotifications.AppLoadedTransparency_Msg, "%number%", PROGRAM.SETTINGS.SETTINGS_MAIN.NoTabsTransparency)
+	if (PROGRAM.SETTINGS.SETTINGS_MAIN.AllowClicksToPassThroughWhileInactive = "True")
+		trayMsg .= "`n`n" PROGRAM.TRANSLATIONS.TrayNotifications.AppLoadedClickthrough_Msg
 	TrayNotifications.Show(PROGRAM.NAME, trayMsg)
-
-	; msgbox % A_TickCount-scriptStartTime
-	AppendtoLogs("Took " A_TickCount-scriptStartTime " to start the script completely.")
 }
 
 DoNothing:
@@ -415,58 +404,59 @@ Return
 ; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 #Include %A_ScriptDir%\lib\
-#Include AssetsExtract.ahk
+
 #Include Class_GUI.ahk
+#Include Class_GUI_BetaTasks.ahk
+#Include Class_GUI_CheatSheet.ahk
+#Include Class_GUI_ImportPre1dot13Settings.ahk
+#Include Class_GUI_SimpleWarn.ahk
+#Include Class_Gui_ChooseInstance.ahk
+#Include Class_GUI_ChooseLang.ahk
+#Include Class_Gui_ItemGrid.ahk
+#Include Intercom_Receiver.ahk
+#Include Class_Gui_MyStats.ahk
+#Include Class_Gui_Settings.ahk
+#Include Class_Gui_Trades.ahk
+#Include Class_Gui_TradesMinimized.ahk
+#Include Class_GUI_TradesBuyCompact.ahk
+#Include WM_Messages.ahk
+
+#Include AssetsExtract.ahk
 #Include Class_INI.ahk
 #Include CmdLineParameters.ahk
-#Include CompileAhk2Exe.ahk
 #Include Debug.ahk
 #Include EasyFuncs.ahk
 #Include Exit.ahk
 #Include FileInstall.ahk
 #Include Game.ahk
 #Include Game_File.ahk
-#Include GGG_API.ahk
 #Include GitHubAPI.ahk
-#Include GUI_CheatSheet.ahk
-#Include GUI_ImportPre1dot13Settings.ahk
-#Include GUI_SimpleWarn.ahk
-#Include GUI_ChooseInstance.ahk
-#Include GUI_ChooseLang.ahk
-#Include GUI_ItemGrid.ahk
-#Include GUI_MyStats.ahk
-#Include GUI_SetHotkey.ahk
-#Include GUI_Settings.ahk
-#Include GUI_TabbedTradesCounter.ahk
-#Include GUI_Trades.ahk
 #Include Hotkeys.ahk
-#Include Intercom_Receiver.ahk
 #Include Local_File.ahk
 #Include Logs.ahk
 #Include ManageFonts.ahk
 #Include Misc.ahk
 #Include OnClipboardChange.ahk
+#Include PoeDotCom.ahk
 #Include PoeTrade.ahk
 #Include PushBullet.ahk
-#Include Release.ahk
 #Include Reload.ahk
-#Include SetFileInfos.ahk
 #Include ShellMessage.ahk
 #Include ShowToolTip.ahk
 #Include SplashText.ahk
 #Include StackClick.ahk
 #Include Translations.ahk
 #Include TrayMenu.ahk
+#Include TrayNotifications.ahk
 #Include TrayRefresh.ahk
 #Include Updating.ahk
-#Include WM_Messages.ahk
+#Include WindowsSettings.ahk
 
 #Include %A_ScriptDir%\lib\third-party\
 #Include AddToolTip.ahk
 #Include ChooseColor.ahk
 #Include class_EasyIni.ahk
 #Include Class_ImageButton.ahk
-#Include Class_OD_Colors.ahk
 #Include Clip.ahk
 #Include cURL.ahk
 #Include CSV.ahk
@@ -482,7 +472,6 @@ Return
 #Include StdOutStream.ahk
 #Include StringtoHex.ahk
 #Include TilePicture.ahk
-#Include UriEncode.ahk
 #Include WinHttpRequest.ahk
 
 
@@ -490,20 +479,3 @@ if (A_IsCompiled) {
 	#Include %A_ScriptDir%/FileInstall_Cmds.ahk
 	Return
 }
-
-/*	H5auEc7KA0 (AllowClicksToPassThroughWhileInactive)
-	1.15.BETA_xxx Trades Overhaul: Clickthrough only enabled if the interface is fully transparent.
-	+ The buying interface will always be 100% transparent if there is no trades, effectively hidding it.
-	+ The Toolbar has been moved to the Selling interface.
-	These changes make accessing the toolbar much better.
-*/
-
-/*	jsZTTcBTWV (AutoMinimizeOnAllTabsClosed)
-	1.15.BETA_xxx Trades Overhaul: Interface always minimize itself when the last tab is closed.
-	This change is due to the interface header being a toolbar.
-*/
-
-/* BdO6CY5Oov
-	Getting rid of Dock mode completely as of 1.15 ALPHA 8
-	Window mode will now be default - Dock was always buggy and unreliable and "Lock Position" with Window is better anyways
-*/

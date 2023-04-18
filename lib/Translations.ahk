@@ -6,9 +6,9 @@ GetTranslations(_lang, _section="") {
     global PROGRAM
 
     FileRead, content,% PROGRAM.TRANSLATIONS_FOLDER "/english.json"
-    engTrans := JSON_Load(content)
+    engTrans := JSON.Load(content)
     FileRead, content,% PROGRAM.TRANSLATIONS_FOLDER "/" _lang ".json"
-    transJSON := JSON_Load(content)
+    transJSON := JSON.Load(content)
 
     if (_lang != "english") { ; replace missing trans with english txt
         for jsonSubArr, nothing in engTrans {
