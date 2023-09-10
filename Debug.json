@@ -1,5 +1,5 @@
 {
-	"enable" : false,
+	"enable" : true,
 	
 	"settings" : {
 		"skip_admin" : true,
