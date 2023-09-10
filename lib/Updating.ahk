@@ -199,11 +199,16 @@ DownloadAndRunUpdater(dl="") {
 		FileCreateDir,% updateFolder
 		Extract2Folder(PROGRAM.MAIN_FOLDER "\" dlFileName, updateFolder)
 		FileDelete,% PROGRAM.MAIN_FOLDER "\" dlFileName
-		Loop, Files,% updateFolder "\*", RD
-		{
-			if FileExist(A_LoopFileFullPath "\POE Trades Companion.ahk") {
-				extractedFolder := A_LoopFileFullPath
-				Break
+		if FileExist(updateFolder "\POE Trades Companion.ahk") {
+			extractedFolder := updateFolder
+		}
+		Else {
+			Loop, Files,% updateFolder "\*", RD
+			{
+				if FileExist(A_LoopFileFullPath "\POE Trades Companion.ahk") {
+					extractedFolder := A_LoopFileFullPath
+					Break
+				}
 			}
 		}
 
@@ -219,7 +224,7 @@ DownloadAndRunUpdater(dl="") {
 		FileCopyDir,% A_ScriptDir,% A_ScriptDir "_backup", 1 ; Make backup
 		FileCopyDir,% extractedFolder,% A_ScriptDir, 1 ; Copy new files into current folder
 		if (ErrorLevel) {
-			MsgBox(4096+16, "", "Failed to copy the new files into the folder.`nPlease try updating manually.")
+			MsgBox(4096+16, "", "Failed to copy the new files into the folder.`nThis may be due to an external application currently using " PROGRAM.NAME "'s folder.`nPlease try updating manually.")
 			FileRemoveDir,% A_ScriptDir ; Delete folder
 			FileCopyDir,% A_ScriptDir "_backup",% A_ScriptDir, 1 ; Restore backup
 			FileRemoveDir,% A_ScriptDir "_backup", 1
