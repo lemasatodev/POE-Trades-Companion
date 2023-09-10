@@ -689,7 +689,7 @@
 			
 			actionContent := btnType="WhisperSeller" ? "@%seller% "
 				: btnType="HideoutSeller" ? "/hideout %seller%"
-				: btnType="KickSelfSeller" ? "/kick %myself%"
+				: btnType="KickSelfSeller" ? "/leave"
 				: btnType="ThankSeller" ? "@%seller% ty!"
 				: ""
 

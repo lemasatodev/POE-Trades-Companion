@@ -154,7 +154,7 @@ Class GUI_Settings {
 			, "INVITE_BUYER":"/invite %buyer%"
 			, "TRADE_BUYER":"/tradewith %buyer%"
 			, "KICK_BUYER":"/kick %buyer%"
-			, "KICK_MYSELF":"/kick %myself%"
+			, "KICK_MYSELF":"/leave"
 
 			, "CMD_AFK":"/afk "
 			, "CMD_AUTOREPLY":"/autoreply "
