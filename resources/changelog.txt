@@ -1,3 +1,10 @@
+1.16.1 (19 Sept 2023)
+	Fix potential update issue "Couldn't locate the folder containing updated files"
+	
+	You will have to download this update manually if you previously used the 1.16 release, or downloaded the GitHub repository zip
+
+= = = = = = = = = = = = =
+
 1.15 & 1.16 (19 Sept 2023)
 	In short, "BETA" becomes the new main branch and "ALPHA" will become the new secondary branch
 	1.15 has been tagged as "BETA" for so long that it became the official go-to version
