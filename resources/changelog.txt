@@ -1,3 +1,408 @@
+1.15 & 1.16 (19 Sept 2023)
+	In short, "BETA" becomes the new main branch and "ALPHA" will become the new secondary branch
+	1.15 has been tagged as "BETA" for so long that it became the official go-to version
+	Due to the silly versioning in BETA branch, and in order to avoid future issues, the 1.15 release is marked as 1.16
+	
+	If you are interested in testing out the new interface concept, feel free to enable the BETA option in the settings
+	
+	Here below are the changes between 1.14 last release and this new 1.15/16 release
+	
+= = = = = = = = = = = = =
+
+1.15.BETA_9995 (17 Jan 2021)
+
+	Changes:
+	- Updated item location grid according to new positions while not in a folder tab.
+
+= = = = = = = = = = = = =
+
+1.15.BETA_9994 (14 Oct 2020)
+
+	Added:
+	- Heist cheat sheet.
+	- EGS support.
+	- Can now use any png file as a cheat sheet. Just drop them in the corresponding folder.
+	
+	Changes:
+	- Updated Betrayal, Delve and Incursion cheat sheets to use a new format.
+
+= = = = = = = = = = = = =
+
+1.15.BETA_9993 (23 July 2020)
+
+	Fixes:
+	- Updated Korean whisper patterns.
+
+= = = = = = = = = = = = =
+
+1.15.BETA_9992 (21 July 2020)
+
+	Fixes:
+	- Would trigger the "Hold CTRL when copying trading whisper..." feature even if the clipboard content was not a trading whisper, as long as the first character was "@"
+
+= = = = = = = = = = = = =
+
+1.15.BETA_9991 (11 May 2020)
+
+	Fixes:
+	- Updated the Korean whisper pattern due to changes from GGG translated whisper pattern.
+	- Having the Space button as your InGame item pickup key could cause Trades Companion to show an annoying window saying "xx hotkeys have been received in the last xxx ms"
+
+= = = = = = = = = = = = =
+
+1.15.BETA_9990 (09 April 2020)
+	
+	Fixes:
+	- Reverted the tab colour change from last update as it was causing issues with the tab staying green constantly.
+	The next major update changes completely how the Buying/Selling Interfaces work (and also fixes this), so I won't mess with this anymore than that for now.
+	
+= = = = = = = = = = = = =
+
+1.15.BETA_999 (09 April 2020)
+
+	Added:
+	- Support for whispers from Garena chinese translated whispers.
+	- Support for poedb chinese whispers.	
+	
+	Changes:
+	- Tab colour "green" (buyer joined area) now takes priority over "purple" (new whisper received).
+	This means receiving a whisper while the buyer is in your hideout will no longer set its tab to purple, allowing to give more priority to buyers already in your hideout.
+	
+= = = = = = = = = = = = =
+
+1.15.BETA_998 (16 March 2020)
+
+	Changes:
+	- Added Delirium and translated challenge league names.
+	- Updated data files and the Betrayal league sheet.
+	- Updated the Essence league sheet for a new more detailed version.
+
+= = = = = = = = = = = = =
+
+1.15.BETA_997 (12 February 2020)
+
+	Changes:
+	- Pressing ESC while a League Sheet is open will now close it.
+	- Removed the "ImageButtons Errors" window and show a simple tray notification instead.
+	- "ImageButton Errors" are now logged in the logs file, and with more details.
+	
+= = = = = = = = = = = = =
+
+1.15.BETA_995/996 (28 January 2020)
+
+	Changes:
+	- Due to new atlas changes in Metamorph, the map type location in the Map Stash Tab has been disabled until a proper solution is worked on.
+	
+	Fixes:
+	- The map type location would be slightly off on the y-axis due to some changes during Metamorph league.
+	Though, this fix doesn't really mattter now as the map type location is being temporarily disabled.
+	
+= = = = = = = = = = = = =
+
+1.15.BETA_994 (15 January 2020)
+
+	Changes:
+	- Updated the Betrayal league sheet.
+
+	Fixes:
+	- An error box could show up related to the item location grid due to the new atlas system.
+	
+= = = = = = = = = = = = =
+
+1.15.BETA_993 (17 December 2019)
+
+	Changes:
+	- Updated data to Metamorph League.
+
+= = = = = = = = = = = = =
+1.15.BETA_992 (26 Sept 2019)
+
+	Fixes:
+	- Broken /GameFolder parameter, not monitoring any logs (broken by 1.15.BETA_991).
+
+= = = = = = = = = = = = =
+1.15.BETA_991 (26 Sept 2019)
+
+	Changes:
+	- Minor improvements to the logs monitoring function.
+	Some users reported that Trades Companion is sometimes "missing" trading whispers.
+	If this happens to you, please make sure that:
+	1) The whisper is being logged in your /logs/Client.txt file from your Path of Exile folder.
+	1a) If the whisper is not being logged, then the message came from a Korean player and GGG is not allowed to log those due to privacy reasons (See Issue #236).
+	2) The whisper is not about an item you ignored. By default, pressing on the "Sold it" button will ignore the item for ten minutes.
+	
+	If the whisper is indeed being logged in Client.txt and you are 100% positive that you didn't ignore this item recently	then please try the following: (Notepad++ recommended)
+	Open Client.txt, find the "missed" whisper line, copy the whole line and paste it at the bottom of the file, then save the file.
+	If Trades Companion detects the whisper now, then it means it was indeed "missed". Please let me know.
+	
+	- Added transparency to the item name and stash tab name from the item location grid.
+	
+	Fixes:
+	- An user reported the tool not being able to paste messages since the previous update.
+	A minor change has been made to prevent this from happening.
+
+= = = = = = = = = = = = =
+1.15.BETA_990 (17 Sept 2019)
+	
+	Changes:
+	- Added support for the Dvorak keyboard layout.
+	- Updated the Betrayal league sheet.
+	
+	Fixes:
+	- The price checking ratio, when trading currency, would be inverted.
+	
+= = = = = = = = = = = = =
+1.15.BETA_99 (10 Sept 2019)
+
+	Changes:
+	- No longer rename the executable back to "POE Trades Companion.exe" when updating.
+
+	Fixes:
+	- Further fixed "Wouldn't be able to open the chat if the chat key was a mouse button." from BETA_96.
+	(The fix would only apply on Hotkeys)
+	
+= = = = = = = = = = = = =
+1.15.BETA_98 (09 Sept 2019)
+
+	Changes:
+	- Features that were based on physical key state are now based on logical key state instead.
+	This fixes a compatibility issue with the Windows On-Screen Keyboard, where pressing CTRL on it when copying a trading whisper wouldn't instantly send it in-game.
+	
+= = = = = = = = = = = = =
+1.15.BETA_97 (08 Sept 2019)
+
+	Small league-start update. I am still actively working on the next big update.
+	If you are interested to see the progress, join the discord server!
+
+	Features:
+	- Added Russian translation.
+	- Added support for the Standard and Hardcore league names for Russian and Korean (other languages do not have league names translated).
+	
+	Changes:
+	- Updated various data files.
+	
+= = = = = = = = = = = = =
+1.15.BETA_96 (23 Aug 2019)
+
+	Fixes:
+	- Wouldn't be able to select a new game instance if the one corresponding to the tab was not existing anymore.
+	- Wouldn't be able to open the chat if the chat key was a mouse button.
+	
+= = = = = = = = = = = = =
+1.15.BETA_95 (19 July 2019)
+	
+	Changes:
+	- As of 1.15.BETA_93, AutoHotKey v1.1.30.03 or newer is required to run the script.
+	Added multiple message boxes asking the user to update in case they are running an older version of AutoHotKey.
+	
+	If the tool isn't monitoring your logs file since 1.15.BETA_93, then this the the cause. You need to update your AutoHotkey installation: https://www.autohotkey.com/
+	
+= = = = = = = = = = = = =
+1.15.BETA_93/94 (17 July 2019)
+
+	1.15.BETA_94:
+	- Fix: Updating would copy the whole folder instead of only its files (broken by 1.15.BETA_92).	
+		
+	1.15.BETA_93:
+	Improvements:
+	- Can now read logs from KakaoClient.txt.
+	- Can now read multiple Client.txt logs file located in different folders at once.
+	Previously, if you had multiple game instance running in different folders, you would have to choose which one to monitor on start.
+	- Checks for possible new game instances running in different folders, every ten minutes.
+	If a match is found, it will be added to the list of logs to monitor trigger a notification.
+	- After closing the game, the logs file will be checked every five seconds (up from 500ms previously).
+	
+	Changes:
+	- Upon starting the app, if no game instance is found, it will be checked again after 5s (down from 10s previously).
+	
+	Fixes:
+	- The item location grid would appear when receiving a whisper while being tabbed out of the game.
+	Ideally, it should only appear while in game, and if the interface is maximized.
+	
+= = = = = = = = = = = = =	
+1.15.BETA_92 (13 July 2019)
+
+	Fixes:
+	- The item location grid wouldn't disappear upon closing the last tab, if the "Auto minimize once all tabs are closed?" setting was not enabled.
+	
+	I seriously apology for the delay of this update, and am now working on the next "big" one.
+	The fix had been ready for ten days, but I didn't have the opportunity to push the update sooner.
+	The next update will be kind of big on term of coding, so it'll take a while until it's pushed and will mostly consist of:
+	- Overhaul of the current "Selling" interface.
+	- Making the price verify work with the ggg trade website instead of poe.trade, allowing it to be more reliable.
+	- A fix where some internet-related features could not work for some users (Updating, Price verify, Self kicking, etc.)
+
+= = = = = = = = = = = = =	
+1.15.BETA_90/91 (1 July 2019)
+	
+	1.15.BETA_91
+	- Fix: Custom and special buttons would do another button's actions if their position was other than default (broken by 1.15.BETA_10)
+
+	Why is this version named BETA_9x?
+	Due to a bug with previous versions, BETA_9 would be considered as "better" than BETA_10 (and onwards).
+	This trick makes sure that anyone still on BETA_9 will get the update normally as "BETA_90" is considered better than "BETA_9" on those versions.
+	
+	Changes:
+	- Added support for Korean quality/level gem search when clicking on the "Clipboard / Copy item infos" button.
+	- Removed the map tier from the map search when clicking on the "Clipboard / Copy item infos" button.
+	This change is due to the fact that searching by "tier:x" along with a map name on the map tab doesn't highlight the map category.
+	- Reduced Cheat Sheet png files size.
+		
+	Fixes:
+	- Would consider BETA_9 as "better" than BETA_10 and onwards, due to bad version comparison.
+
+= = = = = = = = = = = = =
+1.15.BETA_10/11 (1 July 2019)
+	
+	1.15.BETA_11
+		Fix: Custom button n°8 would fail to be created.
+
+	New:
+	- Added the Dark Blue and White skin variants of the Buying interface.
+	- Added an action to bind an hotkey to the league sheets menu: "Show league sheets menu".
+
+	Changes:
+	- The Item location grid will now show without having to invite your buyer.
+	Note that, for convenience, the location grid will only appear while the interface is maximized.
+	- Changed the hideout icon to a proper, more intuitive, icon.
+	- Changed the Sheet button to have its own proper icon.
+	- Updated the POE Skin to be more in harmony with the game color scheme.
+	- Both the Dark Blue and White themes have seen some changes.
+	- Removed the cross on the search bar used to clear it.
+	Clicking on the search bar automatically clears it anyway.
+	- Both the Buying and Selling interface will now start minimized regardless of having "Auto minimize once all tabs are closed?" enabled or not.
+
+	Fixes:
+	- Having "Check for updates..." set to "On start + every 5 hours" or "On start + every day" would still only check on start and not every 5hours/day.
+	- When using a language other than English, actions couldn't be moved or removed and buttons couldn't be renamed.
+	- On the Buying interface, after replacing a tab, the old currency picture would still be shown behind the new one.
+	- On the Buying interface, prices containing a decimal wouldn't be parsed properly.
+	- Notification sounds would not play for some users.
+	- Various scaling issues related to having a Windows Scaling different than 100%.
+
+= = = = = = = = = = = = =	
+1.15.BETA_9 (19 June 2019)
+
+	Features:
+	- Added support for the Korean game executables.
+	
+	Changes:
+	- Use the real currency name on the interface instead of the one in the whisper.
+	This also fixes an issue where a trade added to the ignore list would still trigger a notification if the whisper was being sent from a different trading website.
+	- Improved the way the "Other" slot works on the Trades interface.
+	- Sending a whisper to one of your buyers will now add that message to the "Other" slot of the Trades interface.
+	- Added various tooltips on buttons hover, on the Trades interface.
+
+	Fixes:
+	- Memory leak issues when enabling and disabling the new Buying Interface.
+	- Various scaling and positioning issues related to having a Windows Scaling different than 100%.
+	- ImageButton font size would be incorrect with a Windows Scaling different than 100%.
+	- Various weird issues that could occur when parsing more than one line of chat logs at once.
+	- The interface position could be reset due to being deemed as "out of bounds" when part of it was covering the task bar.
+	This behaviour would appear more frequently if the taskbar would be positioned at the top or right of the monitor.
+	- Having "Mode: Dock" enabled could cause the interface position to be deemed out of bounds on application start.
+	- Added a warning message box if the user is using AHK v1.1.30.00.
+	This version of AHK is bugged and will cause crashes with the tool.
+	- Cheatsheets files wouldn't be extracted correctly with the executable.
+	If you have any file named Betrayal,Delve,Essence or Incursion at the root of your drive, they were made by this app and can be deleted.
+
+= = = = = = = = = = = = =
+1.15.BETA_6/7/8 (11 June 2019)
+
+	1.15.BETA_8:
+		Fix: The invisible window would still appear when having the "Hide interface when tabbed out of game?" setting enabled and tab out/in game.
+
+	1.15.BETA_7:
+		Fix: An invisible window would appear on the taskbar when having the Compact buying interface disabled.
+
+	Features:
+	- Added support for detection of Korean whispers, trading whisper, afk mode, join/leave the area.
+	- Added support for Russian and Korean translated league name on the official trading website.
+	Other languages do not need this, as they are leaving it "Legion" just like in-game (as it should be actually)
+
+	Changes:
+	- Trying to run the AHK script with an ANSI installation of AutoHotKey will now give a proper warning.
+	
+	Fixes:
+	- Pushbullet could bug due to the translations update.
+	
+= = = = = = = = = = = = =
+1.15.BETA_5 (10 June 2019)
+
+	Changes:
+	- Per request, added a tray option to disable the new compact buy interface.
+	- Unimplemented buttons of the new compact buy interface have been hidden until they are given a function.
+	- Added various tooltips when hovering buttons on the new compact buy interface.
+	
+	Fixes:
+	- Would always try to retrieve the currently logged character name on every command, slowing down actions.
+	Your character name will now only be retrieved once. If you switch character and wish to benefit of the %myself% variable, you will have to reload the tool.
+	- Updated maps location data with the more accurate data from poe.ninja.
+	- Compact buy interface: Would show "Unknown" instead of the currency name from the whisper, when the currency is unknown.
+	- Wouldn't re-create the new compact buy interface when clicking on the "Preview" button from the Settings, and when closing the Settings interface.
+	
+= = = = = = = = = = = = =
+1.15.BETA_4 (09 June 2019)
+	
+	Fixes:
+	- The script would hang when using a skin other than the Path of Exile one.
+	The new interface is only available with the PoE skin right now, and it wasn't being forced correctly.
+	
+= = = = = = = = = = = = =
+1.15.BETA_3 (08 June 2019)
+
+	Changes:
+	- Per request, made the transparency and clickthrough settings to work with the new interface.
+	Since you won't be able to use the toolbar, until I can get to work on a better solution, you can access the League Sheet menu from the tray icon menu (right click on the tray icon).
+	
+	Fixes:
+	- Moving the transparency sliders in the Settings interface allows to preview the change.
+	This preview wasn't working with the Trades interface while it was minimized.
+	
+= = = = = = = = = = = = =
+1.15.BETA_2 (07 June 2019)
+
+	Finally, an interface to buy items, just in time before the new league.
+	I originally wasn't planning to work on it until 1.16, but the changelogs for 1.15 were just underwhelming.
+	So here it is, after about a week of hard work.
+
+	I may make this new interface compatible with incoming whispers in the future, and give the option to switch between the original tabs interface and this new compact one. There are two buttons on the toolbar that don't have any use for now. One of them will most likely be a DND sort-of thing, that would prevent the interface from being triggered on whispers. Also maybe an autoreply button? But it would have to be pressed on every new area, and it would be a bad idea to automate it due to the "Terms of Use".
+	
+
+	Features:
+	- A brand new compact interface for buying items.
+	It consists of:
+		A toolbar with handy buttons such as going to your hideout or opening a league info cheat sheets.
+		A search bar that allows you to filter the sellers (after being party invited for example) or items.
+		Two arrows to scroll up or down. Additionally, you can use the mouse wheel.
+		An interface with multiple convenient buttons to interact with your seller (Whisper them / Go to their hideout / Leave the party / Thank them)
+		
+	Sending a trading whisper will update this interface to make the trade easier when you'll get invited.
+	Up to four slots can be shown at once. Use the arrow buttons or the mouse wheel to scroll between your other slots.
+	
+	Right clicking allows you to close all tabs at once, or close only the other tabs with the same item from the slot you right clicked on.
+	
+	Fixes:
+	- PushBullet notifications would only show the seller name, and not the trade informations.
+	
+= = = = = = = = = = = = =
+1.15.BETA_1 (31 May 2019)
+	Features:
+	- French, Traditional Chinese, Simplified Chinese translated interfaces.
+	Upon starting the tool for the first time, you will be asked to choose your language.
+	After that, language can be changed any time from the Settings menu.
+	
+	Changes:
+	- Hiding normal quad tab stash tab item location for maps, is now disabled by default.
+	Not everyone has bought the map stash tab. Having this disabled by default makes more sense.
+	- If the user is using a BETA version, the "Use beta" checkbox will automatically be enabled.
+	This will prevent to avoid a case where the user would have the "Use beta" setting disabled, download manually the latest beta from GitHub, then get automatically "updated" to the latest stable because the "Use beta" setting is disabled.
+	
+	Fixes:
+	- Could fail to update due to unable to unload fonts.
+	- Would always download the beta update, even when the beta checkbox was unchecked.
+	- The taskbar could pop on top of the game window due to a change brought by 1.14.3.
+
 = = = = = = = = = = = = =	
 1.14.3 (30 Apr 2019)
 	Features:
