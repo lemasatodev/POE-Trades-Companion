@@ -222,7 +222,7 @@ Get_LocalSettings_DefaultValues() {
 	settings.SETTINGS_HOTKEY_ADV_1.Name 												:= "Kick myself out of party + hideout"
 	settings.SETTINGS_HOTKEY_ADV_1.Hotkey 												:= "+F2"
 	settings.SETTINGS_HOTKEY_ADV_1.Action_1_Type 										:= "KICK_MYSELF"
-	settings.SETTINGS_HOTKEY_ADV_1.Action_1_Content 									:= """/kick %myself%"""
+	settings.SETTINGS_HOTKEY_ADV_1.Action_1_Content 									:= """/leave"""
 	settings.SETTINGS_HOTKEY_ADV_1.Action_2_Type 										:= "CMD_HIDEOUT"
 	settings.SETTINGS_HOTKEY_ADV_1.Action_2_Content 									:= """/hideout"""
 
