@@ -1,4 +1,11 @@
-﻿GetScanCodes() {
+﻿FileDelete(filePath) {
+	while FileExist(filePath) {
+		FileDelete,% filePath
+		Sleep 100
+	}
+}
+
+GetScanCodes() {
 	; Credits to TradeMacro for the IDs
 	; example results: 0xF0020809/0xF01B0809/0xF01A0809
 	; 0809 is for "English United Kingdom"

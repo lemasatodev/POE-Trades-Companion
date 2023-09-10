@@ -51,5 +51,13 @@ Handle_CmdLineParameters() {
 			. "`n`nParam: " param)
 			found := ""
 		}
+
+		; Dev params
+		else if (param="/CreateRelease")
+			RUNTIME_PARAMETERS["CreateRelease"] := True
+		else if (param="/CreateZip")
+			RUNTIME_PARAMETERS["CreateZip"] := True
+		else if (param="/CompileExecutable")
+			RUNTIME_PARAMETERS["CompileExecutable"] := True
 	}
 }
