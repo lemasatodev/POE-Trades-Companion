@@ -407,6 +407,7 @@ GGG_API_Get_ActiveTradingLeagues() {
 */
 	global PROGRAM, GAME
 	static langIndex
+    static hasWarned_rate, hasWarned_fail
 
     langs := ["ENG","RUS","KOR","TWN"]
     /* Not required with new API link
@@ -453,15 +454,15 @@ GGG_API_Get_ActiveTradingLeagues() {
             }
             if IsNum(retryAfter) {
                 AppendtoLogs(A_ThisFunc "() - Retry-After header detected (" retryAfter "). Will retry again shortly after timeout.")
-                if (!hasWarned_rate)
-                    TrayNotifications.Show("League API - Rate Limited", "Waiting " retryAfter " seconds before trying to reach API again.")
+                 if (!hasWarned_rate) ; Disabled the TrayNotification show - Nobody wants to get spammed with such notifications
+                     TrayNotifications.Show("League API - Rate Limited", "Waiting " retryAfter " seconds before trying to reach API again.")
                 hasWarned_rate := True
             }
             else {
                 retryAfter := 300
                 AppendtoLogs(A_ThisFunc "() - Unable to detect the Retry-After header. Skipping league names for this lang.")
-                if (!hasWarned_fail)
-                    TrayNotifications.Show("Failed to reach League API", "Retrying in " Round(retryAfter/60) " minutes.")
+                 if (!hasWarned_fail) ; Disabled the TrayNotification show - Nobody wants to get spammed with such notifications
+                     TrayNotifications.Show("Failed to reach League API", "Retrying in " Round(retryAfter/60) " minutes.")
                 hasWarned_fail := True
             }
 
@@ -500,7 +501,7 @@ GetPoeDotComUrlBasedOnLanguage(lang) {
         : "www"
 
     poeUrl := lang="KOR" ? "https://poe.game.daum.net"
-        : lang="TWN" ? "https://web.poe.garena.tw"
+        : lang="TWN" ? "https://pathofexile.tw"
         : "https://" poeUrlPrefix ".pathofexile.com"
 
     return poeUrl
