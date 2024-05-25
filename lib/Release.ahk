@@ -34,7 +34,7 @@ CreateRelease() {
 		ExitApp
 	}
 	
-	CompileExe()		
+	; CompileExe()	- Disabled, no longer making exe available
 	CreateZipRelease()
 }
 
