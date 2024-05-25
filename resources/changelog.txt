@@ -1,3 +1,9 @@
+1.16.2 (25 May 2023)
+	Fix "failed to reach leagues API" notification spam
+	Increase "MaxHotkeysPerInterval" to 2000 - temp fix for users who use mouse wheel as left click spam
+
+= = = = = = = = = = = = =
+
 1.16.1 (19 Sept 2023)
 	Fix potential update issue "Couldn't locate the folder containing updated files"
 	
