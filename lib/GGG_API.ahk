@@ -3,7 +3,7 @@
 		Parse them, to keep only non-solo or non-ssf leagues
 */
 	global PROGRAM, GAME
-	static timeOut
+	static timeOut, attempts
 
 	apiLink 			:= "http://api.pathofexile.com/leagues?type=main&compact=1"
 	excludedWords 		:= "SSF,Solo"
@@ -21,7 +21,7 @@
 				  :(IsBetween(attempts, 3, 4))?(600000) ; 10mins
 				  :(1800000)
 	if (attempts > 1) {
-		TrayNotifications.Show(PROGRAM.TRANSLATIONS.TrayNotifications.ReachLeaguesAPIRetry_Title, "")
+		; TrayNotifications.Show(PROGRAM.TRANSLATIONS.TrayNotifications.ReachLeaguesAPIRetry_Title, "")
 	}
 	Try {
 ;		Retrieve from online API
@@ -37,7 +37,7 @@
 
 		AppendtoLogs("Failed to reach Leagues API. Obj.Message: """ WinHttpReq.Message """")
 		trayMsg := StrReplace(PROGRAM.TRANSLATIONS.TrayNotifications.ReachLeaguesAPIFail_Msg, "%time%", (nextAttempt/1000)/60)
-		TrayNotifications.Show(PROGRAM.TRANSLATIONS.TrayNotifications.ReachLeaguesAPIFail_Title, trayMsg, {Fade_Timer:10000})
+		; TrayNotifications.Show(PROGRAM.TRANSLATIONS.TrayNotifications.ReachLeaguesAPIFail_Title, trayMsg, {Fade_Timer:10000})
 		SetTimer,% A_ThisFunc, -%nextAttempt%
 
 		Set_Format()
@@ -49,7 +49,7 @@
 	if (attempts > 1) {
 		AppendtoLogs("Successfully reached Leagues API on attempt " attempts})
 		trayMsg := StrReplace(PROGRAM.TRANSLATIONS.TrayNotifications.ReachLeaguesAPISuccess_Msg, "%number%", attempts)
-		TrayNotifications.Show(PROGRAM.TRANSLATIONS.TrayNotifications.ReachLeaguesAPISuccess_Title, trayMsg, {Fade_Timer:5000})
+		; TrayNotifications.Show(PROGRAM.TRANSLATIONS.TrayNotifications.ReachLeaguesAPISuccess_Title, trayMsg, {Fade_Timer:5000})
 		attempts := 0
 	}
 
