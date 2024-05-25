@@ -18,6 +18,7 @@
 #KeyHistory 0
 #Persistent
 #NoEnv
+#MaxHotkeysPerInterval 2000 ; TO_DO - temp fix for users who use mouse wheel as left click spam - possibly use instead: #UseHook On / #InstallKeybdHook / #InstallMouseHook 
 
 OnExit("Exit")
 
