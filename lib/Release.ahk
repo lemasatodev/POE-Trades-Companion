@@ -120,7 +120,7 @@ CreateZipRelease() {
 
 	; Creating ZIP archive
 	ToolTip, Building zip release based on active git branch, 0, 0
-	ver := PROGRAM.VERSION, ver .= PROGRAM.ALPHA ? " " PROGRAM.ALPHA : ""
+	ver := PROGRAM.VERSION
 	ver := StrReplace(ver, ".", "-")
 	ver := StrReplace(ver, " ", "-")
 	zipFullPath := A_ScriptDir "\POE-Trades-Companion-AHK-" ver ".zip"

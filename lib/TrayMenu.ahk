@@ -6,7 +6,7 @@
 	Menu,Tray,DeleteAll
 	if ( !A_IsCompiled && FileExist(A_ScriptDir "\resources\icon.ico") )
 		Menu, Tray, Icon, %A_ScriptDir%\resources\icon.ico
-	Menu,Tray,Tip,% PROGRAM.NAME " - " PROGRAM.ALPHA
+	Menu,Tray,Tip,% PROGRAM.NAME " - " PROGRAM.VERSION
 	Menu,Tray,NoStandard
 	if (DEBUG.settings.open_settings_gui) {
 			Menu,Tray,Add,Recreate Settings GUI, Tray_CreateSettings ; Recreate Settings GUI

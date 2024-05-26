@@ -104,11 +104,6 @@ UpdateCheck(checkType="normal", notifOrBox="notif") {
 	if !IsObject(PROGRAM.SETTINGS)
 		Declare_LocalSettings()
 
-	if (PROGRAM.ALPHA) {
-		TrayNotifications.Show("Update checking disabled on ALPHA", "Automatic updates are disabled on the Discord ALPHA, but you will be notified on Discord when a new update is available.")
-		return
-	}
-
 	autoupdate := PROGRAM.SETTINGS.UPDATING.DownloadUpdatesAutomatically
 	lastUpdateCheck := PROGRAM.SETTINGS.UPDATING.DownloadUpdatesAutomatically.LastUpdateCheck
 	if (checkType="forced") ; Fake the last update check, so it's higher than set limit
