@@ -95,7 +95,7 @@ CreateRelease() {
 	
 	UpdateTranslations()
 	UpdateDataFiles()
-	CompileExe()		
+	; CompileExe() - Disabled, no longer including exes on the repo
 	CreateZipRelease()
 }
 
