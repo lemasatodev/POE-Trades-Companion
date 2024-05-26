@@ -1,4 +1,4 @@
-﻿/*
+/*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *					POE Trades Companion																														*
 *					See all the information about the trade request upon receiving a poe.trade whisper															*
@@ -94,7 +94,7 @@ Start_Script() {
 
 	PROGRAM.GITHUB_USER 			:= "lemasatodev"
 	PROGRAM.GITHUB_REPO 			:= "POE-Trades-Companion"
-	PROGRAM.GITHUB_BRANCH			:= PROGRAM.IS_BETA ? "dev" : "master"
+	PROGRAM.GITHUB_BRANCH			:= PROGRAM.IS_BETA ? "alpha" : "master"
 
 	PROGRAM.MAIN_FOLDER 			:= MyDocuments "\lemasato\" PROGRAM.NAME
 	PROGRAM.LOGS_FOLDER 			:= PROGRAM.MAIN_FOLDER "\Logs"
@@ -134,7 +134,7 @@ Start_Script() {
 	PROGRAM.NEW_FILENAME			:= PROGRAM.MAIN_FOLDER "\POE-TC-NewVersion.exe"
 	PROGRAM.UPDATER_FILENAME 		:= PROGRAM.MAIN_FOLDER "\POE-TC-Updater.exe"
 	PROGRAM.LINK_UPDATER 			:= "https://raw.githubusercontent.com/" PROGRAM.GITHUB_USER "/" PROGRAM.GITHUB_REPO "/" PROGRAM.GITHUB_BRANCH "/Updater_v2.exe"
-	PROGRAM.LINK_CHANGELOG 			:= "https://raw.githubusercontent.com/" PROGRAM.GITHUB_USER "/" PROGRAM.GITHUB_REPO "/" PROGRAM.GITHUB_BRANCH "/resources/changelog.txt"
+	PROGRAM.LINK_CHANGELOG 			:= "https://raw.githubusercontent.com/" PROGRAM.GITHUB_USER "/" PROGRAM.GITHUB_REPO "/" PROGRAM.GITHUB_BRANCH "/resources/changelog_beta.txt"
 
 	PROGRAM.CURL_EXECUTABLE			:= (A_IsCompiled?PROGRAM.MAIN_FOLDER:A_ScriptDir) . (A_IsCompiled?"\curl.exe":"\lib\third-party\curl.exe")
 
