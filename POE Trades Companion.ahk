@@ -1,4 +1,4 @@
-/*
+﻿/*
 *	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 *					POE Trades Companion																														*
 *					See all the information about the trade request upon receiving a poe.trade whisper															*
@@ -89,7 +89,7 @@ Start_Script() {
 
 	; Set global - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 	PROGRAM.NAME					:= "POE Trades Companion"
-	PROGRAM.VERSION 				:= "1.15.BETA_9995" ; code on par with this version
+	PROGRAM.VERSION 				:= "1.17.BETA_1" ; code on par with this version
 	PROGRAM.IS_BETA					:= IsContaining(PROGRAM.VERSION, "beta")?"True":"False"
 
 	PROGRAM.GITHUB_USER 			:= "lemasatodev"
