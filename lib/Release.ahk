@@ -129,8 +129,8 @@ CreateZipRelease() {
 	cmds = 
 	(
 	@echo off
-	cd %A_ScriptDir%
-	git archive -o %zipFullPath% HEAD 
+	cd "%A_ScriptDir%"
+	git archive -o "%zipFullPath%" HEAD 
 	)
 	RunWaitMany(cmds)
 
