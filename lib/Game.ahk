@@ -698,7 +698,7 @@ Parse_GameLogs(strToParse) {
 			GuiTrades.Last_Whisper_Sent_Name := whispName
 		}
 		; Check if whisper received
-		else if RegExMatch(parsedLogsMsg, "SO)^(?:[^ ]+ ){6}(\d+)\] (?=[^#$&%]).*@(?:From|De|От кого|จาก|Von|Desde|수신|來自) (.*?): (.*)", whisperPat ) {
+		else if RegExMatch(parsedLogsMsg, "SO)^(?:[^ ]+ ){6}(\d+)\] (?=[^#$&%]).*@(?:From|De|От кого|จาก|Von|Desde|수신|來自|来自) (.*?): (.*)", whisperPat ) {
 			isWhisperReceived := True, isWhisper := True
 			instancePID := whisperPat.1, whispNameFull := whisperPat.2, whispMsg := whisperPat.3
 			nameAndGuild := SplitNameAndGuild(whispNameFull), whispName := nameAndGuild.Name, whispGuild := nameAndGuild.Guild
